@@ -6,6 +6,7 @@ project:
 
 website:
   title: "Café Alpha"
+  bread-crumbs: false
   navbar:
     background: "#769FCD"
     foreground: '#F7FBFC'
@@ -34,7 +35,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - zephyr
       - brand
     css: styles.css
     toc: true
