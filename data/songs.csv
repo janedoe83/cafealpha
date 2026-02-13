@@ -1,3 +1,15 @@
-Artist,Title,Album,Year,Genre,URL
-Sam Cooke,A Change Is Gonna Come,Ain’t That Good News,1964,Soul,https://www.youtube.com/watch?v=1oZ6Z9xRxo8
-Fela Anikulapo Kuti and Afrika 70,Zombie,Zombie,1977,Afrobeat,https://www.youtube.com/watch?v=Qj5x6pbJMyU
+Artist,Title,Album,Year,Genre,URL,MV,Duration,Mood_Sad,Mood_Angry,Mood_Happy,,Lyric
+Carissa's Wierd,September Come Take This Heart Away,Songs About Leaving,2002,Slowcore,https://www.youtube.com/watch?v=cYtdQccn54I,FALSE,,5,0,0,,I saw two fake long-stemmed roses on the windshield of a car / September come please take this heart away
+Sam Cooke,A Change Is Gonna Come,Ain’t That Good News,1964,Soul,https://www.youtube.com/watch?v=1oZ6Z9xRxo8,FALSE,,4,0,1,,"It's been a long, a long time comin' / But I know, a change gon' come"
+Mac Miller,Good News,Circles,2020,Neo-Soul,https://www.youtube.com/watch?v=aIHF7u9Wwiw,TRUE,,5,0,0,,Wake up to the moon / Haven't seen the sun in a while but I heard that the sky's still blue
+FKA Twigs,Cellophane,Magdalene,2019,Art Pop,https://www.youtube.com/watch?v=YkLjqFpBh84,TRUE,,4,0,0,,"I try, but I get overwhelmed / All wrapped in cellophane, the feelings that we had"
+Fela Anikulapo Kuti and Afrika 70,Zombie,Zombie,1977,Afrobeat,https://www.youtube.com/watch?v=Qj5x6pbJMyU,FALSE,,0,2,0,,"Zombie no go turn, unless you tell am to turn (Zombie) / Zombie no go think, unless you tell em to think (Zombie)"
+The Devin Townsend Band,Deadhead,Accelerated Evolution,2003,Progressive Metal,https://www.youtube.com/watch?v=tJz-L3SbrLE,FALSE,,3,3,1,,"Now the rain it comes, the rain it blurs the grey line / The grey line, the Greyhound home"
+Pink Floyd,Wish You Were Here,Wish You Were Here,1975,Art Rock,https://www.youtube.com/watch?v=K6qj09OHvjw,TRUE,,4,0,0,,"How I wish, how I wish you were here / We're just two lost souls swimming in a fishbowl, year after year"
+Rage Against the Machine,Killing in the Name,Rage Against the Machine,1992,Alternative Metal,https://www.youtube.com/watch?v=bWXazVhlyxQ,TRUE,,0,4,0,,FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME
+The Dead Kennedys,Nazi Punks Fuck Off,"In God We Trust, Inc.",1981,Hardcore Punk,https://www.youtube.com/watch?v=PzHLPnGuVSQ,FALSE,,0,5,0,,Punk ain’t no religious cult! / Punk means thinking for yourself!
+The Flaming Lips,Do You Realize??,Yoshimi Battles the Pink Robots,2002,Neo-Psychedelia,https://www.youtube.com/watch?v=lPXWt2ESxVY,TRUE,,3,0,1,,Do you realize / That you have the most beautiful face?
+Lana Del Rey,Venice Bitch,Normal Fucking Rockwell!,2018,Art Pop,https://www.youtube.com/watch?v=Qg3DxELVPj4,TRUE,,2,0,1,,
+Cocteau Twins,Heaven or Las Vegas ,Heaven or Las Vegas ,1990,Dream Pop,https://www.youtube.com/watch?v=JlwcQR5HHck,FALSE,,0,0,3,,
+Sea Power,Red Rock Riviera,From the Sea to the Land Beyond,2013,Post-Rock,https://www.youtube.com/watch?v=NSkb5OtTmgg,FALSE,,4,0,0,,
+Curtis Mayfield,Move On Up,Curtis,1970,Funk,https://www.youtube.com/watch?v=6Z66wVo7uNw,FALSE,,0,0,5,,

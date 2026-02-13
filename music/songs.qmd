@@ -1,23 +1,136 @@
 ---
 title: "Song Rankings"
 format: html
+toc: false
 ---
 
-## 1. Sam Cooke - A Change Is Gonna Come
+The greatest songs of all time according to yours truly.
 
-*Ain’t That Good News* (1964)
+## 14. Curtis Mayfield - Move On Up
+**Album:** *Curtis* (1970)\
+**Genres:** Funk
 
-<details><summary>Watch</summary><lite-youtube videoid="1oZ6Z9xRxo8"></lite-youtube>
-
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:100.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="6Z66wVo7uNw"></lite-youtube></div>
 </details>
----
 
-## 2. Fela Anikulapo Kuti and Afrika 70 - Zombie
+## 13. Sea Power - Red Rock Riviera
+**Album:** *From the Sea to the Land Beyond* (2013)\
+**Genres:** Post-Rock
 
-*Zombie* (1977)
-
-<details><summary>Watch</summary><lite-youtube videoid="Qj5x6pbJMyU"></lite-youtube>
-
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:80.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="NSkb5OtTmgg"></lite-youtube></div>
 </details>
----
+
+## 12. Cocteau Twins - Heaven or Las Vegas 
+**Album:** *Heaven or Las Vegas * (1990)\
+**Genres:** Dream Pop
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:60.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="JlwcQR5HHck"></lite-youtube></div>
+</details>
+
+## 11. Lana Del Rey - Venice Bitch
+**Album:** *Normal Fucking Rockwell!* (2018)\
+**Genres:** Art Pop
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:40.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:20.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qg3DxELVPj4"></lite-youtube></div>
+</details>
+
+## 10. The Flaming Lips - Do You Realize??
+**Album:** *Yoshimi Battles the Pink Robots* (2002)\
+**Genres:** Neo-Psychedelia
+
+*Do you realize\
+That you have the most beautiful face?*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:60.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:20.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="lPXWt2ESxVY"></lite-youtube></div>
+</details>
+
+## 9. The Dead Kennedys - Nazi Punks Fuck Off
+**Album:** *In God We Trust, Inc.* (1981)\
+**Genres:** Hardcore Punk
+
+*Punk ain’t no religious cult!\
+Punk means thinking for yourself!*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:100.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="PzHLPnGuVSQ"></lite-youtube></div>
+</details>
+
+## 8. Rage Against the Machine - Killing in the Name
+**Album:** *Rage Against the Machine* (1992)\
+**Genres:** Alternative Metal
+
+*FUCK YOU I WON’T DO WHAT YOU TELL ME\
+FUCK YOU I WON’T DO WHAT YOU TELL ME*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:80.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="bWXazVhlyxQ"></lite-youtube></div>
+</details>
+
+## 7. Pink Floyd - Wish You Were Here
+**Album:** *Wish You Were Here* (1975)\
+**Genres:** Art Rock
+
+*How I wish, how I wish you were here\
+We're just two lost souls swimming in a fishbowl, year after year*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:80.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="K6qj09OHvjw"></lite-youtube></div>
+</details>
+
+## 6. The Devin Townsend Band - Deadhead
+**Album:** *Accelerated Evolution* (2003)\
+**Genres:** Progressive Metal
+
+*Now the rain it comes, the rain it blurs the grey line\
+The grey line, the Greyhound home*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:60.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:60.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:20.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="tJz-L3SbrLE"></lite-youtube></div>
+</details>
+
+## 5. Fela Anikulapo Kuti and Afrika 70 - Zombie
+**Album:** *Zombie* (1977)\
+**Genres:** Afrobeat
+
+*Zombie no go turn, unless you tell am to turn (Zombie)\
+Zombie no go think, unless you tell em to think (Zombie)*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:40.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qj5x6pbJMyU"></lite-youtube></div>
+</details>
+
+## 4. FKA Twigs - Cellophane
+**Album:** *Magdalene* (2019)\
+**Genres:** Art Pop
+
+*I try, but I get overwhelmed\
+All wrapped in cellophane, the feelings that we had*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:80.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YkLjqFpBh84"></lite-youtube></div>
+</details>
+
+## 3. Mac Miller - Good News
+**Album:** *Circles* (2020)\
+**Genres:** Neo-Soul
+
+*Wake up to the moon\
+Haven't seen the sun in a while but I heard that the sky's still blue*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:100.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="aIHF7u9Wwiw"></lite-youtube></div>
+</details>
+
+## 2. Sam Cooke - A Change Is Gonna Come
+**Album:** *Ain’t That Good News* (1964)\
+**Genres:** Soul
+
+*It's been a long, a long time comin'\
+But I know, a change gon' come*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:80.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:20.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="1oZ6Z9xRxo8"></lite-youtube></div>
+</details>
+
+## 1. Carissa's Wierd - September Come Take This Heart Away
+**Album:** *Songs About Leaving* (2002)\
+**Genres:** Slowcore
+
+*I saw two fake long-stemmed roses on the windshield of a car\
+September come please take this heart away*
+
+<div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar bg-primary" role="progressbar" style="width:100.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar bg-warning" role="progressbar" style="width:0.0%;"></div></div></div><div style="display:grid; grid-template-columns: 64px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar bg-success" role="progressbar" style="width:0.0%;"></div></div></div><br><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="cYtdQccn54I"></lite-youtube></div>
+</details>
 
