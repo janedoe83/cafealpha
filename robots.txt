@@ -1,1 +1,1 @@
-Sitemap: git@github-alt:janedoe83/cafealpha.git/sitemap.xml
+Sitemap: git@github-janedoe83:janedoe83/cafealpha.git/sitemap.xml
