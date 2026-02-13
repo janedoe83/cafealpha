@@ -1,0 +1,38 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!*.ipynb"
+
+website:
+  title: "Café Alpha"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:   
+    #title: "Integrity"
+    search: true
+    #logo: logo.png
+    collapse-level: 3
+    contents: 
+      - section: "**Music**"
+        contents: 
+        - music/songs.qmd
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    include-after-body: scripts.js
+
+execute:
+  freeze: auto
+
+
+
