@@ -1,0 +1,6 @@
+---
+title: "Manga"
+format: html
+---
+
+Coming soon!

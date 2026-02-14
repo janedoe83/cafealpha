@@ -27,10 +27,15 @@ website:
         - music/songs.qmd
       - section: "**Books**"
         contents: 
-        - books/books.qmd
+        - books/books_fiction.qmd
+        - books/books_manga.qmd
+        - books/books_nonfiction.qmd
       - section: "**Films**"
         contents: 
         - films/films.qmd
+      - section: "**Video Games**"
+        contents: 
+        - games/games.qmd
 
 format:
   html:

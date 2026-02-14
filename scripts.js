@@ -10,5 +10,5 @@ switchEl.addEventListener('change', () => {
 });
 
 // Optional: hide on load
-document.querySelectorAll('.toggle-me').forEach(el => el.style.display = 'none');
+// document.querySelectorAll('.toggle-me').forEach(el => el.style.display = 'none');
 </script>
