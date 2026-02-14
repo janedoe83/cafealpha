@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Coming soon – Café Alpha</title>
+<title>Fiction – Café Alpha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Coming soon</h1>
+          <h1 class="quarto-secondary-nav-title">Fiction</h1>
         </a>     
     </div>
   </nav>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../books/books.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Coming soon</span></a>
+ <span class="menu-text">Fiction</span></a>
   </div>
 </li>
       </ul>
@@ -180,15 +180,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#children-of-time" id="toc-children-of-time" class="nav-link active" data-scroll-target="#children-of-time">Children of Time</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Coming soon</h1>
+<h1 class="title d-none d-lg-block">Fiction</h1>
 </div>
 
 
@@ -205,9 +211,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
-
-
+<section id="children-of-time" class="level2">
+<h2 class="anchored" data-anchor-id="children-of-time">Children of Time</h2>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img src="../img/book_children_of_time.jpg" class="img-fluid" width="100"></p>
+</div><div class="column" style="width:75%;">
+<p><strong>Author</strong>: Adrian Tchaikovsky<br>
+<strong>Year</strong>: 2015<br>
+<strong>Genre</strong>: Science Fiction</p>
+</div><section id="children-of-time-1" class="level2">
+<h2 class="anchored" data-anchor-id="children-of-time-1">Children of Time</h2>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img src="../img/book_children_of_time.jpg" class="img-fluid" width="100"></p>
+</div><div class="column" style="width:75%;">
+<p><strong>Author</strong>: Adrian Tchaikovsky</p>
+<p><strong>Year</strong>: 2015</p>
+<p><strong>Genre</strong>: Science Fiction</p>
+</div>
+</div>
+</section>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script src="https://unpkg.com/lite-youtube-embed@0.3.0/src/lite-yt-embed.js"></script>
@@ -222,7 +248,7 @@ switchEl.addEventListener('change', () => {
 });
 
 // Optional: hide on load
-document.querySelectorAll('.toggle-me').forEach(el => el.style.display = 'none');
+// document.querySelectorAll('.toggle-me').forEach(el => el.style.display = 'none');
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -314,7 +340,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("git@github-janedoe83:janedoe83\/cafealpha\.git");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

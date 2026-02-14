@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>git@github-janedoe83:janedoe83/cafealpha.git/music/songs.html</loc>
-    <lastmod>2026-02-14T08:01:49.965Z</lastmod>
+    <lastmod>2026-02-14T10:41:52.029Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/games/games.html</loc>
+    <lastmod>2026-02-14T11:12:19.635Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/books/books_nonfiction.html</loc>
+    <lastmod>2026-02-14T11:04:43.077Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/books/books_fiction.html</loc>
+    <lastmod>2026-02-14T11:06:57.447Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/about.html</loc>
+    <lastmod>2026-02-14T11:24:14.880Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/books/books_manga.html</loc>
+    <lastmod>2026-02-14T11:10:05.954Z</lastmod>
   </url>
   <url>
     <loc>git@github-janedoe83:janedoe83/cafealpha.git/films/films.html</loc>
     <lastmod>2026-02-14T06:26:26.898Z</lastmod>
   </url>
   <url>
-    <loc>git@github-janedoe83:janedoe83/cafealpha.git/about.html</loc>
-    <lastmod>2026-02-14T06:26:26.898Z</lastmod>
-  </url>
-  <url>
-    <loc>git@github-janedoe83:janedoe83/cafealpha.git/books/books.html</loc>
-    <lastmod>2026-02-14T06:26:26.898Z</lastmod>
-  </url>
-  <url>
     <loc>git@github-janedoe83:janedoe83/cafealpha.git/index.html</loc>
-    <lastmod>2026-02-14T06:26:26.898Z</lastmod>
+    <lastmod>2026-02-14T11:15:29.555Z</lastmod>
   </url>
 </urlset>
