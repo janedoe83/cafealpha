@@ -27,9 +27,12 @@ website:
         - music/songs.qmd
       - section: "**Books**"
         contents: 
-        - books/books_fiction.qmd
-        - books/books_manga.qmd
-        - books/books_nonfiction.qmd
+        - text: "Fiction"
+          href: books/books_fiction.qmd
+        - text: "Manga"
+          href: books/books_manga.qmd
+        - text: "Non-Fiction"
+          href: books/books_nonfiction.qmd
       - section: "**Films**"
         contents: 
         - films/films.qmd

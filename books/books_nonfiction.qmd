@@ -1,5 +1,5 @@
 ---
-title: "Non-fiction"
+title: "Non-fiction Recommendations"
 format: html
 ---
 
