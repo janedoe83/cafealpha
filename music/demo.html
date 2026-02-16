@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Non-fiction Recommendations – Café Alpha</title>
+<title>Demo site – Café Alpha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -35,10 +69,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0446325dbcdb232da00862fcf93be85e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-50228df34a09b4567d4ae5780ec33c6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +100,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -108,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Non-fiction Recommendations</h1>
+          <h1 class="quarto-secondary-nav-title">Demo site</h1>
         </a>     
     </div>
   </nav>
@@ -170,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../books/books_nonfiction.html" class="sidebar-item-text sidebar-link active">
+  <a href="../books/books_nonfiction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Non-Fiction</span></a>
   </div>
 </li>
@@ -215,15 +251,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-alpha" id="toc-project-alpha" class="nav-link active" data-scroll-target="#project-alpha">Project Alpha</a></li>
+  <li><a href="#project-beta" id="toc-project-beta" class="nav-link" data-scroll-target="#project-beta">Project Beta</a></li>
+  <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">ENd</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Non-fiction Recommendations</h1>
+<h1 class="title d-none d-lg-block">Demo site</h1>
 </div>
 
 
@@ -240,9 +284,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
+<div id="controls">
+<p><button onclick="filterSections('all')">All</button> <button onclick="filterSections('ai')">AI</button> <button onclick="filterSections('web')">Web</button></p>
+<p><button onclick="sortSections('date','desc')">Newest</button> <button onclick="sortSections('date','asc')">Oldest</button></p>
+</div>
+<section id="project-alpha" class="level2 project" data-category="ai" data-date="2024-05-01">
+<h2 class="project anchored" data-category="ai" data-date="2024-05-01" data-anchor-id="project-alpha">Project Alpha</h2>
+<p>Content…</p>
+</section>
+<section id="project-beta" class="level2 project" data-category="web" data-date="2023-11-10">
+<h2 class="project anchored" data-category="web" data-date="2023-11-10" data-anchor-id="project-beta">Project Beta</h2>
+<p>Content…</p>
+</section>
+<section id="end" class="level2">
+<h2 class="anchored" data-anchor-id="end">ENd</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" data-startfrom="27" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.project"</span>))</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<script>
+function filterSections(category) {
+  document.querySelectorAll(".section").forEach(section => {
+    const h2 = section.querySelector("h2")
+    const match = category === "all" || 
+                  h2.dataset.category === category
+
+    section.style.display = match ? "" : "none"
+  })
+}
+
+function sortSections(by = "date", direction = "desc") {
+  const container = document.querySelector("main") // adjust if needed
+  const sections = Array.from(document.querySelectorAll(".section"))
+
+  sections.sort((a, b) => {
+    const aVal = a.querySelector("h2").dataset[by]
+    const bVal = b.querySelector("h2").dataset[by]
+
+    if (by === "date") {
+      return direction === "desc"
+        ? new Date(bVal) - new Date(aVal)
+        : new Date(aVal) - new Date(bVal)
+    }
+
+    return direction === "desc"
+      ? bVal.localeCompare(aVal)
+      : aVal.localeCompare(bVal)
+  })
+
+  sections.forEach(section => container.appendChild(section))
+}
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script src="https://unpkg.com/lite-youtube-embed@0.3.0/src/lite-yt-embed.js"></script>
@@ -265,6 +396,17 @@ switchTag.addEventListener('change', () => {
 
 // Optional: hide on load
 // document.querySelectorAll('.toggle-mood').forEach(el => el.style.display = 'none');
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImZ1bmN0aW9uIHdyYXBTZWN0aW9ucygpIHtcbiAgY29uc3QgaDJzID0gQXJyYXkuZnJvbShkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKFwiaDIucHJvamVjdFwiKSlcblxuICBoMnMuZm9yRWFjaChoMiA9PiB7XG4gICAgY29uc3Qgd3JhcHBlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIilcbiAgICB3cmFwcGVyLmNsYXNzTmFtZSA9IFwic2VjdGlvblwiXG4gICAgXG4gICAgaDIucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUod3JhcHBlciwgaDIpXG5cbiAgICBsZXQgbm9kZSA9IGgyXG4gICAgd2hpbGUgKG5vZGUpIHtcbiAgICAgIGNvbnN0IG5leHQgPSBub2RlLm5leHRTaWJsaW5nXG4gICAgICB3cmFwcGVyLmFwcGVuZENoaWxkKG5vZGUpXG5cbiAgICAgIGlmICghbmV4dCB8fCAobmV4dC5ub2RlVHlwZSA9PT0gMSAmJiBuZXh0LnRhZ05hbWUgPT09IFwiSDJcIikpIHtcbiAgICAgICAgYnJlYWtcbiAgICAgIH1cblxuICAgICAgbm9kZSA9IG5leHRcbiAgICB9XG4gIH0pXG59XG5cbndyYXBTZWN0aW9ucygpXG4ifV19
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../music";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -356,7 +498,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("git@github-janedoe83:janedoe83\/cafealpha\.git");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>git@github-janedoe83:janedoe83/cafealpha.git/music/songs.html</loc>
-    <lastmod>2026-02-15T22:05:47.439Z</lastmod>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/music/template_songs.html</loc>
+    <lastmod>2026-02-16T21:36:41.792Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/music/albums.html</loc>
+    <lastmod>2026-02-16T19:21:57.231Z</lastmod>
   </url>
   <url>
     <loc>git@github-janedoe83:janedoe83/cafealpha.git/games/games.html</loc>
@@ -31,5 +35,9 @@
   <url>
     <loc>git@github-janedoe83:janedoe83/cafealpha.git/index.html</loc>
     <lastmod>2026-02-14T11:15:29.555Z</lastmod>
+  </url>
+  <url>
+    <loc>git@github-janedoe83:janedoe83/cafealpha.git/music/songs.html</loc>
+    <lastmod>2026-02-16T21:31:58.029Z</lastmod>
   </url>
 </urlset>

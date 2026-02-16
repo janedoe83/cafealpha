@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Non-fiction Recommendations – Café Alpha</title>
+<title>Top 100 Songs – Café Alpha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -66,12 +100,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Non-fiction Recommendations</h1>
+          <h1 class="quarto-secondary-nav-title">Top 100 Songs</h1>
         </a>     
     </div>
   </nav>
@@ -170,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../books/books_nonfiction.html" class="sidebar-item-text sidebar-link active">
+  <a href="../books/books_nonfiction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Non-Fiction</span></a>
   </div>
 </li>
@@ -215,15 +251,13 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Non-fiction Recommendations</h1>
+<h1 class="title d-none d-lg-block">Top 100 Songs</h1>
 </div>
 
 
@@ -240,7 +274,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
+<p>The greatest songs of all time!!! (According to me)<br>
+</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Note">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>One song per artist.</li>
+<li>Classical music is not eligible and will be covered in a separate list.</li>
+</ul>
+</div>
+</div>
+<div class="d-flex gap-4 mb-3">
+<div class="form-check form-switch">
+<p><input class="form-check-input" type="checkbox" id="toggleMaxMood"> <label class="form-check-label" for="toggleMaxMood">Max. Mood</label></p>
+</div>
+<div class="form-check form-switch">
+<p><input class="form-check-input" type="checkbox" id="toggleMood" checked=""> <label class="form-check-label" for="toggleMood">Mood Levels</label></p>
+</div>
+<div class="form-check form-switch">
+<p><input class="form-check-input" type="checkbox" id="toggleTags" checked=""> <label class="form-check-label" for="toggleTags">Tags</label></p>
+</div>
+</div>
+<p>{{CONTENT}}</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="37" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.song"</span>))</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<script>
+    function filterSections(hasmaxattribute) {
+  document.querySelectorAll(".section").forEach(section => {
+    const h2 = section.querySelector("h2")
+    const match = hasmaxattribute === "all" || 
+                  h2.dataset.hasmaxattribute === hasmaxattribute
+
+    section.style.display = match ? "" : "none"
+  })
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
+
+  switchMaxMood.addEventListener("change", (e) => {
+    if (e.target.checked) {
+      filterSections("True");
+    } else {
+      filterSections("all");
+    }
+  });
+</script>
 
 
 
@@ -265,6 +388,17 @@ switchTag.addEventListener('change', () => {
 
 // Optional: hide on load
 // document.querySelectorAll('.toggle-mood').forEach(el => el.style.display = 'none');
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZnVuY3Rpb24gd3JhcFNlY3Rpb25zKCkge1xuICBjb25zdCBoMnMgPSBBcnJheS5mcm9tKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJoMi5zb25nXCIpKVxuXG4gIGgycy5mb3JFYWNoKGgyID0+IHtcbiAgICBjb25zdCB3cmFwcGVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKVxuICAgIHdyYXBwZXIuY2xhc3NOYW1lID0gXCJzZWN0aW9uXCJcblxuICAgIGgyLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHdyYXBwZXIsIGgyKVxuXG4gICAgbGV0IG5vZGUgPSBoMlxuICAgIHdoaWxlIChub2RlKSB7XG4gICAgICBjb25zdCBuZXh0ID0gbm9kZS5uZXh0U2libGluZ1xuICAgICAgd3JhcHBlci5hcHBlbmRDaGlsZChub2RlKVxuXG4gICAgICBpZiAoIW5leHQgfHwgKG5leHQubm9kZVR5cGUgPT09IDEgJiYgbmV4dC50YWdOYW1lID09PSBcIkgyXCIpKSB7XG4gICAgICAgIGJyZWFrXG4gICAgICB9XG5cbiAgICAgIG5vZGUgPSBuZXh0XG4gICAgfVxuICB9KVxufVxud3JhcFNlY3Rpb25zKClcbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../music";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
