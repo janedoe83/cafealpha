@@ -292,42 +292,80 @@ Note
 </ul>
 </div>
 </div>
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Sort </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('rank','desc'); return false;"> Rank </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('year','desc'); return false;"> Year </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('sad','desc'); return false;"> Sad </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('angry','desc'); return false;"> Angry </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('happy','desc'); return false;"> Happy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('Dark','desc'); return false;"> Dark </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('groovy','desc'); return false;"> Groovy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('dreamy','desc'); return false;"> Dreamy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('passion','desc'); return false;"> Passion </a>
+</li>
+</ul>
+</div>
+<!---
 <div class="d-flex gap-4 mb-3">
 <div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleMaxMood"> <label class="form-check-label" for="toggleMaxMood">Max. Mood</label></p>
+<input class="form-check-input" type="checkbox" id="toggleMaxMood">
+<label class="form-check-label" for="toggleMaxMood">Max. Mood</label>
 </div>
-<div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleMood" checked=""> <label class="form-check-label" for="toggleMood">Mood Levels</label></p>
+
+<div class="form-check form-switch mt-4">
+<input class="form-check-input" type="checkbox" id="toggleMood" checked>
+<label class="form-check-label" for="toggleMood">Mood Levels</label>
 </div>
-<div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleTags" checked=""> <label class="form-check-label" for="toggleTags">Tags</label></p>
-</div>
-</div>
+
+<div class="form-check form-switch mt-4">
+<input class="form-check-input" type="checkbox" id="toggleTags" checked>
+<label class="form-check-label" for="toggleTags">Tags</label>
+</div></div>
+--->
 <p>{{CONTENT}}</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="37" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.song"</span>))</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>      }</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  })</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="104" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 103;"><span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.song"</span>))</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -344,7 +382,8 @@ Note
 </div>
 </div>
 <script>
-    function filterSections(hasmaxattribute) {
+
+function filterSections(hasmaxattribute) {
   document.querySelectorAll(".section").forEach(section => {
     const h2 = section.querySelector("h2")
     const match = hasmaxattribute === "all" || 
@@ -354,8 +393,31 @@ Note
   })
 }
 
-const switchMaxMood = document.getElementById("toggleMaxMood");
+function sortSections(by = "rank", direction = "desc", numeric = true) {
+  const container = document.querySelector(".songs") // adjust if needed
+  const sections = Array.from(document.querySelectorAll(".section"))
+    console.log(by)
+  if (numeric) {
+    sections.sort((a, b) => {
+    const aVal = Number(a.querySelector("h2").dataset[by])
+    const bVal = Number(b.querySelector("h2").dataset[by])
+    return direction === "desc" ? bVal - aVal : aVal - bVal
+    })
+  } else {
+    sections.sort((a, b) => {
+        const aVal = a.querySelector("h2").dataset[by]
+        const bVal = b.querySelector("h2").dataset[by]
 
+        return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal)
+    })
+  }
+
+  sections.forEach(section => container.appendChild(section))
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
   switchMaxMood.addEventListener("change", (e) => {
     if (e.target.checked) {
       filterSections("True");

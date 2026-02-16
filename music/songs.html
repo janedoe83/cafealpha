@@ -292,19 +292,58 @@ Note
 </ul>
 </div>
 </div>
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Sort </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('rank','desc'); return false;"> Rank </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('year','desc'); return false;"> Year </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('sad','desc'); return false;"> Sad </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('angry','desc'); return false;"> Angry </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('happy','desc'); return false;"> Happy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('Dark','desc'); return false;"> Dark </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('groovy','desc'); return false;"> Groovy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('dreamy','desc'); return false;"> Dreamy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('passion','desc'); return false;"> Passion </a>
+</li>
+</ul>
+</div>
+<!---
 <div class="d-flex gap-4 mb-3">
 <div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleMaxMood"> <label class="form-check-label" for="toggleMaxMood">Max. Mood</label></p>
+<input class="form-check-input" type="checkbox" id="toggleMaxMood">
+<label class="form-check-label" for="toggleMaxMood">Max. Mood</label>
 </div>
-<div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleMood" checked=""> <label class="form-check-label" for="toggleMood">Show Mood Levels</label></p>
+
+<div class="form-check form-switch mt-4">
+<input class="form-check-input" type="checkbox" id="toggleMood" checked>
+<label class="form-check-label" for="toggleMood">Mood Levels</label>
 </div>
-<div class="form-check form-switch">
-<p><input class="form-check-input" type="checkbox" id="toggleTags" checked=""> <label class="form-check-label" for="toggleTags">Show Tags</label></p>
-</div>
-</div>
-<section id="eric-b.-rakim---juice-know-the-ledge" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="eric-b.-rakim---juice-know-the-ledge">100. Eric B. &amp; Rakim - Juice (Know the Ledge)</h2>
+
+<div class="form-check form-switch mt-4">
+<input class="form-check-input" type="checkbox" id="toggleTags" checked>
+<label class="form-check-label" for="toggleTags">Tags</label>
+</div></div>
+--->
+<div class="songs">
+<section id="eric-b.-rakim---juice-know-the-ledge" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="1" data-happy="0" data-sad="0" data-rank="100" data-hasmaxattribute="False" data-year="1992">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="1" data-happy="0" data-sad="0" data-rank="100" data-hasmaxattribute="False" data-year="1992" data-anchor-id="eric-b.-rakim---juice-know-the-ledge">100. Eric B. &amp; Rakim - Juice (Know the Ledge)</h2>
 <strong>Album:</strong> <em>Juice (Know the Ledge) </em> (1992)<br>
 <strong>Genres:</strong> Boom Bap
 <div class="toggle-tags">
@@ -344,8 +383,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="metallica---for-whom-the-bell-tolls" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="metallica---for-whom-the-bell-tolls">99. Metallica - For Whom the Bell Tolls</h2>
+<section id="metallica---for-whom-the-bell-tolls" class="level2 song" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="2" data-angry="2" data-happy="0" data-sad="0" data-rank="99" data-hasmaxattribute="False" data-year="1984">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="2" data-angry="2" data-happy="0" data-sad="0" data-rank="99" data-hasmaxattribute="False" data-year="1984" data-anchor-id="metallica---for-whom-the-bell-tolls">99. Metallica - For Whom the Bell Tolls</h2>
 <strong>Album:</strong> <em>Ride the Lightning</em> (1984)<br>
 <strong>Genres:</strong> Thrash Metal
 <div class="toggle-tags">
@@ -395,8 +434,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-beatles---here-comes-the-sun" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="the-beatles---here-comes-the-sun">98. The Beatles - Here Comes the Sun</h2>
+<section id="the-beatles---here-comes-the-sun" class="level2 song" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="98" data-hasmaxattribute="True" data-year="1969">
+<h2 class="song anchored" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="98" data-hasmaxattribute="True" data-year="1969" data-anchor-id="the-beatles---here-comes-the-sun">98. The Beatles - Here Comes the Sun</h2>
 <strong>Album:</strong> <em>Abbey Road</em> (1969)<br>
 <strong>Genres:</strong> Sunshine Pop
 <div class="toggle-tags">
@@ -436,8 +475,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="curtis-mayfield---move-on-up" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="curtis-mayfield---move-on-up">97. Curtis Mayfield - Move On Up</h2>
+<section id="curtis-mayfield---move-on-up" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="4" data-sad="0" data-rank="97" data-hasmaxattribute="False" data-year="1970">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="4" data-sad="0" data-rank="97" data-hasmaxattribute="False" data-year="1970" data-anchor-id="curtis-mayfield---move-on-up">97. Curtis Mayfield - Move On Up</h2>
 <strong>Album:</strong> <em>Curtis</em> (1970)<br>
 <strong>Genres:</strong> Funk
 <div class="toggle-tags">
@@ -477,8 +516,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="dälek---police-state-is-nervous" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="dälek---police-state-is-nervous">96. Dälek - Police State Is Nervous</h2>
+<section id="dälek---police-state-is-nervous" class="level2 song" data-passion="0" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="3" data-happy="0" data-sad="2" data-rank="96" data-hasmaxattribute="False" data-year="2014">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="3" data-happy="0" data-sad="2" data-rank="96" data-hasmaxattribute="False" data-year="2014" data-anchor-id="dälek---police-state-is-nervous">96. Dälek - Police State Is Nervous</h2>
 <strong>Album:</strong> <em>nan</em> (2014)<br>
 <strong>Genres:</strong> Political Hip Hop
 <div class="toggle-tags">
@@ -528,8 +567,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ton-steine-scherben---macht-kaputt-was-euch-kaputt-macht" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ton-steine-scherben---macht-kaputt-was-euch-kaputt-macht">95. Ton Steine Scherben - Macht kaputt was euch kaputt macht</h2>
+<section id="ton-steine-scherben---macht-kaputt-was-euch-kaputt-macht" class="level2 song" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="4" data-happy="0" data-sad="0" data-rank="95" data-hasmaxattribute="False" data-year="1971">
+<h2 class="song anchored" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="4" data-happy="0" data-sad="0" data-rank="95" data-hasmaxattribute="False" data-year="1971" data-anchor-id="ton-steine-scherben---macht-kaputt-was-euch-kaputt-macht">95. Ton Steine Scherben - Macht kaputt was euch kaputt macht</h2>
 <strong>Album:</strong> <em>Warum geht es mir so dreckig?</em> (1971)<br>
 <strong>Genres:</strong> Proto-Punk
 <div class="toggle-tags">
@@ -579,8 +618,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="art-blakey-the-jazz-messengers---moanin" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="art-blakey-the-jazz-messengers---moanin">94. Art Blakey &amp; The Jazz Messengers - Moanin’</h2>
+<section id="art-blakey-the-jazz-messengers---moanin" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="2" data-sad="0" data-rank="94" data-hasmaxattribute="False" data-year="1959">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="2" data-sad="0" data-rank="94" data-hasmaxattribute="False" data-year="1959" data-anchor-id="art-blakey-the-jazz-messengers---moanin">94. Art Blakey &amp; The Jazz Messengers - Moanin’</h2>
 <strong>Album:</strong> <em>Moanin’</em> (1959)<br>
 <strong>Genres:</strong> Hard Bop
 <div class="toggle-tags">
@@ -620,8 +659,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="idles---danny-nedelko" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="idles---danny-nedelko">93. Idles - Danny Nedelko</h2>
+<section id="idles---danny-nedelko" class="level2 song" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="0" data-rank="93" data-hasmaxattribute="False" data-year="2018">
+<h2 class="song anchored" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="0" data-rank="93" data-hasmaxattribute="False" data-year="2018" data-anchor-id="idles---danny-nedelko">93. Idles - Danny Nedelko</h2>
 <strong>Album:</strong> <em>Joy as an Act of Resistance. </em> (2018)<br>
 <strong>Genres:</strong> Post-Punk
 <div class="toggle-tags">
@@ -671,8 +710,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="pulp---common-people" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="pulp---common-people">92. Pulp - Common People</h2>
+<section id="pulp---common-people" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="92" data-hasmaxattribute="False" data-year="1995">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="92" data-hasmaxattribute="False" data-year="1995" data-anchor-id="pulp---common-people">92. Pulp - Common People</h2>
 <strong>Album:</strong> <em>Different Class</em> (1995)<br>
 <strong>Genres:</strong> Britpop
 <div class="toggle-tags">
@@ -722,8 +761,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="aretha-franklin---i-say-a-little-prayer" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="aretha-franklin---i-say-a-little-prayer">91. Aretha Franklin - I Say a Little Prayer</h2>
+<section id="aretha-franklin---i-say-a-little-prayer" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="91" data-hasmaxattribute="False" data-year="1968">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="91" data-hasmaxattribute="False" data-year="1968" data-anchor-id="aretha-franklin---i-say-a-little-prayer">91. Aretha Franklin - I Say a Little Prayer</h2>
 <strong>Album:</strong> <em>Aretha Now</em> (1968)<br>
 <strong>Genres:</strong> Southern Soul
 <div class="toggle-tags">
@@ -763,8 +802,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ryuichi-sakamoto---thousand-knives" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ryuichi-sakamoto---thousand-knives">90. Ryuichi Sakamoto - Thousand Knives</h2>
+<section id="ryuichi-sakamoto---thousand-knives" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="1" data-sad="0" data-rank="90" data-hasmaxattribute="False" data-year="1978">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="1" data-sad="0" data-rank="90" data-hasmaxattribute="False" data-year="1978" data-anchor-id="ryuichi-sakamoto---thousand-knives">90. Ryuichi Sakamoto - Thousand Knives</h2>
 <strong>Album:</strong> <em>Thousand Knives of Ryuichi Sakamoto </em> (1978)<br>
 <strong>Genres:</strong> Progressive Electronic
 <div class="toggle-tags">
@@ -804,8 +843,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="jessie-ware---spotlight" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="jessie-ware---spotlight">89. Jessie Ware - Spotlight</h2>
+<section id="jessie-ware---spotlight" class="level2 song" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="3" data-angry="0" data-happy="0" data-sad="1" data-rank="89" data-hasmaxattribute="False" data-year="2020">
+<h2 class="song anchored" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="3" data-angry="0" data-happy="0" data-sad="1" data-rank="89" data-hasmaxattribute="False" data-year="2020" data-anchor-id="jessie-ware---spotlight">89. Jessie Ware - Spotlight</h2>
 <strong>Album:</strong> <em>What’s Your Pleasure</em> (2020)<br>
 <strong>Genres:</strong> Dance-Pop
 <div class="toggle-tags">
@@ -855,8 +894,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="kate-bush---wuthering-heights" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="kate-bush---wuthering-heights">88. Kate Bush - Wuthering Heights</h2>
+<section id="kate-bush---wuthering-heights" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="88" data-hasmaxattribute="False" data-year="1978">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="88" data-hasmaxattribute="False" data-year="1978" data-anchor-id="kate-bush---wuthering-heights">88. Kate Bush - Wuthering Heights</h2>
 <strong>Album:</strong> <em>The Kick Inside</em> (1978)<br>
 <strong>Genres:</strong> Art Pop
 <div class="toggle-tags">
@@ -906,8 +945,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="tyler-the-creator---earfquake" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="tyler-the-creator---earfquake">87. Tyler, the Creator - EARFQUAKE</h2>
+<section id="tyler-the-creator---earfquake" class="level2 song" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="87" data-hasmaxattribute="False" data-year="2019">
+<h2 class="song anchored" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="87" data-hasmaxattribute="False" data-year="2019" data-anchor-id="tyler-the-creator---earfquake">87. Tyler, the Creator - EARFQUAKE</h2>
 <strong>Album:</strong> <em>Igor</em> (2019)<br>
 <strong>Genres:</strong> Neo-Soul
 <div class="toggle-tags">
@@ -947,8 +986,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="car-seat-headrest---beach-life-in-death" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="car-seat-headrest---beach-life-in-death">86. Car Seat Headrest - Beach Life-In-Death</h2>
+<section id="car-seat-headrest---beach-life-in-death" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="86" data-hasmaxattribute="False" data-year="2018">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="86" data-hasmaxattribute="False" data-year="2018" data-anchor-id="car-seat-headrest---beach-life-in-death">86. Car Seat Headrest - Beach Life-In-Death</h2>
 <strong>Album:</strong> <em>Twin Fantasy</em> (2018)<br>
 <strong>Genres:</strong> Indie Rock
 <div class="toggle-tags">
@@ -998,8 +1037,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="isaac-hayes---walk-on-by" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="isaac-hayes---walk-on-by">85. Isaac Hayes - Walk on By</h2>
+<section id="isaac-hayes---walk-on-by" class="level2 song" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="85" data-hasmaxattribute="False" data-year="1969">
+<h2 class="song anchored" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="85" data-hasmaxattribute="False" data-year="1969" data-anchor-id="isaac-hayes---walk-on-by">85. Isaac Hayes - Walk on By</h2>
 <strong>Album:</strong> <em>Hot Buttered Soul</em> (1969)<br>
 <strong>Genres:</strong> Progressive Soul
 <div class="toggle-tags">
@@ -1039,8 +1078,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="swans---love-will-save-you" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="swans---love-will-save-you">84. Swans - Love Will Save You</h2>
+<section id="swans---love-will-save-you" class="level2 song" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="84" data-hasmaxattribute="False" data-year="1991">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="84" data-hasmaxattribute="False" data-year="1991" data-anchor-id="swans---love-will-save-you">84. Swans - Love Will Save You</h2>
 <strong>Album:</strong> <em>White Light from the Mouth of Infinity</em> (1991)<br>
 <strong>Genres:</strong> Gothic Rock
 <div class="toggle-tags">
@@ -1080,8 +1119,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="phoebe-bridgers---i-know-the-end" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="phoebe-bridgers---i-know-the-end">83. Phoebe Bridgers - I Know the End</h2>
+<section id="phoebe-bridgers---i-know-the-end" class="level2 song" data-passion="2" data-dreamy="1" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="83" data-hasmaxattribute="False" data-year="2020">
+<h2 class="song anchored" data-passion="2" data-dreamy="1" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="83" data-hasmaxattribute="False" data-year="2020" data-anchor-id="phoebe-bridgers---i-know-the-end">83. Phoebe Bridgers - I Know the End</h2>
 <strong>Album:</strong> <em>Punisher</em> (2020)<br>
 <strong>Genres:</strong> Singer-Songwriter
 <div class="toggle-tags">
@@ -1141,8 +1180,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="gris---il-était-une-forêt" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="gris---il-était-une-forêt">82. Gris - Il était une forêt</h2>
+<section id="gris---il-était-une-forêt" class="level2 song" data-passion="3" data-dreamy="0" data-dark="5" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="82" data-hasmaxattribute="True" data-year="2007">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="5" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="82" data-hasmaxattribute="True" data-year="2007" data-anchor-id="gris---il-était-une-forêt">82. Gris - Il était une forêt</h2>
 <strong>Album:</strong> <em>Il était une forêt</em> (2007)<br>
 <strong>Genres:</strong> Depressive Black Metal
 <div class="toggle-tags">
@@ -1192,8 +1231,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="barbara-dane---resistance-hymn" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="barbara-dane---resistance-hymn">81. Barbara Dane - Resistance Hymn</h2>
+<section id="barbara-dane---resistance-hymn" class="level2 song" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="1" data-sad="1" data-rank="81" data-hasmaxattribute="False" data-year="1970">
+<h2 class="song anchored" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="1" data-sad="1" data-rank="81" data-hasmaxattribute="False" data-year="1970" data-anchor-id="barbara-dane---resistance-hymn">81. Barbara Dane - Resistance Hymn</h2>
 <strong>Album:</strong> <em>FTA!: Songs of the GI Resistance </em> (1970)<br>
 <strong>Genres:</strong> Contemporary Folk
 <div class="toggle-tags">
@@ -1253,8 +1292,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ninajirachi---infohazard" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ninajirachi---infohazard">80. Ninajirachi - Infohazard</h2>
+<section id="ninajirachi---infohazard" class="level2 song" data-passion="0" data-dreamy="3" data-dark="2" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="80" data-hasmaxattribute="False" data-year="2025">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="2" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="80" data-hasmaxattribute="False" data-year="2025" data-anchor-id="ninajirachi---infohazard">80. Ninajirachi - Infohazard</h2>
 <strong>Album:</strong> <em>I Love My Computer </em> (2025)<br>
 <strong>Genres:</strong> Trance
 <div class="toggle-tags">
@@ -1314,8 +1353,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="vangelis---memories-of-green" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="vangelis---memories-of-green">79. Vangelis - Memories of Green</h2>
+<section id="vangelis---memories-of-green" class="level2 song" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="79" data-hasmaxattribute="False" data-year="1980">
+<h2 class="song anchored" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="79" data-hasmaxattribute="False" data-year="1980" data-anchor-id="vangelis---memories-of-green">79. Vangelis - Memories of Green</h2>
 <strong>Album:</strong> <em>Blade Runner</em> (1980)<br>
 <strong>Genres:</strong> Progressive Electronic
 <div class="toggle-tags">
@@ -1355,8 +1394,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="beach-house---myth" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="beach-house---myth">78. Beach House - Myth</h2>
+<section id="beach-house---myth" class="level2 song" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="78" data-hasmaxattribute="True" data-year="2012">
+<h2 class="song anchored" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="78" data-hasmaxattribute="True" data-year="2012" data-anchor-id="beach-house---myth">78. Beach House - Myth</h2>
 <strong>Album:</strong> <em>Bloom</em> (2012)<br>
 <strong>Genres:</strong> Dream Pop
 <div class="toggle-tags">
@@ -1406,8 +1445,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="lily-chou-chou---arabesque" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="lily-chou-chou---arabesque">77. Lily Chou-Chou - Arabesque</h2>
+<section id="lily-chou-chou---arabesque" class="level2 song" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="77" data-hasmaxattribute="True" data-year="2001">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="77" data-hasmaxattribute="True" data-year="2001" data-anchor-id="lily-chou-chou---arabesque">77. Lily Chou-Chou - Arabesque</h2>
 <strong>Album:</strong> <em>Kokyuu</em> (2001)<br>
 <strong>Genres:</strong> Ambient Pop
 <div class="toggle-tags">
@@ -1447,8 +1486,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="kessoku-band---karakara" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="kessoku-band---karakara">76. Kessoku Band - Karakara</h2>
+<section id="kessoku-band---karakara" class="level2 song" data-passion="1" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="76" data-hasmaxattribute="False" data-year="2022">
+<h2 class="song anchored" data-passion="1" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="76" data-hasmaxattribute="False" data-year="2022" data-anchor-id="kessoku-band---karakara">76. Kessoku Band - Karakara</h2>
 <strong>Album:</strong> <em>Kessoku Band</em> (2022)<br>
 <strong>Genres:</strong> Shimokita-kei
 <div class="toggle-tags">
@@ -1498,8 +1537,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="sewerslvt---looming.sorrow.decent" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="sewerslvt---looming.sorrow.decent">75. Sewerslvt - Looming.Sorrow.Decent</h2>
+<section id="sewerslvt---looming.sorrow.decent" class="level2 song" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="3" data-angry="3" data-happy="0" data-sad="1" data-rank="75" data-hasmaxattribute="False" data-year="2021">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="3" data-groovy="3" data-angry="3" data-happy="0" data-sad="1" data-rank="75" data-hasmaxattribute="False" data-year="2021" data-anchor-id="sewerslvt---looming.sorrow.decent">75. Sewerslvt - Looming.Sorrow.Decent</h2>
 <strong>Album:</strong> <em>Skitzofrenia Simulation</em> (2021)<br>
 <strong>Genres:</strong> Atmospheric Drum’n’Bass
 <div class="toggle-tags">
@@ -1559,8 +1598,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="lorien-testard---alicia" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="lorien-testard---alicia">74. Lorien Testard - Alicia</h2>
+<section id="lorien-testard---alicia" class="level2 song" data-passion="3" data-dreamy="1" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="74" data-hasmaxattribute="False" data-year="2025">
+<h2 class="song anchored" data-passion="3" data-dreamy="1" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="74" data-hasmaxattribute="False" data-year="2025" data-anchor-id="lorien-testard---alicia">74. Lorien Testard - Alicia</h2>
 <strong>Album:</strong> <em>Clair Obscur: Expedition 33 </em> (2025)<br>
 <strong>Genres:</strong> Classical Crossover
 <div class="toggle-tags">
@@ -1620,8 +1659,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="kendrick-lamar---alright" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="kendrick-lamar---alright">73. Kendrick Lamar - Alright</h2>
+<section id="kendrick-lamar---alright" class="level2 song" data-passion="2" data-dreamy="0" data-dark="1" data-groovy="1" data-angry="2" data-happy="3" data-sad="0" data-rank="73" data-hasmaxattribute="False" data-year="2015">
+<h2 class="song anchored" data-passion="2" data-dreamy="0" data-dark="1" data-groovy="1" data-angry="2" data-happy="3" data-sad="0" data-rank="73" data-hasmaxattribute="False" data-year="2015" data-anchor-id="kendrick-lamar---alright">73. Kendrick Lamar - Alright</h2>
 <strong>Album:</strong> <em>To Pimp a Butterfly</em> (2015)<br>
 <strong>Genres:</strong> West Coast Hip Hop
 <div class="toggle-tags">
@@ -1691,8 +1730,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="nina-simone---sinnerman" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="nina-simone---sinnerman">72. Nina Simone - Sinnerman</h2>
+<section id="nina-simone---sinnerman" class="level2 song" data-passion="4" data-dreamy="0" data-dark="2" data-groovy="0" data-angry="3" data-happy="0" data-sad="0" data-rank="72" data-hasmaxattribute="False" data-year="1965">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="2" data-groovy="0" data-angry="3" data-happy="0" data-sad="0" data-rank="72" data-hasmaxattribute="False" data-year="1965" data-anchor-id="nina-simone---sinnerman">72. Nina Simone - Sinnerman</h2>
 <strong>Album:</strong> <em>Pastel Blues</em> (1965)<br>
 <strong>Genres:</strong> Rhythm &amp; Blues
 <div class="toggle-tags">
@@ -1742,8 +1781,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="my-bloody-valentine---when-you-sleep" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="my-bloody-valentine---when-you-sleep">71. My Bloody Valentine - when you sleep</h2>
+<section id="my-bloody-valentine---when-you-sleep" class="level2 song" data-passion="0" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="2" data-rank="71" data-hasmaxattribute="True" data-year="1991">
+<h2 class="song anchored" data-passion="0" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="2" data-rank="71" data-hasmaxattribute="True" data-year="1991" data-anchor-id="my-bloody-valentine---when-you-sleep">71. My Bloody Valentine - when you sleep</h2>
 <strong>Album:</strong> <em>Loveless</em> (1991)<br>
 <strong>Genres:</strong> Shoegaze
 <div class="toggle-tags">
@@ -1793,8 +1832,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="bob-dylan---shelter-from-the-storm" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="bob-dylan---shelter-from-the-storm">70. Bob Dylan - Shelter from the Storm</h2>
+<section id="bob-dylan---shelter-from-the-storm" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="70" data-hasmaxattribute="False" data-year="1975">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="70" data-hasmaxattribute="False" data-year="1975" data-anchor-id="bob-dylan---shelter-from-the-storm">70. Bob Dylan - Shelter from the Storm</h2>
 <strong>Album:</strong> <em>Blood on the Tracks</em> (1975)<br>
 <strong>Genres:</strong> Singer-Songwriter
 <div class="toggle-tags">
@@ -1834,8 +1873,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="panopticon---dead-loons" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="panopticon---dead-loons">69. Panopticon - Dead Loons</h2>
+<section id="panopticon---dead-loons" class="level2 song" data-passion="3" data-dreamy="0" data-dark="2" data-groovy="0" data-angry="3" data-happy="0" data-sad="3" data-rank="69" data-hasmaxattribute="False" data-year="2021">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="2" data-groovy="0" data-angry="3" data-happy="0" data-sad="3" data-rank="69" data-hasmaxattribute="False" data-year="2021" data-anchor-id="panopticon---dead-loons">69. Panopticon - Dead Loons</h2>
 <strong>Album:</strong> <em>…And Again Into the Light</em> (2021)<br>
 <strong>Genres:</strong> Atmospheric Black Metal
 <div class="toggle-tags">
@@ -1895,8 +1934,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="sharon-van-etten-angel-olsen---like-i-used-to" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="sharon-van-etten-angel-olsen---like-i-used-to">68. Sharon Van Etten &amp; Angel Olsen - Like I Used To</h2>
+<section id="sharon-van-etten-angel-olsen---like-i-used-to" class="level2 song" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="68" data-hasmaxattribute="False" data-year="2021">
+<h2 class="song anchored" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="68" data-hasmaxattribute="False" data-year="2021" data-anchor-id="sharon-van-etten-angel-olsen---like-i-used-to">68. Sharon Van Etten &amp; Angel Olsen - Like I Used To</h2>
 <strong>Album:</strong> <em>Like I Used To (Single)</em> (2021)<br>
 <strong>Genres:</strong> Heartland Rock
 <div class="toggle-tags">
@@ -1946,8 +1985,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="camellia---together-forever-my-lovely-video-game-cartridges" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="camellia---together-forever-my-lovely-video-game-cartridges">67. Camellia - Together forever, my lovely video game cartridges</h2>
+<section id="camellia---together-forever-my-lovely-video-game-cartridges" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="3" data-angry="0" data-happy="5" data-sad="0" data-rank="67" data-hasmaxattribute="True" data-year="2018">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="3" data-angry="0" data-happy="5" data-sad="0" data-rank="67" data-hasmaxattribute="True" data-year="2018" data-anchor-id="camellia---together-forever-my-lovely-video-game-cartridges">67. Camellia - Together forever, my lovely video game cartridges</h2>
 <strong>Album:</strong> <em>Heart of Android</em> (2018)<br>
 <strong>Genres:</strong> Electrohouse
 <div class="toggle-tags">
@@ -1987,8 +2026,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="deftones---sextape" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="deftones---sextape">66. Deftones - Sextape</h2>
+<section id="deftones---sextape" class="level2 song" data-passion="3" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="0" data-rank="66" data-hasmaxattribute="False" data-year="2010">
+<h2 class="song anchored" data-passion="3" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="0" data-rank="66" data-hasmaxattribute="False" data-year="2010" data-anchor-id="deftones---sextape">66. Deftones - Sextape</h2>
 <strong>Album:</strong> <em>Diamond Eyes</em> (2010)<br>
 <strong>Genres:</strong> Dream Pop
 <div class="toggle-tags">
@@ -2039,8 +2078,8 @@ Listen here
 <br> Contender for most erotic and sensual song. This, together with half of FKA Twigs’s discography.
 </details>
 </section>
-<section id="tim-hecker---borderlands" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="tim-hecker---borderlands">65. Tim Hecker - Borderlands</h2>
+<section id="tim-hecker---borderlands" class="level2 song" data-passion="0" data-dreamy="4" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="65" data-hasmaxattribute="False" data-year="2009">
+<h2 class="song anchored" data-passion="0" data-dreamy="4" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="65" data-hasmaxattribute="False" data-year="2009" data-anchor-id="tim-hecker---borderlands">65. Tim Hecker - Borderlands</h2>
 <strong>Album:</strong> <em>An Imaginary Country</em> (2009)<br>
 <strong>Genres:</strong> Ambient
 <div class="toggle-tags">
@@ -2090,8 +2129,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="tom-waits---come-on-up-to-the-house" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="tom-waits---come-on-up-to-the-house">64. Tom Waits - Come On Up to the House</h2>
+<section id="tom-waits---come-on-up-to-the-house" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="3" data-rank="64" data-hasmaxattribute="False" data-year="1999">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="3" data-rank="64" data-hasmaxattribute="False" data-year="1999" data-anchor-id="tom-waits---come-on-up-to-the-house">64. Tom Waits - Come On Up to the House</h2>
 <strong>Album:</strong> <em>Mule Variations</em> (1999)<br>
 <strong>Genres:</strong> Singer-Songwriter
 <div class="toggle-tags">
@@ -2131,8 +2170,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="fairouz---al-bosta" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="fairouz---al-bosta">63. Fairouz - Al Bosta</h2>
+<section id="fairouz---al-bosta" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="0" data-sad="1" data-rank="63" data-hasmaxattribute="False" data-year="1979">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="0" data-sad="1" data-rank="63" data-hasmaxattribute="False" data-year="1979" data-anchor-id="fairouz---al-bosta">63. Fairouz - Al Bosta</h2>
 <strong>Album:</strong> <em>Wahdon</em> (1979)<br>
 <strong>Genres:</strong> Jazz-Funk
 <div class="toggle-tags">
@@ -2182,8 +2221,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="uchu-conbini---8filmstobira" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="uchu-conbini---8filmstobira">62. Uchu Conbini - 8films/tobira</h2>
+<section id="uchu-conbini---8filmstobira" class="level2 song" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="2" data-rank="62" data-hasmaxattribute="False" data-year="2013">
+<h2 class="song anchored" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="2" data-rank="62" data-hasmaxattribute="False" data-year="2013" data-anchor-id="uchu-conbini---8filmstobira">62. Uchu Conbini - 8films/tobira</h2>
 <strong>Album:</strong> <em>Somaru oto wo kakunin shitara</em> (2013)<br>
 <strong>Genres:</strong> Math Pop
 <div class="toggle-tags">
@@ -2233,8 +2272,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ado---where-the-wind-blows" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ado---where-the-wind-blows">61. Ado - Where the Wind Blows</h2>
+<section id="ado---where-the-wind-blows" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="61" data-hasmaxattribute="False" data-year="2022">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="61" data-hasmaxattribute="False" data-year="2022" data-anchor-id="ado---where-the-wind-blows">61. Ado - Where the Wind Blows</h2>
 <strong>Album:</strong> <em>Uta’s Songs One Piece Film Red</em> (2022)<br>
 <strong>Genres:</strong> Classical Crossover
 <div class="toggle-tags">
@@ -2285,8 +2324,8 @@ Listen here
 <br> My favorite music video of all time! Director Megumi Ishitani is a generational talent and her storyboards are pure works of art.
 </details>
 </section>
-<section id="kurayamisaka---cinema-paradiso" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="kurayamisaka---cinema-paradiso">60. kurayamisaka - Cinema Paradiso</h2>
+<section id="kurayamisaka---cinema-paradiso" class="level2 song" data-passion="1" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="60" data-hasmaxattribute="False" data-year="2022">
+<h2 class="song anchored" data-passion="1" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="60" data-hasmaxattribute="False" data-year="2022" data-anchor-id="kurayamisaka---cinema-paradiso">60. kurayamisaka - Cinema Paradiso</h2>
 <strong>Album:</strong> <em>Kimi Wo Omotte Iru</em> (2022)<br>
 <strong>Genres:</strong> Shoegaze
 <div class="toggle-tags">
@@ -2346,8 +2385,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="hannes-wader---leben-einzeln-und-frei" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="hannes-wader---leben-einzeln-und-frei">59. Hannes Wader - Leben einzeln und frei</h2>
+<section id="hannes-wader---leben-einzeln-und-frei" class="level2 song" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="3" data-sad="0" data-rank="59" data-hasmaxattribute="False" data-year="1982">
+<h2 class="song anchored" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="3" data-sad="0" data-rank="59" data-hasmaxattribute="False" data-year="1982" data-anchor-id="hannes-wader---leben-einzeln-und-frei">59. Hannes Wader - Leben einzeln und frei</h2>
 <strong>Album:</strong> <em>Daß nichts bleibt wie es war </em> (1982)<br>
 <strong>Genres:</strong> Liedermacher
 <div class="toggle-tags">
@@ -2397,8 +2436,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="iron-maiden---run-to-the-hills" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="iron-maiden---run-to-the-hills">58. Iron Maiden - Run to the Hills</h2>
+<section id="iron-maiden---run-to-the-hills" class="level2 song" data-passion="3" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="0" data-rank="58" data-hasmaxattribute="False" data-year="1982">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="0" data-rank="58" data-hasmaxattribute="False" data-year="1982" data-anchor-id="iron-maiden---run-to-the-hills">58. Iron Maiden - Run to the Hills</h2>
 <strong>Album:</strong> <em>The Number of the Beast</em> (1982)<br>
 <strong>Genres:</strong> Heavy Metal
 <div class="toggle-tags">
@@ -2448,8 +2487,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="world-of-pleasure---domination-2" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="world-of-pleasure---domination-2">57. World of Pleasure - Domination 2</h2>
+<section id="world-of-pleasure---domination-2" class="level2 song" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="1" data-angry="5" data-happy="0" data-sad="0" data-rank="57" data-hasmaxattribute="True" data-year="2022">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="1" data-angry="5" data-happy="0" data-sad="0" data-rank="57" data-hasmaxattribute="True" data-year="2022" data-anchor-id="world-of-pleasure---domination-2">57. World of Pleasure - Domination 2</h2>
 <strong>Album:</strong> <em>World of Pleasure &amp; Friends </em> (2022)<br>
 <strong>Genres:</strong> Metalcore
 <div class="toggle-tags">
@@ -2499,8 +2538,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ichiko-aoba---a-hill-of-the-moon" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ichiko-aoba---a-hill-of-the-moon">56. Ichiko Aoba - A Hill of the Moon</h2>
+<section id="ichiko-aoba---a-hill-of-the-moon" class="level2 song" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="4" data-sad="0" data-rank="56" data-hasmaxattribute="False" data-year="2018">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="4" data-sad="0" data-rank="56" data-hasmaxattribute="False" data-year="2018" data-anchor-id="ichiko-aoba---a-hill-of-the-moon">56. Ichiko Aoba - A Hill of the Moon</h2>
 <strong>Album:</strong> <em>qp</em> (2018)<br>
 <strong>Genres:</strong> Singer-Songwriter
 <div class="toggle-tags">
@@ -2540,8 +2579,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="emperor---ye-entrancemperium" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="emperor---ye-entrancemperium">55. Emperor - Ye Entrancemperium</h2>
+<section id="emperor---ye-entrancemperium" class="level2 song" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="55" data-hasmaxattribute="False" data-year="1997">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="55" data-hasmaxattribute="False" data-year="1997" data-anchor-id="emperor---ye-entrancemperium">55. Emperor - Ye Entrancemperium</h2>
 <strong>Album:</strong> <em>Anthems to the Welkin at Dusk</em> (1997)<br>
 <strong>Genres:</strong> Symphonic Black Metal
 <div class="toggle-tags">
@@ -2581,8 +2620,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="stevie-wonder---sir-duke" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="stevie-wonder---sir-duke">54. Stevie Wonder - Sir Duke</h2>
+<section id="stevie-wonder---sir-duke" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="5" data-sad="0" data-rank="54" data-hasmaxattribute="True" data-year="1976">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="5" data-sad="0" data-rank="54" data-hasmaxattribute="True" data-year="1976" data-anchor-id="stevie-wonder---sir-duke">54. Stevie Wonder - Sir Duke</h2>
 <strong>Album:</strong> <em>Songs in the Key of Life</em> (1976)<br>
 <strong>Genres:</strong> Pop Soul
 <div class="toggle-tags">
@@ -2632,8 +2671,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-blue-hearts---owaranai-uta" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="the-blue-hearts---owaranai-uta">53. The Blue Hearts - Owaranai Uta</h2>
+<section id="the-blue-hearts---owaranai-uta" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="1" data-rank="53" data-hasmaxattribute="False" data-year="1987">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="1" data-rank="53" data-hasmaxattribute="False" data-year="1987" data-anchor-id="the-blue-hearts---owaranai-uta">53. The Blue Hearts - Owaranai Uta</h2>
 <strong>Album:</strong> <em>The Blue Hearts</em> (1987)<br>
 <strong>Genres:</strong> Pop Punk
 <div class="toggle-tags">
@@ -2693,8 +2732,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="weyes-blood---andromeda" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="weyes-blood---andromeda">52. Weyes Blood - Andromeda</h2>
+<section id="weyes-blood---andromeda" class="level2 song" data-passion="1" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="52" data-hasmaxattribute="False" data-year="2019">
+<h2 class="song anchored" data-passion="1" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="52" data-hasmaxattribute="False" data-year="2019" data-anchor-id="weyes-blood---andromeda">52. Weyes Blood - Andromeda</h2>
 <strong>Album:</strong> <em>Titanic Rising</em> (2019)<br>
 <strong>Genres:</strong> Psychedelic Pop
 <div class="toggle-tags">
@@ -2744,8 +2783,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="slayer---angel-of-death" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="slayer---angel-of-death">51. Slayer - Angel of Death</h2>
+<section id="slayer---angel-of-death" class="level2 song" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="51" data-hasmaxattribute="False" data-year="1986">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="51" data-hasmaxattribute="False" data-year="1986" data-anchor-id="slayer---angel-of-death">51. Slayer - Angel of Death</h2>
 <strong>Album:</strong> <em>Reign in Blood</em> (1986)<br>
 <strong>Genres:</strong> Thrash Metal
 <div class="toggle-tags">
@@ -2785,8 +2824,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="marvin-gaye---whats-going-on" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="marvin-gaye---whats-going-on">50. Marvin Gaye - What’s Going On</h2>
+<section id="marvin-gaye---whats-going-on" class="level2 song" data-passion="2" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="50" data-hasmaxattribute="False" data-year="1971">
+<h2 class="song anchored" data-passion="2" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="50" data-hasmaxattribute="False" data-year="1971" data-anchor-id="marvin-gaye---whats-going-on">50. Marvin Gaye - What’s Going On</h2>
 <strong>Album:</strong> <em>What’s Going On</em> (1971)<br>
 <strong>Genres:</strong> Smooth Soul
 <div class="toggle-tags">
@@ -2846,8 +2885,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ging-nang-boyz---shounen-shoujo" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="ging-nang-boyz---shounen-shoujo">49. Ging Nang Boyz - Shounen Shoujo</h2>
+<section id="ging-nang-boyz---shounen-shoujo" class="level2 song" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="49" data-hasmaxattribute="False" data-year="2021">
+<h2 class="song anchored" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="49" data-hasmaxattribute="False" data-year="2021" data-anchor-id="ging-nang-boyz---shounen-shoujo">49. Ging Nang Boyz - Shounen Shoujo</h2>
 <strong>Album:</strong> <em>Shounen Shoujo</em> (2021)<br>
 <strong>Genres:</strong> Seishun Punk
 <div class="toggle-tags">
@@ -2907,8 +2946,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="lingua-ignota---do-you-doubt-me-traitor" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="lingua-ignota---do-you-doubt-me-traitor">48. Lingua Ignota - DO YOU DOUBT ME TRAITOR</h2>
+<section id="lingua-ignota---do-you-doubt-me-traitor" class="level2 song" data-passion="0" data-dreamy="0" data-dark="5" data-groovy="0" data-angry="5" data-happy="0" data-sad="0" data-rank="48" data-hasmaxattribute="True" data-year="2019">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="5" data-groovy="0" data-angry="5" data-happy="0" data-sad="0" data-rank="48" data-hasmaxattribute="True" data-year="2019" data-anchor-id="lingua-ignota---do-you-doubt-me-traitor">48. Lingua Ignota - DO YOU DOUBT ME TRAITOR</h2>
 <strong>Album:</strong> <em>Caligula</em> (2019)<br>
 <strong>Genres:</strong> Neoclassical Darkwave
 <div class="toggle-tags">
@@ -2948,8 +2987,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="asian-kung-fu-generation---rocknroll-morning-light-falls-on-you" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="asian-kung-fu-generation---rocknroll-morning-light-falls-on-you">47. Asian Kung-Fu Generation - Rock’n’Roll, Morning Light Falls on You</h2>
+<section id="asian-kung-fu-generation---rocknroll-morning-light-falls-on-you" class="level2 song" data-passion="1" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="2" data-rank="47" data-hasmaxattribute="False" data-year="2008">
+<h2 class="song anchored" data-passion="1" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="2" data-rank="47" data-hasmaxattribute="False" data-year="2008" data-anchor-id="asian-kung-fu-generation---rocknroll-morning-light-falls-on-you">47. Asian Kung-Fu Generation - Rock’n’Roll, Morning Light Falls on You</h2>
 <strong>Album:</strong> <em>World, World, World</em> (2008)<br>
 <strong>Genres:</strong> Shimokita-kei
 <div class="toggle-tags">
@@ -3009,8 +3048,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="opeth---blackwater-park" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="opeth---blackwater-park">46. Opeth - Blackwater Park</h2>
+<section id="opeth---blackwater-park" class="level2 song" data-passion="0" data-dreamy="1" data-dark="4" data-groovy="2" data-angry="2" data-happy="0" data-sad="1" data-rank="46" data-hasmaxattribute="False" data-year="2001">
+<h2 class="song anchored" data-passion="0" data-dreamy="1" data-dark="4" data-groovy="2" data-angry="2" data-happy="0" data-sad="1" data-rank="46" data-hasmaxattribute="False" data-year="2001" data-anchor-id="opeth---blackwater-park">46. Opeth - Blackwater Park</h2>
 <strong>Album:</strong> <em>Blackwater Park</em> (2001)<br>
 <strong>Genres:</strong> Progressive Metal
 <div class="toggle-tags">
@@ -3080,8 +3119,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="javiera-mena---cámara-lenta" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="javiera-mena---cámara-lenta">45. Javiera Mena - Cámara lenta</h2>
+<section id="javiera-mena---cámara-lenta" class="level2 song" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="0" data-rank="45" data-hasmaxattribute="False" data-year="2005">
+<h2 class="song anchored" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="0" data-rank="45" data-hasmaxattribute="False" data-year="2005" data-anchor-id="javiera-mena---cámara-lenta">45. Javiera Mena - Cámara lenta</h2>
 <strong>Album:</strong> <em>Esquemas juveniles</em> (2005)<br>
 <strong>Genres:</strong> Indie Pop
 <div class="toggle-tags">
@@ -3121,8 +3160,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="parannoul---white-ceiling" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="parannoul---white-ceiling">44. Parannoul - White Ceiling</h2>
+<section id="parannoul---white-ceiling" class="level2 song" data-passion="3" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="1" data-happy="1" data-sad="3" data-rank="44" data-hasmaxattribute="True" data-year="2021">
+<h2 class="song anchored" data-passion="3" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="1" data-happy="1" data-sad="3" data-rank="44" data-hasmaxattribute="True" data-year="2021" data-anchor-id="parannoul---white-ceiling">44. Parannoul - White Ceiling</h2>
 <strong>Album:</strong> <em>To See the Next Part of the Dream</em> (2021)<br>
 <strong>Genres:</strong> Shoegaze
 <div class="toggle-tags">
@@ -3192,8 +3231,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="system-of-a-down---aerials" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="system-of-a-down---aerials">43. System of a Down - Aerials</h2>
+<section id="system-of-a-down---aerials" class="level2 song" data-passion="1" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="1" data-rank="43" data-hasmaxattribute="False" data-year="2001">
+<h2 class="song anchored" data-passion="1" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="1" data-rank="43" data-hasmaxattribute="False" data-year="2001" data-anchor-id="system-of-a-down---aerials">43. System of a Down - Aerials</h2>
 <strong>Album:</strong> <em>Toxicity</em> (2001)<br>
 <strong>Genres:</strong> Alternative Metal
 <div class="toggle-tags">
@@ -3243,8 +3282,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="toe---goodbye" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="toe---goodbye">42. toe - Goodbye</h2>
+<section id="toe---goodbye" class="level2 song" data-passion="3" data-dreamy="3" data-dark="0" data-groovy="1" data-angry="0" data-happy="1" data-sad="3" data-rank="42" data-hasmaxattribute="False" data-year="2009">
+<h2 class="song anchored" data-passion="3" data-dreamy="3" data-dark="0" data-groovy="1" data-angry="0" data-happy="1" data-sad="3" data-rank="42" data-hasmaxattribute="False" data-year="2009" data-anchor-id="toe---goodbye">42. toe - Goodbye</h2>
 <strong>Album:</strong> <em>For Long Tomorrow</em> (2009)<br>
 <strong>Genres:</strong> Midwest Emo
 <div class="toggle-tags">
@@ -3315,8 +3354,8 @@ Listen here
 <br> I linked the music video above because it is genuinely amazing, but it only features an abridged version of the song. The full, superior version is 7-8 minutes long, see e.g.&nbsp;this <a href="https://www.youtube.com/watch?v=azSsMG6h8k0">live peformance</a>.
 </details>
 </section>
-<section id="sea-power---red-rock-riviera" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="sea-power---red-rock-riviera">41. Sea Power - Red Rock Riviera</h2>
+<section id="sea-power---red-rock-riviera" class="level2 song" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="41" data-hasmaxattribute="False" data-year="2013">
+<h2 class="song anchored" data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="41" data-hasmaxattribute="False" data-year="2013" data-anchor-id="sea-power---red-rock-riviera">41. Sea Power - Red Rock Riviera</h2>
 <strong>Album:</strong> <em>From the Sea to the Land Beyond</em> (2013)<br>
 <strong>Genres:</strong> Post-Rock
 <div class="toggle-tags">
@@ -3356,8 +3395,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="judas-priest---painkiller" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="judas-priest---painkiller">40. Judas Priest - Painkiller</h2>
+<section id="judas-priest---painkiller" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="3" data-happy="0" data-sad="0" data-rank="40" data-hasmaxattribute="False" data-year="1990">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="3" data-happy="0" data-sad="0" data-rank="40" data-hasmaxattribute="False" data-year="1990" data-anchor-id="judas-priest---painkiller">40. Judas Priest - Painkiller</h2>
 <strong>Album:</strong> <em>Painkiller</em> (1990)<br>
 <strong>Genres:</strong> Speed Metal
 <div class="toggle-tags">
@@ -3397,8 +3436,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="mass-of-the-fermenting-dregs---delusionalism" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="mass-of-the-fermenting-dregs---delusionalism">39. Mass of the Fermenting Dregs - Delusionalism</h2>
+<section id="mass-of-the-fermenting-dregs---delusionalism" class="level2 song" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="39" data-hasmaxattribute="False" data-year="2006">
+<h2 class="song anchored" data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="39" data-hasmaxattribute="False" data-year="2006" data-anchor-id="mass-of-the-fermenting-dregs---delusionalism">39. Mass of the Fermenting Dregs - Delusionalism</h2>
 <strong>Album:</strong> <em>Mass of the Fermenting Dregs</em> (2006)<br>
 <strong>Genres:</strong> Shimokita-kei
 <div class="toggle-tags">
@@ -3448,8 +3487,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="julee-cruise---questions-in-a-world-of-blue" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="julee-cruise---questions-in-a-world-of-blue">38. Julee Cruise - Questions in a World of Blue</h2>
+<section id="julee-cruise---questions-in-a-world-of-blue" class="level2 song" data-passion="0" data-dreamy="3" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="38" data-hasmaxattribute="True" data-year="1993">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="38" data-hasmaxattribute="True" data-year="1993" data-anchor-id="julee-cruise---questions-in-a-world-of-blue">38. Julee Cruise - Questions in a World of Blue</h2>
 <strong>Album:</strong> <em>The Voice of Love</em> (1993)<br>
 <strong>Genres:</strong> Ambient Pop
 <div class="toggle-tags">
@@ -3499,8 +3538,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="hikaru-utada---beautiful-world" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="hikaru-utada---beautiful-world">37. Hikaru Utada - Beautiful World</h2>
+<section id="hikaru-utada---beautiful-world" class="level2 song" data-passion="3" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="37" data-hasmaxattribute="False" data-year="2008">
+<h2 class="song anchored" data-passion="3" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="37" data-hasmaxattribute="False" data-year="2008" data-anchor-id="hikaru-utada---beautiful-world">37. Hikaru Utada - Beautiful World</h2>
 <strong>Album:</strong> <em>Heart Station</em> (2008)<br>
 <strong>Genres:</strong> J-Pop
 <div class="toggle-tags">
@@ -3550,8 +3589,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="carly-rae-jepsen---run-away-with-me" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="carly-rae-jepsen---run-away-with-me">36. Carly Rae Jepsen - Run Away With Me</h2>
+<section id="carly-rae-jepsen---run-away-with-me" class="level2 song" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="4" data-sad="0" data-rank="36" data-hasmaxattribute="False" data-year="2015">
+<h2 class="song anchored" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="4" data-sad="0" data-rank="36" data-hasmaxattribute="False" data-year="2015" data-anchor-id="carly-rae-jepsen---run-away-with-me">36. Carly Rae Jepsen - Run Away With Me</h2>
 <strong>Album:</strong> <em>E·MO·TION</em> (2015)<br>
 <strong>Genres:</strong> Synthpop
 <div class="toggle-tags">
@@ -3601,8 +3640,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-cure---endsong" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="the-cure---endsong">35. The Cure - Endsong</h2>
+<section id="the-cure---endsong" class="level2 song" data-passion="0" data-dreamy="3" data-dark="4" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="35" data-hasmaxattribute="False" data-year="2024">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="4" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="35" data-hasmaxattribute="False" data-year="2024" data-anchor-id="the-cure---endsong">35. The Cure - Endsong</h2>
 <strong>Album:</strong> <em>Songs of a Lost World</em> (2024)<br>
 <strong>Genres:</strong> Gothic Rock
 <div class="toggle-tags">
@@ -3652,8 +3691,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="ling-tosite-sigure---this-is-is-this" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="ling-tosite-sigure---this-is-is-this">34. Ling Tosite Sigure - This Is Is This?</h2>
+<section id="ling-tosite-sigure---this-is-is-this" class="level2 song" data-passion="5" data-dreamy="2" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="2" data-rank="34" data-hasmaxattribute="True" data-year="2010">
+<h2 class="song anchored" data-passion="5" data-dreamy="2" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="2" data-rank="34" data-hasmaxattribute="True" data-year="2010" data-anchor-id="ling-tosite-sigure---this-is-is-this">34. Ling Tosite Sigure - This Is Is This?</h2>
 <strong>Album:</strong> <em>Still a Sigure Virgin? </em> (2010)<br>
 <strong>Genres:</strong> Post-Hardcore
 <div class="toggle-tags">
@@ -3723,8 +3762,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="supercell---kimi-no-shiranai-monogatari" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="supercell---kimi-no-shiranai-monogatari">33. supercell - Kimi no shiranai monogatari</h2>
+<section id="supercell---kimi-no-shiranai-monogatari" class="level2 song" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="3" data-rank="33" data-hasmaxattribute="True" data-year="2011">
+<h2 class="song anchored" data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="3" data-rank="33" data-hasmaxattribute="True" data-year="2011" data-anchor-id="supercell---kimi-no-shiranai-monogatari">33. supercell - Kimi no shiranai monogatari</h2>
 <strong>Album:</strong> <em>Today Is a Beautiful Day</em> (2011)<br>
 <strong>Genres:</strong> Pop Rock
 <div class="toggle-tags">
@@ -3774,8 +3813,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="snapcase---guilty-by-ignorance" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="snapcase---guilty-by-ignorance">32. Snapcase - Guilty by Ignorance</h2>
+<section id="snapcase---guilty-by-ignorance" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="5" data-happy="0" data-sad="0" data-rank="32" data-hasmaxattribute="True" data-year="1997">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="5" data-happy="0" data-sad="0" data-rank="32" data-hasmaxattribute="True" data-year="1997" data-anchor-id="snapcase---guilty-by-ignorance">32. Snapcase - Guilty by Ignorance</h2>
 <strong>Album:</strong> <em>Progression Through Unlearning</em> (1997)<br>
 <strong>Genres:</strong> Metalcore
 <div class="toggle-tags">
@@ -3815,8 +3854,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="my-chemical-romance---helena" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="my-chemical-romance---helena">31. My Chemical Romance - Helena</h2>
+<section id="my-chemical-romance---helena" class="level2 song" data-passion="4" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="31" data-hasmaxattribute="False" data-year="2004">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="31" data-hasmaxattribute="False" data-year="2004" data-anchor-id="my-chemical-romance---helena">31. My Chemical Romance - Helena</h2>
 <strong>Album:</strong> <em>Three Cheers for Sweet Revenge</em> (2004)<br>
 <strong>Genres:</strong> Emo-Pop
 <div class="toggle-tags">
@@ -3876,8 +3915,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="sun-kil-moon---duk-koo-kim" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="sun-kil-moon---duk-koo-kim">30. Sun Kil Moon - Duk Koo Kim</h2>
+<section id="sun-kil-moon---duk-koo-kim" class="level2 song" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="4" data-rank="30" data-hasmaxattribute="False" data-year="2003">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="4" data-rank="30" data-hasmaxattribute="False" data-year="2003" data-anchor-id="sun-kil-moon---duk-koo-kim">30. Sun Kil Moon - Duk Koo Kim</h2>
 <strong>Album:</strong> <em>Ghosts of the Great Highway</em> (2003)<br>
 <strong>Genres:</strong> Slowcore
 <div class="toggle-tags">
@@ -3927,8 +3966,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="konstantin-wecker---willy" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="konstantin-wecker---willy">29. Konstantin Wecker - Willy</h2>
+<section id="konstantin-wecker---willy" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="2" data-happy="0" data-sad="3" data-rank="29" data-hasmaxattribute="False" data-year="1977">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="2" data-happy="0" data-sad="3" data-rank="29" data-hasmaxattribute="False" data-year="1977" data-anchor-id="konstantin-wecker---willy">29. Konstantin Wecker - Willy</h2>
 <strong>Album:</strong> <em>Genug ist nicht genug</em> (1977)<br>
 <strong>Genres:</strong> Piano Blues
 <div class="toggle-tags">
@@ -3978,8 +4017,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="cameron-winter---0.00" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="cameron-winter---0.00">28. Cameron Winter - $0.00</h2>
+<section id="cameron-winter---0.00" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="28" data-hasmaxattribute="False" data-year="2024">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="28" data-hasmaxattribute="False" data-year="2024" data-anchor-id="cameron-winter---0.00">28. Cameron Winter - $0.00</h2>
 <strong>Album:</strong> <em>Heavy Metal</em> (2024)<br>
 <strong>Genres:</strong> Singer-Songwriter
 <div class="toggle-tags">
@@ -4019,8 +4058,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="portishead---glory-box" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="portishead---glory-box">27. Portishead - Glory Box</h2>
+<section id="portishead---glory-box" class="level2 song" data-passion="1" data-dreamy="4" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="27" data-hasmaxattribute="False" data-year="1994">
+<h2 class="song anchored" data-passion="1" data-dreamy="4" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="27" data-hasmaxattribute="False" data-year="1994" data-anchor-id="portishead---glory-box">27. Portishead - Glory Box</h2>
 <strong>Album:</strong> <em>Dummy</em> (1994)<br>
 <strong>Genres:</strong> Trip Hop
 <div class="toggle-tags">
@@ -4080,8 +4119,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="radiohead---weird-fishesarpeggi" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="radiohead---weird-fishesarpeggi">26. Radiohead - Weird Fishes/Arpeggi</h2>
+<section id="radiohead---weird-fishesarpeggi" class="level2 song" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="26" data-hasmaxattribute="True" data-year="2008">
+<h2 class="song anchored" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="26" data-hasmaxattribute="True" data-year="2008" data-anchor-id="radiohead---weird-fishesarpeggi">26. Radiohead - Weird Fishes/Arpeggi</h2>
 <strong>Album:</strong> <em>In Rainbows</em> (2008)<br>
 <strong>Genres:</strong> Dream Pop
 <div class="toggle-tags">
@@ -4131,8 +4170,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="rolo-tomassi---a-flood-of-light" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="rolo-tomassi---a-flood-of-light">25. Rolo Tomassi - A Flood of Light</h2>
+<section id="rolo-tomassi---a-flood-of-light" class="level2 song" data-passion="4" data-dreamy="3" data-dark="1" data-groovy="0" data-angry="3" data-happy="2" data-sad="3" data-rank="25" data-hasmaxattribute="False" data-year="2018">
+<h2 class="song anchored" data-passion="4" data-dreamy="3" data-dark="1" data-groovy="0" data-angry="3" data-happy="2" data-sad="3" data-rank="25" data-hasmaxattribute="False" data-year="2018" data-anchor-id="rolo-tomassi---a-flood-of-light">25. Rolo Tomassi - A Flood of Light</h2>
 <strong>Album:</strong> <em>Time Will Die and Love Will Bury It </em> (2018)<br>
 <strong>Genres:</strong> Post-Metal
 <div class="toggle-tags">
@@ -4212,8 +4251,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="fela-anikulapo-kuti-and-afrika-70---zombie" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="fela-anikulapo-kuti-and-afrika-70---zombie">24. Fela Anikulapo Kuti and Afrika 70 - Zombie</h2>
+<section id="fela-anikulapo-kuti-and-afrika-70---zombie" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="1" data-happy="0" data-sad="0" data-rank="24" data-hasmaxattribute="False" data-year="1977">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="1" data-happy="0" data-sad="0" data-rank="24" data-hasmaxattribute="False" data-year="1977" data-anchor-id="fela-anikulapo-kuti-and-afrika-70---zombie">24. Fela Anikulapo Kuti and Afrika 70 - Zombie</h2>
 <strong>Album:</strong> <em>Zombie</em> (1977)<br>
 <strong>Genres:</strong> Afrobeat
 <div class="toggle-tags">
@@ -4253,8 +4292,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="lana-del-rey---venice-bitch" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="lana-del-rey---venice-bitch">23. Lana Del Rey - Venice Bitch</h2>
+<section id="lana-del-rey---venice-bitch" class="level2 song" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="23" data-hasmaxattribute="False" data-year="2018">
+<h2 class="song anchored" data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="2" data-rank="23" data-hasmaxattribute="False" data-year="2018" data-anchor-id="lana-del-rey---venice-bitch">23. Lana Del Rey - Venice Bitch</h2>
 <strong>Album:</strong> <em>Norman Fucking Rockwell!</em> (2018)<br>
 <strong>Genres:</strong> Art Pop
 <div class="toggle-tags">
@@ -4294,8 +4333,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="keiichi-okabe---city-ruins-rays-of-light" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="keiichi-okabe---city-ruins-rays-of-light">22. Keiichi Okabe - City Ruins (Rays of Light)</h2>
+<section id="keiichi-okabe---city-ruins-rays-of-light" class="level2 song" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="4" data-rank="22" data-hasmaxattribute="False" data-year="2017">
+<h2 class="song anchored" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="4" data-rank="22" data-hasmaxattribute="False" data-year="2017" data-anchor-id="keiichi-okabe---city-ruins-rays-of-light">22. Keiichi Okabe - City Ruins (Rays of Light)</h2>
 <strong>Album:</strong> <em>NieR:Automata </em> (2017)<br>
 <strong>Genres:</strong> New Age
 <div class="toggle-tags">
@@ -4345,8 +4384,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="perfume---dream-fighter" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="perfume---dream-fighter">21. Perfume - Dream Fighter</h2>
+<section id="perfume---dream-fighter" class="level2 song" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="21" data-hasmaxattribute="True" data-year="2008">
+<h2 class="song anchored" data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="21" data-hasmaxattribute="True" data-year="2008" data-anchor-id="perfume---dream-fighter">21. Perfume - Dream Fighter</h2>
 <strong>Album:</strong> <em>⊿ (Triangle)</em> (2008)<br>
 <strong>Genres:</strong> Electropop
 <div class="toggle-tags">
@@ -4386,8 +4425,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-dead-kennedys---nazi-punks-fuck-off" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="the-dead-kennedys---nazi-punks-fuck-off">20. The Dead Kennedys - Nazi Punks Fuck Off</h2>
+<section id="the-dead-kennedys---nazi-punks-fuck-off" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="5" data-happy="0" data-sad="0" data-rank="20" data-hasmaxattribute="True" data-year="1981">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="5" data-happy="0" data-sad="0" data-rank="20" data-hasmaxattribute="True" data-year="1981" data-anchor-id="the-dead-kennedys---nazi-punks-fuck-off">20. The Dead Kennedys - Nazi Punks Fuck Off</h2>
 <strong>Album:</strong> <em>In God We Trust, Inc.</em> (1981)<br>
 <strong>Genres:</strong> Hardcore Punk
 <div class="toggle-tags">
@@ -4417,8 +4456,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="nas---n.y.-state-of-mind" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="nas---n.y.-state-of-mind">19. Nas - N.Y. State of Mind</h2>
+<section id="nas---n.y.-state-of-mind" class="level2 song" data-passion="0" data-dreamy="0" data-dark="2" data-groovy="1" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-hasmaxattribute="False" data-year="1994">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="2" data-groovy="1" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-hasmaxattribute="False" data-year="1994" data-anchor-id="nas---n.y.-state-of-mind">19. Nas - N.Y. State of Mind</h2>
 <strong>Album:</strong> <em>Illmatic</em> (1994)<br>
 <strong>Genres:</strong> Boom Bap
 <div class="toggle-tags">
@@ -4458,8 +4497,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="rage-against-the-machine---killing-in-the-name" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="rage-against-the-machine---killing-in-the-name">18. Rage Against the Machine - Killing in the Name</h2>
+<section id="rage-against-the-machine---killing-in-the-name" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="3" data-angry="4" data-happy="0" data-sad="0" data-rank="18" data-hasmaxattribute="False" data-year="1992">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="3" data-angry="4" data-happy="0" data-sad="0" data-rank="18" data-hasmaxattribute="False" data-year="1992" data-anchor-id="rage-against-the-machine---killing-in-the-name">18. Rage Against the Machine - Killing in the Name</h2>
 <strong>Album:</strong> <em>Rage Against the Machine</em> (1992)<br>
 <strong>Genres:</strong> Alternative Metal
 <div class="toggle-tags">
@@ -4499,8 +4538,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="electric-light-orchestra---twilight" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="electric-light-orchestra---twilight">17. Electric Light Orchestra - Twilight</h2>
+<section id="electric-light-orchestra---twilight" class="level2 song" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="1" data-angry="0" data-happy="3" data-sad="1" data-rank="17" data-hasmaxattribute="False" data-year="1981">
+<h2 class="song anchored" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="1" data-angry="0" data-happy="3" data-sad="1" data-rank="17" data-hasmaxattribute="False" data-year="1981" data-anchor-id="electric-light-orchestra---twilight">17. Electric Light Orchestra - Twilight</h2>
 <strong>Album:</strong> <em>Time</em> (1981)<br>
 <strong>Genres:</strong> Pop Rock
 <div class="toggle-tags">
@@ -4570,8 +4609,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="gorguts---le-toit-du-monde" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="gorguts---le-toit-du-monde">16. Gorguts - Le Toit Du Monde</h2>
+<section id="gorguts---le-toit-du-monde" class="level2 song" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="16" data-hasmaxattribute="False" data-year="2013">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="4" data-groovy="0" data-angry="4" data-happy="0" data-sad="0" data-rank="16" data-hasmaxattribute="False" data-year="2013" data-anchor-id="gorguts---le-toit-du-monde">16. Gorguts - Le Toit Du Monde</h2>
 <strong>Album:</strong> <em>Colored Sands</em> (2013)<br>
 <strong>Genres:</strong> Dissonant Death Metal
 <div class="toggle-tags">
@@ -4611,8 +4650,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="cocteau-twins---heaven-or-las-vegas" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="cocteau-twins---heaven-or-las-vegas">15. Cocteau Twins - Heaven or Las Vegas</h2>
+<section id="cocteau-twins---heaven-or-las-vegas" class="level2 song" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-hasmaxattribute="True" data-year="1990">
+<h2 class="song anchored" data-passion="1" data-dreamy="5" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-hasmaxattribute="True" data-year="1990" data-anchor-id="cocteau-twins---heaven-or-las-vegas">15. Cocteau Twins - Heaven or Las Vegas</h2>
 <strong>Album:</strong> <em>Heaven or Las Vegas </em> (1990)<br>
 <strong>Genres:</strong> Dream Pop
 <div class="toggle-tags">
@@ -4652,8 +4691,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="seatbelts---blue" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="seatbelts---blue">14. Seatbelts - Blue</h2>
+<section id="seatbelts---blue" class="level2 song" data-passion="5" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="14" data-hasmaxattribute="True" data-year="1999">
+<h2 class="song anchored" data-passion="5" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="14" data-hasmaxattribute="True" data-year="1999" data-anchor-id="seatbelts---blue">14. Seatbelts - Blue</h2>
 <strong>Album:</strong> <em>Cowboy Bebop Blue</em> (1999)<br>
 <strong>Genres:</strong> Space Blues
 <div class="toggle-tags">
@@ -4713,8 +4752,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-flaming-lips---do-you-realize" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="the-flaming-lips---do-you-realize">13. The Flaming Lips - Do You Realize??</h2>
+<section id="the-flaming-lips---do-you-realize" class="level2 song" data-passion="1" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="13" data-hasmaxattribute="False" data-year="2002">
+<h2 class="song anchored" data-passion="1" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="3" data-rank="13" data-hasmaxattribute="False" data-year="2002" data-anchor-id="the-flaming-lips---do-you-realize">13. The Flaming Lips - Do You Realize??</h2>
 <strong>Album:</strong> <em>Yoshimi Battles the Pink Robots</em> (2002)<br>
 <strong>Genres:</strong> Neo-Psychedelia
 <div class="toggle-tags">
@@ -4775,8 +4814,8 @@ Listen here
 <br> I made a <a href="https://www.youtube.com/watch?v=nA2ypGM98h4">Studio Ghibli music video tribute</a> using this song and somehow it’s one of my proudest accomplishments.
 </details>
 </section>
-<section id="the-pillows---last-dinosaur" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="the-pillows---last-dinosaur">12. The Pillows - Last Dinosaur</h2>
+<section id="the-pillows---last-dinosaur" class="level2 song" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="3" data-rank="12" data-hasmaxattribute="False" data-year="1999">
+<h2 class="song anchored" data-passion="3" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="3" data-rank="12" data-hasmaxattribute="False" data-year="1999" data-anchor-id="the-pillows---last-dinosaur">12. The Pillows - Last Dinosaur</h2>
 <strong>Album:</strong> <em>Happy Bivouac</em> (1999)<br>
 <strong>Genres:</strong> Power Pop
 <div class="toggle-tags">
@@ -4836,8 +4875,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="pink-floyd---wish-you-were-here" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="pink-floyd---wish-you-were-here">11. Pink Floyd - Wish You Were Here</h2>
+<section id="pink-floyd---wish-you-were-here" class="level2 song" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="11" data-hasmaxattribute="False" data-year="1975">
+<h2 class="song anchored" data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="11" data-hasmaxattribute="False" data-year="1975" data-anchor-id="pink-floyd---wish-you-were-here">11. Pink Floyd - Wish You Were Here</h2>
 <strong>Album:</strong> <em>Wish You Were Here</em> (1975)<br>
 <strong>Genres:</strong> Art Rock
 <div class="toggle-tags">
@@ -4877,8 +4916,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="the-devin-townsend-band---deadhead" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="the-devin-townsend-band---deadhead">10. The Devin Townsend Band - Deadhead</h2>
+<section id="the-devin-townsend-band---deadhead" class="level2 song" data-passion="5" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="10" data-hasmaxattribute="True" data-year="2003">
+<h2 class="song anchored" data-passion="5" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="10" data-hasmaxattribute="True" data-year="2003" data-anchor-id="the-devin-townsend-band---deadhead">10. The Devin Townsend Band - Deadhead</h2>
 <strong>Album:</strong> <em>Accelerated Evolution</em> (2003)<br>
 <strong>Genres:</strong> Progressive Metal
 <div class="toggle-tags">
@@ -4938,8 +4977,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="kinoko-teikoku---musician" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="kinoko-teikoku---musician">9. Kinoko Teikoku - Musician</h2>
+<section id="kinoko-teikoku---musician" class="level2 song" data-passion="4" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="9" data-hasmaxattribute="False" data-year="2013">
+<h2 class="song anchored" data-passion="4" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="9" data-hasmaxattribute="False" data-year="2013" data-anchor-id="kinoko-teikoku---musician">9. Kinoko Teikoku - Musician</h2>
 <strong>Album:</strong> <em>Eureka</em> (2013)<br>
 <strong>Genres:</strong> Indie Rock
 <div class="toggle-tags">
@@ -4989,8 +5028,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="david-bowie---heroes" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="david-bowie---heroes">8. David Bowie - “Heroes”</h2>
+<section id="david-bowie---heroes" class="level2 song" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="8" data-hasmaxattribute="False" data-year="1977">
+<h2 class="song anchored" data-passion="4" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="8" data-hasmaxattribute="False" data-year="1977" data-anchor-id="david-bowie---heroes">8. David Bowie - “Heroes”</h2>
 <strong>Album:</strong> <em>“Heroes”</em> (1977)<br>
 <strong>Genres:</strong> Art Rock
 <div class="toggle-tags">
@@ -5040,8 +5079,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="fka-twigs---cellophane" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="fka-twigs---cellophane">7. FKA Twigs - Cellophane</h2>
+<section id="fka-twigs---cellophane" class="level2 song" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="7" data-hasmaxattribute="True" data-year="2019">
+<h2 class="song anchored" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="7" data-hasmaxattribute="True" data-year="2019" data-anchor-id="fka-twigs---cellophane">7. FKA Twigs - Cellophane</h2>
 <strong>Album:</strong> <em>Magdalene</em> (2019)<br>
 <strong>Genres:</strong> Art Pop
 <div class="toggle-tags">
@@ -5081,8 +5120,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="shiina-ringo---gips" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="shiina-ringo---gips">6. Shiina Ringo - Gips</h2>
+<section id="shiina-ringo---gips" class="level2 song" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="6" data-hasmaxattribute="True" data-year="2000">
+<h2 class="song anchored" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="6" data-hasmaxattribute="True" data-year="2000" data-anchor-id="shiina-ringo---gips">6. Shiina Ringo - Gips</h2>
 <strong>Album:</strong> <em>Shouso Strip</em> (2000)<br>
 <strong>Genres:</strong> Shimokita-kei
 <div class="toggle-tags">
@@ -5132,8 +5171,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="converge---jane-doe" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="converge---jane-doe">5. Converge - Jane Doe</h2>
+<section id="converge---jane-doe" class="level2 song" data-passion="5" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="5" data-happy="0" data-sad="2" data-rank="5" data-hasmaxattribute="True" data-year="2001">
+<h2 class="song anchored" data-passion="5" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="5" data-happy="0" data-sad="2" data-rank="5" data-hasmaxattribute="True" data-year="2001" data-anchor-id="converge---jane-doe">5. Converge - Jane Doe</h2>
 <strong>Album:</strong> <em>Jane Doe</em> (2001)<br>
 <strong>Genres:</strong> Mathcore
 <div class="toggle-tags">
@@ -5193,8 +5232,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="mac-miller---good-news" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="mac-miller---good-news">4. Mac Miller - Good News</h2>
+<section id="mac-miller---good-news" class="level2 song" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="4" data-hasmaxattribute="True" data-year="2020">
+<h2 class="song anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="4" data-hasmaxattribute="True" data-year="2020" data-anchor-id="mac-miller---good-news">4. Mac Miller - Good News</h2>
 <strong>Album:</strong> <em>Circles</em> (2020)<br>
 <strong>Genres:</strong> Neo-Soul
 <div class="toggle-tags">
@@ -5224,8 +5263,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="sam-cooke---a-change-is-gonna-come" class="level2 song" data-hasmaxattribute="False">
-<h2 class="song anchored" data-hasmaxattribute="False" data-anchor-id="sam-cooke---a-change-is-gonna-come">3. Sam Cooke - A Change Is Gonna Come</h2>
+<section id="sam-cooke---a-change-is-gonna-come" class="level2 song" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="4" data-rank="3" data-hasmaxattribute="False" data-year="1964">
+<h2 class="song anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="4" data-rank="3" data-hasmaxattribute="False" data-year="1964" data-anchor-id="sam-cooke---a-change-is-gonna-come">3. Sam Cooke - A Change Is Gonna Come</h2>
 <strong>Album:</strong> <em>Ain’t That Good News</em> (1964)<br>
 <strong>Genres:</strong> Soul
 <div class="toggle-tags">
@@ -5275,8 +5314,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="carissas-wierd---september-come-take-this-heart-away" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="carissas-wierd---september-come-take-this-heart-away">2. Carissa’s Wierd - September Come Take This Heart Away</h2>
+<section id="carissas-wierd---september-come-take-this-heart-away" class="level2 song" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="2" data-hasmaxattribute="True" data-year="2002">
+<h2 class="song anchored" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="2" data-hasmaxattribute="True" data-year="2002" data-anchor-id="carissas-wierd---september-come-take-this-heart-away">2. Carissa’s Wierd - September Come Take This Heart Away</h2>
 <strong>Album:</strong> <em>Songs About Leaving</em> (2002)<br>
 <strong>Genres:</strong> Slowcore
 <div class="toggle-tags">
@@ -5316,8 +5355,8 @@ Listen here
 </div>
 </details>
 </section>
-<section id="light-bringer---hyperion" class="level2 song" data-hasmaxattribute="True">
-<h2 class="song anchored" data-hasmaxattribute="True" data-anchor-id="light-bringer---hyperion">1. Light Bringer - Hyperion</h2>
+<section id="light-bringer---hyperion" class="level2 song" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="1" data-hasmaxattribute="True" data-year="2013">
+<h2 class="song anchored" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="1" data-hasmaxattribute="True" data-year="2013" data-anchor-id="light-bringer---hyperion">1. Light Bringer - Hyperion</h2>
 <strong>Album:</strong> <em>Scenes of Infinity</em> (2013)<br>
 <strong>Genres:</strong> Power Metal
 <div class="toggle-tags">
@@ -5357,6 +5396,7 @@ Listen here
 </div>
 </details>
 </section>
+</div>
 <section id="overall-mood-distribution" class="level2">
 <h2 class="anchored" data-anchor-id="overall-mood-distribution">Overall Mood Distribution</h2>
 <div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
@@ -5435,29 +5475,29 @@ Passion
 <p>Songs that barely missed the top 100…</p>
 <p>2Pac - Words of Wisdom<br>Adrianne Lenker - Sadness as a Gift<br>American Football - Never Meant<br>Björk - Hyperballad<br>Bob Marley &amp; The Wailers - No Woman, No Cry<br>Bump of Chicken - Answer<br>Bôa - Duvet<br>CHVRCHES - Asking for a Friend<br>Denzel Curry - Walkin<br>Dropkick Murphys - The State of Massachusetts<br>Faye Wong - Dreams<br>Frank Ocean - Thinkin Bout You<br>Gang Starr - Moment of Truth<br>Gorillaz - On Melancholy Hill<br>Grouper - Clearing<br>Hatchie - Til We Run Out of Air<br>James Brown - Give It Up Or Turnit Loose<br>JunxPunx - Goolaxy<br>Low Roar - Don’t Be So Serious<br>MDC - John Wayne Was a Nazi<br>Mercyful Fate - A Dangerous Meeting<br>Midori - Yukiko-san<br>Mobb Deep - Shook Ones, Pt. II<br>Nobuo Uematsu - Main Theme of FFVII<br>Pixies - Debaser<br>Rosa Walton - I Really Want to Stay at Your House<br>School Food Punishment - Pool<br>Shoji Meguro - Beneath the Mask<br>Songs: Ohia - Farewell Transmission<br>The Coup - Me and Jesus the Pimp in a ’79 Granada Last Night<br>The Jimi Hendrix Experience - Little Wing<br>Toby Fox - Undertale<br>Ulcerate - Drown Within<br>Yuzu - Hyouri Ittai<br>ZUN - 月まで届け、不死の煙 <br></p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="551" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 550;"><span id="cb1-551"><a href="#cb1-551" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
-<span id="cb1-552"><a href="#cb1-552" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.song"</span>))</span>
-<span id="cb1-553"><a href="#cb1-553" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-554"><a href="#cb1-554" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
-<span id="cb1-555"><a href="#cb1-555" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
-<span id="cb1-556"><a href="#cb1-556" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
-<span id="cb1-557"><a href="#cb1-557" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-558"><a href="#cb1-558" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
-<span id="cb1-559"><a href="#cb1-559" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-560"><a href="#cb1-560" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
-<span id="cb1-561"><a href="#cb1-561" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
-<span id="cb1-562"><a href="#cb1-562" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
-<span id="cb1-563"><a href="#cb1-563" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
-<span id="cb1-564"><a href="#cb1-564" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-565"><a href="#cb1-565" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
-<span id="cb1-566"><a href="#cb1-566" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
-<span id="cb1-567"><a href="#cb1-567" aria-hidden="true" tabindex="-1"></a>      }</span>
-<span id="cb1-568"><a href="#cb1-568" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-569"><a href="#cb1-569" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
-<span id="cb1-570"><a href="#cb1-570" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb1-571"><a href="#cb1-571" aria-hidden="true" tabindex="-1"></a>  })</span>
-<span id="cb1-572"><a href="#cb1-572" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-573"><a href="#cb1-573" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="618" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 617;"><span id="cb1-618"><a href="#cb1-618" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
+<span id="cb1-619"><a href="#cb1-619" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.song"</span>))</span>
+<span id="cb1-620"><a href="#cb1-620" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-621"><a href="#cb1-621" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
+<span id="cb1-622"><a href="#cb1-622" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
+<span id="cb1-623"><a href="#cb1-623" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
+<span id="cb1-624"><a href="#cb1-624" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-625"><a href="#cb1-625" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
+<span id="cb1-626"><a href="#cb1-626" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-627"><a href="#cb1-627" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
+<span id="cb1-628"><a href="#cb1-628" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
+<span id="cb1-629"><a href="#cb1-629" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
+<span id="cb1-630"><a href="#cb1-630" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
+<span id="cb1-631"><a href="#cb1-631" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-632"><a href="#cb1-632" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
+<span id="cb1-633"><a href="#cb1-633" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb1-634"><a href="#cb1-634" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-635"><a href="#cb1-635" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-636"><a href="#cb1-636" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
+<span id="cb1-637"><a href="#cb1-637" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-638"><a href="#cb1-638" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-639"><a href="#cb1-639" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-640"><a href="#cb1-640" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -5474,7 +5514,8 @@ Passion
 </div>
 </div>
 <script>
-    function filterSections(hasmaxattribute) {
+
+function filterSections(hasmaxattribute) {
   document.querySelectorAll(".section").forEach(section => {
     const h2 = section.querySelector("h2")
     const match = hasmaxattribute === "all" || 
@@ -5484,8 +5525,31 @@ Passion
   })
 }
 
-const switchMaxMood = document.getElementById("toggleMaxMood");
+function sortSections(by = "rank", direction = "desc", numeric = true) {
+  const container = document.querySelector(".songs") // adjust if needed
+  const sections = Array.from(document.querySelectorAll(".section"))
+    console.log(by)
+  if (numeric) {
+    sections.sort((a, b) => {
+    const aVal = Number(a.querySelector("h2").dataset[by])
+    const bVal = Number(b.querySelector("h2").dataset[by])
+    return direction === "desc" ? bVal - aVal : aVal - bVal
+    })
+  } else {
+    sections.sort((a, b) => {
+        const aVal = a.querySelector("h2").dataset[by]
+        const bVal = b.querySelector("h2").dataset[by]
 
+        return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal)
+    })
+  }
+
+  sections.forEach(section => container.appendChild(section))
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
   switchMaxMood.addEventListener("change", (e) => {
     if (e.target.checked) {
       filterSections("True");
