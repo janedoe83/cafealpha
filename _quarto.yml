@@ -25,6 +25,7 @@ website:
       - section: "**Music**"
         contents: 
         - music/songs.qmd
+        - music/albums.qmd
       - section: "**Books**"
         contents: 
         - text: "Fiction"

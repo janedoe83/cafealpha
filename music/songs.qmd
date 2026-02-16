@@ -2,6 +2,7 @@
 title: "Top 100 Songs"
 format: html
 toc: false
+echo: false
 ---
 
 
@@ -13,8 +14,12 @@ The greatest songs of all time!!! (According to me)\
 - Classical music is not eligible and will be covered in a separate list.
 :::
 
-
 <div class="d-flex gap-4 mb-3">
+<div class="form-check form-switch">
+<input class="form-check-input" type="checkbox" id="toggleMaxMood">
+<label class="form-check-label" for="toggleMaxMood">Max. Mood</label>
+</div>
+
 <div class="form-check form-switch">
 <input class="form-check-input" type="checkbox" id="toggleMood" checked>
 <label class="form-check-label" for="toggleMood">Show Mood Levels</label>
@@ -25,513 +30,566 @@ The greatest songs of all time!!! (According to me)\
 <label class="form-check-label" for="toggleTags">Show Tags</label>
 </div></div>
 
-## 100. Eric B. & Rakim - Juice (Know the Ledge)
+## 100. Eric B. & Rakim - Juice (Know the Ledge){.song data-hasmaxattribute="False"}
 **Album:** *Juice (Know the Ledge) * (1992)\
 **Genres:** Boom Bap
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="OPkWYTUiPTo"></lite-youtube></div></details>
-## 99. Metallica - For Whom the Bell Tolls
+## 99. Metallica - For Whom the Bell Tolls{.song data-hasmaxattribute="False"}
 **Album:** *Ride the Lightning* (1984)\
 **Genres:** Thrash Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="B_HSa1dEL9s"></lite-youtube></div></details>
-## 98. The Beatles - Here Comes the Sun
+## 98. The Beatles - Here Comes the Sun{.song data-hasmaxattribute="True"}
 **Album:** *Abbey Road* (1969)\
 **Genres:** Sunshine Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="tDEzmaZHuS0"></lite-youtube></div></details>
-## 97. Curtis Mayfield - Move On Up
+## 97. Curtis Mayfield - Move On Up{.song data-hasmaxattribute="False"}
 **Album:** *Curtis* (1970)\
 **Genres:** Funk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="6Z66wVo7uNw"></lite-youtube></div></details>
-## 96. Dälek - Police State Is Nervous
+## 96. Dälek - Police State Is Nervous{.song data-hasmaxattribute="False"}
 **Album:** *nan* (2014)\
 **Genres:** Political Hip Hop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="gBByC9BebX4"></lite-youtube></div></details>
-## 95. Ton Steine Scherben - Macht kaputt was euch kaputt macht
+## 95. Ton Steine Scherben - Macht kaputt was euch kaputt macht{.song data-hasmaxattribute="False"}
 **Album:** *Warum geht es mir so dreckig?* (1971)\
 **Genres:** Proto-Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Fx4OJDxLyxw"></lite-youtube></div></details>
-## 94. Art Blakey & The Jazz Messengers - Moanin’
+## 94. Art Blakey & The Jazz Messengers - Moanin’{.song data-hasmaxattribute="False"}
 **Album:** *Moanin’* (1959)\
 **Genres:** Hard Bop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Cv9NSR-2DwM"></lite-youtube></div></details>
-## 93. Idles - Danny Nedelko
+## 93. Idles - Danny Nedelko{.song data-hasmaxattribute="False"}
 **Album:** *Joy as an Act of Resistance. * (2018)\
 **Genres:** Post-Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="QkF_G-RF66M"></lite-youtube></div></details>
-## 92. Pulp - Common People
+## 92. Pulp - Common People{.song data-hasmaxattribute="False"}
 **Album:** *Different Class* (1995)\
 **Genres:** Britpop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="yuTMWgOduFM"></lite-youtube></div></details>
-## 91. Aretha Franklin - I Say a Little Prayer
+## 91. Aretha Franklin - I Say a Little Prayer{.song data-hasmaxattribute="False"}
 **Album:** *Aretha Now* (1968)\
 **Genres:** Southern Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="TDyiREoBw0o"></lite-youtube></div></details>
-## 90. Ryuichi Sakamoto - Thousand Knives
+## 90. Ryuichi Sakamoto - Thousand Knives{.song data-hasmaxattribute="False"}
 **Album:** *Thousand Knives of Ryuichi Sakamoto * (1978)\
 **Genres:** Progressive Electronic
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Instrumental</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="BRKAcIf5J6I"></lite-youtube></div></details>
-## 89. Jessie Ware - Spotlight
+## 89. Jessie Ware - Spotlight{.song data-hasmaxattribute="False"}
 **Album:** *What’s Your Pleasure* (2020)\
 **Genres:** Dance-Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="kw56LGfrf4A"></lite-youtube></div></details>
-## 88. Kate Bush - Wuthering Heights
+## 88. Kate Bush - Wuthering Heights{.song data-hasmaxattribute="False"}
 **Album:** *The Kick Inside* (1978)\
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Fk-4lXLM34g"></lite-youtube></div></details>
-## 87. Tyler, the Creator - EARFQUAKE
+## 87. Tyler, the Creator - EARFQUAKE{.song data-hasmaxattribute="False"}
 **Album:** *Igor* (2019)\
 **Genres:** Neo-Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="HmAsUQEFYGI"></lite-youtube></div></details>
-## 86. Car Seat Headrest - Beach Life-In-Death
+## 86. Car Seat Headrest - Beach Life-In-Death{.song data-hasmaxattribute="False"}
 **Album:** *Twin Fantasy* (2018)\
 **Genres:** Indie Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="hx59YVs5itM"></lite-youtube></div></details>
-## 85. Isaac Hayes - Walk on By
+## 85. Isaac Hayes - Walk on By{.song data-hasmaxattribute="False"}
 **Album:** *Hot Buttered Soul* (1969)\
 **Genres:** Progressive Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="DFdR2LLM3bY"></lite-youtube></div></details>
-## 84. Swans - Love Will Save You
+## 84. Swans - Love Will Save You{.song data-hasmaxattribute="False"}
 **Album:** *White Light from the Mouth of Infinity* (1991)\
 **Genres:** Gothic Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="HXbcErP-Xok"></lite-youtube></div></details>
-## 83. Phoebe Bridgers - I Know the End
+## 83. Phoebe Bridgers - I Know the End{.song data-hasmaxattribute="False"}
 **Album:** *Punisher* (2020)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="WJ9-xN6dCW4"></lite-youtube></div></details>
-## 82. Gris - Il était une forêt
+## 82. Gris - Il était une forêt{.song data-hasmaxattribute="True"}
 **Album:** *Il était une forêt* (2007)\
 **Genres:** Depressive Black Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="rMrBWwEMA7w"></lite-youtube></div></details>
-## 81. Barbara Dane - Resistance Hymn
+## 81. Barbara Dane - Resistance Hymn{.song data-hasmaxattribute="False"}
 **Album:** *FTA!: Songs of the GI Resistance * (1970)\
 **Genres:** Contemporary Folk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YS1rSEnxgNE"></lite-youtube></div></details>
-## 80. Ninajirachi - Infohazard
+## 80. Ninajirachi - Infohazard{.song data-hasmaxattribute="False"}
 **Album:** *I Love My Computer * (2025)\
 **Genres:** Trance
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="p2ZdeIKJA8c"></lite-youtube></div></details>
-## 79. Vangelis - Memories of Green
+## 79. Vangelis - Memories of Green{.song data-hasmaxattribute="False"}
 **Album:** *Blade Runner* (1980)\
 **Genres:** Progressive Electronic
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="u1KfOMkyU_w"></lite-youtube></div></details>
-## 78. Beach House - Myth
+## 78. Beach House - Myth{.song data-hasmaxattribute="True"}
 **Album:** *Bloom* (2012)\
 **Genres:** Dream Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="FuvWc3ToDHg"></lite-youtube></div></details>
-## 77. Lily Chou-Chou - Arabesque
+## 77. Lily Chou-Chou - Arabesque{.song data-hasmaxattribute="True"}
 **Album:** *Kokyuu* (2001)\
 **Genres:** Ambient Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="12mwzwUL7Vk"></lite-youtube></div></details>
-## 76. Kessoku Band - Karakara
+## 76. Kessoku Band - Karakara{.song data-hasmaxattribute="False"}
 **Album:** *Kessoku Band* (2022)\
 **Genres:** Shimokita-kei
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="IwHwv-lcxi4"></lite-youtube></div></details>
-## 75. Sewerslvt - Looming.Sorrow.Decent
+## 75. Sewerslvt - Looming.Sorrow.Decent{.song data-hasmaxattribute="False"}
 **Album:** *Skitzofrenia Simulation* (2021)\
-**Genres:** Atmoshperic Drum’n’Bass
+**Genres:** Atmospheric Drum’n’Bass
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="x1P_0mUsBJ0"></lite-youtube></div></details>
-## 74. Lorien Testard - Alicia
+## 74. Lorien Testard - Alicia{.song data-hasmaxattribute="False"}
 **Album:** *Clair Obscur: Expedition 33 * (2025)\
 **Genres:** Classical Crossover
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="yakOBIoyoik"></lite-youtube></div></details>
-## 73. Kendrick Lamar - Alright
+## 73. Kendrick Lamar - Alright{.song data-hasmaxattribute="False"}
 **Album:** *To Pimp a Butterfly* (2015)\
 **Genres:** West Coast Hip Hop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Z-48u_uWMHY"></lite-youtube></div></details>
-## 72. Nina Simone - Sinnerman
+## 72. Nina Simone - Sinnerman{.song data-hasmaxattribute="False"}
 **Album:** *Pastel Blues* (1965)\
 **Genres:** Rhythm & Blues
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="QH3Fx41Jpl4"></lite-youtube></div></details>
-## 71. My Bloody Valentine - when you sleep
+## 71. My Bloody Valentine - when you sleep{.song data-hasmaxattribute="True"}
 **Album:** *Loveless* (1991)\
 **Genres:** Shoegaze
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="BJLcbj80Ka8"></lite-youtube></div></details>
-## 70. Bob Dylan - Shelter from the Storm
+## 70. Bob Dylan - Shelter from the Storm{.song data-hasmaxattribute="False"}
 **Album:** *Blood on the Tracks* (1975)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="IzaXlq1Pdmk"></lite-youtube></div></details>
-## 69. Panopticon - Dead Loons
+## 69. Panopticon - Dead Loons{.song data-hasmaxattribute="False"}
 **Album:** *...And Again Into the Light* (2021)\
-**Genres:** Atmospheric Black Mtal
+**Genres:** Atmospheric Black Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="3SGscxQfmc4"></lite-youtube></div></details>
-## 68. Sharon Van Etten & Angel Olsen  - Like I Used To
+## 68. Sharon Van Etten & Angel Olsen  - Like I Used To{.song data-hasmaxattribute="False"}
 **Album:** *Like I Used To (Single)* (2021)\
 **Genres:** Heartland Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="5ibj87fwRaM"></lite-youtube></div></details>
-## 67. Camellia - Together forever, my lovely video game cartridges
+## 67. Camellia - Together forever, my lovely video game cartridges{.song data-hasmaxattribute="True"}
 **Album:** *Heart of Android* (2018)\
 **Genres:** Electrohouse
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="rMotx5EDl7w"></lite-youtube></div></details>
-## 66. Deftones - Sextape
+## 66. Deftones - Sextape{.song data-hasmaxattribute="False"}
 **Album:** *Diamond Eyes* (2010)\
 **Genres:** Dream Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="f0pdwd0miqs"></lite-youtube></div><br>
 Contender for most erotic and sensual song. This, together with half of FKA Twigs’s discography.
 </details>
-## 65. Tim Hecker - Borderlands
+## 65. Tim Hecker - Borderlands{.song data-hasmaxattribute="False"}
 **Album:** *An Imaginary Country* (2009)\
 **Genres:** Ambient
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Instrumental</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="LIJEmC91inA"></lite-youtube></div></details>
-## 64. Tom Waits - Come On Up to the House
+## 64. Tom Waits - Come On Up to the House{.song data-hasmaxattribute="False"}
 **Album:** *Mule Variations* (1999)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="wFrqclcm8pU"></lite-youtube></div></details>
-## 63. Fairouz - Al Bosta
+## 63. Fairouz - Al Bosta{.song data-hasmaxattribute="False"}
 **Album:** *Wahdon* (1979)\
 **Genres:** Jazz-Funk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="VrJnhLmwzbU"></lite-youtube></div></details>
-## 62. Uchu Conbini - 8films/tobira
+## 62. Uchu Conbini - 8films/tobira{.song data-hasmaxattribute="False"}
 **Album:** *Somaru oto wo kakunin shitara* (2013)\
 **Genres:** Math Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="XWqua6rsEmw"></lite-youtube></div></details>
-## 61. Ado - Where the Wind Blows
+## 61. Ado - Where the Wind Blows{.song data-hasmaxattribute="False"}
 **Album:** *Uta's Songs One Piece Film Red* (2022)\
 **Genres:** Classical Crossover
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span><span class="badge bg-primary rounded-pill">🏆 Best Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YO-rXgQKlF8"></lite-youtube></div><br>
 My favorite music video of all time! Director Megumi Ishitani is a generational talent and her storyboards are pure works of art.
 </details>
-## 60. kurayamisaka - Cinema Paradiso
+## 60. kurayamisaka - Cinema Paradiso{.song data-hasmaxattribute="False"}
 **Album:** *Kimi Wo Omotte Iru* (2022)\
 **Genres:** Shoegaze
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="awq9zaBNqdA"></lite-youtube></div></details>
-## 59. Hannes Wader - Leben einzeln und frei
+## 59. Hannes Wader - Leben einzeln und frei{.song data-hasmaxattribute="False"}
 **Album:** *Daß nichts bleibt wie es war * (1982)\
 **Genres:** Liedermacher
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="fKB866ZTI18"></lite-youtube></div></details>
-## 58. Iron Maiden - Run to the Hills
+## 58. Iron Maiden - Run to the Hills{.song data-hasmaxattribute="False"}
 **Album:** *The Number of the Beast* (1982)\
 **Genres:** Heavy Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="86URGgqONvA"></lite-youtube></div></details>
-## 57. World of Pleasure - Domination 2
+## 57. World of Pleasure - Domination 2{.song data-hasmaxattribute="True"}
 **Album:** *World of Pleasure & Friends * (2022)\
 **Genres:** Metalcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Pissed Off Song</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="z1WiJrJtwNg"></lite-youtube></div></details>
-## 56. Ichiko Aoba - A Hill of the Moon
+## 56. Ichiko Aoba - A Hill of the Moon{.song data-hasmaxattribute="False"}
 **Album:** *qp* (2018)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Seen Live</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="ske5X_BLr1I"></lite-youtube></div></details>
-## 55. Emperor - Ye Entrancemperium 
+## 55. Emperor - Ye Entrancemperium {.song data-hasmaxattribute="False"}
 **Album:** *Anthems to the Welkin at Dusk* (1997)\
 **Genres:** Symphonic Black Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">⚠️ Sketchy Artist</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="9mfpOa0Znr8"></lite-youtube></div></details>
-## 54. Stevie Wonder - Sir Duke
+## 54. Stevie Wonder - Sir Duke{.song data-hasmaxattribute="True"}
 **Album:** *Songs in the Key of Life* (1976)\
 **Genres:** Pop Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="EnNgASBdCeo"></lite-youtube></div></details>
-## 53. The Blue Hearts - Owaranai Uta
+## 53. The Blue Hearts - Owaranai Uta{.song data-hasmaxattribute="False"}
 **Album:** *The Blue Hearts* (1987)\
 **Genres:** Pop Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="laRZR6AUvaU"></lite-youtube></div></details>
-## 52. Weyes Blood - Andromeda
+## 52. Weyes Blood - Andromeda{.song data-hasmaxattribute="False"}
 **Album:** *Titanic Rising* (2019)\
 **Genres:** Psychedelic Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="ZHGw78IJryE"></lite-youtube></div></details>
-## 51. Slayer - Angel of Death
+## 51. Slayer - Angel of Death{.song data-hasmaxattribute="False"}
 **Album:** *Reign in Blood* (1986)\
 **Genres:** Thrash Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="r7cWi41XGCM"></lite-youtube></div></details>
-## 50. Marvin Gaye - What's Going On 
+## 50. Marvin Gaye - What's Going On {.song data-hasmaxattribute="False"}
 **Album:** *What's Going On* (1971)\
 **Genres:** Smooth Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="H-kA3UtBj4M"></lite-youtube></div></details>
-## 49. Ging Nang Boyz - Shounen Shoujo
+## 49. Ging Nang Boyz - Shounen Shoujo{.song data-hasmaxattribute="False"}
 **Album:** *Shounen Shoujo* (2021)\
 **Genres:** Seishun Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="7VYqcCLIx0s"></lite-youtube></div></details>
-## 48. Lingua Ignota - DO YOU DOUBT ME TRAITOR
+## 48. Lingua Ignota - DO YOU DOUBT ME TRAITOR{.song data-hasmaxattribute="True"}
 **Album:** *Caligula* (2019)\
 **Genres:** Neoclassical Darkwave
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Insane Vocal Performance</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="8jma4fQfJGI"></lite-youtube></div></details>
-## 47. Asian Kung-Fu Generation - Rock’n’Roll, Morning Light Falls on You
+## 47. Asian Kung-Fu Generation - Rock’n’Roll, Morning Light Falls on You{.song data-hasmaxattribute="False"}
 **Album:** *World, World, World* (2008)\
 **Genres:** Shimokita-kei
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="rDTFSD9K9dA"></lite-youtube></div></details>
-## 46. Opeth - Blackwater Park
+## 46. Opeth - Blackwater Park{.song data-hasmaxattribute="False"}
 **Album:** *Blackwater Park* (2001)\
 **Genres:** Progressive Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="ngdaa4aZLgA"></lite-youtube></div></details>
-## 45. Javiera Mena - Cámara lenta
+## 45. Javiera Mena - Cámara lenta{.song data-hasmaxattribute="False"}
 **Album:** *Esquemas juveniles* (2005)\
 **Genres:** Indie Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="vN1AlIBob-o"></lite-youtube></div></details>
-## 44. Parannoul - White Ceiling
+## 44. Parannoul - White Ceiling{.song data-hasmaxattribute="True"}
 **Album:** *To See the Next Part of the Dream* (2021)\
 **Genres:** Shoegaze
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="g1x1NtWGw5s"></lite-youtube></div></details>
-## 43. System of a Down - Aerials
+## 43. System of a Down - Aerials{.song data-hasmaxattribute="False"}
 **Album:** *Toxicity* (2001)\
 **Genres:** Alternative Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="L-iepu3EtyE"></lite-youtube></div></details>
-## 42. toe - Goodbye
+## 42. toe - Goodbye{.song data-hasmaxattribute="False"}
 **Album:** *For Long Tomorrow* (2009)\
 **Genres:** Midwest Emo
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span><span class="badge bg-primary rounded-pill">🏆 Best Drumming</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="e1pZIfretEs"></lite-youtube></div><br>
 I linked the music video above because it is genuinely amazing, but it only features an abridged version of the song. The full, superior version is 7-8 minutes long, see e.g. this [live peformance](https://www.youtube.com/watch?v=azSsMG6h8k0).
 </details>
-## 41. Sea Power - Red Rock Riviera
+## 41. Sea Power - Red Rock Riviera{.song data-hasmaxattribute="False"}
 **Album:** *From the Sea to the Land Beyond* (2013)\
 **Genres:** Post-Rock
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Instrumental</span></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="NSkb5OtTmgg"></lite-youtube></div></details>
-## 40. Judas Priest - Painkiller
+## 40. Judas Priest - Painkiller{.song data-hasmaxattribute="False"}
 **Album:** *Painkiller* (1990)\
 **Genres:** Speed Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="kO_EdmtR5Ck"></lite-youtube></div></details>
-## 39. Mass of the Fermenting Dregs - Delusionalism
+## 39. Mass of the Fermenting Dregs - Delusionalism{.song data-hasmaxattribute="False"}
 **Album:** *Mass of the Fermenting Dregs* (2006)\
 **Genres:** Shimokita-kei
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Seen Live</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="5p_DvecvJKc"></lite-youtube></div></details>
-## 38. Julee Cruise - Questions in a World of Blue
+## 38. Julee Cruise - Questions in a World of Blue{.song data-hasmaxattribute="True"}
 **Album:** *The Voice of Love* (1993)\
 **Genres:** Ambient Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="MOSaLtcqob8"></lite-youtube></div></details>
-## 37. Hikaru Utada - Beautiful World
+## 37. Hikaru Utada - Beautiful World{.song data-hasmaxattribute="False"}
 **Album:** *Heart Station* (2008)\
 **Genres:** J-Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="N2tSDKngeoY"></lite-youtube></div></details>
-## 36. Carly Rae Jepsen - Run Away With Me
+## 36. Carly Rae Jepsen - Run Away With Me{.song data-hasmaxattribute="False"}
 **Album:** *E·MO·TION* (2015)\
 **Genres:** Synthpop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="TeccAtqd5K8"></lite-youtube></div></details>
-## 35. The Cure - Endsong
+## 35. The Cure - Endsong{.song data-hasmaxattribute="False"}
 **Album:** *Songs of a Lost World* (2024)\
 **Genres:** Gothic Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="gA5pg7DRLf4"></lite-youtube></div></details>
-## 34. Ling Tosite Sigure - This Is Is This?
+## 34. Ling Tosite Sigure - This Is Is This?{.song data-hasmaxattribute="True"}
 **Album:** *Still a Sigure Virgin? * (2010)\
 **Genres:** Post-Hardcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="kP03KZyUxaU"></lite-youtube></div></details>
-## 33. supercell - Kimi no shiranai monogatari
+## 33. supercell - Kimi no shiranai monogatari{.song data-hasmaxattribute="True"}
 **Album:** *Today Is a Beautiful Day* (2011)\
 **Genres:** Pop Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="0VpGoDp3FCE"></lite-youtube></div></details>
-## 32. Snapcase - Guilty by Ignorance
+## 32. Snapcase - Guilty by Ignorance{.song data-hasmaxattribute="True"}
 **Album:** *Progression Through Unlearning* (1997)\
 **Genres:** Metalcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="wb1byFx1wAk"></lite-youtube></div></details>
-## 31. My Chemical Romance - Helena
+## 31. My Chemical Romance - Helena{.song data-hasmaxattribute="False"}
 **Album:** *Three Cheers for Sweet Revenge* (2004)\
 **Genres:** Emo-Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="UCCyoocDxBA"></lite-youtube></div></details>
-## 30. Sun Kil Moon - Duk Koo Kim
+## 30. Sun Kil Moon - Duk Koo Kim{.song data-hasmaxattribute="False"}
 **Album:** *Ghosts of the Great Highway* (2003)\
 **Genres:** Slowcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">⚠️ Sketchy Artist</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="8-RjqU3T2x4"></lite-youtube></div></details>
-## 29. Konstantin Wecker - Willy
+## 29. Konstantin Wecker - Willy{.song data-hasmaxattribute="False"}
 **Album:** *Genug ist nicht genug* (1977)\
 **Genres:** Piano Blues
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="mw6nD98IGwg"></lite-youtube></div></details>
-## 28. Cameron Winter - $0.00
+## 28. Cameron Winter - $0.00{.song data-hasmaxattribute="False"}
 **Album:** *Heavy Metal* (2024)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="ETZKZzz7MWo"></lite-youtube></div></details>
-## 27. Portishead - Glory Box
+## 27. Portishead - Glory Box{.song data-hasmaxattribute="False"}
 **Album:** *Dummy* (1994)\
 **Genres:** Trip Hop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="c417rIku6Iw"></lite-youtube></div></details>
-## 26. Radiohead - Weird Fishes/Arpeggi
+## 26. Radiohead - Weird Fishes/Arpeggi{.song data-hasmaxattribute="True"}
 **Album:** *In Rainbows* (2008)\
 **Genres:** Dream Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span><span class="badge bg-primary rounded-pill">⚠️ Sketchy Artist</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="OIdrE5igo-k"></lite-youtube></div></details>
-## 25. Rolo Tomassi - A Flood of Light
+## 25. Rolo Tomassi - A Flood of Light{.song data-hasmaxattribute="False"}
 **Album:** *Time Will Die and Love Will Bury It * (2018)\
 **Genres:** Post-Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="hM_4Ty_ZHaU"></lite-youtube></div></details>
-## 24. Fela Anikulapo Kuti and Afrika 70 - Zombie
+## 24. Fela Anikulapo Kuti and Afrika 70 - Zombie{.song data-hasmaxattribute="False"}
 **Album:** *Zombie* (1977)\
 **Genres:** Afrobeat
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qj5x6pbJMyU"></lite-youtube></div></details>
-## 23. Lana Del Rey - Venice Bitch
-**Album:** *Normal Fucking Rockwell!* (2018)\
+## 23. Lana Del Rey - Venice Bitch{.song data-hasmaxattribute="False"}
+**Album:** *Norman Fucking Rockwell!* (2018)\
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qg3DxELVPj4"></lite-youtube></div></details>
-## 22. Keiichi Okabe - City Ruins (Rays of Light)
+## 22. Keiichi Okabe - City Ruins (Rays of Light){.song data-hasmaxattribute="False"}
 **Album:** *NieR:Automata * (2017)\
 **Genres:** New Age
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="LC5HsZt4oNc"></lite-youtube></div></details>
-## 21. Perfume - Dream Fighter
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="LC5HsZt4oNc"></lite-youtube></div></details>
+## 21. Perfume - Dream Fighter{.song data-hasmaxattribute="True"}
 **Album:** *⊿ (Triangle)* (2008)\
 **Genres:** Electropop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="rBX5YGPNDbs"></lite-youtube></div></details>
-## 20. The Dead Kennedys - Nazi Punks Fuck Off
+## 20. The Dead Kennedys - Nazi Punks Fuck Off{.song data-hasmaxattribute="True"}
 **Album:** *In God We Trust, Inc.* (1981)\
 **Genres:** Hardcore Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="PzHLPnGuVSQ"></lite-youtube></div></details>
-## 19. Nas - N.Y. State of Mind
+## 19. Nas - N.Y. State of Mind{.song data-hasmaxattribute="False"}
 **Album:** *Illmatic* (1994)\
 **Genres:** Boom Bap
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="izhKFB0_2w0"></lite-youtube></div></details>
-## 18. Rage Against the Machine - Killing in the Name
+## 18. Rage Against the Machine - Killing in the Name{.song data-hasmaxattribute="False"}
 **Album:** *Rage Against the Machine* (1992)\
 **Genres:** Alternative Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="bWXazVhlyxQ"></lite-youtube></div></details>
-## 17. Electric Light Orchestra - Twilight
+## 17. Electric Light Orchestra - Twilight{.song data-hasmaxattribute="False"}
 **Album:** *Time* (1981)\
 **Genres:** Pop Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="yDN68LxWW-8"></lite-youtube></div></details>
-## 16. Gorguts - Le Toit Du Monde
+## 16. Gorguts - Le Toit Du Monde{.song data-hasmaxattribute="False"}
 **Album:** *Colored Sands* (2013)\
 **Genres:** Dissonant Death Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="7LQd0IoJ25M"></lite-youtube></div></details>
-## 15. Cocteau Twins - Heaven or Las Vegas 
+## 15. Cocteau Twins - Heaven or Las Vegas {.song data-hasmaxattribute="True"}
 **Album:** *Heaven or Las Vegas * (1990)\
 **Genres:** Dream Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="JlwcQR5HHck"></lite-youtube></div></details>
-## 14. Seatbelts - Blue
+## 14. Seatbelts - Blue{.song data-hasmaxattribute="True"}
 **Album:** *Cowboy Bebop Blue* (1999)\
 **Genres:** Space Blues
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Xjzb_-26m2o"></lite-youtube></div></details>
-## 13. The Flaming Lips - Do You Realize??
+## 13. The Flaming Lips - Do You Realize??{.song data-hasmaxattribute="False"}
 **Album:** *Yoshimi Battles the Pink Robots* (2002)\
 **Genres:** Neo-Psychedelia
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Beautiful Song</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="lPXWt2ESxVY"></lite-youtube></div><br>
 I made a [Studio Ghibli music video tribute](https://www.youtube.com/watch?v=nA2ypGM98h4) using this song and somehow it’s one of my proudest accomplishments.
 </details>
-## 12. The Pillows - Last Dinosaur
+## 12. The Pillows - Last Dinosaur{.song data-hasmaxattribute="False"}
 **Album:** *Happy Bivouac* (1999)\
 **Genres:** Power Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="xB2K-riHfSc"></lite-youtube></div></details>
-## 11. Pink Floyd - Wish You Were Here
+## 11. Pink Floyd - Wish You Were Here{.song data-hasmaxattribute="False"}
 **Album:** *Wish You Were Here* (1975)\
 **Genres:** Art Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="K6qj09OHvjw"></lite-youtube></div></details>
-## 10. The Devin Townsend Band - Deadhead
+## 10. The Devin Townsend Band - Deadhead{.song data-hasmaxattribute="True"}
 **Album:** *Accelerated Evolution* (2003)\
 **Genres:** Progressive Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="tJz-L3SbrLE"></lite-youtube></div></details>
-## 9. Kinoko Teikoku - Musician
+## 9. Kinoko Teikoku - Musician{.song data-hasmaxattribute="False"}
 **Album:** *Eureka* (2013)\
 **Genres:** Indie Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="vA1Ph6SpTkI"></lite-youtube></div></details>
-## 8. David Bowie - “Heroes”
+## 8. David Bowie - “Heroes”{.song data-hasmaxattribute="False"}
 **Album:** *“Heroes”* (1977)\
 **Genres:** Art Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YLp2cW7ICCU"></lite-youtube></div></details>
-## 7. FKA Twigs - Cellophane
+## 7. FKA Twigs - Cellophane{.song data-hasmaxattribute="True"}
 **Album:** *Magdalene* (2019)\
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YkLjqFpBh84"></lite-youtube></div></details>
-## 6. Shiina Ringo - Gips
+## 6. Shiina Ringo - Gips{.song data-hasmaxattribute="True"}
 **Album:** *Shouso Strip* (2000)\
 **Genres:** Shimokita-kei
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="zldBTSx9JpE"></lite-youtube></div></details>
-## 5. Converge - Jane Doe
+## 5. Converge - Jane Doe{.song data-hasmaxattribute="True"}
 **Album:** *Jane Doe* (2001)\
 **Genres:** Mathcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="2WGbgnDQF6A"></lite-youtube></div></details>
-## 4. Mac Miller - Good News
+## 4. Mac Miller - Good News{.song data-hasmaxattribute="True"}
 **Album:** *Circles* (2020)\
 **Genres:** Neo-Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Tears Shed</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="aIHF7u9Wwiw"></lite-youtube></div></details>
-## 3. Sam Cooke - A Change Is Gonna Come
+## 3. Sam Cooke - A Change Is Gonna Come{.song data-hasmaxattribute="False"}
 **Album:** *Ain’t That Good News* (1964)\
 **Genres:** Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="1oZ6Z9xRxo8"></lite-youtube></div></details>
-## 2. Carissa's Wierd - September Come Take This Heart Away
+## 2. Carissa's Wierd - September Come Take This Heart Away{.song data-hasmaxattribute="True"}
 **Album:** *Songs About Leaving* (2002)\
 **Genres:** Slowcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Heaviest Heart</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="cYtdQccn54I"></lite-youtube></div></details>
-## 1. Light Bringer - Hyperion
+## 1. Light Bringer - Hyperion{.song data-hasmaxattribute="True"}
 **Album:** *Scenes of Infinity* (2013)\
 **Genres:** Power Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Life-affirming Song</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qnqud-E4aXM"></lite-youtube></div></details>
 ## Overall Mood Distribution
-<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:47.540983606557376%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:57.377049180327866%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:36.6120218579235%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:24.043715846994534%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:70.49180327868852%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:91.80327868852459%;" role="progressbar"></div></div></div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:47.540983606557376%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:58.46994535519126%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:36.6120218579235%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:24.043715846994534%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:70.49180327868852%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:91.80327868852459%;" role="progressbar"></div></div></div>
+
+## Honorable Mentions
+Songs that barely missed the top 100...
+
+2Pac - Words of Wisdom<br>Adrianne Lenker - Sadness as a Gift<br>American Football - Never Meant<br>Björk - Hyperballad<br>Bob Marley & The Wailers - No Woman, No Cry<br>Bump of Chicken - Answer<br>Bôa - Duvet<br>CHVRCHES - Asking for a Friend<br>Denzel Curry - Walkin<br>Dropkick Murphys - The State of Massachusetts<br>Faye Wong - Dreams<br>Frank Ocean - Thinkin Bout You<br>Gang Starr - Moment of Truth<br>Gorillaz - On Melancholy Hill<br>Grouper - Clearing<br>Hatchie - Til We Run Out of Air<br>James Brown - Give It Up Or Turnit Loose<br>JunxPunx - Goolaxy<br>Low Roar - Don’t Be So Serious<br>MDC - John Wayne Was a Nazi<br>Mercyful Fate - A Dangerous Meeting<br>Midori - Yukiko-san<br>Mobb Deep - Shook Ones, Pt. II<br>Nobuo Uematsu - Main Theme of FFVII<br>Pixies - Debaser<br>Rosa Walton - I Really Want to Stay at Your House<br>School Food Punishment - Pool<br>Shoji Meguro - Beneath the Mask<br>Songs: Ohia - Farewell Transmission<br>The Coup - Me and Jesus the Pimp in a ‘79 Granada Last Night<br>The Jimi Hendrix Experience - Little Wing<br>Toby Fox - Undertale<br>Ulcerate - Drown Within<br>Yuzu - Hyouri Ittai<br>ZUN - 月まで届け、不死の煙 <br>
+```{ojs}
+
+function wrapSections() {
+  const h2s = Array.from(document.querySelectorAll("h2.song"))
+
+  h2s.forEach(h2 => {
+    const wrapper = document.createElement("div")
+    wrapper.className = "section"
+
+    h2.parentNode.insertBefore(wrapper, h2)
+
+    let node = h2
+    while (node) {
+      const next = node.nextSibling
+      wrapper.appendChild(node)
+
+      if (!next || (next.nodeType === 1 && next.tagName === "H2")) {
+        break
+      }
+
+      node = next
+    }
+  })
+}
+wrapSections()
+```
+<script>
+    function filterSections(hasmaxattribute) {
+  document.querySelectorAll(".section").forEach(section => {
+    const h2 = section.querySelector("h2")
+    const match = hasmaxattribute === "all" || 
+                  h2.dataset.hasmaxattribute === hasmaxattribute
+
+    section.style.display = match ? "" : "none"
+  })
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
+
+  switchMaxMood.addEventListener("change", (e) => {
+    if (e.target.checked) {
+      filterSections("True");
+    } else {
+      filterSections("all");
+    }
+  });
+</script>
+
