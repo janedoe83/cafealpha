@@ -14,21 +14,88 @@ The greatest songs of all time!!! (According to me)\
 - Classical music is not eligible and will be covered in a separate list.
 :::
 
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+    Sort
+  </button>
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('rank','desc'); return false;">
+        Rank
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('year','desc'); return false;">
+        Year
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('sad','desc'); return false;">
+        Sad
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('angry','desc'); return false;">
+        Angry
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('happy','desc'); return false;">
+        Happy
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('Dark','desc'); return false;">
+        Dark
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('groovy','desc'); return false;">
+        Groovy
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('dreamy','desc'); return false;">
+        Dreamy
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('passion','desc'); return false;">
+        Passion
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!---
 <div class="d-flex gap-4 mb-3">
 <div class="form-check form-switch">
 <input class="form-check-input" type="checkbox" id="toggleMaxMood">
 <label class="form-check-label" for="toggleMaxMood">Max. Mood</label>
 </div>
 
-<div class="form-check form-switch">
+<div class="form-check form-switch mt-4">
 <input class="form-check-input" type="checkbox" id="toggleMood" checked>
 <label class="form-check-label" for="toggleMood">Mood Levels</label>
 </div>
 
-<div class="form-check form-switch">
+<div class="form-check form-switch mt-4">
 <input class="form-check-input" type="checkbox" id="toggleTags" checked>
 <label class="form-check-label" for="toggleTags">Tags</label>
 </div></div>
+--->
+
 
 {{CONTENT}}
 
@@ -59,7 +126,8 @@ function wrapSections() {
 wrapSections()
 ```
 <script>
-    function filterSections(hasmaxattribute) {
+
+function filterSections(hasmaxattribute) {
   document.querySelectorAll(".section").forEach(section => {
     const h2 = section.querySelector("h2")
     const match = hasmaxattribute === "all" || 
@@ -69,8 +137,31 @@ wrapSections()
   })
 }
 
-const switchMaxMood = document.getElementById("toggleMaxMood");
+function sortSections(by = "rank", direction = "desc", numeric = true) {
+  const container = document.querySelector(".songs") // adjust if needed
+  const sections = Array.from(document.querySelectorAll(".section"))
+    console.log(by)
+  if (numeric) {
+    sections.sort((a, b) => {
+    const aVal = Number(a.querySelector("h2").dataset[by])
+    const bVal = Number(b.querySelector("h2").dataset[by])
+    return direction === "desc" ? bVal - aVal : aVal - bVal
+    })
+  } else {
+    sections.sort((a, b) => {
+        const aVal = a.querySelector("h2").dataset[by]
+        const bVal = b.querySelector("h2").dataset[by]
 
+        return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal)
+    })
+  }
+
+  sections.forEach(section => container.appendChild(section))
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
   switchMaxMood.addEventListener("change", (e) => {
     if (e.target.checked) {
       filterSections("True");

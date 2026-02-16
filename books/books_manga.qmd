@@ -1,6 +1,7 @@
 ---
 title: "Manga Recommendations"
 format: html
+lightbox: true
 ---
 
 Work in pogress! By no means exhaustive.
@@ -33,7 +34,7 @@ Although the series can be very funny when its jokes land, overall it relies too
 
 **Does it have an anime adaptation?**
 
-Yes, but it's not without issues. The pacing is overall considerably worse compared to the manga, and the production quality can be inconsistent, though generally getting better over time. However, at its best, the adaptation offers many standout moments that elevate the source material to even greater heights. Toei Animation, the studio behind the adapation, really went all out in some of the later arcs, hiring a barrage of industry-leading animators (and discovering generational talents such as episode director [Megumi Ishitani]https://blog.sakugabooru.com/2022/04/30/the-meteoric-ascent-of-megumi-ishitani-toei-animations-new-heir/)) to do justice to some of the story's most climactic moments.
+Yes, but it's not without issues. The pacing is overall considerably worse compared to the manga, and the production quality can be inconsistent, though generally getting better over time. However, at its best, the adaptation offers many standout moments that elevate the source material to even greater heights. Toei Animation, the studio behind the adapation, really went all out in some of the later arcs, hiring a barrage of industry-leading animators (and discovering generational talents such as episode director [Megumi Ishitani](https://blog.sakugabooru.com/2022/04/30/the-meteoric-ascent-of-megumi-ishitani-toei-animations-new-heir/)) to do justice to some of the story's most climactic moments.
 
 ## Aria
 
