@@ -1,0 +1,81 @@
+---
+title: "Top 100 Songs"
+format: html
+toc: false
+echo: false
+---
+
+
+The greatest songs of all time!!! (According to me)\
+
+
+::: {.callout-note title="Note"}
+- One song per artist.
+- Classical music is not eligible and will be covered in a separate list.
+:::
+
+<div class="d-flex gap-4 mb-3">
+<div class="form-check form-switch">
+<input class="form-check-input" type="checkbox" id="toggleMaxMood">
+<label class="form-check-label" for="toggleMaxMood">Max. Mood</label>
+</div>
+
+<div class="form-check form-switch">
+<input class="form-check-input" type="checkbox" id="toggleMood" checked>
+<label class="form-check-label" for="toggleMood">Mood Levels</label>
+</div>
+
+<div class="form-check form-switch">
+<input class="form-check-input" type="checkbox" id="toggleTags" checked>
+<label class="form-check-label" for="toggleTags">Tags</label>
+</div></div>
+
+{{CONTENT}}
+
+```{ojs}
+
+function wrapSections() {
+  const h2s = Array.from(document.querySelectorAll("h2.song"))
+
+  h2s.forEach(h2 => {
+    const wrapper = document.createElement("div")
+    wrapper.className = "section"
+
+    h2.parentNode.insertBefore(wrapper, h2)
+
+    let node = h2
+    while (node) {
+      const next = node.nextSibling
+      wrapper.appendChild(node)
+
+      if (!next || (next.nodeType === 1 && next.tagName === "H2")) {
+        break
+      }
+
+      node = next
+    }
+  })
+}
+wrapSections()
+```
+<script>
+    function filterSections(hasmaxattribute) {
+  document.querySelectorAll(".section").forEach(section => {
+    const h2 = section.querySelector("h2")
+    const match = hasmaxattribute === "all" || 
+                  h2.dataset.hasmaxattribute === hasmaxattribute
+
+    section.style.display = match ? "" : "none"
+  })
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
+
+  switchMaxMood.addEventListener("change", (e) => {
+    if (e.target.checked) {
+      filterSections("True");
+    } else {
+      filterSections("all");
+    }
+  });
+</script>
