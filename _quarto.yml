@@ -3,6 +3,7 @@ project:
   render:
     - "*.qmd"
     - "!*.ipynb"
+    - "!template_*.qmd"
 
 website:
   title: "Café Alpha"

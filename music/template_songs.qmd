@@ -53,7 +53,7 @@ The greatest songs of all time!!! (According to me)\
     </li>
     <li>
       <a class="dropdown-item" href="#"
-         onclick="sortSections('Dark','desc'); return false;">
+         onclick="sortSections('dark','desc'); return false;">
         Dark
       </a>
     </li>
@@ -98,6 +98,44 @@ The greatest songs of all time!!! (According to me)\
 
 
 {{CONTENT}}
+
+## Stats
+
+```{python}
+import numpy as np
+import pandas as pd
+import plotly.express as px
+INPUT_CSV = "../data/songs.csv"
+df = pd.read_csv(INPUT_CSV)
+df = df.sort_index(ascending=False)
+
+counts = (
+    df.groupby(["Country", "CountryName"])
+      .size()
+      .reset_index(name="count")
+).sort_values("count", ascending=False).rename(columns={"count": "Count"})
+
+fig = px.bar(
+    counts,
+    x="Country",
+    y="Count",
+    hover_data=["CountryName"]
+)
+
+fig.update_layout(yaxis_title=None)
+fig.show()
+
+# Decade histogram
+df["Decade"] = df["Year"].astype(str).str.slice(0,-3) + ["0"]
+fig = px.histogram(df[df["Decade"]!="0"].sort_values(by="Decade"), x="Decade")
+fig.update_layout(yaxis_title=None)
+fig.show()
+
+# Views histogram
+fig = px.histogram(np.log10(df["Views"]))
+fig.update_layout(yaxis_title=None,xaxis_title="log10(YouTube Views)",showlegend=False)
+fig.show()
+```
 
 ```{ojs}
 
