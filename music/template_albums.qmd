@@ -224,7 +224,7 @@ function filterSections(hasmaxattribute) {
 }
 
 function sortSections(by = "rank", direction = "desc", numeric = true) {
-  const container = document.querySelector(".albums") // adjust if needed
+  const container = document.querySelector(".album") // adjust if needed
   const sections = Array.from(document.querySelectorAll(".section"))
     console.log(by)
   if (numeric) {

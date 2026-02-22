@@ -2,65 +2,67 @@ Title,Artist,Year,Genre,CoverFile,Country,CountryName,Tags,Mood_Sad,Mood_Angry,M
 Scenes of Infinity,Light Bringer,2013,Power Metal,cover_light_bringer_scenes.webp,JP,Japan,,0,0,3,0,0,0,5,, 降り注ぐのは　無限の愛 / いつまでも僕らを　照らして
 Songs About Leaving,Carissa's Wierd,2002,Slowcore,cover_carissa_songs.jpeg,US,USA,,5,0,0,0,0,2,0,,I saw two fake long-stemmed roses on the windshield of a car / September come please take this heart away
 Kalk Samen Kuri no Hana,Shiina Ringo,2003,Art Pop,cover_shiina_kalk.jpeg,JP,Japan,,1,1,0,1,1,1,3,,
-Eureka,Kinoko Teikoku,2013,Indie Rock,,JP,Japan,,4,0,0,0,0,4,4,,
-Jane Doe,Converge,2001,Mathcore,,US,USA,,2,5,0,3,0,0,5,,I want out
-NieR:Automata ,Keiichi Okabe & Keigo Hoashi,2017,New Age,,JP,Japan,Soundtrack,4,0,2,0,0,2,0,,
-Circles,Mac Miller,2020,Neo-Soul,,US,USA,,5,0,0,0,0,0,0,,There's a whole lot more for me waitin' on the other side / I'm always wonderin' if it feel like summer
-Wish You Were Here,Pink Floyd,1975,Art Rock,,GB,United Kingdom,,3,0,0,0,0,3,0,,"How I wish, how I wish you were here / We're just two lost souls swimming in a fishbowl, year after year / Running over the same old ground, what have we found? / The same old fears, wish you were here"
-In Rainbows,Radiohead,2008,Dream Pop,,GB,United Kingdom,,2,0,0,0,0,5,1,,
-Cowboy Bebop,Seatbelts,1998,Jazz,,JP,Japan,Soundtrack,2,0,1,0,4,0,0,,
-Heaven or Las Vegas ,Cocteau Twins,1990,Dream Pop,,GB,United Kingdom,,0,0,0,0,0,5,1,,
-Colored Sands,Gorguts,2013,Dissonant Death Metal,,CA,Canada,,0,4,0,4,0,0,0,,
-E·MO·TION,Carly Rae Jepsen,2015,Synthpop,,CA,Canada,,0,0,4,0,0,1,3,,
-Happy Bivouac,The Pillows,1999,Power Pop,,JP,Japan,,3,0,3,0,0,1,3,,
-Time,Electric Light Orchestra,1981,Pop Rock,,GB,United Kingdom,,1,0,3,0,1,1,3,,
-Rage Against the Machine,Rage Against the Machine,1992,Alternative Metal,,US,USA,,0,4,0,0,3,0,0,,FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME
-Illmatic,Nas,1994,Boom Bap,,US,USA,,0,0,0,2,1,0,0,,"Inhale deep like the words of my breath / I never sleep, 'cause sleep is the cousin of death"
-Biomech,Ocean Machine,1997,Progressive Metal,,CA,Canada,,2,1,0,0,0,3,4,,"Now the rain it comes, the rain it blurs the grey line / The grey line, the Greyhound home"
-⊿ (Triangle),Perfume,2008,Electropop,,JP,Japan,,0,0,5,0,0,0,1,,
-Low,David Bowie,1977,Art Rock,,GB,United Kingdom,,3,0,2,0,0,2,1,,
-Norman Fucking Rockwell!,Lana Del Rey,2018,Art Pop,,US,USA,,2,0,0,0,0,4,0,,And as the summer fades away / Nothing gold can stay
-To Pimp a Butterfly,Kendrick Lamar,2015,West Coast Hip Hop,,US,USA,,0,2,3,1,1,0,2,,
-Magdalene,FKA Twigs,2019,Art Pop,,GB,United Kingdom,,5,0,0,0,0,0,5,,"I try, but I get overwhelmed / All wrapped in cellophane, the feelings that we had"
-Windswept Adan,Ichiko Aoba,2020,Chamber Folk,,JP,Japan,,2,0,3,0,0,3,1,,
-Toxicity,System of a Down,2001,Alternative Metal,,US,USA,,1,0,0,0,0,3,1,,
+Eureka,Kinoko Teikoku,2013,Indie Rock,cover_kinoko_eureka.jpeg,JP,Japan,,4,0,0,0,0,4,4,,
+Jane Doe,Converge,2001,Mathcore,cover_converge_jane.jpeg,US,USA,,2,5,0,3,0,0,5,,I want out
+NieR:Automata ,Keiichi Okabe & Keigo Hoashi,2017,New Age,cover_nier_automata.jpeg,JP,Japan,Soundtrack,4,0,2,0,0,2,0,,
+Circles,Mac Miller,2020,Neo-Soul,cover_mac_circles.jpeg,US,USA,Posthumous,5,0,0,0,0,0,0,,There's a whole lot more for me waitin' on the other side / I'm always wonderin' if it feel like summer
+Wish You Were Here,Pink Floyd,1975,Art Rock,cover_pink_wish.png,GB,United Kingdom,,3,0,0,0,0,4,0,,"How I wish, how I wish you were here / We're just two lost souls swimming in a fishbowl, year after year / Running over the same old ground, what have we found? / The same old fears, wish you were here"
+In Rainbows,Radiohead,2008,Dream Pop,cover_radiohead_rainbows.jpeg,GB,United Kingdom,,2,0,0,0,0,4,2,,
+Heaven or Las Vegas ,Cocteau Twins,1990,Dream Pop,cover_cocteau_heaven.jpeg,GB,United Kingdom,,0,0,0,0,0,5,1,,
+E·MO·TION,Carly Rae Jepsen,2015,Synthpop,cover_carly_emotion.jpeg,CA,Canada,,1,0,3,0,0,1,1,,
+Colored Sands,Gorguts,2013,Dissonant Death Metal,cover_gorguts_colored.jpeg,CA,Canada,,0,4,0,4,0,0,0,,
+Songs in the Key of Life,Stevie Wonder,1976,Pop Soul,cover_stevie_keys.jpeg,US,USA,,0,0,5,0,4,0,3,,
+FLCL Original Soundtrack No. 3,The Pillows,2005,Power Pop,cover_pillows_flcl.jpeg,JP,Japan,,2,0,3,0,0,1,3,,
+Cowboy Bebop,Seatbelts,1998,Jazz,cover_seatbelts_cowboy.jpeg,JP,Japan,Soundtrack,2,0,1,0,4,0,0,,
+Windswept Adan,Ichiko Aoba,2020,Chamber Folk,cover_ichiko_windswept.jpeg,JP,Japan,,2,0,3,0,0,3,1,,
+To Pimp a Butterfly,Kendrick Lamar,2015,West Coast Hip Hop,cover_kendrick_pimp.jpeg,US,USA,,1,2,1,1,2,0,3,,
+Norman Fucking Rockwell!,Lana Del Rey,2018,Art Pop,cover_lana_norman.jpeg,US,USA,,2,0,0,0,0,3,0,,And as the summer fades away / Nothing gold can stay
+Toxicity,System of a Down,2001,Alternative Metal,cover_system_toxicity.jpeg,US,USA,,0,3,0,0,0,1,3,,
 Kessoku Band,Kessoku Band,2022,Shimokita-kei,,JP,Japan,,0,0,3,0,0,1,1,,
 Loveless,My Bloody Valentine,1991,Shoegaze,,IE,Ireland,,2,0,2,0,0,5,0,,
-Ghosts of the Great Highway,Sun Kil Moon,2003,Slowcore,,US,USA,,4,0,1,0,0,3,0,,
-Three Cheers for Sweet Revenge,My Chemical Romance,2004,Emo-Pop,,US,USA,,2,1,0,1,0,0,4,,
-Songs in the Key of Life,Stevie Wonder,1976,Pop Soul,,US,USA,,0,0,5,0,4,0,3,,
+Illmatic,Nas,1994,Boom Bap,cover_nas_illmatic.jpeg,US,USA,,0,0,0,2,1,0,0,,"Inhale deep like the words of my breath / I never sleep, 'cause sleep is the cousin of death"
+Biomech,Ocean Machine,1997,Progressive Metal,,CA,Canada,,2,1,0,0,0,3,4,,"Now the rain it comes, the rain it blurs the grey line / The grey line, the Greyhound home"
+⊿ (Triangle),Perfume,2008,Electropop,cover_perfume_triangle.jpeg,JP,Japan,,0,0,3,0,2,1,0,,
+Low,David Bowie,1977,Art Rock,,GB,United Kingdom,,3,0,2,0,0,2,1,,
+Rage Against the Machine,Rage Against the Machine,1992,Alternative Metal,cover_ratm_ratm.jpeg,US,USA,,0,4,0,0,3,0,0,,FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME / FUCK YOU I WON’T DO WHAT YOU TELL ME
+Magdalene,FKA Twigs,2019,Art Pop,,GB,United Kingdom,,5,0,0,0,0,0,5,,"I try, but I get overwhelmed / All wrapped in cellophane, the feelings that we had"
+To See the Next Part of the Dream,Parannoul,2021,Shoegaze,cover_parannoul_dream.jpeg,KR,South Korea,,3,1,1,0,0,5,3,,
+...And Again Into the Light,Panopticon,2021,Atmospheric Black Metal,cover_panopticon_light.jpeg,US,USA,,3,3,0,2,0,0,3,,
+Time,Electric Light Orchestra,1981,Pop Rock,,GB,United Kingdom,,1,0,3,0,1,1,3,,
 Dummy,Portishead,1994,Trip Hop,,GB,United Kingdom,,2,0,0,1,0,4,1,,
-Heavy Metal,Cameron Winter,2024,Singer-Songwriter,,US,USA,,4,0,0,0,0,0,4,,
-To See the Next Part of the Dream,Parannoul,2021,Shoegaze,,KR,South Korea,,3,1,1,0,0,5,3,,
+Heavy Metal,Cameron Winter,2024,Singer-Songwriter,cover_cameron_heavy.jpeg,US,USA,,4,0,0,0,0,0,4,,
 Esquemas juveniles,Javiera Mena,2005,Indie Pop,,ES,Spain,,0,0,1,0,0,4,0,,
-Progression Through Unlearning,Snapcase,1997,Metalcore,,US,USA,,0,5,0,0,1,0,0,,
 Still a Sigure Virgin? ,Ling Tosite Sigure,2010,Post-Hardcore,,JP,Japan,,2,2,0,1,0,2,5,,
 For Long Tomorrow,toe,2009,Midwest Emo,,JP,Japan,,3,0,1,0,1,3,3,,
-Songs of a Lost World,The Cure,2024,Gothic Rock,,GB,United Kingdom,,4,0,0,4,0,3,0,,"It's all gone, it's all gone / I will lose myself in time / It won't be long"
+The Number of the Beast,Iron Maiden,1982,Heavy Metal,,GB,United Kingdom,,0,2,0,1,0,0,3,,
 Caligula,Lingua Ignota,2019,Neoclassical Darkwave,,US,USA,,0,5,0,5,0,0,0,,
+Ghosts of the Great Highway,Sun Kil Moon,2003,Slowcore,,US,USA,⚠️ Sketchy Artist,4,0,1,0,0,3,0,,
 Heart Station,Hikaru Utada,2008,J-Pop,,JP,Japan,,2,0,0,0,0,3,3,,
 The Voice of Love,Julee Cruise,1993,Ambient Pop,,US,USA,,5,0,0,1,0,3,0,,
 Mass of the Fermenting Dregs,Mass of the Fermenting Dregs,2006,Shimokita-kei,,JP,Japan,,1,0,1,0,0,0,3,,
 What's Going On,Marvin Gaye,1971,Smooth Soul,,US,USA,,3,0,2,0,0,1,2,,
-Zombie,Fela Anikulapo Kuti and Afrika 70,1977,Afrobeat,,NG,Nigeria,,0,1,0,0,4,0,0,,"Zombie no go turn, unless you tell am to turn (Zombie) / Zombie no go think, unless you tell em to think (Zombie)"
+Three Cheers for Sweet Revenge,My Chemical Romance,2004,Emo-Pop,,US,USA,,2,1,0,1,0,0,4,,
 Painkiller,Judas Priest,1990,Speed Metal,,GB,United Kingdom,,0,3,0,0,0,0,3,,
 I Love My Computer ,Ninajirachi,2025,Trance,,GB,United Kingdom,,1,0,1,2,0,3,0,,
 Clair Obscur: Expedition 33 ,Lorien Testard,2025,Classical Crossover,,FR,France,Soundtrack,4,0,0,1,0,1,3,,
 Igor,"Tyler, the Creator",2019,Neo-Soul,,US,USA,,3,0,0,0,0,0,2,,
 Daß nichts bleibt wie es war ,Hannes Wader,1982,Liedermacher,,DE,Germany,,0,1,3,0,0,0,1,,
+Titanic Rising,Weyes Blood,2019,Psychedelic Pop,,US,USA,,3,0,0,0,0,4,1,,
+Zombie,Fela Anikulapo Kuti and Afrika 70,1977,Afrobeat,,NG,Nigeria,,0,1,0,0,4,0,0,,"Zombie no go turn, unless you tell am to turn (Zombie) / Zombie no go think, unless you tell em to think (Zombie)"
 FTA!: Songs of the GI Resistance ,Barbara Dane,1970,Contemporary Folk,,US,USA,,1,1,1,0,0,0,1,,
 Blackwater Park,Opeth,2001,Progressive Metal,,SE,Sweden,,1,2,0,4,2,1,0,,
-The Number of the Beast,Iron Maiden,1982,Heavy Metal,,GB,United Kingdom,,0,2,0,1,0,0,3,,
 Il était une forêt,Gris,2007,Depressive Black Metal,,US,USA,,3,0,0,5,0,0,3,,
 Blade Runner,Vangelis,1980,Progressive Electronic,,US,USA,,4,0,0,0,0,4,0,,
+Songs of a Lost World,The Cure,2024,Gothic Rock,,GB,United Kingdom,,4,0,0,4,0,3,0,,"It's all gone, it's all gone / I will lose myself in time / It won't be long"
+Progression Through Unlearning,Snapcase,1997,Metalcore,cover_snapcase_progression.jpeg,US,USA,,0,5,0,0,1,0,0,,
 Kimi Wo Omotte Iru,kurayamisaka,2022,Shoegaze,,JP,Japan,,1,0,1,0,0,4,1,,
 Thousand Knives of Ryuichi Sakamoto ,Ryuichi Sakamoto,1978,Progressive Electronic,,JP,Japan,,0,0,1,0,4,0,0,,
 Reign in Blood,Slayer,1986,Thrash Metal,,US,USA,,0,4,0,4,0,0,0,,
 Anthems to the Welkin at Dusk,Emperor,1997,Symphonic Black Metal,,NO,Norway,,0,4,0,4,0,0,0,,
-Titanic Rising,Weyes Blood,2019,Psychedelic Pop,,US,USA,,3,0,0,0,0,4,1,,
 From the Sea to the Land Beyond,Sea Power,2013,Post-Rock,,GB,United Kingdom,,3,0,0,0,0,1,0,,
 Time Will Die and Love Will Bury It ,Rolo Tomassi,2018,Post-Metal,,GB,United Kingdom,,3,3,2,1,0,3,4,,
 The Blue Hearts,The Blue Hearts,1987,Pop Punk,,JP,Japan,,1,1,4,0,0,0,3,,
+Hounds of Love,Kate Bush,1985,Art Pop,cover_bush_hounds.jpeg,GB,United Kingdom,,3,0,1,0,0,0,4,,
 "In God We Trust, Inc.",The Dead Kennedys,1981,Hardcore Punk,,US,USA,,0,5,0,0,0,0,0,,Punk ain't no religious cult / Punk means thinking for yourself / You ain't hardcore when you spike your hair / When a jock still lives inside your head
 Abbey Road,The Beatles,1969,Sunshine Pop,,GB,United Kingdom,,0,0,5,0,0,1,0,,
 World of Pleasure & Friends ,World of Pleasure,2022,Metalcore,,CA,Canada,,0,5,0,4,1,0,0,,
@@ -69,11 +71,10 @@ Ain’t That Good News,Sam Cooke,1964,Soul,,US,USA,,4,0,1,0,0,0,4,,"It's been a 
 Genug ist nicht genug,Konstantin Wecker,1977,Piano Blues,,DE,Germany,,3,2,0,0,0,0,4,,
 Somaru oto wo kakunin shitara,Uchu Conbini,2013,Math Pop,,JP,Japan,,2,0,1,0,0,4,0,,
 Wahdon,Fairouz,1979,Jazz-Funk,,LB,Lebanon,,1,0,0,0,2,0,3,,
-Hounds of Love,Kate Bush,1985,Art Pop,cover_bush_hounds.jpeg,GB,United Kingdom,,3,0,1,0,0,0,4,,
-Reminder,JunxPunx,2014,Hi-Tech Psytrance,,JP,Japan,,0,0,2,0,5,0,0,,
+Reminder,JunxPunx,2014,Hi-Tech Psytrance,cover_junxpunx_reminder.webp,JP,Japan,,0,0,2,0,5,0,0,,
 An Imaginary Country,Tim Hecker,2009,Ambient,,CA,Canada,,4,0,0,2,0,4,0,,
+Sometimes I Might Be Introvert,Little Simz,2021,Conscious Hip Hop,,GB,United Kingdom,,,,,,,,,,
 Heart of Android,Camellia,2018,Electrohouse,,JP,Japan,,0,0,5,0,3,0,0,,
-...And Again Into the Light,Panopticon,2021,Atmospheric Black Metal,,US,USA,,3,3,0,2,0,0,3,,
 Blood on the Tracks,Bob Dylan,1975,Singer-Songwriter,,US,USA,,3,0,2,0,0,0,0,,
 Pastel Blues,Nina Simone,1965,Rhythm & Blues,,US,USA,,0,3,0,2,0,0,4,,
 Skitzofrenia Simulation,Sewerslvt,2021,Atmospheric Drum’n’Bass,,AU,Australia,,1,3,0,3,3,0,0,,
@@ -131,3 +132,6 @@ Like I Used To (Single),Sharon Van Etten & Angel Olsen ,2021,Heartland Rock,,US,
 ,Gorillaz,,,,,,,,,,,,,,,
 ,American Football,,,,,,,,,,,,,,,
 ,Adrianne Lenker,,,,,,,,,,,,,,,
+,Kow Otani,,,,,,,,,,,,,,,
+,Yoshihiro Kanno,,,,,,,,,,,,,,,
+,Fishmans,,,,,,,,,,,,,,,
