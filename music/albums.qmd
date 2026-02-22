@@ -38,7 +38,7 @@ The greatest ablums of all time!!! (According to me)\
 </div>
 
 
-<div class="songs">## 71. JunxPunx - Reminder{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="71" data-year="2014"}
+<div class="songs">## 72. JunxPunx - Reminder{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="72" data-year="2014"}
 <div class="album-container"><div class="album-image">![](../img/cover_junxpunx_reminder.webp)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2014<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Hi-Tech Psytrance<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=l-OrSlDJVEo" target="_blank" rel="noopener noreferrer">Secret Girl</a></strong></p></div></div>
 ## 59. Snapcase - Progression Through Unlearning{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="59" data-year="1997"}
 <div class="album-container"><div class="album-image">![](../img/cover_snapcase_progression.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 1997<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Metalcore<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=wb1byFx1wAk" target="_blank" rel="noopener noreferrer">Guilty by Ignorance</a></strong></p></div></div>
@@ -127,14 +127,19 @@ The greatest ablums of all time!!! (According to me)\
 ## 4. Kinoko Teikoku - Eureka{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="4" data-year="2013"}
 <div class="album-container"><div class="album-image">![](../img/cover_kinoko_eureka.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2013<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Indie Rock, Shoegaze<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=vA1Ph6SpTkI" target="_blank" rel="noopener noreferrer">Musician</a></strong></p></div></div>
 ## 3. Shiina Ringo - Kalk Samen Kuri no Hana{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="3" data-year="2003"}
-<div class="album-container"><div class="album-image">![](../img/cover_shiina_kalk.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2003<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Art Pop, Art Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=pKQqsJGJKfU" target="_blank" rel="noopener noreferrer"> Shuukyou -Religion- </a></strong></p></div></div>
+<div class="album-container"><div class="album-image">![](../img/cover_shiina_kalk.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2003<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Art Pop, Art Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=pKQqsJGJKfU" target="_blank" rel="noopener noreferrer"> Shuukyou -Religion- </a></strong></p></div></div>\
+<span style="color:RoyalBlue"><i>One last night at the carnival of phantoms before the end of the world</i></span>
+
 ## 2. Carissa's Wierd - Songs About Leaving{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="2" data-year="2002"}
-<div class="album-container"><div class="album-image">![](../img/cover_carissa_songs.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2002<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Slowcore<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=cYtdQccn54I" target="_blank" rel="noopener noreferrer">September Come Take This Heart Away</a></strong></p></div></div>
+<div class="album-container"><div class="album-image">![](../img/cover_carissa_songs.jpeg)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2002<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Slowcore<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=cYtdQccn54I" target="_blank" rel="noopener noreferrer">September Come Take This Heart Away</a></strong></p></div></div>\
+<span style="color:RoyalBlue"><i>A warm and cozy blanket made of  boundless  grief and heartbreak</i></span>
+
 ## 1. Light Bringer - Scenes of Infinity{.album data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="1" data-year="2013"}
-<div class="album-container"><div class="album-image">![](../img/cover_light_bringer_scenes.webp)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2013<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Power Metal, Symphonic Metal<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=Qnqud-E4aXM" target="_blank" rel="noopener noreferrer">Hyperion</a></strong></p></div></div>
+<div class="album-container"><div class="album-image">![](../img/cover_light_bringer_scenes.webp)</div><div class="album-info"><p class="mb-0"><strong>Year:</strong> 2013<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Power Metal, Symphonic Metal<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=Qnqud-E4aXM" target="_blank" rel="noopener noreferrer">Hyperion</a></strong></p></div></div>\
+<span style="color:RoyalBlue"><i>A cosmic embrace from the Goddess of Light, guiding you towards ascension</i></span>
+
 </div>
 
-<br>
 <br>
 
 ## Stats

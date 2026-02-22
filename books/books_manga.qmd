@@ -27,14 +27,17 @@ A sprawling, shamelessly romantic pirate odyssey that not only dares to dream bi
 
 ![The Straw Hat crew's Jolly Roger flag spotted among the Swiss alps during the WEF 2026 protest march to Davos.](../img/img_jolly_roger.jpeg){fig-alt="One Piece Jolly Roger flag spotted in the Swiss alps at the WEF protest march" fig-align="center" width=100%}
 
-**Caveats:**
+::: {.callout-warning collapse="true"}
+## Caveats
 
 Although the series can be very funny when its jokes land, overall it relies too heavily on slapstick humour for my tastes (this is espcially pronouced in the anime adaptation). More worryingly, the female character designs get increasingly gratuitous over time, which is a shame since the actual writing of the female characters can be very strong and miles ahead of genre peers where female charactes often serve primarily as romantic interest for the male characters. There are also a handful of moments where its representation of queer and trans characters can be rather humiliating, but this is more than made up for in later arcs, when the story becomes very explicitly a massive pro-LGBTQ ally (which is in line with the theme of diversity as strength at the heart of the story).
+:::
 
-
-**Does it have an anime adaptation?**
+::: {.callout-note collapse="true"}
+## Does it have an anime adaptation?
 
 Yes, but it's not without issues. The pacing is overall considerably worse compared to the manga, and the production quality can be inconsistent, though generally getting better over time. However, at its best, the adaptation offers many standout moments that elevate the source material to even greater heights. Toei Animation, the studio behind the adapation, really went all out in some of the later arcs, hiring a barrage of industry-leading animators (and discovering generational talents such as episode director [Megumi Ishitani](https://blog.sakugabooru.com/2022/04/30/the-meteoric-ascent-of-megumi-ishitani-toei-animations-new-heir/)) to do justice to some of the story's most climactic moments.
+:::
 
 ## Aria
 
@@ -55,14 +58,17 @@ Three aspiring gondoliers become friends in the dazzling city of Neo-Venezia, a 
 
 Aria is a gentle, elegant slice of life masterpiece that never fails to imbue me with a radiant sense of warmth and joy. A few chapters of this can be a perfect way to close out an exhausting day, when you just want to slowly drift into a peaceful, optimistic world with kind (and occasionally mischievous) characters. The story has virtually zero drama or external conflict; it's all about atmosphere, character interactions, and the uniquely beautiful setting of Neo-Venezia and its labyrinthine network of mysterious waterways and dazzling Gothic architecture. In addition, author Kozue Amano draws upon a rich mix of real Venetian culture with occasional sci-fi and magical realist elements to keep her episodic storytelling fresh. The illustrations are gorgeous too, especially the stunning double-page spreads that made me continually re-discover the city with new eyes.
 
-**Caveats:**
+::: {.callout-warning collapse="true"}
+## Caveats
 
 Although Aria is a piece of utopian fiction that presents a stirring vision of a kinder future, this vision operates largely on a vibes basis. Unfortunately, Kozue Amano's political imagination is somewhat half-baked, and the world of Neo-Venezia features a few questionable aspects that go unexamined. Most notably, women are not allowed in any occupations that require rowing boats, other than as undines (tourist guides). This is only mentioned in passing in the first chapter, but it is indicative of a wider sense of political underdevelopment. There are still interesting political implications in the worldbuilding of Aria, for example, the rejection of a growth-oriented economy built around consumerist conveniences. Nonetheless, for a more nuanced and politically conscious example of utopian fiction, see Ursula K. Le Guin's anarchist science fiction novel *The Dispossessed* (1974).
+:::
 
-**Does it have an anime adaptation?**
+::: {.callout-note collapse="true"}
+## Does it have an anime adaptation?
 
 Yes, it has a fairly strong adaptation, but the manga is still superior. Early seasons of the anime look quite dated and only exist in SD quality (or upscaled HD), as they were produced during the industry's bumpy transition from analog to digital production. For the ultimate Aria experience, I recommend reading the manga while listening to the anime's beautiful, Brazil-inspired [soundtrack](https://www.youtube.com/watch?v=daJISsWuWRI)!
-
+:::
 
 ## Vinland Saga
 
@@ -83,9 +89,11 @@ Thorfinn is a young Viking boy who has been raised in the shadow of his father T
 
 This story starts out as a bloody violent Viking revenge tale, but astute readers may pick up on early signs hinting that Makoto Yukimura's ambitions lie far beyond gory spectacle. The first part is essentially a lengthy prologue that serves to set up a massive character arc undertaken by our protagonist Thorfinn, who we follow from early childhood into adulthood. Without going into spoilers, all I will say is that, with Vinland Saga, Yukimura has confidently cemented himself as one the medium's premier champions of humanist, pacifist, and abolitionist ideals. Thorfinn's path cuts deep and is filled with unimaginable pain and suffering, but Yukimura's exploration of the darkest aspects of humanity is conducted with sensitivity and care, and he urges us to face the future with the determination to make it a place worth living in.
 
-**Does it have an anime adaptation?**
+::: {.callout-note collapse="true"}
+## Does it have an anime adaptation?
 
 Yes, and it's very good, though only covering the first 100 chapters as of the latest season (released 2023). You can go with either the manga or the anime.
+:::
 
 ## Monster
 
@@ -104,6 +112,8 @@ Dr. Kenzo Tenma is a brilliant and conscientious young neurosurgeon from Japan w
 
 A masterclass in building and maintaining suspense, intrigue, and a chilling atmosphere. The ending to the main serial killer mystery may not satisfy everyone, but I would say this is a case where the journey comfortably outweighs the destination. The supporting cast and their individual stories add a lot of depth to the narrative, and Dr. Tenma is a protagonist who's hard not to root for.
 
-**Does it have an anime adaptation?**
+::: {.callout-note collapse="true"}
+## Does it have an anime adaptation?
 
 Yes. I only watched a few episodes, but it seems to be a very accurate, almost shot-for-shot adaptation. You can probably go with either option.
+:::
