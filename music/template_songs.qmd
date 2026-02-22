@@ -113,8 +113,8 @@ pio.templates["my_default"].layout.update(
     xaxis=dict(tickfont=dict(size=16)),
     yaxis=dict(tickfont=dict(size=16)),
     margin=dict(l=60, r=30, t=50, b=60),
-    width=700,
-    height=500
+    width=None,
+    height=None
 )
 pio.templates["my_default"].layout.colorway = ["#4269D0"]
 
@@ -164,7 +164,7 @@ fig.update_yaxes(
     fixedrange=True,
     title="Count"
 )
-fig.show()
+fig.show(config={"responsive": True})
 
 # Decade histogram
 
@@ -199,7 +199,7 @@ fig.update_yaxes(
     fixedrange=True,
     title="Count"
 )
-fig.show()
+fig.show(config={"responsive": True})
 ```
 
 ```{python}
@@ -259,7 +259,7 @@ fig.update_layout(
     modebar_remove=["zoom", "pan", "select", "lasso"]
 )
 
-fig.show()
+fig.show(config={"responsive": True})
 ```
 
 ```{ojs}

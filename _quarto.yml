@@ -27,6 +27,8 @@ website:
         contents: 
         - music/songs.qmd
         - music/albums.qmd
+        - text: "Top 50 Classical"
+          href: music/classical.qmd
       - section: "**Books**"
         contents: 
         - text: "Fiction"
