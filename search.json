@@ -1236,23 +1236,635 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Café Alpha",
+    "objectID": "music/albums.html",
+    "href": "music/albums.html",
+    "title": "Top 100 Albums",
     "section": "",
-    "text": "Welcome! This is the homepage for Café Alpha, a collection of my favorite books, films, and more. Feel free to explore the different sections and discover some new favorites!"
+    "text": "The greatest ablums of all time!!! (According to me)",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
   },
   {
-    "objectID": "films/films.html",
-    "href": "films/films.html",
+    "objectID": "music/albums.html#junxpunx---reminder",
+    "href": "music/albums.html#junxpunx---reminder",
+    "title": "Top 100 Albums",
+    "section": "71. JunxPunx - Reminder",
+    "text": "71. JunxPunx - Reminder\n\n\n\n\n\n\nYear: 2014Country: 🇯🇵 JapanGenres: Hi-Tech PsytranceFavorite Song: Secret Girl",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#snapcase---progression-through-unlearning",
+    "href": "music/albums.html#snapcase---progression-through-unlearning",
+    "title": "Top 100 Albums",
+    "section": "59. Snapcase - Progression Through Unlearning",
+    "text": "59. Snapcase - Progression Through Unlearning\n\n\n\n\n\n\nYear: 1997Country: 🇺🇸 USAGenres: MetalcoreFavorite Song: Guilty by Ignorance",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#gris---il-était-une-forêt",
+    "href": "music/albums.html#gris---il-était-une-forêt",
+    "title": "Top 100 Albums",
+    "section": "56. Gris - Il était une forêt",
+    "text": "56. Gris - Il était une forêt\n\n\n\n\n\n\nYear: 2007Country: 🇺🇸 USAGenres: Depressive Black MetalFavorite Song: Il était une forêt",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#tyler-the-creator---igor",
+    "href": "music/albums.html#tyler-the-creator---igor",
+    "title": "Top 100 Albums",
+    "section": "50. Tyler, the Creator - Igor",
+    "text": "50. Tyler, the Creator - Igor\n\n\n\n\n\n\nYear: 2019Country: 🇺🇸 USAGenres: Neo-SoulFavorite Song: EARFQUAKE",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#ninajirachi---i-love-my-computer",
+    "href": "music/albums.html#ninajirachi---i-love-my-computer",
+    "title": "Top 100 Albums",
+    "section": "49. Ninajirachi - I Love My Computer",
+    "text": "49. Ninajirachi - I Love My Computer\n\n\n\n\n\n\nYear: 2025Country: 🇬🇧 United KingdomGenres: ElectrohouseFavorite Song: Infohazard",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#weyes-blood---titanic-rising",
+    "href": "music/albums.html#weyes-blood---titanic-rising",
+    "title": "Top 100 Albums",
+    "section": "48. Weyes Blood - Titanic Rising",
+    "text": "48. Weyes Blood - Titanic Rising\n\n\n\n\n\n\nYear: 2019Country: 🇺🇸 USAGenres: Psychedelic PopFavorite Song: Andromeda",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#toe---for-long-tomorrow",
+    "href": "music/albums.html#toe---for-long-tomorrow",
+    "title": "Top 100 Albums",
+    "section": "47. toe - For Long Tomorrow",
+    "text": "47. toe - For Long Tomorrow\n\n\n\n\n\n\nYear: 2009Country: 🇯🇵 JapanGenres: Post-Rock, Midwest EmoFavorite Song: Goodbye",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#judas-priest---painkiller",
+    "href": "music/albums.html#judas-priest---painkiller",
+    "title": "Top 100 Albums",
+    "section": "45. Judas Priest - Painkiller",
+    "text": "45. Judas Priest - Painkiller\n\n\n\n\n\n\nYear: 1990Country: 🇬🇧 United KingdomGenres: Speed MetalFavorite Song: Painkiller",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#kate-bush---hounds-of-love",
+    "href": "music/albums.html#kate-bush---hounds-of-love",
+    "title": "Top 100 Albums",
+    "section": "44. Kate Bush - Hounds of Love",
+    "text": "44. Kate Bush - Hounds of Love\n\n\n\n\n\n\nYear: 1985Country: 🇬🇧 United KingdomGenres: Art PopFavorite Song: Running Up That Hill (A Deal With God)",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#my-chemical-romance---three-cheers-for-sweet-revenge",
+    "href": "music/albums.html#my-chemical-romance---three-cheers-for-sweet-revenge",
+    "title": "Top 100 Albums",
+    "section": "43. My Chemical Romance - Three Cheers for Sweet Revenge",
+    "text": "43. My Chemical Romance - Three Cheers for Sweet Revenge\n\n\n\n\n\n\nYear: 2004Country: 🇺🇸 USAGenres: Emo-PopFavorite Song: Helena",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#marvin-gaye---whats-going-on",
+    "href": "music/albums.html#marvin-gaye---whats-going-on",
+    "title": "Top 100 Albums",
+    "section": "42. Marvin Gaye - What’s Going On",
+    "text": "42. Marvin Gaye - What’s Going On\n\n\n\n\n\n\nYear: 1971Country: 🇺🇸 USAGenres: Smooth SoulFavorite Song: What’s Going On",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#angelo-badalamenti---twin-peaks-fire-walk-with-me",
+    "href": "music/albums.html#angelo-badalamenti---twin-peaks-fire-walk-with-me",
+    "title": "Top 100 Albums",
+    "section": "40. Angelo Badalamenti - Twin Peaks: Fire Walk With Me",
+    "text": "40. Angelo Badalamenti - Twin Peaks: Fire Walk With Me\n\n\n\n\n\n\nYear: 1992Country: 🇺🇸 USAGenres: Dark JazzFavorite Song: Questions in a World of Blue",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#lingua-ignota---caligula",
+    "href": "music/albums.html#lingua-ignota---caligula",
+    "title": "Top 100 Albums",
+    "section": "36. Lingua Ignota - Caligula",
+    "text": "36. Lingua Ignota - Caligula\n\n\n\n\n\n\nYear: 2019Country: 🇺🇸 USAGenres: Neoclassical DarkwaveFavorite Song: DO YOU DOUBT ME TRAITOR",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#iron-maiden---the-number-of-the-beast",
+    "href": "music/albums.html#iron-maiden---the-number-of-the-beast",
+    "title": "Top 100 Albums",
+    "section": "35. Iron Maiden - The Number of the Beast",
+    "text": "35. Iron Maiden - The Number of the Beast\n\n\n\n\n\n\nYear: 1982Country: 🇬🇧 United KingdomGenres: Heavy MetalFavorite Song: Run to the Hills",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#javiera-mena---esquemas-juveniles",
+    "href": "music/albums.html#javiera-mena---esquemas-juveniles",
+    "title": "Top 100 Albums",
+    "section": "33. Javiera Mena - Esquemas juveniles",
+    "text": "33. Javiera Mena - Esquemas juveniles\n\n\n\n\n\n\nYear: 2005Country: 🇪🇸 SpainGenres: Indie PopFavorite Song: Cámara lenta",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#cameron-winter---heavy-metal",
+    "href": "music/albums.html#cameron-winter---heavy-metal",
+    "title": "Top 100 Albums",
+    "section": "32. Cameron Winter - Heavy Metal",
+    "text": "32. Cameron Winter - Heavy Metal\n\n\n\n\n\n\nYear: 2024Country: 🇺🇸 USAGenres: Singer-SongwriterFavorite Song: $0.00",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#portishead---dummy",
+    "href": "music/albums.html#portishead---dummy",
+    "title": "Top 100 Albums",
+    "section": "31. Portishead - Dummy",
+    "text": "31. Portishead - Dummy\n\n\n\n\n\n\nYear: 1994Country: 🇬🇧 United KingdomGenres: Trip HopFavorite Song: Glory Box",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#electric-light-orchestra---time",
+    "href": "music/albums.html#electric-light-orchestra---time",
+    "title": "Top 100 Albums",
+    "section": "30. Electric Light Orchestra - Time",
+    "text": "30. Electric Light Orchestra - Time\n\n\n\n\n\n\nYear: 1981Country: 🇬🇧 United KingdomGenres: Pop RockFavorite Song: Twilight",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#panopticon---and-again-into-the-light",
+    "href": "music/albums.html#panopticon---and-again-into-the-light",
+    "title": "Top 100 Albums",
+    "section": "29. Panopticon - …And Again Into the Light",
+    "text": "29. Panopticon - …And Again Into the Light\n\n\n\n\n\n\nYear: 2021Country: 🇺🇸 USAGenres: Atmospheric Black MetalFavorite Song: Dead Loons",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#parannoul---to-see-the-next-part-of-the-dream",
+    "href": "music/albums.html#parannoul---to-see-the-next-part-of-the-dream",
+    "title": "Top 100 Albums",
+    "section": "28. Parannoul - To See the Next Part of the Dream",
+    "text": "28. Parannoul - To See the Next Part of the Dream\n\n\n\n\n\n\nYear: 2021Country: 🇰🇷 South KoreaGenres: ShoegazeFavorite Song: White Ceiling",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#fka-twigs---magdalene",
+    "href": "music/albums.html#fka-twigs---magdalene",
+    "title": "Top 100 Albums",
+    "section": "27. FKA Twigs - Magdalene",
+    "text": "27. FKA Twigs - Magdalene\n\n\n\n\n\n\nYear: 2019Country: 🇬🇧 United KingdomGenres: Art PopFavorite Song: Cellophane",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#rage-against-the-machine---rage-against-the-machine",
+    "href": "music/albums.html#rage-against-the-machine---rage-against-the-machine",
+    "title": "Top 100 Albums",
+    "section": "26. Rage Against the Machine - Rage Against the Machine",
+    "text": "26. Rage Against the Machine - Rage Against the Machine\n\n\n\n\n\n\nYear: 1992Country: 🇺🇸 USAGenres: Alternative MetalFavorite Song: Killing in the Name",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#david-bowie---low",
+    "href": "music/albums.html#david-bowie---low",
+    "title": "Top 100 Albums",
+    "section": "25. David Bowie - Low",
+    "text": "25. David Bowie - Low\n\n\n\n\n\n\nYear: 1977Country: 🇬🇧 United KingdomGenres: Art Rock, AmbientFavorite Song: Warszawa",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#perfume---triangle",
+    "href": "music/albums.html#perfume---triangle",
+    "title": "Top 100 Albums",
+    "section": "24. Perfume - ⊿ (Triangle)",
+    "text": "24. Perfume - ⊿ (Triangle)\n\n\n\n\n\n\nYear: 2008Country: 🇯🇵 JapanGenres: ElectropopFavorite Song: Dream Fighter",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#ocean-machine---biomech",
+    "href": "music/albums.html#ocean-machine---biomech",
+    "title": "Top 100 Albums",
+    "section": "23. Ocean Machine - Biomech",
+    "text": "23. Ocean Machine - Biomech\n\n\n\n\n\n\nYear: 1997Country: 🇨🇦 CanadaGenres: Progressive MetalFavorite Song: Bastard",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#nas---illmatic",
+    "href": "music/albums.html#nas---illmatic",
+    "title": "Top 100 Albums",
+    "section": "22. Nas - Illmatic",
+    "text": "22. Nas - Illmatic\n\n\n\n\n\n\nYear: 1994Country: 🇺🇸 USAGenres: Boom BapFavorite Song: N.Y. State of Mind",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#my-bloody-valentine---loveless",
+    "href": "music/albums.html#my-bloody-valentine---loveless",
+    "title": "Top 100 Albums",
+    "section": "21. My Bloody Valentine - Loveless",
+    "text": "21. My Bloody Valentine - Loveless\n\n\n\n\n\n\nYear: 1991Country: 🇮🇪 IrelandGenres: ShoegazeFavorite Song: when you sleep",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#kessoku-band---kessoku-band",
+    "href": "music/albums.html#kessoku-band---kessoku-band",
+    "title": "Top 100 Albums",
+    "section": "20. Kessoku Band - Kessoku Band",
+    "text": "20. Kessoku Band - Kessoku Band\n\n\n\n\n\n\nYear: 2022Country: 🇯🇵 JapanGenres: Shimokita-keiFavorite Song: Rockn’ Roll, Morning Light Falls on You",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#system-of-a-down---toxicity",
+    "href": "music/albums.html#system-of-a-down---toxicity",
+    "title": "Top 100 Albums",
+    "section": "19. System of a Down - Toxicity",
+    "text": "19. System of a Down - Toxicity\n\n\n\n\n\n\nYear: 2001Country: 🇺🇸 USAGenres: Alternative MetalFavorite Song: Aerials",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#lana-del-rey---norman-fucking-rockwell",
+    "href": "music/albums.html#lana-del-rey---norman-fucking-rockwell",
+    "title": "Top 100 Albums",
+    "section": "18. Lana Del Rey - Norman Fucking Rockwell!",
+    "text": "18. Lana Del Rey - Norman Fucking Rockwell!\n\n\n\n\n\n\nYear: 2018Country: 🇺🇸 USAGenres: Art PopFavorite Song: Venice Bitch",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#kendrick-lamar---to-pimp-a-butterfly",
+    "href": "music/albums.html#kendrick-lamar---to-pimp-a-butterfly",
+    "title": "Top 100 Albums",
+    "section": "17. Kendrick Lamar - To Pimp a Butterfly",
+    "text": "17. Kendrick Lamar - To Pimp a Butterfly\n\n\n\n\n\n\nYear: 2015Country: 🇺🇸 USAGenres: West Coast Hip HopFavorite Song: Alright",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#ichiko-aoba---windswept-adan",
+    "href": "music/albums.html#ichiko-aoba---windswept-adan",
+    "title": "Top 100 Albums",
+    "section": "16. Ichiko Aoba - Windswept Adan",
+    "text": "16. Ichiko Aoba - Windswept Adan\n\n\n\n\n\n\nYear: 2020Country: 🇯🇵 JapanGenres: Chamber FolkFavorite Song: Porcelain",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#seatbelts---cowboy-bebop",
+    "href": "music/albums.html#seatbelts---cowboy-bebop",
+    "title": "Top 100 Albums",
+    "section": "15. Seatbelts - Cowboy Bebop",
+    "text": "15. Seatbelts - Cowboy Bebop\n\n\n\n\n\n\nYear: 1998Country: 🇯🇵 JapanGenres: JazzFavorite Song: Space Lion",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#the-pillows---flcl-original-soundtrack-no.-3",
+    "href": "music/albums.html#the-pillows---flcl-original-soundtrack-no.-3",
+    "title": "Top 100 Albums",
+    "section": "14. The Pillows - FLCL Original Soundtrack No. 3",
+    "text": "14. The Pillows - FLCL Original Soundtrack No. 3\n\n\n\n\n\n\nYear: 2005Country: 🇯🇵 JapanGenres: Power PopFavorite Song: Last Dinosaur",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#stevie-wonder---songs-in-the-key-of-life",
+    "href": "music/albums.html#stevie-wonder---songs-in-the-key-of-life",
+    "title": "Top 100 Albums",
+    "section": "13. Stevie Wonder - Songs in the Key of Life",
+    "text": "13. Stevie Wonder - Songs in the Key of Life\n\n\n\n\n\n\nYear: 1976Country: 🇺🇸 USAGenres: Pop SoulFavorite Song: Sir Duke",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#gorguts---colored-sands",
+    "href": "music/albums.html#gorguts---colored-sands",
+    "title": "Top 100 Albums",
+    "section": "12. Gorguts - Colored Sands",
+    "text": "12. Gorguts - Colored Sands\n\n\n\n\n\n\nYear: 2013Country: 🇨🇦 CanadaGenres: Dissonant Death MetalFavorite Song: Le Toit Du Monde",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#carly-rae-jepsen---emotion",
+    "href": "music/albums.html#carly-rae-jepsen---emotion",
+    "title": "Top 100 Albums",
+    "section": "11. Carly Rae Jepsen - E·MO·TION",
+    "text": "11. Carly Rae Jepsen - E·MO·TION\n\n\n\n\n\n\nYear: 2015Country: 🇨🇦 CanadaGenres: SynthpopFavorite Song: Run Away With Me",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#cocteau-twins---heaven-or-las-vegas",
+    "href": "music/albums.html#cocteau-twins---heaven-or-las-vegas",
+    "title": "Top 100 Albums",
+    "section": "10. Cocteau Twins - Heaven or Las Vegas",
+    "text": "10. Cocteau Twins - Heaven or Las Vegas\n\n\n\n\n\n\nYear: 1990Country: 🇬🇧 United KingdomGenres: Dream PopFavorite Song: Heaven or Las Vegas",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#radiohead---in-rainbows",
+    "href": "music/albums.html#radiohead---in-rainbows",
+    "title": "Top 100 Albums",
+    "section": "9. Radiohead - In Rainbows",
+    "text": "9. Radiohead - In Rainbows\n\n\n\n\n\n\nYear: 2008Country: 🇬🇧 United KingdomGenres: Art RockFavorite Song: Weird Fishes/Arpeggi",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#pink-floyd---wish-you-were-here",
+    "href": "music/albums.html#pink-floyd---wish-you-were-here",
+    "title": "Top 100 Albums",
+    "section": "8. Pink Floyd - Wish You Were Here",
+    "text": "8. Pink Floyd - Wish You Were Here\n\n\n\n\n\n\nYear: 1975Country: 🇬🇧 United KingdomGenres: Art RockFavorite Song: Wish You Were Here",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#mac-miller---circles",
+    "href": "music/albums.html#mac-miller---circles",
+    "title": "Top 100 Albums",
+    "section": "7. Mac Miller - Circles",
+    "text": "7. Mac Miller - Circles\n\n\n\n\n\n\nYear: 2020Country: 🇺🇸 USAGenres: Neo-SoulFavorite Song: Good News",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#keiichi-okabe-keigo-hoashi---nierautomata",
+    "href": "music/albums.html#keiichi-okabe-keigo-hoashi---nierautomata",
+    "title": "Top 100 Albums",
+    "section": "6. Keiichi Okabe & Keigo Hoashi - NieR:Automata",
+    "text": "6. Keiichi Okabe & Keigo Hoashi - NieR:Automata\n\n\n\n\n\n\nYear: 2017Country: 🇯🇵 JapanGenres: Cinematic Classical, Ambient, New AgeFavorite Song: City Ruins (Rays of Light)",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#converge---jane-doe",
+    "href": "music/albums.html#converge---jane-doe",
+    "title": "Top 100 Albums",
+    "section": "5. Converge - Jane Doe",
+    "text": "5. Converge - Jane Doe\n\n\n\n\n\n\nYear: 2001Country: 🇺🇸 USAGenres: MathcoreFavorite Song: Jane Doe",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#kinoko-teikoku---eureka",
+    "href": "music/albums.html#kinoko-teikoku---eureka",
+    "title": "Top 100 Albums",
+    "section": "4. Kinoko Teikoku - Eureka",
+    "text": "4. Kinoko Teikoku - Eureka\n\n\n\n\n\n\nYear: 2013Country: 🇯🇵 JapanGenres: Indie Rock, ShoegazeFavorite Song: Musician",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#shiina-ringo---kalk-samen-kuri-no-hana",
+    "href": "music/albums.html#shiina-ringo---kalk-samen-kuri-no-hana",
+    "title": "Top 100 Albums",
+    "section": "3. Shiina Ringo - Kalk Samen Kuri no Hana",
+    "text": "3. Shiina Ringo - Kalk Samen Kuri no Hana\n\n\n\n\n\n\nYear: 2003Country: 🇯🇵 JapanGenres: Art Pop, Art RockFavorite Song:  Shuukyou -Religion-",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#carissas-wierd---songs-about-leaving",
+    "href": "music/albums.html#carissas-wierd---songs-about-leaving",
+    "title": "Top 100 Albums",
+    "section": "2. Carissa’s Wierd - Songs About Leaving",
+    "text": "2. Carissa’s Wierd - Songs About Leaving\n\n\n\n\n\n\nYear: 2002Country: 🇺🇸 USAGenres: SlowcoreFavorite Song: September Come Take This Heart Away",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#light-bringer---scenes-of-infinity",
+    "href": "music/albums.html#light-bringer---scenes-of-infinity",
+    "title": "Top 100 Albums",
+    "section": "1. Light Bringer - Scenes of Infinity",
+    "text": "1. Light Bringer - Scenes of Infinity\n\n\n\n\n\n\nYear: 2013Country: 🇯🇵 JapanGenres: Power Metal, Symphonic MetalFavorite Song: Hyperion",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "music/albums.html#stats",
+    "href": "music/albums.html#stats",
+    "title": "Top 100 Albums",
+    "section": "Stats",
+    "text": "Stats\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n                            \n                                            \n\n\n\nfunction wrapSections() {\n  const h2s = Array.from(document.querySelectorAll(\"h2.album\"))\n\n  h2s.forEach(h2 =&gt; {\n    const wrapper = document.createElement(\"div\")\n    wrapper.className = \"section\"\n\n    h2.parentNode.insertBefore(wrapper, h2)\n\n    let node = h2\n    while (node) {\n      const next = node.nextSibling\n      wrapper.appendChild(node)\n\n      if (!next || (next.nodeType === 1 && next.tagName === \"H2\")) {\n        break\n      }\n\n      node = next\n    }\n  })\n}\nwrapSections()",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Albums"
+    ]
+  },
+  {
+    "objectID": "games/games.html",
+    "href": "games/games.html",
     "title": "Coming soon",
     "section": "",
     "text": "Coming soon!",
     "crumbs": [
       "Home",
-      "**Films**",
+      "**Video Games**",
       "Coming soon"
     ]
+  },
+  {
+    "objectID": "books/books_nonfiction.html",
+    "href": "books/books_nonfiction.html",
+    "title": "Non-fiction Recommendations",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
+    "objectID": "books/books_fiction.html",
+    "href": "books/books_fiction.html",
+    "title": "Fiction Recommendations",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Fiction"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Made with Quarto, Python, and some makeshift JavaScript."
   },
   {
     "objectID": "books/books_manga.html",
@@ -1315,418 +1927,34 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Made with Quarto, Python, and some makeshift JavaScript."
-  },
-  {
-    "objectID": "books/books_fiction.html",
-    "href": "books/books_fiction.html",
-    "title": "Fiction Recommendations",
-    "section": "",
-    "text": "Coming soon!",
-    "crumbs": [
-      "Home",
-      "**Books**",
-      "Fiction"
-    ]
-  },
-  {
-    "objectID": "books/books_nonfiction.html",
-    "href": "books/books_nonfiction.html",
-    "title": "Non-fiction Recommendations",
-    "section": "",
-    "text": "Coming soon!",
-    "crumbs": [
-      "Home",
-      "**Books**",
-      "Non-Fiction"
-    ]
-  },
-  {
-    "objectID": "games/games.html",
-    "href": "games/games.html",
+    "objectID": "films/films.html",
+    "href": "films/films.html",
     "title": "Coming soon",
     "section": "",
     "text": "Coming soon!",
     "crumbs": [
       "Home",
-      "**Video Games**",
+      "**Films**",
       "Coming soon"
     ]
   },
   {
-    "objectID": "music/albums.html",
-    "href": "music/albums.html",
-    "title": "Top 100 Albums",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Café Alpha",
     "section": "",
-    "text": "The greatest ablums of all time!!! (According to me)",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
+    "text": "Welcome! This is the homepage for Café Alpha, a collection of my favorite books, films, and more. Feel free to explore the different sections and discover some new favorites!"
   },
   {
-    "objectID": "music/albums.html#junxpunx---reminder",
-    "href": "music/albums.html#junxpunx---reminder",
-    "title": "Top 100 Albums",
-    "section": "73. JunxPunx - Reminder",
-    "text": "73. JunxPunx - Reminder\n\n\n\n\n\n\nYear: 2014Country: 🇯🇵 JapanGenres: Hi-Tech Psytrance\n\n\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nGroovy",
+    "objectID": "music/classical.html",
+    "href": "music/classical.html",
+    "title": "Top 50 Classical Releases",
+    "section": "",
+    "text": "Coming Soon",
     "crumbs": [
       "Home",
       "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#kate-bush---hounds-of-love",
-    "href": "music/albums.html#kate-bush---hounds-of-love",
-    "title": "Top 100 Albums",
-    "section": "64. Kate Bush - Hounds of Love",
-    "text": "64. Kate Bush - Hounds of Love\n\n\n\n\n\n\nYear: 1985Country: 🇬🇧 United KingdomGenres: Art Pop\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#snapcase---progression-through-unlearning",
-    "href": "music/albums.html#snapcase---progression-through-unlearning",
-    "title": "Top 100 Albums",
-    "section": "56. Snapcase - Progression Through Unlearning",
-    "text": "56. Snapcase - Progression Through Unlearning\n\n\n\n\n\n\nYear: 1997Country: 🇺🇸 USAGenres: Metalcore\n\n\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nGroovy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#cameron-winter---heavy-metal",
-    "href": "music/albums.html#cameron-winter---heavy-metal",
-    "title": "Top 100 Albums",
-    "section": "32. Cameron Winter - Heavy Metal",
-    "text": "32. Cameron Winter - Heavy Metal\n\n\n\n\n\n\nYear: 2024Country: 🇺🇸 USAGenres: Singer-Songwriter\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#panopticon---and-again-into-the-light",
-    "href": "music/albums.html#panopticon---and-again-into-the-light",
-    "title": "Top 100 Albums",
-    "section": "29. Panopticon - …And Again Into the Light",
-    "text": "29. Panopticon - …And Again Into the Light\n\n\n\n\n\n\nYear: 2021Country: 🇺🇸 USAGenres: Atmospheric Black Metal\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#parannoul---to-see-the-next-part-of-the-dream",
-    "href": "music/albums.html#parannoul---to-see-the-next-part-of-the-dream",
-    "title": "Top 100 Albums",
-    "section": "28. Parannoul - To See the Next Part of the Dream",
-    "text": "28. Parannoul - To See the Next Part of the Dream\n\n\n\n\n\n\nYear: 2021Country: 🇰🇷 South KoreaGenres: Shoegaze\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#rage-against-the-machine---rage-against-the-machine",
-    "href": "music/albums.html#rage-against-the-machine---rage-against-the-machine",
-    "title": "Top 100 Albums",
-    "section": "26. Rage Against the Machine - Rage Against the Machine",
-    "text": "26. Rage Against the Machine - Rage Against the Machine\n\n\n\n\n\n\nYear: 1992Country: 🇺🇸 USAGenres: Alternative Metal\n\n\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nGroovy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#perfume---triangle",
-    "href": "music/albums.html#perfume---triangle",
-    "title": "Top 100 Albums",
-    "section": "24. Perfume - ⊿ (Triangle)",
-    "text": "24. Perfume - ⊿ (Triangle)\n\n\n\n\n\n\nYear: 2008Country: 🇯🇵 JapanGenres: Electropop\n\n\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#nas---illmatic",
-    "href": "music/albums.html#nas---illmatic",
-    "title": "Top 100 Albums",
-    "section": "22. Nas - Illmatic",
-    "text": "22. Nas - Illmatic\n\n\n\n\n\n\nYear: 1994Country: 🇺🇸 USAGenres: Boom Bap\n\n\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nGroovy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#system-of-a-down---toxicity",
-    "href": "music/albums.html#system-of-a-down---toxicity",
-    "title": "Top 100 Albums",
-    "section": "19. System of a Down - Toxicity",
-    "text": "19. System of a Down - Toxicity\n\n\n\n\n\n\nYear: 2001Country: 🇺🇸 USAGenres: Alternative Metal\n\n\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#lana-del-rey---norman-fucking-rockwell",
-    "href": "music/albums.html#lana-del-rey---norman-fucking-rockwell",
-    "title": "Top 100 Albums",
-    "section": "18. Lana Del Rey - Norman Fucking Rockwell!",
-    "text": "18. Lana Del Rey - Norman Fucking Rockwell!\n\n\n\n\n\n\nYear: 2018Country: 🇺🇸 USAGenres: Art Pop\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nDreamy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#kendrick-lamar---to-pimp-a-butterfly",
-    "href": "music/albums.html#kendrick-lamar---to-pimp-a-butterfly",
-    "title": "Top 100 Albums",
-    "section": "17. Kendrick Lamar - To Pimp a Butterfly",
-    "text": "17. Kendrick Lamar - To Pimp a Butterfly\n\n\n\n\n\n\nYear: 2015Country: 🇺🇸 USAGenres: West Coast Hip Hop\n\n\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nGroovy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#ichiko-aoba---windswept-adan",
-    "href": "music/albums.html#ichiko-aoba---windswept-adan",
-    "title": "Top 100 Albums",
-    "section": "16. Ichiko Aoba - Windswept Adan",
-    "text": "16. Ichiko Aoba - Windswept Adan\n\n\n\n\n\n\nYear: 2020Country: 🇯🇵 JapanGenres: Chamber Folk\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#seatbelts---cowboy-bebop",
-    "href": "music/albums.html#seatbelts---cowboy-bebop",
-    "title": "Top 100 Albums",
-    "section": "15. Seatbelts - Cowboy Bebop",
-    "text": "15. Seatbelts - Cowboy Bebop\n\n\n\n\n\n\nYear: 1998Country: 🇯🇵 JapanGenres: Jazz\n\n\n\n\n\nSoundtrack\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nGroovy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#the-pillows---flcl-original-soundtrack-no.-3",
-    "href": "music/albums.html#the-pillows---flcl-original-soundtrack-no.-3",
-    "title": "Top 100 Albums",
-    "section": "14. The Pillows - FLCL Original Soundtrack No. 3",
-    "text": "14. The Pillows - FLCL Original Soundtrack No. 3\n\n\n\n\n\n\nYear: 2005Country: 🇯🇵 JapanGenres: Power Pop\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#stevie-wonder---songs-in-the-key-of-life",
-    "href": "music/albums.html#stevie-wonder---songs-in-the-key-of-life",
-    "title": "Top 100 Albums",
-    "section": "13. Stevie Wonder - Songs in the Key of Life",
-    "text": "13. Stevie Wonder - Songs in the Key of Life\n\n\n\n\n\n\nYear: 1976Country: 🇺🇸 USAGenres: Pop Soul\n\n\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nGroovy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#gorguts---colored-sands",
-    "href": "music/albums.html#gorguts---colored-sands",
-    "title": "Top 100 Albums",
-    "section": "12. Gorguts - Colored Sands",
-    "text": "12. Gorguts - Colored Sands\n\n\n\n\n\n\nYear: 2013Country: 🇨🇦 CanadaGenres: Dissonant Death Metal\n\n\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nDark",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#carly-rae-jepsen---emotion",
-    "href": "music/albums.html#carly-rae-jepsen---emotion",
-    "title": "Top 100 Albums",
-    "section": "11. Carly Rae Jepsen - E·MO·TION",
-    "text": "11. Carly Rae Jepsen - E·MO·TION\n\n\n\n\n\n\nYear: 2015Country: 🇨🇦 CanadaGenres: Synthpop\n\n\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#cocteau-twins---heaven-or-las-vegas",
-    "href": "music/albums.html#cocteau-twins---heaven-or-las-vegas",
-    "title": "Top 100 Albums",
-    "section": "10. Cocteau Twins - Heaven or Las Vegas",
-    "text": "10. Cocteau Twins - Heaven or Las Vegas\n\n\n\n\n\n\nYear: 1990Country: 🇬🇧 United KingdomGenres: Dream Pop\n\n\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#radiohead---in-rainbows",
-    "href": "music/albums.html#radiohead---in-rainbows",
-    "title": "Top 100 Albums",
-    "section": "9. Radiohead - In Rainbows",
-    "text": "9. Radiohead - In Rainbows\n\n\n\n\n\n\nYear: 2008Country: 🇬🇧 United KingdomGenres: Dream Pop\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#pink-floyd---wish-you-were-here",
-    "href": "music/albums.html#pink-floyd---wish-you-were-here",
-    "title": "Top 100 Albums",
-    "section": "8. Pink Floyd - Wish You Were Here",
-    "text": "8. Pink Floyd - Wish You Were Here\n\n\n\n\n\n\nYear: 1975Country: 🇬🇧 United KingdomGenres: Art Rock\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nDreamy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#mac-miller---circles",
-    "href": "music/albums.html#mac-miller---circles",
-    "title": "Top 100 Albums",
-    "section": "7. Mac Miller - Circles",
-    "text": "7. Mac Miller - Circles\n\n\n\n\n\n\nYear: 2020Country: 🇺🇸 USAGenres: Neo-Soul\n\n\n\n\n\nPosthumous\n\n\n\n\n\nSad",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#keiichi-okabe-keigo-hoashi---nierautomata",
-    "href": "music/albums.html#keiichi-okabe-keigo-hoashi---nierautomata",
-    "title": "Top 100 Albums",
-    "section": "6. Keiichi Okabe & Keigo Hoashi - NieR:Automata",
-    "text": "6. Keiichi Okabe & Keigo Hoashi - NieR:Automata\n\n\n\n\n\n\nYear: 2017Country: 🇯🇵 JapanGenres: New Age\n\n\n\n\n\nSoundtrack\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDreamy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#converge---jane-doe",
-    "href": "music/albums.html#converge---jane-doe",
-    "title": "Top 100 Albums",
-    "section": "5. Converge - Jane Doe",
-    "text": "5. Converge - Jane Doe\n\n\n\n\n\n\nYear: 2001Country: 🇺🇸 USAGenres: Mathcore\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#kinoko-teikoku---eureka",
-    "href": "music/albums.html#kinoko-teikoku---eureka",
-    "title": "Top 100 Albums",
-    "section": "4. Kinoko Teikoku - Eureka",
-    "text": "4. Kinoko Teikoku - Eureka\n\n\n\n\n\n\nYear: 2013Country: 🇯🇵 JapanGenres: Indie Rock\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#shiina-ringo---kalk-samen-kuri-no-hana",
-    "href": "music/albums.html#shiina-ringo---kalk-samen-kuri-no-hana",
-    "title": "Top 100 Albums",
-    "section": "3. Shiina Ringo - Kalk Samen Kuri no Hana",
-    "text": "3. Shiina Ringo - Kalk Samen Kuri no Hana\n\n\n\n\n\n\nYear: 2003Country: 🇯🇵 JapanGenres: Art Pop\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nGroovy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#carissas-wierd---songs-about-leaving",
-    "href": "music/albums.html#carissas-wierd---songs-about-leaving",
-    "title": "Top 100 Albums",
-    "section": "2. Carissa’s Wierd - Songs About Leaving",
-    "text": "2. Carissa’s Wierd - Songs About Leaving\n\n\n\n\n\n\nYear: 2002Country: 🇺🇸 USAGenres: Slowcore\n\n\n\n\n\n\n\n\n\n\n\nSad\n\n\n\n\n\n\n\n\n\nDreamy",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#light-bringer---scenes-of-infinity",
-    "href": "music/albums.html#light-bringer---scenes-of-infinity",
-    "title": "Top 100 Albums",
-    "section": "1. Light Bringer - Scenes of Infinity",
-    "text": "1. Light Bringer - Scenes of Infinity\n\n\n\n\n\n\nYear: 2013Country: 🇯🇵 JapanGenres: Power Metal\n\n\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#overall-mood-distribution",
-    "href": "music/albums.html#overall-mood-distribution",
-    "title": "Top 100 Albums",
-    "section": "Overall Mood Distribution",
-    "text": "Overall Mood Distribution\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nGroovy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
-    ]
-  },
-  {
-    "objectID": "music/albums.html#stats",
-    "href": "music/albums.html#stats",
-    "title": "Top 100 Albums",
-    "section": "Stats",
-    "text": "Stats\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n                            \n                                            \n\n\n\nfunction wrapSections() {\n  const h2s = Array.from(document.querySelectorAll(\"h2.album\"))\n\n  h2s.forEach(h2 =&gt; {\n    const wrapper = document.createElement(\"div\")\n    wrapper.className = \"section\"\n\n    h2.parentNode.insertBefore(wrapper, h2)\n\n    let node = h2\n    while (node) {\n      const next = node.nextSibling\n      wrapper.appendChild(node)\n\n      if (!next || (next.nodeType === 1 && next.tagName === \"H2\")) {\n        break\n      }\n\n      node = next\n    }\n  })\n}\nwrapSections()",
-    "crumbs": [
-      "Home",
-      "**Music**",
-      "Top 100 Albums"
+      "Top 50 Classical"
     ]
   }
 ]
