@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,10 +20,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -35,10 +69,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0446325dbcdb232da00862fcf93be85e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-50228df34a09b4567d4ae5780ec33c6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +100,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -238,9 +277,501 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Coming soon!</p>
+<p>The greatest ablums of all time!!! (According to me)<br>
+</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Note">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Work in progress…</li>
+<li>One album per artist.</li>
+<li>Classical releases are not eligible and will be covered in a separate list.</li>
+</ul>
+</div>
+</div>
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Sort </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('rank','desc'); return false;"> Rank </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('year','desc'); return false;"> Year </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('sad','desc'); return false;"> Sad </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('angry','desc'); return false;"> Angry </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('happy','desc'); return false;"> Happy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('dark','desc'); return false;"> Dark </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('groovy','desc'); return false;"> Groovy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('dreamy','desc'); return false;"> Dreamy </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('passion','desc'); return false;"> Passion </a>
+</li>
+</ul>
+</div>
+<div class="songs">
+<section id="kate-bush---hounds-of-love" class="level2 album" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="71" data-hasmaxattribute="True" data-year="1985">
+<h2 class="album anchored" data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="71" data-hasmaxattribute="True" data-year="1985" data-anchor-id="kate-bush---hounds-of-love">71. Kate Bush - Hounds of Love</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_bush_hounds.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1985<br><strong>Country:</strong> 🇬🇧 United Kingdom<br><strong>Genres:</strong> Art Pop<br>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+<div class="toggle-mood">
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Sad
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Happy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Passion
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</section>
+<section id="shiina-ringo---kalk-samen-kuri-no-hana" class="level2 album" data-passion="3" data-dreamy="1" data-dark="1" data-groovy="1" data-angry="1" data-happy="0" data-sad="1" data-rank="3" data-hasmaxattribute="True" data-year="2003">
+<h2 class="album anchored" data-passion="3" data-dreamy="1" data-dark="1" data-groovy="1" data-angry="1" data-happy="0" data-sad="1" data-rank="3" data-hasmaxattribute="True" data-year="2003" data-anchor-id="shiina-ringo---kalk-samen-kuri-no-hana">3. Shiina Ringo - Kalk Samen Kuri no Hana</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_shiina_kalk.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2003<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Art Pop<br>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+<div class="toggle-mood">
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Sad
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Angry
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Dark
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Groovy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Dreamy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Passion
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</section>
+<section id="carissas-wierd---songs-about-leaving" class="level2 album" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="2" data-hasmaxattribute="True" data-year="2002">
+<h2 class="album anchored" data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="5" data-rank="2" data-hasmaxattribute="True" data-year="2002" data-anchor-id="carissas-wierd---songs-about-leaving">2. Carissa’s Wierd - Songs About Leaving</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_carissa_songs.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2002<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Slowcore<br>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+<div class="toggle-mood">
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Sad
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Dreamy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</section>
+<section id="light-bringer---scenes-of-infinity" class="level2 album" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="1" data-hasmaxattribute="True" data-year="2013">
+<h2 class="album anchored" data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="1" data-hasmaxattribute="True" data-year="2013" data-anchor-id="light-bringer---scenes-of-infinity">1. Light Bringer - Scenes of Infinity</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_light_bringer_scenes.webp" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2013<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Power Metal<br>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+<div class="toggle-mood">
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Happy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Passion
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<br>
+</div>
+</section>
+</div>
+<section id="overall-mood-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="overall-mood-distribution">Overall Mood Distribution</h2>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Sad
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Angry
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #FF5D45FF; width:50.28901734104046%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Happy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #6CC5B0FF; width:56.64739884393064%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Dark
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #1B1B1BFF; width:39.30635838150289%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Groovy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #9C6B4EFF; width:31.213872832369944%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Dreamy
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #F0BD3CFF; width:71.67630057803468%;" role="progressbar">
+
+</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;">
+<div>
+Passion
+</div>
+<div class="progress" style="height:14px;">
+<div class="progress-bar" style="background-color: #A463F2FF; width:84.97109826589595%;" role="progressbar">
+
+</div>
+</div>
+</div>
+</section>
+<section id="stats" class="level2">
+<h2 class="anchored" data-anchor-id="stats">Stats</h2>
+<div id="65126a78" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+        <script type="text/javascript">
+        window.PlotlyConfig = {MathJaxConfig: 'local'};
+        if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+        </script>
+        <script type="module">import "https://cdn.plot.ly/plotly-3.0.1.min"</script>
+        
+</div>
+<div class="cell-output cell-output-display">
+<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>                <div id="08b35176-3829-47ab-b057-700c7626ff72" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("08b35176-3829-47ab-b057-700c7626ff72")) {                    Plotly.newPlot(                        "08b35176-3829-47ab-b057-700c7626ff72",                        [{"customdata":[["USA"],["Japan"],["United Kingdom"],["Canada"],["Germany"],["Australia"],["France"],["Spain"],["South Korea"],["Ireland"],["Lebanon"],["Nigeria"],["Norway"],["Sweden"]],"hovertemplate":"Country=%{x}\u003cbr\u003eCount=%{text}\u003cbr\u003eCountryName=%{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#4269D0","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"text":{"dtype":"f8","bdata":"AAAAAAAAREAAAAAAAAA2QAAAAAAAADJAAAAAAAAAFEAAAAAAAAAIQAAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPw=="},"textposition":"outside","x":["US","JP","GB","CA","DE","AU","FR","ES","KR","IE","LB","NG","NO","SE"],"xaxis":"x","y":{"dtype":"i1","bdata":"KBYSBQMBAQEBAQEBAQE="},"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"margin":{"b":0,"l":0,"r":0,"t":30},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Country"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Count"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"legend":{"tracegroupgap":0},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('08b35176-3829-47ab-b057-700c7626ff72');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };            </script>        </div>
+</div>
+<div class="cell-output cell-output-display">
+<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>                <div id="1248d0c3-4cf1-4e0c-843a-9c2d303b039d" class="plotly-graph-div" style="height:500px; width:700px;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("1248d0c3-4cf1-4e0c-843a-9c2d303b039d")) {                    Plotly.newPlot(                        "1248d0c3-4cf1-4e0c-843a-9c2d303b039d",                        [{"hovertemplate":"x=%{x}\u003cbr\u003ey=%{y}\u003cbr\u003etext=%{text}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#4269D0","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"text":{"dtype":"f8","bdata":"AAAAAAAA8D8AAAAAAAAUQAAAAAAAAChAAAAAAAAAIkAAAAAAAAAuQAAAAAAAADJAAAAAAAAANkAAAAAAAAAuQA=="},"textposition":"outside","x":["1950","1960","1970","1980","1990","2000","2010","2020"],"xaxis":"x","y":{"dtype":"i1","bdata":"AQUMCQ8SFg8="},"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#4269D0"],"font":{"color":"rgb(36,36,36)","size":15},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"height":500,"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"margin":{"b":60,"l":60,"r":30,"t":50},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"width":700,"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Decade"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Count"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"legend":{"tracegroupgap":0},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('1248d0c3-4cf1-4e0c-843a-9c2d303b039d');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };            </script>        </div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="199" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 198;"><span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.album"</span>))</span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<script>
+
+function filterSections(hasmaxattribute) {
+  document.querySelectorAll(".section").forEach(section => {
+    const h2 = section.querySelector("h2")
+    const match = hasmaxattribute === "all" || 
+                  h2.dataset.hasmaxattribute === hasmaxattribute
+
+    section.style.display = match ? "" : "none"
+  })
+}
+
+function sortSections(by = "rank", direction = "desc", numeric = true) {
+  const container = document.querySelector(".albums") // adjust if needed
+  const sections = Array.from(document.querySelectorAll(".section"))
+    console.log(by)
+  if (numeric) {
+    sections.sort((a, b) => {
+    const aVal = Number(a.querySelector("h2").dataset[by])
+    const bVal = Number(b.querySelector("h2").dataset[by])
+    return direction === "desc" ? bVal - aVal : aVal - bVal
+    })
+  } else {
+    sections.sort((a, b) => {
+        const aVal = a.querySelector("h2").dataset[by]
+        const bVal = b.querySelector("h2").dataset[by]
+
+        return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal)
+    })
+  }
+
+  sections.forEach(section => container.appendChild(section))
+}
+
+const switchMaxMood = document.getElementById("toggleMaxMood");
+  switchMaxMood.addEventListener("change", (e) => {
+    if (e.target.checked) {
+      filterSections("True");
+    } else {
+      filterSections("all");
+    }
+  });
+</script>
 
 
+</section>
 
 </main> <!-- /main -->
 <script src="https://unpkg.com/lite-youtube-embed@0.3.0/src/lite-yt-embed.js"></script>
@@ -263,6 +794,17 @@ switchTag.addEventListener('change', () => {
 
 // Optional: hide on load
 // document.querySelectorAll('.toggle-mood').forEach(el => el.style.display = 'none');
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZnVuY3Rpb24gd3JhcFNlY3Rpb25zKCkge1xuICBjb25zdCBoMnMgPSBBcnJheS5mcm9tKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJoMi5hbGJ1bVwiKSlcblxuICBoMnMuZm9yRWFjaChoMiA9PiB7XG4gICAgY29uc3Qgd3JhcHBlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIilcbiAgICB3cmFwcGVyLmNsYXNzTmFtZSA9IFwic2VjdGlvblwiXG5cbiAgICBoMi5wYXJlbnROb2RlLmluc2VydEJlZm9yZSh3cmFwcGVyLCBoMilcblxuICAgIGxldCBub2RlID0gaDJcbiAgICB3aGlsZSAobm9kZSkge1xuICAgICAgY29uc3QgbmV4dCA9IG5vZGUubmV4dFNpYmxpbmdcbiAgICAgIHdyYXBwZXIuYXBwZW5kQ2hpbGQobm9kZSlcblxuICAgICAgaWYgKCFuZXh0IHx8IChuZXh0Lm5vZGVUeXBlID09PSAxICYmIG5leHQudGFnTmFtZSA9PT0gXCJIMlwiKSkge1xuICAgICAgICBicmVha1xuICAgICAgfVxuXG4gICAgICBub2RlID0gbmV4dFxuICAgIH1cbiAgfSlcbn1cbndyYXBTZWN0aW9ucygpXG4ifV19
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../music";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

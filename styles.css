@@ -35,3 +35,48 @@ text-align: left;
     width: 60%;
   }
 }
+
+
+.album-container {
+  display: flex;
+  flex-wrap: wrap;      /* allows stacking on small screens */
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* left column: image */
+.album-image {
+  flex: 0 0 120px;      /* default fixed width */
+  max-width: 120px;
+}
+.album-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* right column: info */
+.album-info {
+  flex: 1 1 auto;
+  min-width: 0;         /* prevents overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center content */
+}
+
+
+/* small screens: stack image on top */
+@media (max-width: 500px) {
+  .album-container {
+    flex-direction: column;
+    align-items: flex-start;  /* left-align stacked items */
+  }
+  .album-image,
+  .album-info {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .album-info {
+    justify-content: flex-start;  /* remove vertical centering */
+  }
+}
