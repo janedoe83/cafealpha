@@ -165,7 +165,7 @@ The greatest songs of all time!!! (According to me)\
 ## 87. Tyler, the Creator - EARFQUAKE{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="87" data-hasmaxattribute="False" data-year="2019"}
 **Album:** *Igor* (2019)\
 **Genres:** Neo-Soul
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🔥 Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="HmAsUQEFYGI"></lite-youtube></div></details>
 ## 86. Car Seat Headrest - Beach Life-In-Death{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="86" data-hasmaxattribute="False" data-year="2018"}
 **Album:** *Twin Fantasy* (2018)\
@@ -195,7 +195,7 @@ The greatest songs of all time!!! (According to me)\
 ## 81. Barbara Dane - Resistance Hymn{.song data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="1" data-sad="1" data-rank="81" data-hasmaxattribute="False" data-year="1970"}
 **Album:** *FTA!: Songs of the GI Resistance * (1970)\
 **Genres:** Contemporary Folk
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span><span class="badge bg-primary rounded-pill">🏆 Least Views: 10k</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YS1rSEnxgNE"></lite-youtube></div></details>
 ## 80. Ninajirachi - Infohazard{.song data-passion="0" data-dreamy="3" data-dark="2" data-groovy="0" data-angry="0" data-happy="1" data-sad="1" data-rank="80" data-hasmaxattribute="False" data-year="2025"}
 **Album:** *I Love My Computer * (2025)\
@@ -266,7 +266,7 @@ The greatest songs of all time!!! (According to me)\
 **Album:** *Heart of Android* (2018)\
 **Genres:** Electrohouse
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Happiest Song</span></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="rMotx5EDl7w"></lite-youtube></div></details>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="9xeZRQDKmLE"></lite-youtube></div></details>
 ## 66. Deftones - Sextape{.song data-passion="3" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="0" data-rank="66" data-hasmaxattribute="False" data-year="2010"}
 **Album:** *Diamond Eyes* (2010)\
 **Genres:** Dream Pop
@@ -305,22 +305,22 @@ My favorite music video of all time! Director Megumi Ishitani is a generational 
 **Album:** *Kimi Wo Omotte Iru* (2022)\
 **Genres:** Shoegaze
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="awq9zaBNqdA"></lite-youtube></div></details>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="EN0VVHgaJxg"></lite-youtube></div></details>
 ## 59. Hannes Wader - Leben einzeln und frei{.song data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="3" data-sad="0" data-rank="59" data-hasmaxattribute="False" data-year="1982"}
 **Album:** *Daß nichts bleibt wie es war * (1982)\
 **Genres:** Liedermacher
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="fKB866ZTI18"></lite-youtube></div></details>
-## 58. Iron Maiden - Run to the Hills{.song data-passion="3" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="0" data-rank="58" data-hasmaxattribute="False" data-year="1982"}
+## 58. Iron Maiden - Run to the Hills{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="2" data-happy="0" data-sad="0" data-rank="58" data-hasmaxattribute="False" data-year="1982"}
 **Album:** *The Number of the Beast* (1982)\
 **Genres:** Heavy Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="86URGgqONvA"></lite-youtube></div></details>
-## 57. World of Pleasure - Domination 2{.song data-passion="0" data-dreamy="0" data-dark="4" data-groovy="1" data-angry="7" data-happy="0" data-sad="0" data-rank="57" data-hasmaxattribute="True" data-year="2022"}
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="86URGgqONvA"></lite-youtube></div></details>
+## 57. World of Pleasure - Domination 2{.song data-passion="0" data-dreamy="0" data-dark="2" data-groovy="1" data-angry="7" data-happy="0" data-sad="0" data-rank="57" data-hasmaxattribute="True" data-year="2022"}
 **Album:** *World of Pleasure & Friends * (2022)\
 **Genres:** Metalcore
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Pissed Off Song</span></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="z1WiJrJtwNg"></lite-youtube></div></details>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="z1WiJrJtwNg"></lite-youtube></div></details>
 ## 56. Ichiko Aoba - A Hill of the Moon{.song data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="4" data-sad="0" data-rank="56" data-hasmaxattribute="False" data-year="2018"}
 **Album:** *qp* (2018)\
 **Genres:** Singer-Songwriter
@@ -389,7 +389,7 @@ My favorite music video of all time! Director Megumi Ishitani is a generational 
 ## 43. System of a Down - Aerials{.song data-passion="1" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="1" data-rank="43" data-hasmaxattribute="False" data-year="2001"}
 **Album:** *Toxicity* (2001)\
 **Genres:** Alternative Metal
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Views: 547M</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="L-iepu3EtyE"></lite-youtube></div></details>
 ## 42. toe - Goodbye{.song data-passion="3" data-dreamy="3" data-dark="0" data-groovy="1" data-angry="0" data-happy="1" data-sad="3" data-rank="42" data-hasmaxattribute="False" data-year="2009"}
 **Album:** *For Long Tomorrow* (2009)\
@@ -436,7 +436,7 @@ I linked the music video above because it is genuinely amazing, but it only feat
 ## 34. Ling Tosite Sigure - This Is Is This?{.song data-passion="5" data-dreamy="2" data-dark="1" data-groovy="0" data-angry="2" data-happy="0" data-sad="2" data-rank="34" data-hasmaxattribute="True" data-year="2010"}
 **Album:** *Still a Sigure Virgin? * (2010)\
 **Genres:** Post-Hardcore
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Emotional Rollercoaster</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="kP03KZyUxaU"></lite-youtube></div></details>
 ## 33. supercell - Kimi no shiranai monogatari{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="3" data-rank="33" data-hasmaxattribute="True" data-year="2011"}
 **Album:** *Today Is a Beautiful Day* (2011)\
@@ -456,7 +456,7 @@ I linked the music video above because it is genuinely amazing, but it only feat
 ## 30. Sun Kil Moon - Duk Koo Kim{.song data-passion="0" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="4" data-rank="30" data-hasmaxattribute="False" data-year="2003"}
 **Album:** *Ghosts of the Great Highway* (2003)\
 **Genres:** Slowcore
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">⚠️ Sketchy Artist</span></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">⚠️ Sketchy Artist</span><span class="badge bg-primary rounded-pill">🏆 Longest: 14:33</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="8-RjqU3T2x4"></lite-youtube></div></details>
 ## 29. Konstantin Wecker - Willy{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="2" data-happy="0" data-sad="3" data-rank="29" data-hasmaxattribute="False" data-year="1977"}
 **Album:** *Genug ist nicht genug* (1977)\
@@ -493,11 +493,11 @@ I linked the music video above because it is genuinely amazing, but it only feat
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qg3DxELVPj4"></lite-youtube></div></details>
-## 22. Keiichi Okabe - City Ruins (Rays of Light){.song data-passion="0" data-dreamy="2" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="4" data-rank="22" data-hasmaxattribute="False" data-year="2017"}
+## 22. Keiichi Okabe - City Ruins (Rays of Light){.song data-passion="0" data-dreamy="4" data-dark="0" data-groovy="0" data-angry="0" data-happy="2" data-sad="4" data-rank="22" data-hasmaxattribute="False" data-year="2017"}
 **Album:** *NieR:Automata * (2017)\
 **Genres:** New Age
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Soundtrack</span></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="LC5HsZt4oNc"></lite-youtube></div></details>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="LC5HsZt4oNc"></lite-youtube></div></details>
 ## 21. Perfume - Dream Fighter{.song data-passion="1" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="21" data-hasmaxattribute="True" data-year="2008"}
 **Album:** *⊿ (Triangle)* (2008)\
 **Genres:** Electropop
@@ -506,7 +506,7 @@ I linked the music video above because it is genuinely amazing, but it only feat
 ## 20. The Dead Kennedys - Nazi Punks Fuck Off{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="5" data-happy="0" data-sad="0" data-rank="20" data-hasmaxattribute="True" data-year="1981"}
 **Album:** *In God We Trust, Inc.* (1981)\
 **Genres:** Hardcore Punk
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span><span class="badge bg-primary rounded-pill">🏆 Shortest: 02:10</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="PzHLPnGuVSQ"></lite-youtube></div></details>
 ## 19. Nas - N.Y. State of Mind{.song data-passion="0" data-dreamy="0" data-dark="2" data-groovy="1" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-hasmaxattribute="False" data-year="1994"}
 **Album:** *Illmatic* (1994)\
@@ -575,11 +575,11 @@ I made a [Studio Ghibli music video tribute](https://www.youtube.com/watch?v=nA2
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">❤️ Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="YkLjqFpBh84"></lite-youtube></div></details>
-## 6. Shiina Ringo - Gips{.song data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="6" data-hasmaxattribute="True" data-year="2000"}
+## 6. Shiina Ringo - Gips{.song data-passion="5" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="6" data-hasmaxattribute="True" data-year="2000"}
 **Album:** *Shouso Strip* (2000)\
 **Genres:** Shimokita-kei
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="zldBTSx9JpE"></lite-youtube></div></details>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="zldBTSx9JpE"></lite-youtube></div></details>
 ## 5. Converge - Jane Doe{.song data-passion="5" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="5" data-happy="0" data-sad="2" data-rank="5" data-hasmaxattribute="True" data-year="2001"}
 **Album:** *Jane Doe* (2001)\
 **Genres:** Mathcore
@@ -606,7 +606,7 @@ I made a [Studio Ghibli music video tribute](https://www.youtube.com/watch?v=nA2
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Inspirational Song</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qnqud-E4aXM"></lite-youtube></div></details>
 </div>## Overall Mood Distribution
-<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:47.8494623655914%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:59.13978494623656%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:37.096774193548384%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:23.655913978494624%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:69.35483870967742%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:90.32258064516128%;" role="progressbar"></div></div></div>
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:48.10810810810811%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:59.45945945945946%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:35.67567567567568%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:23.783783783783786%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:70.8108108108108%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:91.35135135135135%;" role="progressbar"></div></div></div>
 
 ## Stats
 
@@ -614,9 +614,24 @@ I made a [Studio Ghibli music video tribute](https://www.youtube.com/watch?v=nA2
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
+
+pio.templates["my_default"] = pio.templates["simple_white"]
+pio.templates["my_default"].layout.update(
+    font=dict(size=15),
+    xaxis=dict(tickfont=dict(size=16)),
+    yaxis=dict(tickfont=dict(size=16)),
+    margin=dict(l=60, r=30, t=50, b=60),
+    width=700,
+    height=500
+)
+pio.templates["my_default"].layout.colorway = ["#4269D0"]
+
 INPUT_CSV = "../data/songs.csv"
 df = pd.read_csv(INPUT_CSV)
+df = df.head(100)
 df = df.sort_index(ascending=False)
+df["Decade"] = df["Year"].astype(str).str.slice(0,-3) + ["0"]
 
 counts = (
     df.groupby(["Country", "CountryName"])
@@ -624,25 +639,135 @@ counts = (
       .reset_index(name="count")
 ).sort_values("count", ascending=False).rename(columns={"count": "Count"})
 
+# Country bars
+
 fig = px.bar(
     counts,
     x="Country",
     y="Count",
-    hover_data=["CountryName"]
+    hover_data=["CountryName"],
+    text="Count",
+    template="my_default"
 )
 
-fig.update_layout(yaxis_title=None)
+fig.update_traces(textposition="outside")
+
+fig.update_layout(
+    template="simple_white",
+    yaxis_title=None
+)
+
+fig.update_xaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    fixedrange=True
+)
+
+fig.update_yaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    fixedrange=True,
+    title="Count"
+)
 fig.show()
 
 # Decade histogram
-df["Decade"] = df["Year"].astype(str).str.slice(0,-3) + ["0"]
-fig = px.histogram(df[df["Decade"]!="0"].sort_values(by="Decade"), x="Decade")
-fig.update_layout(yaxis_title=None)
-fig.show()
 
-# Views histogram
-fig = px.histogram(np.log10(df["Views"]))
-fig.update_layout(yaxis_title=None,xaxis_title="log10(YouTube Views)",showlegend=False)
+dd = df[df["Decade"] != "0"].sort_values(by="Decade")
+dd_counts = dd["Decade"].value_counts().sort_index()
+
+fig = px.bar(
+    x=dd_counts.index,
+    y=dd_counts.values,
+    template="my_default",
+    text=dd_counts.values
+)
+
+fig.update_traces(textposition="outside")
+fig.update_layout(
+    yaxis_title=None
+)
+fig.update_xaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    fixedrange=True,
+    title="Decade"
+)
+
+fig.update_yaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    fixedrange=True,
+    title="Count"
+)
+fig.show()
+```
+
+```{python}
+## Views vs duration scatterplot
+def number_formatter(n):
+    for unit in ["", "k", "M", "B"]:
+        if abs(n) < 1000:
+            return f"{n:.0f}{unit}".rstrip("0").rstrip(".")
+        n /= 1000
+
+s = df["Duration"].astype(str)
+s = s.str.replace(".00", "")
+s = s.where(s.str.count(":") != 1, "00:" + s)
+df["Duration"] = pd.to_timedelta(s,  errors="coerce")
+df["ViewsFormatted"] = df["Views"].apply(number_formatter)
+df["DurationFormatted"] = df["Duration"].astype(str).str.replace("0 days 00:", "")
+df["DurationSeconds"] = df["Duration"].dt.total_seconds()
+
+fig = px.scatter(
+    df,
+    x="DurationSeconds",
+    y=np.log10(df["Views"]),
+    custom_data=["Title", "ViewsFormatted", "DurationFormatted"],
+    template="my_default"
+)
+
+fig.update_traces(
+    marker_size=10,
+    hovertemplate=(
+        "<b>%{customdata[0]}</b><br>"
+        "Views: %{customdata[1]}<br>"
+        "Duration: %{customdata[2]}"
+        "<extra></extra>"
+    ),
+)
+
+fig.update_xaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    fixedrange=True,
+    title="Duration (s)"
+)
+
+fig.update_yaxes(
+    showline=True,
+    linecolor="black",
+    ticks="outside",
+    mirror=False,
+    title="log10(Views)",
+    fixedrange=True,
+)
+
+fig.update_layout(
+    dragmode=False,
+    modebar_remove=["zoom", "pan", "select", "lasso"]
+)
+
 fig.show()
 ```
 

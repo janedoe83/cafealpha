@@ -17,3 +17,21 @@ text-align: left;
 .hidden {
   display: none;
 }
+
+.lite-youtube-style {
+  max-width: 100%;
+  width: 100%;
+}
+
+.lite-youtube-style lite-youtube {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+  .lite-youtube-style {
+    width: 60%;
+  }
+}

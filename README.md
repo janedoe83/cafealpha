@@ -5,4 +5,6 @@ Deploy:
 - Commit on main branch
 - `quarto publish gh-pages` on main branch
 
+(Make sure correct conda env activated)
+
 To do:
