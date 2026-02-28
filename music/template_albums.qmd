@@ -11,6 +11,7 @@ The greatest ablums of all time!!! (According to me)\
 
 ::: {.callout-note title="Note"}
 - Work in progress...
+- Click on a tag to filter the list.
 - One album per artist.
 - Classical releases are not eligible and will be covered in a separate list.
 :::
@@ -48,10 +49,12 @@ The greatest ablums of all time!!! (According to me)\
 
 <br>
 
+<!---
 ## Stats
 
 ![](../img/plot_hist_albums_countries.png){.lightbox}
 ![](../img/plot_hist_albums_decades.png){.lightbox}
+--->
 
 ```{python}
 # import numpy as np
@@ -198,41 +201,58 @@ function sortSections(by = "rank", direction = "desc", numeric = true) {
 
 //// TAG FILTERS ////
 
-let activeFilters = {};
 let tagFilterActive = false;
+let activeTagName = "";
 
 function toggleTag(button, tagname) {
-    //const isActive = button.classList.contains("active-filter");
-    tagFilterActive = !tagFilterActive;
+    activateFilter = activeTagName != tagname;
+    console.log(activateFilter)
+    console.log(activeTagName)
+    console.log(tagname)
 
-    if (!tagFilterActive) {
+    if (activateFilter) {
         // Activate filter
-        //button.classList.add("active-filter");
-        //button.classList.add("outline-active");
+        //filterTags(false, tagname); // reset
         filterTags(true, tagname);
+        activeTagName = tagname;
     } else {
         // Deactivate filter
-        //button.classList.remove("active-filter");
-        //button.classList.remove("outline-active");
         filterTags(false, tagname);
+        activeTagName = "";
     }
 }
 
 function filterTags(activateFilter, tagname) {
     const container = document.querySelector(".albums");
     const sections = Array.from(container.querySelectorAll("section"));
-    console.log(tagFilterActive)
-    console.log(activateFilter)
-    console.log(tagname)
+    const buttons = Array.from(container.querySelectorAll("button"));
+
     sections.forEach(album => {
-        console.log(album)
         if (activateFilter) {
             if (!album.classList.contains(tagname)) {
                 album.style.display = "none";
+            } else{
+                album.style.display = "";
             }
         } else {
             album.style.display = "";
         }
+    });
+
+    buttons.forEach(button => {
+      if (activateFilter) {
+          if (button.id !== tagname) {
+              button.classList.remove("bg-success");
+              button.classList.add("bg-warning");
+          } else {
+              button.classList.remove("bg-warning");
+              button.classList.add("bg-success");
+          }
+      } else {
+          button.classList.remove("bg-warning");
+          button.classList.remove("bg-success");
+          button.classList.add("bg-primary");
+      }
     });
 }
 </script>
