@@ -80,3 +80,9 @@ text-align: left;
     justify-content: flex-start;  /* remove vertical centering */
   }
 }
+
+/* tag buttons */
+.outline-active {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}

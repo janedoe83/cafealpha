@@ -20,44 +20,10 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -100,11 +66,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -297,6 +258,7 @@ Note
 <div class="callout-body-container callout-body">
 <ul>
 <li>Work in progress…</li>
+<li>Click on a tag to filter the list.</li>
 <li>One album per artist.</li>
 <li>Classical releases are not eligible and will be covered in a separate list.</li>
 </ul>
@@ -309,13 +271,132 @@ Note
 <a class="dropdown-item" href="#" onclick="sortSections('rank','desc'); return false;"> Rank </a>
 </li>
 <li>
-<a class="dropdown-item" href="#" onclick="sortSections('year','desc'); return false;"> Year </a>
+<a class="dropdown-item" href="#" onclick="sortSections('year','asc'); return false;"> Year </a>
+</li>
+<li>
+<a class="dropdown-item" href="#" onclick="sortSections('country','asc',false); return false;"> Country </a>
 </li>
 </ul>
 </div>
-<div class="songs">
-<section id="junxpunx---reminder" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="72" data-year="2014">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="72" data-year="2014" data-anchor-id="junxpunx---reminder">72. JunxPunx - Reminder</h2>
+<div class="albums">
+<section id="sleater-kinney---the-woods" class="level2 album" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="68" data-year="2005">
+<h2 class="album anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="68" data-year="2005" data-anchor-id="sleater-kinney---the-woods">68. Sleater-Kinney - The Woods</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_sleater_woods.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2005<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Indie Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=MbxRu7fwR24" target="_blank" rel="noopener noreferrer">Entertain</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+</section>
+<section id="jorge-ben---fôrça-bruta" class="level2 album pure_awesome" data-country="Brazil" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="67" data-year="1970">
+<h2 class="album pure_awesome anchored" data-country="Brazil" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="67" data-year="1970" data-anchor-id="jorge-ben---fôrça-bruta">67. Jorge Ben - Fôrça bruta</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_jorge_forca.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1970<br><strong>Country:</strong> 🇧🇷 Brazil<br><strong>Genres:</strong> Samba Soul<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=gWUAEnb4BVM" target="_blank" rel="noopener noreferrer">Oba, lá vem ela</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
+</section>
+<section id="billy-woods---aethiopes" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="66" data-year="2022">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="66" data-year="2022" data-anchor-id="billy-woods---aethiopes">66. Billy Woods - Aethiopes</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_billy_aethiopes.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2022<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Abstract Hip Hop<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=VJyAZwSWuRA" target="_blank" rel="noopener noreferrer">Heavy Waters</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
+</section>
+<section id="various-artists---sonny-boy" class="level2 album soundtrack" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="65" data-year="2021">
+<h2 class="album soundtrack anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="65" data-year="2021" data-anchor-id="various-artists---sonny-boy">65. Various Artists - Sonny Boy</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_various_sonny.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2021<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Alternative Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=HSDdRxAEdcs" target="_blank" rel="noopener noreferrer">Sonny Boy Rhapsody</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
+</section>
+<section id="pj-harvey---stories-from-the-city-stories-from-the-sea" class="level2 album" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="64" data-year="2000">
+<h2 class="album anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="64" data-year="2000" data-anchor-id="pj-harvey---stories-from-the-city-stories-from-the-sea">64. PJ Harvey - Stories From the City, Stories From the Sea</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/coverr_pj_stories.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2000<br><strong>Country:</strong> 🇬🇧 United Kingdom<br><strong>Genres:</strong> Alternative Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=pY8n7uYT0mM" target="_blank" rel="noopener noreferrer">We Float</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+</section>
+<section id="dälek---absence" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="63" data-year="2005">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="63" data-year="2005" data-anchor-id="dälek---absence">63. dälek - Absence</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_dalek_absence.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2005<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Industrial Hip Hop, Abstract Hip Hop<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=bflcOAfWH-Y" target="_blank" rel="noopener noreferrer">Distorted Pose</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
+</section>
+<section id="junxpunx---reminder" class="level2 album pure_awesome" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="62" data-year="2014">
+<h2 class="album pure_awesome anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="62" data-year="2014" data-anchor-id="junxpunx---reminder">62. JunxPunx - Reminder</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_junxpunx_reminder.webp" class="img-fluid">
@@ -326,9 +407,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
-<section id="snapcase---progression-through-unlearning" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="59" data-year="1997">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="59" data-year="1997" data-anchor-id="snapcase---progression-through-unlearning">59. Snapcase - Progression Through Unlearning</h2>
+<section id="snapcase---progression-through-unlearning" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="61" data-year="1997">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="61" data-year="1997" data-anchor-id="snapcase---progression-through-unlearning">61. Snapcase - Progression Through Unlearning</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_snapcase_progression.jpeg" class="img-fluid">
@@ -339,22 +427,203 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
 </section>
-<section id="gris---il-était-une-forêt" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="56" data-year="2007">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="56" data-year="2007" data-anchor-id="gris---il-était-une-forêt">56. Gris - Il était une forêt</h2>
+<section id="gris---il-était-une-forêt" class="level2 album gaze_into_the_abyss scream_into_the_void" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="60" data-year="2007">
+<h2 class="album gaze_into_the_abyss scream_into_the_void anchored" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="60" data-year="2007" data-anchor-id="gris---il-était-une-forêt">60. Gris - Il était une forêt</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_gris_etait.jpeg" class="img-fluid">
 </div>
 <div class="album-info">
 <p class="mb-0">
-<strong>Year:</strong> 2007<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Depressive Black Metal<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=rMrBWwEMA7w" target="_blank" rel="noopener noreferrer">Il était une forêt</a></strong>
+<strong>Year:</strong> 2007<br><strong>Country:</strong> 🇨🇦 Canada<br><strong>Genres:</strong> Depressive Black Metal<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=rMrBWwEMA7w" target="_blank" rel="noopener noreferrer">Il était une forêt</a></strong>
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="tyler-the-creator---igor" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="50" data-year="2019">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="50" data-year="2019" data-anchor-id="tyler-the-creator---igor">50. Tyler, the Creator - Igor</h2>
+<section id="fela-anikulapo-kuti-and-afrika-70---zombie" class="level2 album truth_to_power" data-country="Nigeria" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="59" data-year="1977">
+<h2 class="album truth_to_power anchored" data-country="Nigeria" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="59" data-year="1977" data-anchor-id="fela-anikulapo-kuti-and-afrika-70---zombie">59. Fela Anikulapo Kuti and Afrika 70 - Zombie</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_fela_zombie.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1977<br><strong>Country:</strong> 🇳🇬 Nigeria<br><strong>Genres:</strong> Afrobeat<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=Qj5x6pbJMyU" target="_blank" rel="noopener noreferrer">Zombie</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
+</section>
+<section id="tim-hecker---konoyo" class="level2 album gaze_into_the_abyss" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="58" data-year="2018">
+<h2 class="album gaze_into_the_abyss anchored" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="58" data-year="2018" data-anchor-id="tim-hecker---konoyo">58. Tim Hecker - Konoyo</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_hecker_konoyo.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2018<br><strong>Country:</strong> 🇨🇦 Canada<br><strong>Genres:</strong> Ambient, Drone, Gagaku<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=90unmGG4eKI" target="_blank" rel="noopener noreferrer">This Life</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+</div>
+</div>
+</section>
+<section id="opeth---blackwater-park" class="level2 album gaze_into_the_abyss" data-country="Sweden" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="57" data-year="2001">
+<h2 class="album gaze_into_the_abyss anchored" data-country="Sweden" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="57" data-year="2001" data-anchor-id="opeth---blackwater-park">57. Opeth - Blackwater Park</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_opeth_blackwater.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2001<br><strong>Country:</strong> 🇸🇪 Sweden<br><strong>Genres:</strong> Progressive Metal<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=j4xCb_OU_lM" target="_blank" rel="noopener noreferrer">Blackwater Park</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+</div>
+</div>
+</section>
+<section id="the-beatles---abbey-road" class="level2 album" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="56" data-year="1969">
+<h2 class="album anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="56" data-year="1969" data-anchor-id="the-beatles---abbey-road">56. The Beatles - Abbey Road</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_beatles_abbey.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1969<br><strong>Country:</strong> 🇬🇧 United Kingdom<br><strong>Genres:</strong> Pop Rock<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=GKdl-GCsNJ0" target="_blank" rel="noopener noreferrer">Here Comes the Sun</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
+</section>
+<section id="barbara-dane---fta-songs-of-the-gi-resistance" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="55" data-year="1970">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="55" data-year="1970" data-anchor-id="barbara-dane---fta-songs-of-the-gi-resistance">55. Barbara Dane - FTA!: Songs of the GI Resistance</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_dane_fta.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1970<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Contemporary Folk<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=YS1rSEnxgNE" target="_blank" rel="noopener noreferrer">Resistance Hymn</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
+</section>
+<section id="vangelis---blade-runner" class="level2 album soundtrack" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="54" data-year="1980">
+<h2 class="album soundtrack anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="54" data-year="1980" data-anchor-id="vangelis---blade-runner">54. Vangelis - Blade Runner</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_vangelis_blade.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1980<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Progressive Electronic<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=u1KfOMkyU_w" target="_blank" rel="noopener noreferrer">Memories of Green</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
+</section>
+<section id="kow-otani---haibane-renmei-soundtrack-hanenone" class="level2 album soundtrack tears_please_stop_flowing" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="53" data-year="2003">
+<h2 class="album soundtrack tears_please_stop_flowing anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="53" data-year="2003" data-anchor-id="kow-otani---haibane-renmei-soundtrack-hanenone">53. Kow Otani - Haibane Renmei: Soundtrack Hanenone</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_kow_haibane.png" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2003<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Chamber Musik<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=36DgAT5jWMY" target="_blank" rel="noopener noreferrer">Refrain of Memory</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
+</section>
+<section id="yoshihiro-kanno---angels-egg" class="level2 album soundtrack gaze_into_the_abyss" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="52" data-year="1985">
+<h2 class="album soundtrack gaze_into_the_abyss anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="52" data-year="1985" data-anchor-id="yoshihiro-kanno---angels-egg">52. Yoshihiro Kanno - Angel’s Egg</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_yoshihiro_tenshi.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1985<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Modern Classical<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=mqRR9EoWVAI" target="_blank" rel="noopener noreferrer">Prelude</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+</div>
+</div>
+</section>
+<section id="tyler-the-creator---igor" class="level2 album eclectic_masterpiece" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="51" data-year="2019">
+<h2 class="album eclectic_masterpiece anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="51" data-year="2019" data-anchor-id="tyler-the-creator---igor">51. Tyler, the Creator - Igor</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_tyler_igor.jpeg" class="img-fluid">
@@ -365,9 +634,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
 </section>
-<section id="ninajirachi---i-love-my-computer" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="49" data-year="2025">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="49" data-year="2025" data-anchor-id="ninajirachi---i-love-my-computer">49. Ninajirachi - I Love My Computer</h2>
+<section id="ninajirachi---i-love-my-computer" class="level2 album" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="50" data-year="2025">
+<h2 class="album anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="50" data-year="2025" data-anchor-id="ninajirachi---i-love-my-computer">50. Ninajirachi - I Love My Computer</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_ninajirachi_love.jpeg" class="img-fluid">
@@ -378,9 +654,14 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
 </section>
-<section id="weyes-blood---titanic-rising" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="48" data-year="2019">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="48" data-year="2019" data-anchor-id="weyes-blood---titanic-rising">48. Weyes Blood - Titanic Rising</h2>
+<section id="weyes-blood---titanic-rising" class="level2 album deep_and_moving" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="49" data-year="2019">
+<h2 class="album deep_and_moving anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="49" data-year="2019" data-anchor-id="weyes-blood---titanic-rising">49. Weyes Blood - Titanic Rising</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_weyes_titantic.jpeg" class="img-fluid">
@@ -391,9 +672,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="toe---for-long-tomorrow" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="47" data-year="2009">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="47" data-year="2009" data-anchor-id="toe---for-long-tomorrow">47. toe - For Long Tomorrow</h2>
+<section id="toe---for-long-tomorrow" class="level2 album" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="48" data-year="2009">
+<h2 class="album anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="48" data-year="2009" data-anchor-id="toe---for-long-tomorrow">48. toe - For Long Tomorrow</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_toe_tomorrow.jpeg" class="img-fluid">
@@ -404,9 +692,34 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
 </section>
-<section id="judas-priest---painkiller" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="45" data-year="1990">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="45" data-year="1990" data-anchor-id="judas-priest---painkiller">45. Judas Priest - Painkiller</h2>
+<section id="lorien-testard---clair-obscur-expedition-33" class="level2 album soundtrack" data-country="France" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="47" data-year="2025">
+<h2 class="album soundtrack anchored" data-country="France" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="47" data-year="2025" data-anchor-id="lorien-testard---clair-obscur-expedition-33">47. Lorien Testard - Clair Obscur: Expedition 33</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_lorien_clair.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2025<br><strong>Country:</strong> 🇫🇷 France<br><strong>Genres:</strong> Classical Crossover<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=yakOBIoyoik" target="_blank" rel="noopener noreferrer">Alicia</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
+</section>
+<section id="judas-priest---painkiller" class="level2 album pure_awesome" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="46" data-year="1990">
+<h2 class="album pure_awesome anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="46" data-year="1990" data-anchor-id="judas-priest---painkiller">46. Judas Priest - Painkiller</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_judas_painkiller.jpeg" class="img-fluid">
@@ -417,9 +730,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
-<section id="kate-bush---hounds-of-love" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="44" data-year="1985">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="44" data-year="1985" data-anchor-id="kate-bush---hounds-of-love">44. Kate Bush - Hounds of Love</h2>
+<section id="kate-bush---hounds-of-love" class="level2 album eclectic_masterpiece" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="45" data-year="1985">
+<h2 class="album eclectic_masterpiece anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="45" data-year="1985" data-anchor-id="kate-bush---hounds-of-love">45. Kate Bush - Hounds of Love</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_bush_hounds.jpeg" class="img-fluid">
@@ -430,9 +750,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
 </section>
-<section id="my-chemical-romance---three-cheers-for-sweet-revenge" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="43" data-year="2004">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="43" data-year="2004" data-anchor-id="my-chemical-romance---three-cheers-for-sweet-revenge">43. My Chemical Romance - Three Cheers for Sweet Revenge</h2>
+<section id="my-chemical-romance---three-cheers-for-sweet-revenge" class="level2 album scream_into_the_void" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="44" data-year="2004">
+<h2 class="album scream_into_the_void anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="44" data-year="2004" data-anchor-id="my-chemical-romance---three-cheers-for-sweet-revenge">44. My Chemical Romance - Three Cheers for Sweet Revenge</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_mcr_cheers.jpeg" class="img-fluid">
@@ -443,9 +770,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="marvin-gaye---whats-going-on" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="42" data-year="1971">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="42" data-year="1971" data-anchor-id="marvin-gaye---whats-going-on">42. Marvin Gaye - What’s Going On</h2>
+<section id="marvin-gaye---whats-going-on" class="level2 album deep_and_moving" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="43" data-year="1971">
+<h2 class="album deep_and_moving anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="43" data-year="1971" data-anchor-id="marvin-gaye---whats-going-on">43. Marvin Gaye - What’s Going On</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_gaye_whats.webp" class="img-fluid">
@@ -456,9 +790,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="angelo-badalamenti---twin-peaks-fire-walk-with-me" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="40" data-year="1992">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="40" data-year="1992" data-anchor-id="angelo-badalamenti---twin-peaks-fire-walk-with-me">40. Angelo Badalamenti - Twin Peaks: Fire Walk With Me</h2>
+<section id="angelo-badalamenti---twin-peaks-fire-walk-with-me" class="level2 album tears_please_stop_flowing gaze_into_the_abyss soundtrack" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="41" data-year="1992">
+<h2 class="album tears_please_stop_flowing gaze_into_the_abyss soundtrack anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="41" data-year="1992" data-anchor-id="angelo-badalamenti---twin-peaks-fire-walk-with-me">41. Angelo Badalamenti - Twin Peaks: Fire Walk With Me</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_angelo_fire.jpeg" class="img-fluid">
@@ -469,9 +810,45 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
 </section>
-<section id="lingua-ignota---caligula" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="36" data-year="2019">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="36" data-year="2019" data-anchor-id="lingua-ignota---caligula">36. Lingua Ignota - Caligula</h2>
+<section id="sun-kil-moon---ghosts-of-the-great-highway" class="level2 album sketchy_artist tears_please_stop_flowing" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="38" data-year="2003">
+<h2 class="album sketchy_artist tears_please_stop_flowing anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="38" data-year="2003" data-anchor-id="sun-kil-moon---ghosts-of-the-great-highway">38. Sun Kil Moon - Ghosts of the Great Highway</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_sunkilmoom_ghosts.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2003<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Slowcore<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=8-RjqU3T2x4" target="_blank" rel="noopener noreferrer">Duk Koo Kim</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="sketchy_artist" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'sketchy_artist')">
+⚠️ Sketchy Artist
+</button>
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
+</section>
+<section id="lingua-ignota---caligula" class="level2 album gaze_into_the_abyss scream_into_the_void" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="37" data-year="2019">
+<h2 class="album gaze_into_the_abyss scream_into_the_void anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="37" data-year="2019" data-anchor-id="lingua-ignota---caligula">37. Lingua Ignota - Caligula</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_lingua_caligula.jpeg" class="img-fluid">
@@ -482,9 +859,19 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="iron-maiden---the-number-of-the-beast" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="35" data-year="1982">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="35" data-year="1982" data-anchor-id="iron-maiden---the-number-of-the-beast">35. Iron Maiden - The Number of the Beast</h2>
+<section id="iron-maiden---the-number-of-the-beast" class="level2 album" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="36" data-year="1982">
+<h2 class="album anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="36" data-year="1982" data-anchor-id="iron-maiden---the-number-of-the-beast">36. Iron Maiden - The Number of the Beast</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_iron_number.jpeg" class="img-fluid">
@@ -495,9 +882,34 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
 </section>
-<section id="javiera-mena---esquemas-juveniles" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="33" data-year="2005">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="33" data-year="2005" data-anchor-id="javiera-mena---esquemas-juveniles">33. Javiera Mena - Esquemas juveniles</h2>
+<section id="ling-tosite-sigure---still-a-sigure-virgin" class="level2 album scream_into_the_void" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="35" data-year="2010">
+<h2 class="album scream_into_the_void anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="35" data-year="2010" data-anchor-id="ling-tosite-sigure---still-a-sigure-virgin">35. Ling Tosite Sigure - Still a Sigure Virgin?</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_ling_virgin.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 2010<br><strong>Country:</strong> 🇯🇵 Japan<br><strong>Genres:</strong> Post-Hardcore<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=ZIMRDuv57nQ" target="_blank" rel="noopener noreferrer">This Is Is This?</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
+</section>
+<section id="javiera-mena---esquemas-juveniles" class="level2 album floating_into_bliss" data-country="Spain" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="34" data-year="2005">
+<h2 class="album floating_into_bliss anchored" data-country="Spain" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="34" data-year="2005" data-anchor-id="javiera-mena---esquemas-juveniles">34. Javiera Mena - Esquemas juveniles</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_javiera.jpeg" class="img-fluid">
@@ -508,9 +920,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="floating_into_bliss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'floating_into_bliss')">
+Floating Into Bliss
+</button>
+</div>
+</div>
 </section>
-<section id="cameron-winter---heavy-metal" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="32" data-year="2024">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="32" data-year="2024" data-anchor-id="cameron-winter---heavy-metal">32. Cameron Winter - Heavy Metal</h2>
+<section id="cameron-winter---heavy-metal" class="level2 album tears_please_stop_flowing" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="33" data-year="2024">
+<h2 class="album tears_please_stop_flowing anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="33" data-year="2024" data-anchor-id="cameron-winter---heavy-metal">33. Cameron Winter - Heavy Metal</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_cameron_heavy.jpeg" class="img-fluid">
@@ -521,9 +940,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
 </section>
-<section id="portishead---dummy" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="31" data-year="1994">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="31" data-year="1994" data-anchor-id="portishead---dummy">31. Portishead - Dummy</h2>
+<section id="portishead---dummy" class="level2 album deep_and_moving" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="32" data-year="1994">
+<h2 class="album deep_and_moving anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="32" data-year="1994" data-anchor-id="portishead---dummy">32. Portishead - Dummy</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_portishead_dummy.jpeg" class="img-fluid">
@@ -534,9 +960,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="electric-light-orchestra---time" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="30" data-year="1981">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="30" data-year="1981" data-anchor-id="electric-light-orchestra---time">30. Electric Light Orchestra - Time</h2>
+<section id="electric-light-orchestra---time" class="level2 album pure_awesome" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="31" data-year="1981">
+<h2 class="album pure_awesome anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="31" data-year="1981" data-anchor-id="electric-light-orchestra---time">31. Electric Light Orchestra - Time</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_elo_time.jpeg" class="img-fluid">
@@ -547,9 +980,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
-<section id="panopticon---and-again-into-the-light" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="29" data-year="2021">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="29" data-year="2021" data-anchor-id="panopticon---and-again-into-the-light">29. Panopticon - …And Again Into the Light</h2>
+<section id="panopticon---and-again-into-the-light" class="level2 album truth_to_power scream_into_the_void" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="30" data-year="2021">
+<h2 class="album truth_to_power scream_into_the_void anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="30" data-year="2021" data-anchor-id="panopticon---and-again-into-the-light">30. Panopticon - …And Again Into the Light</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_panopticon_light.jpeg" class="img-fluid">
@@ -560,22 +1000,39 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="parannoul---to-see-the-next-part-of-the-dream" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="28" data-year="2021">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="28" data-year="2021" data-anchor-id="parannoul---to-see-the-next-part-of-the-dream">28. Parannoul - To See the Next Part of the Dream</h2>
+<section id="parannoul---to-see-the-next-part-of-the-dream" class="level2 album scream_into_the_void" data-country="South Korea" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="29" data-year="2021">
+<h2 class="album scream_into_the_void anchored" data-country="South Korea" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="29" data-year="2021" data-anchor-id="parannoul---to-see-the-next-part-of-the-dream">29. Parannoul - To See the Next Part of the Dream</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_parannoul_dream.jpeg" class="img-fluid">
 </div>
 <div class="album-info">
 <p class="mb-0">
-<strong>Year:</strong> 2021<br><strong>Country:</strong> 🇰🇷 South Korea<br><strong>Genres:</strong> Shoegaze<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=g1x1NtWGw5s" target="_blank" rel="noopener noreferrer">White Ceiling</a></strong>
+<strong>Year:</strong> 2021<br><strong>Country:</strong> 🇰🇷 South Korea<br><strong>Genres:</strong> Shoegaze, Emo<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=g1x1NtWGw5s" target="_blank" rel="noopener noreferrer">White Ceiling</a></strong>
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="fka-twigs---magdalene" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="27" data-year="2019">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="27" data-year="2019" data-anchor-id="fka-twigs---magdalene">27. FKA Twigs - Magdalene</h2>
+<section id="fka-twigs---magdalene" class="level2 album deep_and_moving" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="28" data-year="2019">
+<h2 class="album deep_and_moving anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="28" data-year="2019" data-anchor-id="fka-twigs---magdalene">28. FKA Twigs - Magdalene</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_fka_magdalene.jpeg" class="img-fluid">
@@ -586,9 +1043,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="rage-against-the-machine---rage-against-the-machine" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="26" data-year="1992">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="26" data-year="1992" data-anchor-id="rage-against-the-machine---rage-against-the-machine">26. Rage Against the Machine - Rage Against the Machine</h2>
+<section id="rage-against-the-machine---rage-against-the-machine" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="27" data-year="1992">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="27" data-year="1992" data-anchor-id="rage-against-the-machine---rage-against-the-machine">27. Rage Against the Machine - Rage Against the Machine</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_ratm_ratm.jpeg" class="img-fluid">
@@ -599,9 +1063,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
 </section>
-<section id="david-bowie---low" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="25" data-year="1977">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="25" data-year="1977" data-anchor-id="david-bowie---low">25. David Bowie - Low</h2>
+<section id="david-bowie---low" class="level2 album eclectic_masterpiece" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="26" data-year="1977">
+<h2 class="album eclectic_masterpiece anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="26" data-year="1977" data-anchor-id="david-bowie---low">26. David Bowie - Low</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/coveer_bowie_low.jpeg" class="img-fluid">
@@ -612,9 +1083,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
 </section>
-<section id="perfume---triangle" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="24" data-year="2008">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="24" data-year="2008" data-anchor-id="perfume---triangle">24. Perfume - ⊿ (Triangle)</h2>
+<section id="perfume---triangle" class="level2 album jump_for_joy" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="25" data-year="2008">
+<h2 class="album jump_for_joy anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="25" data-year="2008" data-anchor-id="perfume---triangle">25. Perfume - ⊿ (Triangle)</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_perfume_triangle.jpeg" class="img-fluid">
@@ -625,9 +1103,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="jump_for_joy" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'jump_for_joy')">
+Jump for Joy
+</button>
+</div>
+</div>
 </section>
-<section id="ocean-machine---biomech" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="23" data-year="1997">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="23" data-year="1997" data-anchor-id="ocean-machine---biomech">23. Ocean Machine - Biomech</h2>
+<section id="ocean-machine---biomech" class="level2 album eclectic_masterpiece" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="24" data-year="1997">
+<h2 class="album eclectic_masterpiece anchored" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="24" data-year="1997" data-anchor-id="ocean-machine---biomech">24. Ocean Machine - Biomech</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_ocean_biomech.jpeg" class="img-fluid">
@@ -638,9 +1123,36 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
 </section>
-<section id="nas---illmatic" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="22" data-year="1994">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="22" data-year="1994" data-anchor-id="nas---illmatic">22. Nas - Illmatic</h2>
+<section id="charles-mingus---the-black-saint-and-the-sinner-lady" class="level2 album eclectic_masterpiece" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="23" data-year="1963">
+<h2 class="album eclectic_masterpiece anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="23" data-year="1963" data-anchor-id="charles-mingus---the-black-saint-and-the-sinner-lady">23. Charles Mingus - The Black Saint and the Sinner Lady</h2>
+<div class="album-container">
+<div class="album-image">
+<img src="../img/cover_minugs_saint.jpeg" class="img-fluid">
+</div>
+<div class="album-info">
+<p class="mb-0">
+<strong>Year:</strong> 1963<br><strong>Country:</strong> 🇺🇸 USA<br><strong>Genres:</strong> Avant-Garde Jazz<br><strong>Favorite Song: <a href="https://www.youtube.com/watch?v=jOaCrz43Sjk" target="_blank" rel="noopener noreferrer">Trio and Group Dancers</a></strong>
+</p>
+</div>
+</div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
+</section>
+<section id="nas---illmatic" class="level2 album" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="22" data-year="1994">
+<h2 class="album anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="22" data-year="1994" data-anchor-id="nas---illmatic">22. Nas - Illmatic</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_nas_illmatic.jpeg" class="img-fluid">
@@ -651,9 +1163,14 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+
+</div>
+</div>
 </section>
-<section id="my-bloody-valentine---loveless" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="21" data-year="1991">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="21" data-year="1991" data-anchor-id="my-bloody-valentine---loveless">21. My Bloody Valentine - Loveless</h2>
+<section id="my-bloody-valentine---loveless" class="level2 album floating_into_bliss" data-country="Ireland" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="21" data-year="1991">
+<h2 class="album floating_into_bliss anchored" data-country="Ireland" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="21" data-year="1991" data-anchor-id="my-bloody-valentine---loveless">21. My Bloody Valentine - Loveless</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_mbv_loveless.jpeg" class="img-fluid">
@@ -664,9 +1181,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="floating_into_bliss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'floating_into_bliss')">
+Floating Into Bliss
+</button>
+</div>
+</div>
 </section>
-<section id="kessoku-band---kessoku-band" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="20" data-year="2022">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="20" data-year="2022" data-anchor-id="kessoku-band---kessoku-band">20. Kessoku Band - Kessoku Band</h2>
+<section id="kessoku-band---kessoku-band" class="level2 album soundtrack" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="20" data-year="2022">
+<h2 class="album soundtrack anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="20" data-year="2022" data-anchor-id="kessoku-band---kessoku-band">20. Kessoku Band - Kessoku Band</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_kessoku_band.jpeg" class="img-fluid">
@@ -677,9 +1201,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
 </section>
-<section id="system-of-a-down---toxicity" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-year="2001">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-year="2001" data-anchor-id="system-of-a-down---toxicity">19. System of a Down - Toxicity</h2>
+<section id="system-of-a-down---toxicity" class="level2 album truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-year="2001">
+<h2 class="album truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="19" data-year="2001" data-anchor-id="system-of-a-down---toxicity">19. System of a Down - Toxicity</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_system_toxicity.jpeg" class="img-fluid">
@@ -690,9 +1221,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
 </section>
-<section id="lana-del-rey---norman-fucking-rockwell" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="18" data-year="2018">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="18" data-year="2018" data-anchor-id="lana-del-rey---norman-fucking-rockwell">18. Lana Del Rey - Norman Fucking Rockwell!</h2>
+<section id="lana-del-rey---norman-fucking-rockwell" class="level2 album deep_and_moving" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="18" data-year="2018">
+<h2 class="album deep_and_moving anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="18" data-year="2018" data-anchor-id="lana-del-rey---norman-fucking-rockwell">18. Lana Del Rey - Norman Fucking Rockwell!</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_lana_norman.jpeg" class="img-fluid">
@@ -703,9 +1241,16 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="kendrick-lamar---to-pimp-a-butterfly" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="17" data-year="2015">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="17" data-year="2015" data-anchor-id="kendrick-lamar---to-pimp-a-butterfly">17. Kendrick Lamar - To Pimp a Butterfly</h2>
+<section id="kendrick-lamar---to-pimp-a-butterfly" class="level2 album eclectic_masterpiece truth_to_power" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="17" data-year="2015">
+<h2 class="album eclectic_masterpiece truth_to_power anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="17" data-year="2015" data-anchor-id="kendrick-lamar---to-pimp-a-butterfly">17. Kendrick Lamar - To Pimp a Butterfly</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_kendrick_pimp.jpeg" class="img-fluid">
@@ -716,9 +1261,19 @@ Note
 </p>
 </div>
 </div>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+<button id="truth_to_power" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'truth_to_power')">
+Truth to Power
+</button>
+</div>
+</div>
 </section>
-<section id="ichiko-aoba---windswept-adan" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="16" data-year="2020">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="16" data-year="2020" data-anchor-id="ichiko-aoba---windswept-adan">16. Ichiko Aoba - Windswept Adan</h2>
+<section id="ichiko-aoba---windswept-adan" class="level2 album seen_live" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="16" data-year="2020">
+<h2 class="album seen_live anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="16" data-year="2020" data-anchor-id="ichiko-aoba---windswept-adan">16. Ichiko Aoba - Windswept Adan</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_ichiko_windswept.jpeg" class="img-fluid">
@@ -729,11 +1284,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>A kind fairy beckons you to find beauty and peace in nature</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="seen_live" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'seen_live')">
+Seen Live
+</button>
+</div>
+</div>
 </section>
-<section id="seatbelts---cowboy-bebop" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-year="1998">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-year="1998" data-anchor-id="seatbelts---cowboy-bebop">15. Seatbelts - Cowboy Bebop</h2>
+<section id="seatbelts---cowboy-bebop" class="level2 album soundtrack" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-year="1998">
+<h2 class="album soundtrack anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="15" data-year="1998" data-anchor-id="seatbelts---cowboy-bebop">15. Seatbelts - Cowboy Bebop</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_seatbelts_cowboy.jpeg" class="img-fluid">
@@ -744,11 +1304,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>One last fiery jam session before the space cowboy must face his past</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
 </section>
-<section id="the-pillows---flcl-original-soundtrack-no.-3" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="14" data-year="2005">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="14" data-year="2005" data-anchor-id="the-pillows---flcl-original-soundtrack-no.-3">14. The Pillows - FLCL Original Soundtrack No.&nbsp;3</h2>
+<section id="the-pillows---flcl-original-soundtrack-no.-3" class="level2 album pure_awesome" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="14" data-year="2005">
+<h2 class="album pure_awesome anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="14" data-year="2005" data-anchor-id="the-pillows---flcl-original-soundtrack-no.-3">14. The Pillows - FLCL Original Soundtrack No.&nbsp;3</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_pillows_flcl.jpeg" class="img-fluid">
@@ -759,11 +1324,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>The highs and lows of a perfectly normal adolescence where nothing amazing ever happens (*gets abducted and falls in love with an alien rockstar*)</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
-<section id="stevie-wonder---songs-in-the-key-of-life" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="13" data-year="1976">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="13" data-year="1976" data-anchor-id="stevie-wonder---songs-in-the-key-of-life">13. Stevie Wonder - Songs in the Key of Life</h2>
+<section id="stevie-wonder---songs-in-the-key-of-life" class="level2 album pure_awesome" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="13" data-year="1976">
+<h2 class="album pure_awesome anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="13" data-year="1976" data-anchor-id="stevie-wonder---songs-in-the-key-of-life">13. Stevie Wonder - Songs in the Key of Life</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_stevie_keys.jpeg" class="img-fluid">
@@ -774,11 +1344,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>The incandescent joy of music shining brighter nowhere</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
-<section id="gorguts---colored-sands" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="12" data-year="2013">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="12" data-year="2013" data-anchor-id="gorguts---colored-sands">12. Gorguts - Colored Sands</h2>
+<section id="gorguts---colored-sands" class="level2 album gaze_into_the_abyss" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="12" data-year="2013">
+<h2 class="album gaze_into_the_abyss anchored" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="12" data-year="2013" data-anchor-id="gorguts---colored-sands">12. Gorguts - Colored Sands</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_gorguts_colored.jpeg" class="img-fluid">
@@ -789,11 +1364,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Meditations on Tibet amid labyrinthine patterns of unrelenting chaos</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="gaze_into_the_abyss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'gaze_into_the_abyss')">
+Gaze Into the Abyss
+</button>
+</div>
+</div>
 </section>
-<section id="carly-rae-jepsen---emotion" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="11" data-year="2015">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="11" data-year="2015" data-anchor-id="carly-rae-jepsen---emotion">11. Carly Rae Jepsen - E·MO·TION</h2>
+<section id="carly-rae-jepsen---emotion" class="level2 album jump_for_joy" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="11" data-year="2015">
+<h2 class="album jump_for_joy anchored" data-country="Canada" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="11" data-year="2015" data-anchor-id="carly-rae-jepsen---emotion">11. Carly Rae Jepsen - E·MO·TION</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_carly_emotion.jpeg" class="img-fluid">
@@ -804,11 +1384,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>The absolute Queen catapulting the 80s into the 21st century and winning it all</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="jump_for_joy" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'jump_for_joy')">
+Jump for Joy
+</button>
+</div>
+</div>
 </section>
-<section id="cocteau-twins---heaven-or-las-vegas" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="10" data-year="1990">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="10" data-year="1990" data-anchor-id="cocteau-twins---heaven-or-las-vegas">10. Cocteau Twins - Heaven or Las Vegas</h2>
+<section id="cocteau-twins---heaven-or-las-vegas" class="level2 album floating_into_bliss" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="10" data-year="1990">
+<h2 class="album floating_into_bliss anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="10" data-year="1990" data-anchor-id="cocteau-twins---heaven-or-las-vegas">10. Cocteau Twins - Heaven or Las Vegas</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_cocteau_heaven.jpeg" class="img-fluid">
@@ -819,11 +1404,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Bliss manifested through celestial reverberations from cloud nine</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="floating_into_bliss" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'floating_into_bliss')">
+Floating Into Bliss
+</button>
+</div>
+</div>
 </section>
-<section id="radiohead---in-rainbows" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="9" data-year="2008">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="9" data-year="2008" data-anchor-id="radiohead---in-rainbows">9. Radiohead - In Rainbows</h2>
+<section id="radiohead---in-rainbows" class="level2 album deep_and_moving" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="9" data-year="2008">
+<h2 class="album deep_and_moving anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="9" data-year="2008" data-anchor-id="radiohead---in-rainbows">9. Radiohead - In Rainbows</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_radiohead_rainbows.jpeg" class="img-fluid">
@@ -834,11 +1424,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>I thought these guys were cool</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="pink-floyd---wish-you-were-here" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="8" data-year="1975">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="8" data-year="1975" data-anchor-id="pink-floyd---wish-you-were-here">8. Pink Floyd - Wish You Were Here</h2>
+<section id="pink-floyd---wish-you-were-here" class="level2 album deep_and_moving" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="8" data-year="1975">
+<h2 class="album deep_and_moving anchored" data-country="United Kingdom" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="8" data-year="1975" data-anchor-id="pink-floyd---wish-you-were-here">8. Pink Floyd - Wish You Were Here</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_pink_wish.png" class="img-fluid">
@@ -849,11 +1444,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Don’t we all?</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="deep_and_moving" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'deep_and_moving')">
+Deep and Moving
+</button>
+</div>
+</div>
 </section>
-<section id="mac-miller---circles" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="7" data-year="2020">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="7" data-year="2020" data-anchor-id="mac-miller---circles">7. Mac Miller - Circles</h2>
+<section id="mac-miller---circles" class="level2 album tears_please_stop_flowing" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="7" data-year="2020">
+<h2 class="album tears_please_stop_flowing anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="7" data-year="2020" data-anchor-id="mac-miller---circles">7. Mac Miller - Circles</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_mac_circles.jpeg" class="img-fluid">
@@ -864,11 +1464,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Gone too soon</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
 </section>
-<section id="keiichi-okabe-keigo-hoashi---nierautomata" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="6" data-year="2017">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="6" data-year="2017" data-anchor-id="keiichi-okabe-keigo-hoashi---nierautomata">6. Keiichi Okabe &amp; Keigo Hoashi - NieR:Automata</h2>
+<section id="keiichi-okabe-keigo-hoashi---nierautomata" class="level2 album soundtrack" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="6" data-year="2017">
+<h2 class="album soundtrack anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="6" data-year="2017" data-anchor-id="keiichi-okabe-keigo-hoashi---nierautomata">6. Keiichi Okabe &amp; Keigo Hoashi - NieR:Automata</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_nier_automata.jpeg" class="img-fluid">
@@ -879,11 +1484,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Nature reclaiming a planet ravaged by an ancient machine war</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="soundtrack" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'soundtrack')">
+Soundtrack
+</button>
+</div>
+</div>
 </section>
-<section id="converge---jane-doe" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="5" data-year="2001">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="5" data-year="2001" data-anchor-id="converge---jane-doe">5. Converge - Jane Doe</h2>
+<section id="converge---jane-doe" class="level2 album scream_into_the_void" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="5" data-year="2001">
+<h2 class="album scream_into_the_void anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="5" data-year="2001" data-anchor-id="converge---jane-doe">5. Converge - Jane Doe</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_converge_jane.jpeg" class="img-fluid">
@@ -894,11 +1504,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Meticulously structured chaos hides a heart torn asunder</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="scream_into_the_void" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'scream_into_the_void')">
+Scream Into the Void
+</button>
+</div>
+</div>
 </section>
-<section id="kinoko-teikoku---eureka" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="4" data-year="2013">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="4" data-year="2013" data-anchor-id="kinoko-teikoku---eureka">4. Kinoko Teikoku - Eureka</h2>
+<section id="kinoko-teikoku---eureka" class="level2 album tears_please_stop_flowing" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="4" data-year="2013">
+<h2 class="album tears_please_stop_flowing anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="4" data-year="2013" data-anchor-id="kinoko-teikoku---eureka">4. Kinoko Teikoku - Eureka</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_kinoko_eureka.jpeg" class="img-fluid">
@@ -909,11 +1524,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>Slowly melting into ethereal song and fuzzy guitars (Japan edition)</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
 </section>
-<section id="shiina-ringo---kalk-samen-kuri-no-hana" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="3" data-year="2003">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="3" data-year="2003" data-anchor-id="shiina-ringo---kalk-samen-kuri-no-hana">3. Shiina Ringo - Kalk Samen Kuri no Hana</h2>
+<section id="shiina-ringo---kalk-samen-kuri-no-hana" class="level2 album eclectic_masterpiece" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="3" data-year="2003">
+<h2 class="album eclectic_masterpiece anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="3" data-year="2003" data-anchor-id="shiina-ringo---kalk-samen-kuri-no-hana">3. Shiina Ringo - Kalk Samen Kuri no Hana</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_shiina_kalk.jpeg" class="img-fluid">
@@ -924,11 +1544,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>One last night at the carnival of phantoms before the end of everything</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="eclectic_masterpiece" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'eclectic_masterpiece')">
+Eclectic Masterpiece
+</button>
+</div>
+</div>
 </section>
-<section id="carissas-wierd---songs-about-leaving" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="2" data-year="2002">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="2" data-year="2002" data-anchor-id="carissas-wierd---songs-about-leaving">2. Carissa’s Wierd - Songs About Leaving</h2>
+<section id="carissas-wierd---songs-about-leaving" class="level2 album tears_please_stop_flowing" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="2" data-year="2002">
+<h2 class="album tears_please_stop_flowing anchored" data-country="USA" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="2" data-year="2002" data-anchor-id="carissas-wierd---songs-about-leaving">2. Carissa’s Wierd - Songs About Leaving</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_carissa_songs.jpeg" class="img-fluid">
@@ -939,11 +1564,16 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>A warm and cozy blanket made of boundless grief and heartbreak</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="tears_please_stop_flowing" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'tears_please_stop_flowing')">
+Tears Please Stop Flowing
+</button>
+</div>
+</div>
 </section>
-<section id="light-bringer---scenes-of-infinity" class="level2 album" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="1" data-year="2013">
-<h2 class="album anchored" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="1" data-year="2013" data-anchor-id="light-bringer---scenes-of-infinity">1. Light Bringer - Scenes of Infinity</h2>
+<section id="light-bringer---scenes-of-infinity" class="level2 album pure_awesome" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="1" data-year="2013">
+<h2 class="album pure_awesome anchored" data-country="Japan" data-passion="0" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="0" data-rank="1" data-year="2013" data-anchor-id="light-bringer---scenes-of-infinity">1. Light Bringer - Scenes of Infinity</h2>
 <div class="album-container">
 <div class="album-image">
 <img src="../img/cover_light_bringer_scenes.webp" class="img-fluid">
@@ -954,166 +1584,124 @@ Note
 </p>
 </div>
 </div>
-<p><br>
-<span style="color:RoyalBlue"><i>A cosmic embrace from the Goddess of Light, guiding you towards ascension</i></span></p>
+<div class="toggle-tags">
+<div class="d-flex gap-2 mb-2 mt-2">
+<button id="pure_awesome" class="badge bg-primary rounded-pill border-0" onclick="toggleTag(this, 'pure_awesome')">
+Pure Awesome
+</button>
+</div>
+</div>
 </section>
 </div>
 <p><br></p>
-<section id="stats" class="level2">
-<h2 class="anchored" data-anchor-id="stats">Stats</h2>
-<div id="d00dac94" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-        <script type="text/javascript">
-        window.PlotlyConfig = {MathJaxConfig: 'local'};
-        if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
-        </script>
-        <script type="module">import "https://cdn.plot.ly/plotly-3.0.1.min"</script>
-        
-</div>
-<div class="cell-output cell-output-display">
-<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>                <div id="01c92b89-2d4b-4c03-995c-5579b1d8bc7f" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("01c92b89-2d4b-4c03-995c-5579b1d8bc7f")) {                    Plotly.newPlot(                        "01c92b89-2d4b-4c03-995c-5579b1d8bc7f",                        [{"customdata":[["USA"],["Japan"],["United Kingdom"],["Canada"],["Germany"],["Australia"],["France"],["Spain"],["South Korea"],["Ireland"],["Lebanon"],["Nigeria"],["Norway"],["Sweden"]],"hovertemplate":"Country=%{x}\u003cbr\u003eCount=%{text}\u003cbr\u003eCountryName=%{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#4269D0","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"text":{"dtype":"f8","bdata":"AAAAAAAAREAAAAAAAAA2QAAAAAAAADNAAAAAAAAAFEAAAAAAAAAIQAAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA\u002fAAAAAAAA8D8AAAAAAADwPw=="},"textposition":"outside","x":["US","JP","GB","CA","DE","AU","FR","ES","KR","IE","LB","NG","NO","SE"],"xaxis":"x","y":{"dtype":"i1","bdata":"KBYTBQMBAQEBAQEBAQE="},"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#4269D0"],"font":{"color":"rgb(36,36,36)","size":15},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"margin":{"b":60,"l":60,"r":30,"t":50},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Country"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"legend":{"tracegroupgap":0},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('01c92b89-2d4b-4c03-995c-5579b1d8bc7f');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
+<!---
+## Stats
 
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };            </script>        </div>
-</div>
-<div class="cell-output cell-output-display">
-<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>                <div id="50ed020d-123c-47ce-a759-77ddd704bf61" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("50ed020d-123c-47ce-a759-77ddd704bf61")) {                    Plotly.newPlot(                        "50ed020d-123c-47ce-a759-77ddd704bf61",                        [{"hovertemplate":"x=%{x}\u003cbr\u003ey=%{y}\u003cbr\u003etext=%{text}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#4269D0","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"text":{"dtype":"f8","bdata":"AAAAAAAA8D8AAAAAAAAUQAAAAAAAAChAAAAAAAAAIkAAAAAAAAAsQAAAAAAAADNAAAAAAAAANkAAAAAAAAAwQA=="},"textposition":"outside","x":["1950","1960","1970","1980","1990","2000","2010","2020"],"xaxis":"x","y":{"dtype":"i1","bdata":"AQUMCQ4TFhA="},"yaxis":"y","type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#4269D0"],"font":{"color":"rgb(36,36,36)","size":15},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"margin":{"b":60,"l":60,"r":30,"t":50},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"tickfont":{"size":16},"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Decade"},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{},"showline":true,"linecolor":"black","ticks":"outside","mirror":false,"fixedrange":true},"legend":{"tracegroupgap":0},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('50ed020d-123c-47ce-a759-77ddd704bf61');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };            </script>        </div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="275" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 274;"><span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">wrapSections</span>() {</span>
-<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> h2s <span class="op">=</span> <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"h2.album"</span>))</span>
-<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a>  h2s<span class="op">.</span><span class="fu">forEach</span>(h2 <span class="kw">=&gt;</span> {</span>
-<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> wrapper <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"div"</span>)</span>
-<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a>    wrapper<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">"section"</span></span>
-<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a>    h2<span class="op">.</span><span class="at">parentNode</span><span class="op">.</span><span class="fu">insertBefore</span>(wrapper<span class="op">,</span> h2)</span>
-<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> node <span class="op">=</span> h2</span>
-<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> (node) {</span>
-<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> next <span class="op">=</span> node<span class="op">.</span><span class="at">nextSibling</span></span>
-<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a>      wrapper<span class="op">.</span><span class="fu">appendChild</span>(node)</span>
-<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span>next <span class="op">||</span> (next<span class="op">.</span><span class="at">nodeType</span> <span class="op">===</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> next<span class="op">.</span><span class="at">tagName</span> <span class="op">===</span> <span class="st">"H2"</span>)) {</span>
-<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
-<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a>      }</span>
-<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a>      node <span class="op">=</span> next</span>
-<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a>  })</span>
-<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a><span class="fu">wrapSections</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
+![](../img/plot_hist_albums_countries.png){.lightbox}
+![](../img/plot_hist_albums_decades.png){.lightbox}
+--->
 <script>
 
-function filterSections(hasmaxattribute) {
-  document.querySelectorAll(".section").forEach(section => {
-    const h2 = section.querySelector("h2")
-    const match = hasmaxattribute === "all" || 
-                  h2.dataset.hasmaxattribute === hasmaxattribute
-
-    section.style.display = match ? "" : "none"
-  })
-}
-
 function sortSections(by = "rank", direction = "desc", numeric = true) {
-  const container = document.querySelector(".album") // adjust if needed
-  const sections = Array.from(document.querySelectorAll(".section"))
-    console.log(by)
-  if (numeric) {
-    sections.sort((a, b) => {
-    const aVal = Number(a.querySelector("h2").dataset[by])
-    const bVal = Number(b.querySelector("h2").dataset[by])
-    return direction === "desc" ? bVal - aVal : aVal - bVal
-    })
-  } else {
-    sections.sort((a, b) => {
-        const aVal = a.querySelector("h2").dataset[by]
-        const bVal = b.querySelector("h2").dataset[by]
+  const container = document.querySelector(".albums");
+  const sections = Array.from(container.querySelectorAll("section"));
+  sections.sort((a, b) => {
+    let aVal = a.dataset[by];
+    let bVal = b.dataset[by];
 
-        return direction === "desc"
-        ? bVal.localeCompare(aVal)
-        : aVal.localeCompare(bVal)
-    })
-  }
-
-  sections.forEach(section => container.appendChild(section))
-}
-
-const switchMaxMood = document.getElementById("toggleMaxMood");
-  switchMaxMood.addEventListener("change", (e) => {
-    if (e.target.checked) {
-      filterSections("True");
+    if (numeric) {
+      aVal = Number(aVal);
+      bVal = Number(bVal);
+      return direction === "desc" ? bVal - aVal : aVal - bVal;
     } else {
-      filterSections("all");
+      return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal);
     }
   });
+
+  sections.forEach(section => container.appendChild(section));
+}
+
+// function filterSections(hasmaxattribute) {
+//   document.querySelectorAll(".section").forEach(section => {
+//     const h2 = section.querySelector("h2")
+//     const match = hasmaxattribute === "all" || 
+//                   h2.dataset.hasmaxattribute === hasmaxattribute
+
+//     section.style.display = match ? "" : "none"
+//   })
+// }
+
+// const switchMaxMood = document.getElementById("toggleMaxMood");
+//   switchMaxMood.addEventListener("change", (e) => {
+//     if (e.target.checked) {
+//       filterSections("True");
+//     } else {
+//       filterSections("all");
+//     }
+//   });
+
+
+//// TAG FILTERS ////
+
+let tagFilterActive = false;
+let activeTagName = "";
+
+function toggleTag(button, tagname) {
+    activateFilter = activeTagName != tagname;
+    console.log(activateFilter)
+    console.log(activeTagName)
+    console.log(tagname)
+
+    if (activateFilter) {
+        // Activate filter
+        //filterTags(false, tagname); // reset
+        filterTags(true, tagname);
+        activeTagName = tagname;
+    } else {
+        // Deactivate filter
+        filterTags(false, tagname);
+        activeTagName = "";
+    }
+}
+
+function filterTags(activateFilter, tagname) {
+    const container = document.querySelector(".albums");
+    const sections = Array.from(container.querySelectorAll("section"));
+    const buttons = Array.from(container.querySelectorAll("button"));
+
+    sections.forEach(album => {
+        if (activateFilter) {
+            if (!album.classList.contains(tagname)) {
+                album.style.display = "none";
+            } else{
+                album.style.display = "";
+            }
+        } else {
+            album.style.display = "";
+        }
+    });
+
+    buttons.forEach(button => {
+      if (activateFilter) {
+          if (button.id !== tagname) {
+              button.classList.remove("bg-success");
+              button.classList.add("bg-warning");
+          } else {
+              button.classList.remove("bg-warning");
+              button.classList.add("bg-success");
+          }
+      } else {
+          button.classList.remove("bg-warning");
+          button.classList.remove("bg-success");
+          button.classList.add("bg-primary");
+      }
+    });
+}
 </script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script src="https://unpkg.com/lite-youtube-embed@0.3.0/src/lite-yt-embed.js"></script>
@@ -1136,17 +1724,6 @@ switchTag.addEventListener('change', () => {
 
 // Optional: hide on load
 // document.querySelectorAll('.toggle-mood').forEach(el => el.style.display = 'none');
-</script>
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZnVuY3Rpb24gd3JhcFNlY3Rpb25zKCkge1xuICBjb25zdCBoMnMgPSBBcnJheS5mcm9tKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJoMi5hbGJ1bVwiKSlcblxuICBoMnMuZm9yRWFjaChoMiA9PiB7XG4gICAgY29uc3Qgd3JhcHBlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIilcbiAgICB3cmFwcGVyLmNsYXNzTmFtZSA9IFwic2VjdGlvblwiXG5cbiAgICBoMi5wYXJlbnROb2RlLmluc2VydEJlZm9yZSh3cmFwcGVyLCBoMilcblxuICAgIGxldCBub2RlID0gaDJcbiAgICB3aGlsZSAobm9kZSkge1xuICAgICAgY29uc3QgbmV4dCA9IG5vZGUubmV4dFNpYmxpbmdcbiAgICAgIHdyYXBwZXIuYXBwZW5kQ2hpbGQobm9kZSlcblxuICAgICAgaWYgKCFuZXh0IHx8IChuZXh0Lm5vZGVUeXBlID09PSAxICYmIG5leHQudGFnTmFtZSA9PT0gXCJIMlwiKSkge1xuICAgICAgICBicmVha1xuICAgICAgfVxuXG4gICAgICBub2RlID0gbmV4dFxuICAgIH1cbiAgfSlcbn1cbndyYXBTZWN0aW9ucygpXG4ifV19
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../music";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "..";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
