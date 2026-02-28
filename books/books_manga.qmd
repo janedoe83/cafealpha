@@ -4,7 +4,7 @@ format: html
 lightbox: true
 ---
 
-Work in pogress! By no means exhaustive.
+Work in progress! By no means exhaustive.
 
 ## One Piece
 
