@@ -1,0 +1,140 @@
+---
+title: "Fiction Recommendations"
+format: html
+toc: false
+echo: false
+---
+
+
+The greatest books of all time!!! (According to me)\
+
+
+::: {.callout-note title="Notes"}
+- Work in progress...
+- Click on a <span class="badge bg-primary rounded-pill">Tag</span> to filter the list!
+- Novels only.
+:::
+
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+    Sort
+  </button>
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('rating','desc'); return false;">
+        Rating
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('title','asc',false); return false;">
+        Title
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('author','asc',false); return false;">
+        Author
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('year','asc'); return false;">
+        Year
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('country','asc',false); return false;">
+        Country
+      </a>
+    </li>
+  </ul>
+</div>
+
+<br>
+
+{{CONTENT}}
+
+<br>
+
+<script>
+
+function sortSections(by = "rank", direction = "desc", numeric = true) {
+  const container = document.querySelector(".books");
+  const sections = Array.from(container.querySelectorAll("section"));
+  sections.sort((a, b) => {
+    let aVal = a.dataset[by];
+    let bVal = b.dataset[by];
+
+    if (numeric) {
+      aVal = Number(aVal);
+      bVal = Number(bVal);
+      return direction === "desc" ? bVal - aVal : aVal - bVal;
+    } else {
+      return direction === "desc"
+        ? bVal.localeCompare(aVal)
+        : aVal.localeCompare(bVal);
+    }
+  });
+
+  sections.forEach(section => container.appendChild(section));
+}
+
+//// TAG FILTERS ////
+
+let tagFilterActive = false;
+let activeTagName = "";
+
+function toggleTag(button, tagname) {
+    activateFilter = activeTagName != tagname;
+
+    if (activateFilter) {
+        // Activate filter
+        //filterTags(false, tagname); // reset
+        filterTags(true, tagname);
+        activeTagName = tagname;
+    } else {
+        // Deactivate filter
+        filterTags(false, tagname);
+        activeTagName = "";
+    }
+}
+
+function filterTags(activateFilter, tagname) {
+    const container = document.querySelector(".books");
+    const sections = Array.from(container.querySelectorAll("section"));
+    const buttons = Array.from(container.querySelectorAll("button"));
+
+    sections.forEach(book => {
+        if (activateFilter) {
+            if (!book.classList.contains(tagname)) {
+                book.style.display = "none";
+            } else{
+                book.style.display = "";
+            }
+        } else {
+            book.style.display = "";
+        }
+    });
+
+    buttons.forEach(button => {
+      if (activateFilter) {
+          if (button.id !== tagname) {
+              button.classList.remove("bg-success");
+              button.classList.add("bg-warning");
+          } else {
+              button.classList.remove("bg-warning");
+              button.classList.add("bg-success");
+          }
+      } else {
+          button.classList.remove("bg-warning");
+          button.classList.remove("bg-success");
+          button.classList.add("bg-primary");
+      }
+    });
+}
+</script>
