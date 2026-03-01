@@ -76,7 +76,11 @@ text-align: left;
     flex-direction: column;
     align-items: flex-start;  /* left-align stacked items */
   }
-  .album-image,
+  .album-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   .album-info {
     flex: 1 1 100%;
     max-width: 100%;
