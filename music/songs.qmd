@@ -97,96 +97,96 @@ The greatest songs of all time!!! (According to me)\
 --->
 
 
-<div class="songs">## 100. Eric B. & Rakim - Juice (Know the Ledge){.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="1" data-happy="0" data-sad="0" data-rank="100" data-hasmaxattribute="False" data-year="1992"}
-**Album:** *Juice (Know the Ledge) * (1992)\
-**Genres:** Boom Bap
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
-<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="OPkWYTUiPTo"></lite-youtube></div></details>
-## 99. Metallica - For Whom the Bell Tolls{.song data-passion="0" data-dreamy="0" data-dark="3" data-groovy="2" data-angry="2" data-happy="0" data-sad="0" data-rank="99" data-hasmaxattribute="False" data-year="1984"}
+<div class="songs">## 100. Metallica - For Whom the Bell Tolls{.song data-passion="0" data-dreamy="0" data-dark="3" data-groovy="2" data-angry="2" data-happy="0" data-sad="0" data-rank="100" data-hasmaxattribute="False" data-year="1984"}
 **Album:** *Ride the Lightning* (1984)\
 **Genres:** Thrash Metal
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="B_HSa1dEL9s"></lite-youtube></div></details>
-## 98. The Beatles - Here Comes the Sun{.song data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="98" data-hasmaxattribute="True" data-year="1969"}
+## 99. The Beatles - Here Comes the Sun{.song data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="5" data-sad="0" data-rank="99" data-hasmaxattribute="True" data-year="1969"}
 **Album:** *Abbey Road* (1969)\
 **Genres:** Sunshine Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="tDEzmaZHuS0"></lite-youtube></div></details>
-## 97. Curtis Mayfield - Move On Up{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="4" data-sad="0" data-rank="97" data-hasmaxattribute="False" data-year="1970"}
+## 98. Curtis Mayfield - Move On Up{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="4" data-sad="0" data-rank="98" data-hasmaxattribute="False" data-year="1970"}
 **Album:** *Curtis* (1970)\
 **Genres:** Funk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="6Z66wVo7uNw"></lite-youtube></div></details>
-## 96. Dälek - Police State Is Nervous{.song data-passion="0" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="3" data-happy="0" data-sad="2" data-rank="96" data-hasmaxattribute="False" data-year="2014"}
+## 97. Dälek - Police State Is Nervous{.song data-passion="0" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="3" data-happy="0" data-sad="2" data-rank="97" data-hasmaxattribute="False" data-year="2014"}
 **Album:** *nan* (2014)\
 **Genres:** Political Hip Hop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="gBByC9BebX4"></lite-youtube></div></details>
-## 95. Ton Steine Scherben - Macht kaputt was euch kaputt macht{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="4" data-happy="0" data-sad="0" data-rank="95" data-hasmaxattribute="False" data-year="1971"}
+## 96. Ton Steine Scherben - Macht kaputt was euch kaputt macht{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="1" data-angry="4" data-happy="0" data-sad="0" data-rank="96" data-hasmaxattribute="False" data-year="1971"}
 **Album:** *Warum geht es mir so dreckig?* (1971)\
 **Genres:** Proto-Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="WTE28YU_FrY"></lite-youtube></div></details>
-## 94. Art Blakey & The Jazz Messengers - Moanin’{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="2" data-sad="0" data-rank="94" data-hasmaxattribute="False" data-year="1959"}
+## 95. Art Blakey & The Jazz Messengers - Moanin’{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="2" data-angry="0" data-happy="2" data-sad="0" data-rank="95" data-hasmaxattribute="False" data-year="1959"}
 **Album:** *Moanin’* (1959)\
 **Genres:** Hard Bop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Cv9NSR-2DwM"></lite-youtube></div></details>
-## 93. Idles - Danny Nedelko{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="0" data-rank="93" data-hasmaxattribute="False" data-year="2018"}
+## 94. Idles - Danny Nedelko{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="4" data-sad="0" data-rank="94" data-hasmaxattribute="False" data-year="2018"}
 **Album:** *Joy as an Act of Resistance. * (2018)\
 **Genres:** Post-Punk
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Anti-fascist Anthem</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="QkF_G-RF66M"></lite-youtube></div></details>
-## 92. Pulp - Common People{.song data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="92" data-hasmaxattribute="False" data-year="1995"}
+## 93. Pulp - Common People{.song data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="2" data-rank="93" data-hasmaxattribute="False" data-year="1995"}
 **Album:** *Different Class* (1995)\
 **Genres:** Britpop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="yuTMWgOduFM"></lite-youtube></div></details>
-## 91. Aretha Franklin - I Say a Little Prayer{.song data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="91" data-hasmaxattribute="False" data-year="1968"}
+## 92. Aretha Franklin - I Say a Little Prayer{.song data-passion="3" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="3" data-sad="0" data-rank="92" data-hasmaxattribute="False" data-year="1968"}
 **Album:** *Aretha Now* (1968)\
 **Genres:** Southern Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="TDyiREoBw0o"></lite-youtube></div></details>
-## 90. Ryuichi Sakamoto - Thousand Knives{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="1" data-sad="0" data-rank="90" data-hasmaxattribute="False" data-year="1978"}
+## 91. Ryuichi Sakamoto - Thousand Knives{.song data-passion="0" data-dreamy="0" data-dark="0" data-groovy="4" data-angry="0" data-happy="1" data-sad="0" data-rank="91" data-hasmaxattribute="False" data-year="1978"}
 **Album:** *Thousand Knives of Ryuichi Sakamoto * (1978)\
 **Genres:** Progressive Electronic
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">Instrumental</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="IKz0NNemy8M"></lite-youtube></div></details>
-## 89. Jessie Ware - Spotlight{.song data-passion="0" data-dreamy="2" data-dark="0" data-groovy="3" data-angry="0" data-happy="0" data-sad="1" data-rank="89" data-hasmaxattribute="False" data-year="2020"}
+## 90. Jessie Ware - Spotlight{.song data-passion="0" data-dreamy="2" data-dark="0" data-groovy="3" data-angry="0" data-happy="0" data-sad="1" data-rank="90" data-hasmaxattribute="False" data-year="2020"}
 **Album:** *What’s Your Pleasure* (2020)\
 **Genres:** Dance-Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="kw56LGfrf4A"></lite-youtube></div></details>
-## 88. Kate Bush - Wuthering Heights{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="88" data-hasmaxattribute="False" data-year="1978"}
+## 89. Kate Bush - Wuthering Heights{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="1" data-sad="3" data-rank="89" data-hasmaxattribute="False" data-year="1978"}
 **Album:** *The Kick Inside* (1978)\
 **Genres:** Art Pop
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Fk-4lXLM34g"></lite-youtube></div></details>
-## 87. Tyler, the Creator - EARFQUAKE{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="87" data-hasmaxattribute="False" data-year="2019"}
+## 88. Tyler, the Creator - EARFQUAKE{.song data-passion="2" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="88" data-hasmaxattribute="False" data-year="2019"}
 **Album:** *Igor* (2019)\
 **Genres:** Neo-Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🔥 Music Video</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="HmAsUQEFYGI"></lite-youtube></div></details>
-## 86. Car Seat Headrest - Beach Life-In-Death{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="86" data-hasmaxattribute="False" data-year="2018"}
+## 87. Car Seat Headrest - Beach Life-In-Death{.song data-passion="4" data-dreamy="0" data-dark="0" data-groovy="0" data-angry="1" data-happy="0" data-sad="3" data-rank="87" data-hasmaxattribute="False" data-year="2018"}
 **Album:** *Twin Fantasy* (2018)\
 **Genres:** Indie Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:80.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="hx59YVs5itM"></lite-youtube></div></details>
-## 85. Isaac Hayes - Walk on By{.song data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="85" data-hasmaxattribute="False" data-year="1969"}
+## 86. Isaac Hayes - Walk on By{.song data-passion="0" data-dreamy="1" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="86" data-hasmaxattribute="False" data-year="1969"}
 **Album:** *Hot Buttered Soul* (1969)\
 **Genres:** Progressive Soul
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="DFdR2LLM3bY"></lite-youtube></div></details>
-## 84. Swans - Love Will Save You{.song data-passion="0" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="84" data-hasmaxattribute="False" data-year="1991"}
+## 85. Swans - Love Will Save You{.song data-passion="0" data-dreamy="0" data-dark="3" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="85" data-hasmaxattribute="False" data-year="1991"}
 **Album:** *White Light from the Mouth of Infinity* (1991)\
 **Genres:** Gothic Rock
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:60.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="HXbcErP-Xok"></lite-youtube></div></details>
-## 83. Phoebe Bridgers - I Know the End{.song data-passion="2" data-dreamy="1" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="83" data-hasmaxattribute="False" data-year="2020"}
+## 84. Phoebe Bridgers - I Know the End{.song data-passion="2" data-dreamy="1" data-dark="2" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="84" data-hasmaxattribute="False" data-year="2020"}
 **Album:** *Punisher* (2020)\
 **Genres:** Singer-Songwriter
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:40.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:40.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="WJ9-xN6dCW4"></lite-youtube></div></details>
+## 83. Godspeed You! Black Emperor - Babys in a Thundercloud {.song data-passion="0" data-dreamy="0" data-dark="1" data-groovy="0" data-angry="0" data-happy="0" data-sad="4" data-rank="83" data-hasmaxattribute="False" data-year="2024"}
+**Album:** *"No Title as of 13 February 2024 28,340 Dead" * (2024)\
+**Genres:** Post-Rock
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Views: None</span></div></div>
+<div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:80.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="yoAnLAt8sio"></lite-youtube></div></details>
 ## 82. Gris - Il était une forêt{.song data-passion="3" data-dreamy="0" data-dark="5" data-groovy="0" data-angry="0" data-happy="0" data-sad="3" data-rank="82" data-hasmaxattribute="True" data-year="2007"}
 **Album:** *Il était une forêt* (2007)\
 **Genres:** Depressive Black Metal
@@ -389,7 +389,7 @@ My favorite music video of all time! Director Megumi Ishitani is a generational 
 ## 43. System of a Down - Aerials{.song data-passion="1" data-dreamy="3" data-dark="0" data-groovy="0" data-angry="0" data-happy="0" data-sad="1" data-rank="43" data-hasmaxattribute="False" data-year="2001"}
 **Album:** *Toxicity* (2001)\
 **Genres:** Alternative Metal
-<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Views: 547M</span></div></div>
+<div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:20.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:60.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:20.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="L-iepu3EtyE"></lite-youtube></div></details>
 ## 42. toe - Goodbye{.song data-passion="3" data-dreamy="3" data-dark="0" data-groovy="1" data-angry="0" data-happy="1" data-sad="3" data-rank="42" data-hasmaxattribute="False" data-year="2009"}
 **Album:** *For Long Tomorrow* (2009)\
@@ -606,169 +606,167 @@ I made a [Studio Ghibli music video tribute](https://www.youtube.com/watch?v=nA2
 <div class="toggle-tags"><div class="d-flex gap-2 mb-2 mt-2"><span class="badge bg-primary rounded-pill">🏆 Most Inspirational Song</span></div></div>
 <div class='toggle-mood'><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:100.0%;" role="progressbar"></div></div></div><br></div><details><summary>Listen here</summary><div class="lite-youtube-style"><lite-youtube videoid="Qnqud-E4aXM"></lite-youtube></div></details>
 </div>## Overall Mood Distribution
-<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:48.10810810810811%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:59.45945945945946%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:35.67567567567568%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:23.783783783783786%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:70.8108108108108%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:91.8918918918919%;" role="progressbar"></div></div></div>
-
-## Stats
+<div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Sad</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #4269D0FF; width:100.0%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Angry</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #FF5D45FF; width:47.08994708994709%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Happy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #6CC5B0FF; width:58.201058201058196%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dark</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #1B1B1BFF; width:35.44973544973545%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Groovy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #9C6B4EFF; width:23.28042328042328%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Dreamy</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #F0BD3CFF; width:69.31216931216932%;" role="progressbar"></div></div></div><div style="display:grid; grid-template-columns: 70px 160px; align-items:center; margin-bottom:0px;"><div>Passion</div><div class="progress" style="height:14px;"><div class="progress-bar" style="background-color: #A463F2FF; width:89.94708994708994%;" role="progressbar"></div></div></div>
 
 ```{python}
-import numpy as np
-import pandas as pd
-import plotly.express as px
-import plotly.io as pio
+# import numpy as np
+# import pandas as pd
+# import plotly.express as px
+# import plotly.io as pio
 
-pio.templates["my_default"] = pio.templates["simple_white"]
-pio.templates["my_default"].layout.update(
-    font=dict(size=15),
-    xaxis=dict(tickfont=dict(size=16)),
-    yaxis=dict(tickfont=dict(size=16)),
-    margin=dict(l=60, r=30, t=50, b=60),
-    width=700,
-    height=500
-)
-pio.templates["my_default"].layout.colorway = ["#4269D0"]
+# pio.templates["my_default"] = pio.templates["simple_white"]
+# pio.templates["my_default"].layout.update(
+#     font=dict(size=15),
+#     xaxis=dict(tickfont=dict(size=16)),
+#     yaxis=dict(tickfont=dict(size=16)),
+#     margin=dict(l=60, r=30, t=50, b=60),
+#     width=None,
+#     height=None
+# )
+# pio.templates["my_default"].layout.colorway = ["#4269D0"]
 
-INPUT_CSV = "../data/songs.csv"
-df = pd.read_csv(INPUT_CSV)
-df = df.head(100)
-df = df.sort_index(ascending=False)
-df["Decade"] = df["Year"].astype(str).str.slice(0,-3) + ["0"]
+# INPUT_CSV = "../data/songs.csv"
+# df = pd.read_csv(INPUT_CSV)
+# df = df.head(100)
+# df = df.sort_index(ascending=False)
+# df["Decade"] = df["Year"].astype(str).str.slice(0,-3) + ["0"]
 
-counts = (
-    df.groupby(["Country", "CountryName"])
-      .size()
-      .reset_index(name="count")
-).sort_values("count", ascending=False).rename(columns={"count": "Count"})
+# counts = (
+#     df.groupby(["Country", "CountryName"])
+#       .size()
+#       .reset_index(name="count")
+# ).sort_values("count", ascending=False).rename(columns={"count": "Count"})
 
-# Country bars
+# # Country bars
 
-fig = px.bar(
-    counts,
-    x="Country",
-    y="Count",
-    hover_data=["CountryName"],
-    text="Count",
-    template="my_default"
-)
+# fig = px.bar(
+#     counts,
+#     x="Country",
+#     y="Count",
+#     hover_data=["CountryName"],
+#     text="Count",
+#     template="my_default"
+# )
 
-fig.update_traces(textposition="outside")
+# fig.update_traces(textposition="outside")
 
-fig.update_layout(
-    template="simple_white",
-    yaxis_title=None
-)
+# fig.update_layout(
+#     template="simple_white",
+#     yaxis_title=None
+# )
 
-fig.update_xaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    fixedrange=True
-)
+# fig.update_xaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     fixedrange=True
+# )
 
-fig.update_yaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    fixedrange=True,
-    title="Count"
-)
-fig.show()
+# fig.update_yaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     fixedrange=True,
+#     title="Count"
+# )
+# fig.show(config={"responsive": True})
 
-# Decade histogram
+# # Decade histogram
 
-dd = df[df["Decade"] != "0"].sort_values(by="Decade")
-dd_counts = dd["Decade"].value_counts().sort_index()
+# dd = df[df["Decade"] != "0"].sort_values(by="Decade")
+# dd_counts = dd["Decade"].value_counts().sort_index()
 
-fig = px.bar(
-    x=dd_counts.index,
-    y=dd_counts.values,
-    template="my_default",
-    text=dd_counts.values
-)
+# fig = px.bar(
+#     x=dd_counts.index,
+#     y=dd_counts.values,
+#     template="my_default",
+#     text=dd_counts.values
+# )
 
-fig.update_traces(textposition="outside")
-fig.update_layout(
-    yaxis_title=None
-)
-fig.update_xaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    fixedrange=True,
-    title="Decade"
-)
+# fig.update_traces(textposition="outside")
+# fig.update_layout(
+#     yaxis_title=None
+# )
+# fig.update_xaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     fixedrange=True,
+#     title="Decade"
+# )
 
-fig.update_yaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    fixedrange=True,
-    title="Count"
-)
-fig.show()
-```
+# fig.update_yaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     fixedrange=True,
+#     title="Count"
+# )
+# fig.show(config={"responsive": True})
+# ```
 
-```{python}
-## Views vs duration scatterplot
-def number_formatter(n):
-    for unit in ["", "k", "M", "B"]:
-        if abs(n) < 1000:
-            return f"{n:.0f}{unit}".rstrip("0").rstrip(".")
-        n /= 1000
+# ```{python}
+# ## Views vs duration scatterplot
+# def number_formatter(n):
+#     for unit in ["", "k", "M", "B"]:
+#         if abs(n) < 1000:
+#             return f"{n:.0f}{unit}".rstrip("0").rstrip(".")
+#         n /= 1000
 
-s = df["Duration"].astype(str)
-s = s.str.replace(".00", "")
-s = s.where(s.str.count(":") != 1, "00:" + s)
-df["Duration"] = pd.to_timedelta(s,  errors="coerce")
-df["ViewsFormatted"] = df["Views"].apply(number_formatter)
-df["DurationFormatted"] = df["Duration"].astype(str).str.replace("0 days 00:", "")
-df["DurationSeconds"] = df["Duration"].dt.total_seconds()
+# s = df["Duration"].astype(str)
+# s = s.str.replace(".00", "")
+# s = s.where(s.str.count(":") != 1, "00:" + s)
+# df["Duration"] = pd.to_timedelta(s,  errors="coerce")
+# df["ViewsFormatted"] = df["Views"].apply(number_formatter)
+# df["DurationFormatted"] = df["Duration"].astype(str).str.replace("0 days 00:", "")
+# df["DurationSeconds"] = df["Duration"].dt.total_seconds()
 
-fig = px.scatter(
-    df,
-    x="DurationSeconds",
-    y=np.log10(df["Views"]),
-    custom_data=["Title", "ViewsFormatted", "DurationFormatted"],
-    template="my_default"
-)
+# fig = px.scatter(
+#     df,
+#     x="DurationSeconds",
+#     y=np.log10(df["Views"]),
+#     custom_data=["Title", "ViewsFormatted", "DurationFormatted"],
+#     template="my_default"
+# )
 
-fig.update_traces(
-    marker_size=10,
-    hovertemplate=(
-        "<b>%{customdata[0]}</b><br>"
-        "Views: %{customdata[1]}<br>"
-        "Duration: %{customdata[2]}"
-        "<extra></extra>"
-    ),
-)
+# fig.update_traces(
+#     marker_size=10,
+#     hovertemplate=(
+#         "<b>%{customdata[0]}</b><br>"
+#         "Views: %{customdata[1]}<br>"
+#         "Duration: %{customdata[2]}"
+#         "<extra></extra>"
+#     ),
+# )
 
-fig.update_xaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    fixedrange=True,
-    title="Duration (s)"
-)
+# fig.update_xaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     fixedrange=True,
+#     title="Duration (s)"
+# )
 
-fig.update_yaxes(
-    showline=True,
-    linecolor="black",
-    ticks="outside",
-    mirror=False,
-    title="log10(Views)",
-    fixedrange=True,
-)
+# fig.update_yaxes(
+#     showline=True,
+#     linecolor="black",
+#     ticks="outside",
+#     mirror=False,
+#     title="log10(Views)",
+#     fixedrange=True,
+# )
 
-fig.update_layout(
-    dragmode=False,
-    modebar_remove=["zoom", "pan", "select", "lasso"]
-)
+# fig.update_layout(
+#     dragmode=False,
+#     modebar_remove=["zoom", "pan", "select", "lasso"]
+# )
 
-fig.show()
+# fig.show(config={"responsive": True})
 ```
 
 ```{ojs}
@@ -812,7 +810,6 @@ function filterSections(hasmaxattribute) {
 function sortSections(by = "rank", direction = "desc", numeric = true) {
   const container = document.querySelector(".songs") // adjust if needed
   const sections = Array.from(document.querySelectorAll(".section"))
-    console.log(by)
   if (numeric) {
     sections.sort((a, b) => {
     const aVal = Number(a.querySelector("h2").dataset[by])

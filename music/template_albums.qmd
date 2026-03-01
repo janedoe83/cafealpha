@@ -6,12 +6,11 @@ echo: false
 ---
 
 
-The greatest ablums of all time!!! (According to me)\
+The greatest albums of all time!!! (According to me)\
 
 
-::: {.callout-note title="Note"}
-- Work in progress...
-- Click on a tag to filter the list.
+::: {.callout-note title="Notes"}
+- Click on a <span class="badge bg-primary rounded-pill">Tag</span> to filter the list!
 - One album per artist.
 - Classical releases are not eligible and will be covered in a separate list.
 :::
@@ -43,7 +42,6 @@ The greatest ablums of all time!!! (According to me)\
     </li>
   </ul>
 </div>
-
 
 {{CONTENT}}
 
