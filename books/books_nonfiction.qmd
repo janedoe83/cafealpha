@@ -3,4 +3,4 @@ title: "Non-fiction Recommendations"
 format: html
 ---
 
-Coming soon!
+Work in progress! I'm planning to revisit many of these books and condense their most valuable insights here.
