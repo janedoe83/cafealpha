@@ -1,33 +1,33 @@
-Title,Author,Year,Country,CountryName,Genres,Rating,CoverFile,Tags,Comment
-Perdido Street Station,China Miéville,2000,GB,United Kingdom,New Weird,10,book_perdido.jpg,Creative Genius,"Ultra-grimy urban steampunk epos with amazing prose and a wonderfully bizarre mixture of science fiction, magic, and horror elements. The protagonist is a rogue scientist and his girlfriend is a humanoid insect. It only gets weirder from here. YOU HAVE BEEN WARNED"
-The Remains of the Day,Kazuo Ishiguo,1989,GB,United Kingdom,Literary Fiction,9,book_remains_of_the_day.jpg,Character Study,Character portrait of an elderly English butler choosing to look the other way when witnessing Nazi collaborations at his estate. Shows with understated power how emotional repression and class subservience fueled by national pride circumscribes personal growth and leads to a life of regrets.
-Children of Time,Adrian Tchaikovsky,2015,GB,United Kingdom,Science Fiction,10,book_children_of_time.jpg,Creative Genius,
-The Dispossessed (An Ambiguous Utopia),Ursula K. Le Guin,1974,US,United States,Science Fiction,10,book_dispossessed.jpg,The Revolution Will Not Be Televised,"Political science fiction novel about an anarchist society, chronicling its struggles and triumphs. Anarchism is here to be understood in the political philosophy sense of a horizontally organised society, not in the colloquial sense of “chaos everywhere”. In any case, a great book to reframe thinking. The protagonist is a theoretical physicist."
-Invisible Cities,Italo Calvino,1972,IT,Italy,"Postmodernism, Magical Realism",9,book_invisible_cities.jpg,Creative Genius,"A collection of brief vignettes describing strange, fantastical cities—to be read as metaphors for different aspects of one and the same city: Venice. Or maybe any city? I suppose it’s up to interpretation. Either way, one of the most imaginative books I have read!"
-Kindred,Octavia Butler,1979,US,United States,"Historical Fiction, Science Fiction",9,book_kindred.jpeg,Abolish the Patriarchy,
-The Master and Margarita,Mikhail Bulgakov,1973,SU,Soviet Union,Magical Realism,10,book_master_and_margarita.jpeg,Creative Genius,The devil is visiting Moscow and looking for trouble amidst the regime-friendly literary establishment. Biting Soviet satire that later turns into a love story and somehow it works.
-The Wall,Marlen Haushofer,1963,DE,Germany,Low Fantasy,9,book_haushofer_wand.jpg,Character Study,"Robinsonade about a middle-aged widow trapped in the Austrian alps. The diary that she keeps reads like an existential elegy, written from the perspective of someone who needs some serious time off to find herself anew or risk total annihilation. She also has a good lil doggo to keep her company 🐕"
-Honour,Elif Shafak,2012,TR,Turkey,Literary Fiction,8,book_honour.jpg,"Book Club, Abolish the Patriarchy",
-"Beautiful World, Where Are You",Sally Rooney,2021,IE,Ireland,Contemporary Fiction,8,book_beautiful_world.jpg,,
-Alien Clay,Adrian Tchaikovsky,2024,GB,United Kingdom,Science Fiction,8,book_alien_clay.jpg,,
-Aliens: Phalanx,Scott Sigler,2020,US,United States,"Science Fiction, Horror",8,book_aliens_phalanx.jpg,,
-Flowers for Algernon,Daniel Keyes,1966,US,United States,Science Fiction,8,book_flowers_algernon.jpg,,
-"Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",R. F. Kuang,2022,GB,United Kingdom,"Fantasy, Alternative History",9,book_babel.jpg,The Revolution Will Not Be Televised,
-"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,GB,United Kingdom,Gothic Horror,8,,,
-Things Fall Apart,Chinua Achebe,1958,NG,Nigeria,Historical Fiction,8,book_ThingsFallApart.jpg,,
-The Scar,China Miéville,2004,GB,United Kingdom,New Weird,10,book_the_scar.jpg,Creative Genius,
-Klara and the Sun,Kazuo Ishiguo,2022,GB,United Kingdom,Science Fiction,8,book_klara_sun.jpg,,
-Jane Eyre,Charlotte Brontë,1847,GB,United Kingdom,"Gothic, Bildungsroman",8,,,
-A Wizard of Earthsea,Ursula K. Le Guin,1968,US,United States,High Fantasy,8,,,
-If on a winter's night a traveler,Italo Calvino,1979,IT,Italy,Postmodernism,8,,Creative Genius,
-The Lathe of Heaven,Ursula K. Le Guin,1971,US,United States,Science Fiction,8,,,
-The Left Hand of Darkness,Ursula K. Le Guin,1969,US,United States,Science Fiction,9,book_left_hand.jpg,Abolish the Patriarchy,
-Ubik,Philip K. Dick,1969,US,United States,Science Fiction,8,,,
-House of Leaves,Mark Z. Danielewski,2000,US,United States,"Horror, Postmodernism",8,,,
-The Wind-Up Bird Chronicle,Haruki Murakami,1997,JP,Japan,Magical Realism,9,,,
-Crime and Punishment,Fyodor Dostoevsky,1866,RU,Russia,"Literary Fiction, Crime",9,,Character Study,
-The Hitchhiker’s Guide to the Galaxy,Douglas Adams,1979,GB,United Kingdom,"Science Fiction, Comedy",8,,,
-Childhood’s End,Arthur C. Clake,1953,GB,United Kingdom,Science Fiction,8,,,
-Three Day Road,Joseph Boyden,2005,CA,Canada,"Historical Fiction, War",8,book_three_day_oad.jpg,,
-Fahrenheit 451,Ray Bradbury,1953,US,United States,Dystopian,8,,,
-Against the Loveless World,Susan Abulhawa,2019,GB,United Kingdom,Literary Fiction,8,book_against_lovless.jpg,"Book Club, Abolish the Patriarchy",
+Title,Author,Year,Country,CountryName,Genres,Rating,CoverFile,Tags,MoreTags,Comment
+Perdido Street Station,China Miéville,2000,GB,United Kingdom,"New Weird, Fantasy, Horror, Steampunk",10,book_perdido.jpg,,Creative Genius,"Ultra-grimy urban steampunk epos with amazing prose and a wonderfully bizarre mixture of science fiction, magic, and horror elements. The protagonist is a rogue scientist and his girlfriend is a humanoid insect. It only gets weirder from here. YOU HAVE BEEN WARNED"
+The Remains of the Day,Kazuo Ishiguo,1989,GB,United Kingdom,Literary Fiction,9,book_remains_of_the_day.jpg,,Character Study,Character portrait of an elderly English butler choosing to look the other way when witnessing Nazi collaborations at his estate. Shows with understated power how emotional repression and class subservience fueled by national pride circumscribes personal growth and leads to a life of regrets.
+Children of Time,Adrian Tchaikovsky,2015,GB,United Kingdom,Science Fiction,10,book_children_of_time.jpg,,Creative Genius,
+The Dispossessed (An Ambiguous Utopia),Ursula K. Le Guin,1974,US,United States,"Science Fiction, Political Fiction",10,book_dispossessed.jpg,,The Revolution Will Not Be Televised,"Political science fiction novel about an anarchist society, chronicling its struggles and triumphs. Anarchism is here to be understood in the political philosophy sense of a horizontally organised society, not in the colloquial sense of “chaos everywhere”. In any case, a great book to reframe thinking. The protagonist is a theoretical physicist."
+Invisible Cities,Italo Calvino,1972,IT,Italy,"Postmodernism, Magical Realism",9,book_invisible_cities.jpg,,Creative Genius,"A collection of brief vignettes describing strange, fantastical cities—to be read as metaphors for different aspects of one and the same city: Venice. Or maybe any city? I suppose it’s up to interpretation. Either way, one of the most imaginative books I have read!"
+Kindred,Octavia Butler,1979,US,United States,"Historical Fiction, Low Fantasy",9,book_kindred.jpeg,,Abolish the Patriarchy,
+The Master and Margarita,Mikhail Bulgakov,1973,SU,Soviet Union,Magical Realism,10,book_master_and_margarita.jpeg,,Creative Genius,The devil is visiting Moscow and looking for trouble amidst the regime-friendly literary establishment. Biting Soviet satire that later turns into a love story and somehow it works.
+The Wall,Marlen Haushofer,1963,DE,Germany,Low Fantasy,9,book_haushofer_wand.jpg,,Character Study,"Robinsonade about a middle-aged widow trapped in the Austrian alps. The diary that she keeps reads like an existential elegy, written from the perspective of someone who needs some serious time off to find herself anew or risk total annihilation. She also has a good lil doggo to keep her company 🐕"
+Honour,Elif Shafak,2012,TR,Turkey,Literary Fiction,8,book_honour.jpg,Book Club,Abolish the Patriarchy,
+"Beautiful World, Where Are You",Sally Rooney,2021,IE,Ireland,Contemporary Fiction,8,book_beautiful_world.jpg,,,
+Alien Clay,Adrian Tchaikovsky,2024,GB,United Kingdom,Science Fiction,8,book_alien_clay.jpg,,,
+Aliens: Phalanx,Scott Sigler,2020,US,United States,"Science Fiction, Horror",8,book_aliens_phalanx.jpg,,,
+Flowers for Algernon,Daniel Keyes,1966,US,United States,Science Fiction,8,book_flowers_algernon.jpg,,,
+"Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",R. F. Kuang,2022,GB,United Kingdom,"Fantasy, Alternative History",9,book_babel.jpg,,The Revolution Will Not Be Televised,
+"Frankenstein; or, The Modern Prometheus",Mary Shelley,1818,GB,United Kingdom,"Gothic, Horror",8,,,,
+Things Fall Apart,Chinua Achebe,1958,NG,Nigeria,Historical Fiction,8,book_ThingsFallApart.jpg,,,
+The Scar,China Miéville,2004,GB,United Kingdom,"New Weird, Fantasy, Steampunk",10,book_the_scar.jpg,,Creative Genius,
+Klara and the Sun,Kazuo Ishiguo,2022,GB,United Kingdom,Science Fiction,8,book_klara_sun.jpg,,,
+Jane Eyre,Charlotte Brontë,1847,GB,United Kingdom,"Gothic, Bildungsroman",8,,,,
+A Wizard of Earthsea,Ursula K. Le Guin,1968,US,United States,High Fantasy,8,,,,
+If on a winter's night a traveler,Italo Calvino,1979,IT,Italy,Postmodernism,8,,,Creative Genius,
+The Lathe of Heaven,Ursula K. Le Guin,1971,US,United States,Science Fiction,8,,,,
+The Left Hand of Darkness,Ursula K. Le Guin,1969,US,United States,Science Fiction,9,book_left_hand.jpg,,Abolish the Patriarchy,
+Ubik,Philip K. Dick,1969,US,United States,Science Fiction,8,,,,
+House of Leaves,Mark Z. Danielewski,2000,US,United States,"Horror, Postmodernism",8,book_house_leaves.jpg,,,
+The Wind-Up Bird Chronicle,Haruki Murakami,1997,JP,Japan,Magical Realism,9,,,,
+Crime and Punishment,Fyodor Dostoevsky,1866,RU,Russia,"Literary Fiction, Crime",9,,,Character Study,
+The Hitchhiker’s Guide to the Galaxy,Douglas Adams,1979,GB,United Kingdom,"Science Fiction, Comedy",8,,,,
+Childhood’s End,Arthur C. Clake,1953,GB,United Kingdom,"Science Fiction, Paranormal Fiction",8,,,,
+Three Day Road,Joseph Boyden,2005,CA,Canada,"Historical Fiction, War",8,book_three_day_oad.jpg,,,
+Fahrenheit 451,Ray Bradbury,1953,US,United States,Dystopian,8,,,,
+Against the Loveless World,Susan Abulhawa,2019,GB,United Kingdom,Literary Fiction,8,book_against_lovless.jpg,Book Club,Abolish the Patriarchy,
