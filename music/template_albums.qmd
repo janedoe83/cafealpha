@@ -12,7 +12,7 @@ The greatest albums of all time!!! (According to me)\
 ::: {.callout-note title="Notes"}
 - Click on a <span class="badge bg-primary rounded-pill">Tag</span> to filter the list!
 - One album per artist.
-- Classical releases are not eligible and will be covered in a separate list.
+- Classical releases are not eligible and will be covered in a [separate list](classical.qmd).
 :::
 
 
