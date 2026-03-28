@@ -95,3 +95,37 @@ text-align: left;
   outline: 2px solid #000;
   outline-offset: 2px;
 }
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 450;
+  margin-top: -0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* 5-star rating system */
+.stars {
+  display: inline-block;
+  margin-top: -0.1rem;
+  margin-left: -0.1rem;
+  font-size: 2rem;
+  line-height: 1;
+  position: relative;
+  cursor: pointer;
+  color: #ddd; /* Empty star color */
+}
+
+.stars::before {
+  content: '★★★★★';
+  margin-top: -0.1rem;
+  margin-left: -0.1rem;
+  background: linear-gradient(
+    to right,
+    #ffc107 var(--rating),
+    #ddd var(--rating)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+} 
