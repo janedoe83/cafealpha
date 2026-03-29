@@ -714,6 +714,18 @@
     "text": "Overall Mood Distribution\n\n\nSad\n\n\n\n\n\n\n\n\n\nAngry\n\n\n\n\n\n\n\n\n\nHappy\n\n\n\n\n\n\n\n\n\nDark\n\n\n\n\n\n\n\n\n\nGroovy\n\n\n\n\n\n\n\n\n\nDreamy\n\n\n\n\n\n\n\n\n\nPassion\n\n\n\n\n\n\n\n\nfunction wrapSections() {\n  const h2s = Array.from(document.querySelectorAll(\"h2.song\"))\n\n  h2s.forEach(h2 =&gt; {\n    const wrapper = document.createElement(\"div\")\n    wrapper.className = \"section\"\n\n    h2.parentNode.insertBefore(wrapper, h2)\n\n    let node = h2\n    while (node) {\n      const next = node.nextSibling\n      wrapper.appendChild(node)\n\n      if (!next || (next.nodeType === 1 && next.tagName === \"H2\")) {\n        break\n      }\n\n      node = next\n    }\n  })\n}\nwrapSections()"
   },
   {
+    "objectID": "music/mv.html",
+    "href": "music/mv.html",
+    "title": "Top 100 Videos",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
     "objectID": "music/albums.html",
     "href": "music/albums.html",
     "title": "Top 100 Albums",
@@ -874,7 +886,7 @@
     "href": "music/albums.html#elliott-smith---eitheror",
     "title": "Top 100 Albums",
     "section": "88. Elliott Smith - Either/Or",
-    "text": "88. Elliott Smith - Either/Or\n\n\n\n\n\n\nYear: 1997Country: 🇺🇸 USAGenres: Singer-SongwriterFavorite Song: Ballad of Big Nothing\n\n\n\n\n\n\nTears Please Stop Flowing",
+    "text": "88. Elliott Smith - Either/Or\n\n\n\n\n\n\nYear: 1997Country: 🇺🇸 USAGenres: Singer-SongwriterFavorite Song: Ballad of Big Nothing\n\n\n\n\n\n\nTears Please Stop Flowing\n\n\nSoft as a Feather",
     "crumbs": [
       "Home",
       "**Music**",
@@ -886,7 +898,7 @@
     "href": "music/albums.html#sharon-van-etten---are-we-there",
     "title": "Top 100 Albums",
     "section": "87. Sharon Van Etten - Are We There",
-    "text": "87. Sharon Van Etten - Are We There\n\n\n\n\n\n\nYear: 2014Country: 🇺🇸 USAGenres: Singer-SongwriterFavorite Song: Your Love Is Killing Me\n\n\n\n\n\n\nTears Please Stop Flowing",
+    "text": "87. Sharon Van Etten - Are We There\n\n\n\n\n\n\nYear: 2014Country: 🇺🇸 USAGenres: Singer-SongwriterFavorite Song: Your Love Is Killing Me\n\n\n\n\n\n\nTears Please Stop Flowing\n\n\nDeep and Moving",
     "crumbs": [
       "Home",
       "**Music**",
@@ -910,7 +922,7 @@
     "href": "music/albums.html#douji-morita---a-boy",
     "title": "Top 100 Albums",
     "section": "85. Douji Morita - A Boy",
-    "text": "85. Douji Morita - A Boy\n\n\n\n\n\n\nYear: 1977Country: 🇯🇵 JapanGenres: Chamber FolkFavorite Song: 蒼き夜は \n\n\n\n\n\n\nTears Please Stop Flowing\n\n\nEthereal Sadness",
+    "text": "85. Douji Morita - A Boy\n\n\n\n\n\n\nYear: 1977Country: 🇯🇵 JapanGenres: Chamber FolkFavorite Song: 蒼き夜は \n\n\n\n\n\n\nTears Please Stop Flowing\n\n\nEthereal Sadness\n\n\nSoft as a Feather",
     "crumbs": [
       "Home",
       "**Music**",
@@ -2060,7 +2072,7 @@
     "href": "books/books_fiction.html",
     "title": "Fiction Recommendations",
     "section": "",
-    "text": "The greatest books of all time!!! (According to me)",
+    "text": "The greatest fiction books of all time!!! (According to me)",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2504,19 +2516,7 @@
     "href": "books/books_nonfiction.html#genevieve-guenther---the-language-of-climate-politics",
     "title": "Non-fiction Recommendations",
     "section": "Genevieve Guenther - The Language of Climate Politics",
-    "text": "Genevieve Guenther - The Language of Climate Politics\n\nFossil-Fuel Propaganda and How to Fight It\n\n\n\n\n\n\n\nYear: 2024\n\n\n\n\n\n\nPolitics",
-    "crumbs": [
-      "Home",
-      "**Books**",
-      "Non-Fiction"
-    ]
-  },
-  {
-    "objectID": "books/books_nonfiction.html#ilan-pappé---a-very-short-history-of-the-israelpalestine-conflict",
-    "href": "books/books_nonfiction.html#ilan-pappé---a-very-short-history-of-the-israelpalestine-conflict",
-    "title": "Non-fiction Recommendations",
-    "section": "Ilan Pappé - A Very Short History of the Israel–Palestine Conflict",
-    "text": "Ilan Pappé - A Very Short History of the Israel–Palestine Conflict\n\n\n\n\n\n\nYear: 2024\n\n\n\n\n\n\nHistory",
+    "text": "Genevieve Guenther - The Language of Climate Politics\n\nFossil-Fuel Propaganda and How to Fight It\n\n\n\n\n\n\n\nYear: 2024\n\n\n\n\n\n\nPolitics\n\n\nEnvironment",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2529,6 +2529,18 @@
     "title": "Non-fiction Recommendations",
     "section": "Nathan J. Robinson & Noam Chomsky - The Myth of American Idealism",
     "text": "Nathan J. Robinson & Noam Chomsky - The Myth of American Idealism\n\nHow U.S. Foreign Policy Endangers the World\n\n\n\n\n\n\n\nYear: 2024\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nHistory\n\n\nPolitics",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
+    "objectID": "books/books_nonfiction.html#ilan-pappé---a-very-short-history-of-the-israelpalestine-conflict",
+    "href": "books/books_nonfiction.html#ilan-pappé---a-very-short-history-of-the-israelpalestine-conflict",
+    "title": "Non-fiction Recommendations",
+    "section": "Ilan Pappé - A Very Short History of the Israel–Palestine Conflict",
+    "text": "Ilan Pappé - A Very Short History of the Israel–Palestine Conflict\n\n\n\n\n\n\nYear: 2024\n\n\n\n\n\n\nHistory",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2584,11 +2596,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#ed-winters---this-is-vegan-propaganda",
-    "href": "books/books_nonfiction.html#ed-winters---this-is-vegan-propaganda",
+    "objectID": "books/books_nonfiction.html#george-monbiot---regenesis",
+    "href": "books/books_nonfiction.html#george-monbiot---regenesis",
     "title": "Non-fiction Recommendations",
-    "section": "Ed Winters - This Is Vegan Propaganda",
-    "text": "Ed Winters - This Is Vegan Propaganda\n\n(And Other Lies the Meat Industry Tells You)\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEthics\n\n\nHealth\n\n\nEnvironment\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nA comprehensive overview making the case for (you guessed it) veganism. Covers most of the important topics: ethics and animal welfare, environment and climate, nutrition and health, and countering the prevailing narrative. Winters also runs a successful YouTube channel under the name Earthling Ed, featuring a mix of commentary videos and debates where he (amicably) dismantles his interlocutors’ arguments with ease. His university speech serves as an excellent introduction to veganism.",
+    "section": "George Monbiot - Regenesis",
+    "text": "George Monbiot - Regenesis\n\nFeeding the World Without Devouring the Planet\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEnvironment\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nThe challenge posed in this book’s title is undoubtedly of monumental importance to us all, though sadly it doesn’t get anywhere near the amount of attention it deserves. How can we achieve high-yield, low-impact foods that are healthy, sustainable, universally accessible, and don’t leave us vulnerable to systemic shocks, corporate monopolization, and the existential threats of multiple transgressed planetary boundaries? George Monbiot’s Regenesis is an urgent and extensively referenced contribution to this challenge, offering empirically grounded and politically incisive analysis driven by a deep and palpable love for the living world.Topics discussed include: 1) the importance of soil ecology and the degree to which it is still understudied; 2) agricultural sprawl and the rise of the ‘Global Standard Farm’ as arguably the most ecologically destructive force on the planet—politically sustained by corporate lobbying and perverse agricultural subsidies, and culturally reinforced by the enduring myth of the pastoral idyll; 3) a complex systems perspective highlighting the vulnerability of tightly connected, monopolistic networks to systemic shocks—exemplified by the global food system; 4) the challenges and opportunities of the agroecology and food sovereignty movements, as well as food technologies such as precision fermentation, perennial crops, no-till farming, and more; 5) the importance of anti-trust laws and \"open source\" food technology to prevent corporate monopolization and regression to the business practices that got us into this mess in the first place; of ensuring that farmers working in destructive legacy industries are given the support to transition to greener ventures; of restoring ecosystems in the lands freed up by transitioning away from the bewildering wastefulness of dominant farming practices; and much more.The wide range of topics covered reflects the reality that there are no panaceas—as Monbiot makes clear, every promising solution has its use cases and limitations, and the key to global food security will likely be a diversified mix of approaches tailored to local circumstances.\n\nRecommended further reading: Doughnut Economics by Kate Raworth; This Is Vegan Propaganda by Ed Winters.",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2596,11 +2608,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#adam-rutherford---control",
-    "href": "books/books_nonfiction.html#adam-rutherford---control",
+    "objectID": "books/books_nonfiction.html#ed-winters---this-is-vegan-propaganda",
+    "href": "books/books_nonfiction.html#ed-winters---this-is-vegan-propaganda",
     "title": "Non-fiction Recommendations",
-    "section": "Adam Rutherford - Control",
-    "text": "Adam Rutherford - Control\n\nThe Dark History and Troubling Present of Eugenics\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\nHistory",
+    "section": "Ed Winters - This Is Vegan Propaganda",
+    "text": "Ed Winters - This Is Vegan Propaganda\n\n(And Other Lies the Meat Industry Tells You)\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEthics\n\n\nHealth\n\n\nEnvironment\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nA comprehensive overview making the case for (you guessed it) veganism. Covers most of the important topics: ethics and animal welfare, environment and climate, nutrition and health, and countering the prevailing narrative. Winters also runs a successful YouTube channel under the name Earthling Ed, featuring a mix of commentary videos and debates where he (amicably) dismantles his interlocutors’ arguments with ease. His university speech serves as an excellent introduction to veganism.",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2620,11 +2632,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#george-monbiot---regenesis",
-    "href": "books/books_nonfiction.html#george-monbiot---regenesis",
+    "objectID": "books/books_nonfiction.html#adam-rutherford---control",
+    "href": "books/books_nonfiction.html#adam-rutherford---control",
     "title": "Non-fiction Recommendations",
-    "section": "George Monbiot - Regenesis",
-    "text": "George Monbiot - Regenesis\n\nFeeding the World Without Devouring the Planet\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEnvironment\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nThe challenge posed in this book’s title is undoubtedly of monumental importance to us all, though sadly it doesn’t get anywhere near the amount of attention it deserves. How can we achieve high-yield, low-impact foods that are healthy, sustainable, universally accessible, and don’t leave us vulnerable to systemic shocks, corporate monopolization, and the existential threats of multiple transgressed planetary boundaries? George Monbiot’s Regenesis is an urgent and extensively referenced contribution to this challenge, offering empirically grounded and politically incisive analysis driven by a deep and palpable love for the living world.Topics discussed include: 1) the importance of soil ecology and the degree to which it is still understudied; 2) agricultural sprawl and the rise of the ‘Global Standard Farm’ as arguably the most ecologically destructive force on the planet—politically sustained by corporate lobbying and perverse agricultural subsidies, and culturally reinforced by the enduring myth of the pastoral idyll; 3) a complex systems perspective highlighting the vulnerability of tightly connected, monopolistic networks to systemic shocks—exemplified by the global food system; 4) the challenges and opportunities of the agroecology and food sovereignty movements, as well as food technologies such as precision fermentation, perennial crops, no-till farming, and more; 5) the importance of anti-trust laws and \"open source\" food technology to prevent corporate monopolization and regression to the business practices that got us into this mess in the first place; of ensuring that farmers working in destructive legacy industries are given the support to transition to greener ventures; of restoring ecosystems in the lands freed up by transitioning away from the bewildering wastefulness of dominant farming practices; and much more.The wide range of topics covered reflects the reality that there are no panaceas—as Monbiot makes clear, every promising solution has its use cases and limitations, and the key to global food security will likely be a diversified mix of approaches tailored to local circumstances.\n\nRecommended further reading: Doughnut Economics by Kate Raworth; This Is Vegan Propaganda by Ed Winters.",
+    "section": "Adam Rutherford - Control",
+    "text": "Adam Rutherford - Control\n\nThe Dark History and Troubling Present of Eugenics\n\n\n\n\n\n\n\nYear: 2022\n\n\n\n\n\n\nHistory",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2644,11 +2656,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#naomi-oreskes---why-trust-science",
-    "href": "books/books_nonfiction.html#naomi-oreskes---why-trust-science",
+    "objectID": "books/books_nonfiction.html#richard-david-precht---künstliche-intelligenz-und-der-sinn-des-lebens",
+    "href": "books/books_nonfiction.html#richard-david-precht---künstliche-intelligenz-und-der-sinn-des-lebens",
     "title": "Non-fiction Recommendations",
-    "section": "Naomi Oreskes - Why Trust Science?",
-    "text": "Naomi Oreskes - Why Trust Science?\n\n\n\n\n\n\n\n\n\nYear: 2019\n\n\n\n\n\n\nScience\n\n\nPhilosophy\n\n\nEpistemology",
+    "section": "Richard David Precht - Künstliche Intelligenz und der Sinn des Lebens",
+    "text": "Richard David Precht - Künstliche Intelligenz und der Sinn des Lebens\n\n\n\n\n\n\nYear: 2020\n\n\n\n\n\n\nPhilosophy\n\n\nTechnology",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2656,11 +2668,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#jason-stanley---how-fascism-works",
-    "href": "books/books_nonfiction.html#jason-stanley---how-fascism-works",
+    "objectID": "books/books_nonfiction.html#naomi-oreskes---why-trust-science",
+    "href": "books/books_nonfiction.html#naomi-oreskes---why-trust-science",
     "title": "Non-fiction Recommendations",
-    "section": "Jason Stanley - How Fascism Works",
-    "text": "Jason Stanley - How Fascism Works\n\nThe Politics of Us and Them\n\n\n\n\n\n\n\nYear: 2018\n\n\n\n\n\n\nPolitics",
+    "section": "Naomi Oreskes - Why Trust Science?",
+    "text": "Naomi Oreskes - Why Trust Science?\n\n\n\n\n\n\n\n\n\nYear: 2019\n\n\n\n\n\n\nScience\n\n\nPhilosophy\n\n\nEpistemology",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2680,11 +2692,23 @@
     ]
   },
   {
+    "objectID": "books/books_nonfiction.html#jason-stanley---how-fascism-works",
+    "href": "books/books_nonfiction.html#jason-stanley---how-fascism-works",
+    "title": "Non-fiction Recommendations",
+    "section": "Jason Stanley - How Fascism Works",
+    "text": "Jason Stanley - How Fascism Works\n\nThe Politics of Us and Them\n\n\n\n\n\n\n\nYear: 2018\n\n\n\n\n\n\nPolitics",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
     "objectID": "books/books_nonfiction.html#tara-westover---educated",
     "href": "books/books_nonfiction.html#tara-westover---educated",
     "title": "Non-fiction Recommendations",
     "section": "Tara Westover - Educated",
-    "text": "Tara Westover - Educated\n\n\n\n\n\n\n\n\n\nYear: 2018\n\n\n\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nPowerful memoir chronicling the author’s upbringing in an abusive, conspiratorial, hardcore survivalist Mormon household that denied her education and healthcare, and how she eventually escaped this environment. The book’s focus on one horrifyingly dysfunctional family may seem like a window into life on the fringes of society, but to anybody who is paying attention to US politics at all, it will be hard not to see in this a microcosm of the paranoia and corrosive hyperindividualism that characterizes the dominant ideology imposed by the American ruling class…",
+    "text": "Tara Westover - Educated\n\n\n\n\n\n\n\n\n\nYear: 2018\n\n\n\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\nEducation\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nPowerful memoir chronicling the author’s upbringing in an abusive, conspiratorial, hardcore survivalist Mormon household that denied her education and healthcare, and how she eventually escaped this environment. The book’s focus on one horrifyingly dysfunctional family may seem like a window into life on the fringes of society, but to anybody who is paying attention to US politics at all, it will be hard not to see in this a microcosm of the paranoia and corrosive hyperindividualism that characterizes the dominant ideology imposed by the American ruling class…",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2704,11 +2728,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#jason-hickel---the-divide",
-    "href": "books/books_nonfiction.html#jason-hickel---the-divide",
+    "objectID": "books/books_nonfiction.html#yanis-varoufakis---adults-in-the-room",
+    "href": "books/books_nonfiction.html#yanis-varoufakis---adults-in-the-room",
     "title": "Non-fiction Recommendations",
-    "section": "Jason Hickel - The Divide",
-    "text": "Jason Hickel - The Divide\n\nA Brief Guide to Global Inequality and its Solutions\n\n\n\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nPolitics\n\n\nHistory\n\n\nEconomics\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\n\nA detailed, sobering account of all the different ways the Global North has used violence and coercion to protects its economic and political interests at the expense of the Global South.\nChallenges the popular myths that the Global South is underdeveloped due to natural causes, and that the Global North is benevolently helping to develop poor countries through foreign aid. In reality, the Global North extracts much more value out of poor countries than is invested though foreign aid.\nMeans to achieve this extraction have shifted over time but generally include colonisation, wars, coups, structural adjustment programmes, unfair trade laws, restrictive patent laws, nefarious debt instruments, disproportionate power in international institutions, land grabs, privatisation, and enclosing commons like water and seeds.\nRecommended further reading: The Myth of American Idealism by Nathan J. Robinson and (the disgraced) Noam Chomsky.",
+    "section": "Yanis Varoufakis - Adults in the Room",
+    "text": "Yanis Varoufakis - Adults in the Room\n\nMy Battle with Europe’s Deep Establishment\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\nPolitics\n\n\nFinance",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2716,11 +2740,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#kate-raworth---doughnut-economics",
-    "href": "books/books_nonfiction.html#kate-raworth---doughnut-economics",
+    "objectID": "books/books_nonfiction.html#jason-hickel---the-divide",
+    "href": "books/books_nonfiction.html#jason-hickel---the-divide",
     "title": "Non-fiction Recommendations",
-    "section": "Kate Raworth - Doughnut Economics",
-    "text": "Kate Raworth - Doughnut Economics\n\nSeven Ways to Think Like a 21st-Century Economist\n\n\n\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEconomics\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nAsk an orthodox economist to sketch a figure of the ideal development of the economy and you’ll likely get an exponentially growing GDP curve—truncated at some point for practical reasons, but implied to be chasing after infinity, forever. A triumphant story of eternal progress enabled by the powers of capitalism and the free market. However, after a hearty laugh you decide that \"line go up forever\" is not a satisfying answer, so you dare the economist to explicitly draw the asymptotic behavior of this curve with respect to time. It stands to reason that this line will have to plateau at some point. How do we know when that point is reached? What if we have already overshot the optimum plateau? What even is the purpose of the economy?\nFor serious answers, you will have to look beyond the narrow confines of 20th century neoclassical economics and venture into the realm of political and heterodox economics, as exemplified by Kate Raworth in this book. Rather than advocating for strict degrowth like Jason Hickel (cf. Less Is More), Raworth advocates for a growth-agnostic economy that is distributive and regenerative by design. Crucially, the purpose of economic policy should be to balance the economy within the Goldilocks zone defined by two concentric circles: the inner circle represents the minimum level of economic development necessary to achieve universal human rights for all; the outer circle represents the maximum level of economic activity that can be sustained while keeping within the nine planetary boundaries established by Earth systems science. I don’t know about you, but this sounds much more appealing than the alternative of a burning planet ruled over by a tiny billionaire class telling the rest of us \"all is well, GDP grew by 1.2% this quarter, now please continue being distracted fighting amongst yourselves\".\n\nRecommended further reading: Less Is More by Jason Hickel; Foundations of Economics by Yanis Varoufakis.\nOctober 2025 Update: Now published as a paper in Nature.",
+    "section": "Jason Hickel - The Divide",
+    "text": "Jason Hickel - The Divide\n\nA Brief Guide to Global Inequality and its Solutions\n\n\n\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nPolitics\n\n\nHistory\n\n\nEconomics\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\n\nA detailed, sobering account of all the different ways the Global North has used violence and coercion to protects its economic and political interests at the expense of the Global South.\nChallenges the popular myths that the Global South is underdeveloped due to natural causes, and that the Global North is benevolently helping to develop poor countries through foreign aid. In reality, the Global North extracts much more value out of poor countries than is invested though foreign aid.\nMeans to achieve this extraction have shifted over time but generally include colonisation, wars, coups, structural adjustment programmes, unfair trade laws, restrictive patent laws, nefarious debt instruments, disproportionate power in international institutions, land grabs, privatisation, and enclosing commons like water and seeds.\nRecommended further reading: The Myth of American Idealism by Nathan J. Robinson and (the disgraced) Noam Chomsky.",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2740,11 +2764,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#yanis-varoufakis---adults-in-the-room",
-    "href": "books/books_nonfiction.html#yanis-varoufakis---adults-in-the-room",
+    "objectID": "books/books_nonfiction.html#kate-raworth---doughnut-economics",
+    "href": "books/books_nonfiction.html#kate-raworth---doughnut-economics",
     "title": "Non-fiction Recommendations",
-    "section": "Yanis Varoufakis - Adults in the Room",
-    "text": "Yanis Varoufakis - Adults in the Room\n\nMy Battle with Europe’s Deep Establishment\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\nPolitics\n\n\nFinance",
+    "section": "Kate Raworth - Doughnut Economics",
+    "text": "Kate Raworth - Doughnut Economics\n\nSeven Ways to Think Like a 21st-Century Economist\n\n\n\n\n\n\n\n\n\n\nYear: 2017\n\n\n\n\n\n\n⭐ Essential Reading\n\n\nEconomics\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nAsk an orthodox economist to sketch a figure of the ideal development of the economy and you’ll likely get an exponentially growing GDP curve—truncated at some point for practical reasons, but implied to be chasing after infinity, forever. A triumphant story of eternal progress enabled by the powers of capitalism and the free market. However, after a hearty laugh you decide that \"line go up forever\" is not a satisfying answer, so you dare the economist to explicitly draw the asymptotic behavior of this curve with respect to time. It stands to reason that this line will have to plateau at some point. How do we know when that point is reached? What if we have already overshot the optimum plateau? What even is the purpose of the economy?\nFor serious answers, you will have to look beyond the narrow confines of 20th century neoclassical economics and venture into the realm of political and heterodox economics, as exemplified by Kate Raworth in this book. Rather than advocating for strict degrowth like Jason Hickel (cf. Less Is More), Raworth advocates for a growth-agnostic economy that is distributive and regenerative by design. Crucially, the purpose of economic policy should be to balance the economy within the Goldilocks zone defined by two concentric circles: the inner circle represents the minimum level of economic development necessary to achieve universal human rights for all; the outer circle represents the maximum level of economic activity that can be sustained while keeping within the nine planetary boundaries established by Earth systems science. I don’t know about you, but this sounds much more appealing than the alternative of a burning planet ruled over by a tiny billionaire class telling the rest of us \"all is well, GDP grew by 1.2% this quarter, now please continue being distracted fighting amongst yourselves\".\n\nRecommended further reading: Less Is More by Jason Hickel; Foundations of Economics by Yanis Varoufakis.\nOctober 2025 Update: Now published as a paper in Nature.",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2752,11 +2776,11 @@
     ]
   },
   {
-    "objectID": "books/books_nonfiction.html#carlo-rovelli---reality-is-not-what-it-seems",
-    "href": "books/books_nonfiction.html#carlo-rovelli---reality-is-not-what-it-seems",
+    "objectID": "books/books_nonfiction.html#angela-davis---freedom-is-a-constant-struggle",
+    "href": "books/books_nonfiction.html#angela-davis---freedom-is-a-constant-struggle",
     "title": "Non-fiction Recommendations",
-    "section": "Carlo Rovelli - Reality Is Not What It Seems",
-    "text": "Carlo Rovelli - Reality Is Not What It Seems\n\nThe Journey to Quantum Gravity\n\n\n\n\n\n\n\nYear: 2014\n\n\n\n\n\n\nScience\n\n\nPhysics",
+    "section": "Angela Davis - Freedom Is a Constant Struggle",
+    "text": "Angela Davis - Freedom Is a Constant Struggle\n\nFerguson, Palestine, and the Foundations of a Movement\n\n\n\n\n\n\n\nYear: 2015\n\n\n\n\n\n\nPolitics",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2776,11 +2800,35 @@
     ]
   },
   {
+    "objectID": "books/books_nonfiction.html#carlo-rovelli---reality-is-not-what-it-seems",
+    "href": "books/books_nonfiction.html#carlo-rovelli---reality-is-not-what-it-seems",
+    "title": "Non-fiction Recommendations",
+    "section": "Carlo Rovelli - Reality Is Not What It Seems",
+    "text": "Carlo Rovelli - Reality Is Not What It Seems\n\nThe Journey to Quantum Gravity\n\n\n\n\n\n\n\nYear: 2014\n\n\n\n\n\n\nScience\n\n\nPhysics",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
     "objectID": "books/books_nonfiction.html#richard-d.-wolff---democracy-at-work",
     "href": "books/books_nonfiction.html#richard-d.-wolff---democracy-at-work",
     "title": "Non-fiction Recommendations",
     "section": "Richard D. Wolff - Democracy at Work",
     "text": "Richard D. Wolff - Democracy at Work\n\nA Cure for Capitalism\n\n\n\n\n\n\n\nYear: 2012\n\n\n\n\n\n\nEconomics\n\n\nPolitics",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
+    "objectID": "books/books_nonfiction.html#ha-joon-chang---23-things-they-dont-tell-you-about-capitalism",
+    "href": "books/books_nonfiction.html#ha-joon-chang---23-things-they-dont-tell-you-about-capitalism",
+    "title": "Non-fiction Recommendations",
+    "section": "Ha-Joon Chang - 23 Things They Don’t Tell You about Capitalism",
+    "text": "Ha-Joon Chang - 23 Things They Don’t Tell You about Capitalism\n\n\n\n\n\n\nYear: 2010\n\n\n\n\n\n\nEconomics\n\n\nPolitics",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2901,6 +2949,18 @@
     "title": "Non-fiction Recommendations",
     "section": "Murray Bookchin - Post-Scarcity Anarchism",
     "text": "Murray Bookchin - Post-Scarcity Anarchism\n\n\n\n\n\n\nYear: 1971\n\n\n\n\n\n\nPolitics",
+    "crumbs": [
+      "Home",
+      "**Books**",
+      "Non-Fiction"
+    ]
+  },
+  {
+    "objectID": "books/books_nonfiction.html#paulo-freire---pedagogy-of-the-oppressed",
+    "href": "books/books_nonfiction.html#paulo-freire---pedagogy-of-the-oppressed",
+    "title": "Non-fiction Recommendations",
+    "section": "Paulo Freire - Pedagogy of the Oppressed",
+    "text": "Paulo Freire - Pedagogy of the Oppressed\n\n\n\n\n\n\nYear: 1968\n\n\n\n\n\n\nEducation\n\n\nPhilosophy",
     "crumbs": [
       "Home",
       "**Books**",
@@ -3572,6 +3632,18 @@
       "Home",
       "**Music**",
       "Top 50 Classical"
+    ]
+  },
+  {
+    "objectID": "music/playlists.html",
+    "href": "music/playlists.html",
+    "title": "Playlists",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Playlists"
     ]
   }
 ]
