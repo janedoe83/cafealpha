@@ -28,6 +28,8 @@ website:
         - music/albums.qmd
         - text: "Top 50 Classical"
           href: music/classical.qmd
+        - music/mv.qmd
+        - music/playlists.qmd
       - section: "**Books**"
         contents: 
         - text: "Fiction"

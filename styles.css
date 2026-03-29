@@ -99,14 +99,14 @@ text-align: left;
 .subtitle {
   font-size: 1.25rem;
   font-weight: 450;
-  margin-top: -0.2rem;
-  margin-bottom: 0.5rem;
+  margin-top: -0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 /* 5-star rating system */
 .stars {
   display: inline-block;
-  margin-top: -0.1rem;
+  margin-top: -0.4rem;
   margin-left: -0.1rem;
   font-size: 2rem;
   line-height: 1;
@@ -117,7 +117,7 @@ text-align: left;
 
 .stars::before {
   content: '★★★★★';
-  margin-top: -0.1rem;
+  margin-top: -0.4rem;
   margin-left: -0.1rem;
   background: linear-gradient(
     to right,

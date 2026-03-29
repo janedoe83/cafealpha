@@ -6,7 +6,7 @@ echo: false
 ---
 
 
-The greatest books of all time!!! (According to me)\
+The greatest fiction books of all time!!! (According to me)\
 
 
 ::: {.callout-note title="Notes"}
@@ -43,7 +43,13 @@ The greatest books of all time!!! (According to me)\
     <li>
       <a class="dropdown-item" href="#"
          onclick="sortSections('year','asc'); return false;">
-        Year
+        Year (ascending)
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#"
+         onclick="sortSections('year','desc'); return false;">
+        Year (descending)
       </a>
     </li>
     <li>
