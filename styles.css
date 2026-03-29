@@ -45,7 +45,7 @@ text-align: left;
 .album-container {
   display: flex;
   flex-wrap: wrap;      /* allows stacking on small screens */
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -66,7 +66,7 @@ text-align: left;
   min-width: 0;         /* prevents overflow */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically center content */
+  justify-content: center;
 }
 
 
