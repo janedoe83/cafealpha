@@ -3,6 +3,14 @@ title: "Non-fiction Recommendations"
 format: html
 ---
 
+## Slow Down or Die
+
+::: {.callout-note collapse="true" title="Notes"}
+
+- Defines "degrowth" as a downscaling of production and consumption to **reduce ecological footprints**, planned **democratically** in a way that is **equitable** while **securing well-being**.
+- The goal is to move toward "post-growth": a steady-state economy in harmony with nature where decisions are made collectively and wealth is equitably shared, allowing us to prosper without growth.
+:::
+
 ## The Divide
 
 ::: {.callout-note collapse="true" title="Notes"}
