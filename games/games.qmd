@@ -3,32 +3,34 @@ title: "Coming soon"
 format: html
 ---
 
-![](../img/vg_signalis.jpg){.lightbox}
+![](../img/vg_signalis.jpg){.lightbox width=600}
 
-![](../img/vg_citizen_sleeper.jpeg){.lightbox}
+![](../img/vg_citizen_sleeper.jpeg){.lightbox width=600}
 
-![](../img/bg_pathologic.jpeg){.lightbox}
+![](../img/bg_pathologic.jpeg){.lightbox width=600}
 
-![](../img/vg_alan_wake2.jpeg){.lightbox}
+![](../img/vg_alan_wake2.jpeg){.lightbox width=600}
 
-![](../img/vg_rain_world.jpeg){.lightbox}
+![](../img/vg_rain_world.jpeg){.lightbox width=600}
 
-![](../img/vg_outer_wilds.png){.lightbox}
+![](../img/vg_outer_wilds.png){.lightbox width=600}
 
-![](../img/vg_ff7.jpeg){.lightbox}
+![](../img/vg_ff7.jpeg){.lightbox width=600}
 
-![](../img/vg_silksong.jpg){.lightbox}
+![](../img/vg_silksong.jpg){.lightbox width=600}
 
-![](../img/vg_dark_souls.png){.lightbox}
+![](../img/vg_dark_souls.png){.lightbox width=600}
 
-![](../img/vg_nier_automata.jpeg){.lightbox}
+![](../img/vg_nier_automata.jpeg){.lightbox width=600}
 
-![](../img/vg_clair_obscur.jpg){.lightbox}
+![](../img/vg_clair_obscur.jpg){.lightbox width=600}
 
-![](../img/vg_undertale.png){.lightbox}
+![](../img/vg_undertale.png){.lightbox width=600}
 
-![](../img/vg_last_guardian.jpeg){.lightbox}
+![](../img/vg_last_guardian.jpeg){.lightbox width=600}
 
-![](../img/vg_if_found.jpeg){.lightbox}
+![](../img/vg_if_found.jpeg){.lightbox width=600}
 
-![](../img/vg_gravity_rush2.jpeg){.lightbox}
+![](../img/vg_gravity_rush2.jpeg){.lightbox width=600}
+
+![](../img/vg_silent_hill2.jpeg){.lightbox width=600}

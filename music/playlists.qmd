@@ -5,4 +5,28 @@ toc: false
 echo: false
 ---
 
-Coming soon...
+Brilliant free playlists for your utmost listening pleasure, curated by the one and only (me).
+
+::: {.callout-note icon="false" collapse="true" title="Months of the Year"}
+- **January:** Sea Power - [Red Rock Riviera](https://www.youtube.com/watch?v=NSkb5OtTmgg)
+- **February:** Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
+- **March:** Asian Kung-Fu Generation - [Rock'n Roll, Morning Light Falls On You](https://www.youtube.com/watch?v=rDTFSD9K9dA)
+- **April:** Porter Robinson - [Look at the Sky](https://www.youtube.com/watch?v=TJBh_hj6DzE)
+- **May:** The Beatles - [Here Comes the Sun](https://www.youtube.com/watch?v=KQetemT1sWc)
+- **June:** Carly Rae Jepsen - [Cut to the Feeling](https://www.youtube.com/watch?v=Qlsu7RhOnsQ)
+- **July:** Isaac Hayes - [Walk On By](https://www.youtube.com/watch?v=DFdR2LLM3bY)
+- **August:**  The Pillows - [Crazy Sunshine](https://www.youtube.com/watch?v=nyXSBtDDkQE&)
+- **September:** Carissa's Wierd - [September Come Take This Heart Away](https://www.youtube.com/watch?v=cYtdQccn54I)
+- **October:** My Chemical Romance - [Helena](https://www.youtube.com/watch?v=UCCyoocDxBA)
+- **November:** Panopticon - [Autumn Eternal](https://www.youtube.com/watch?v=GfjK7J-li18)
+- **December:** Paysage d'Hiver - [Welt aus Eis](https://www.youtube.com/watch?v=MiB16TPNa88)
+:::
+
+::: {.callout-note icon="false" collapse="true" title="The World's Shortest Concept Playlist"}
+- Daniel Johnston - [True Love Will Find You in the End](https://www.youtube.com/watch?v=UUbEf67bbrA)
+- World of Pleasure - [Everybody Finds Love](https://www.youtube.com/watch?v=G8Rbpu_hZPI)
+
+Total duration: 3:26<br>
+Dynamic range: 10/10<br>
+Emotional whiplash: 10/10<br>
+:::
