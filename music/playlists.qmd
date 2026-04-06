@@ -5,7 +5,99 @@ toc: false
 echo: false
 ---
 
+
+```{python}
+import sys
+sys.path.append("..")
+from scripts.utils import flag_emoji
+```
+
 Brilliant free playlists for your utmost listening pleasure, curated by the one and only (me).
+
+::: {.callout-note icon="false" collapse="true" title="We Shall Not Be Moved: A Chronology of US Protest Songs"}
+
+American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, pro-LGBTQ themes.
+
+- 1944: Woody Guthrie - [This Land Is You Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
+- 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)
+- 1963: Pete Seeger - [We Shall Overcome](https://www.youtube.com/watch?v=Kfo_W73n0hE)
+- 1964: Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
+- 1965: Nina Simone - [Sinnerman](https://www.youtube.com/watch?v=r57J0jPyZRs)
+- 1966: Barbara Dane - [It Isn't Nice](https://www.youtube.com/watch?v=skWMDHilbNI)
+- 1970: Barbara Dane - [We Shall Not Be Moved](https://www.youtube.com/watch?v=YrRQH_xSQCI)
+- 1971: Gil Scott-Heron - [The Revolution Will Not Be Televised](https://www.youtube.com/watch?v=vwSRqaZGsPw)
+- 1971: Marvin Gaye - [What's Going On?](https://www.youtube.com/watch?v=H-kA3UtBj4M)
+- 1972: Aretha Fanklin - [Young, Gifted and Black](https://www.youtube.com/watch?v=-LrGW6cmSIc)
+- 1981: Dead Kennedys - [Nazi Punks Fuck Off](https://www.youtube.com/watch?v=PzHLPnGuVSQ)
+- 1982: M.D.C. - [John Wayne Was a Nazi](https://www.youtube.com/watch?v=SoyusTUFdl0)
+- 1990: Public Enemy - [Fight the Power](https://www.youtube.com/watch?v=mmo3HFa2vjg)
+- 1991: 2Pac - [Words of Wisdom](https://www.youtube.com/watch?v=NhvwbnB5WTo)
+- 1992: Rage Against the Machine - [Killing in the Name](https://www.youtube.com/watch?v=bWXazVhlyxQ)
+- 1994: Drive Like Jehu - [Here Come the Rome Plows](https://www.youtube.com/watch?v=02MAcqIvX7w)
+- 1996: Rage Against the Machine - [Bulls on Parade](https://www.youtube.com/watch?v=3L4YrGaR8E4)
+- 1997: Snapcase - [Guilty by Ignorance](https://www.youtube.com/watch?v=wb1byFx1wAk)
+- 2000: Dead Prez - [Police State](https://www.youtube.com/watch?v=8c_UdWo4Zek)
+- 2001: Propagandhi - [Fuck the Border](https://www.youtube.com/watch?v=Ee8OtS9pkVg)
+- 2001: System of a Down - [Prison Song](https://www.youtube.com/watch?v=m4L20t8Dvlg)
+- 2004: System of a Down - [B.Y.O.B.](https://www.youtube.com/watch?v=zUzd9KyIDrM)
+- 2004: Blue Scholars - [No Rest for the Weary](https://www.youtube.com/watch?v=ssM31LQ0uKg)
+- 2004: Steve Earle - [F the CC](https://www.youtube.com/watch?v=B2rygAhcgcI)
+- 2007: Brother Ali - [Uncle Sam Goddamn](https://www.youtube.com/watch?v=OO18F4aKGzQ)
+- 2007: El-P - [Dear Sirs](https://www.youtube.com/watch?v=xUE8lgY48Ag)
+- 2012: Killer Mike - [Reagan](https://www.youtube.com/watch?v=6lIqNjC1RKU)
+- 2012: Panopticon - [Come One All Ye Coal Miners](https://www.youtube.com/watch?v=pF4FEvM2Y6E)
+- 2012: Panopticon - [Black Soot and Red Blood](https://www.youtube.com/watch?v=Ex8p4s73mCI)
+- 2012: Big K.R.I.T. - [Praying Man](https://www.youtube.com/watch?v=uIZQObXjKzY) 
+- 2014: Dälek - [Police State Is Nervous](https://www.youtube.com/watch?v=gBByC9BebX4)
+- 2015: Kendrick Lamar - [Alright](https://www.youtube.com/watch?v=Z-48u_uWMHY)
+- 2016: A Tribe Called Quest - [We the People](https://www.youtube.com/watch?v=vO2Su3erRIA)
+- 2016: YG - [FDT](https://www.youtube.com/watch?v=WkZ5e94QnWk)
+- 2016: Jeff Rosenstock - [Festival Song](https://www.youtube.com/watch?v=E5qjTzPeA1E)
+- 2020: Terrace Martin & Denzel Curry - [Pig Feet](https://www.youtube.com/watch?v=2OMirbGvn8o)
+- 2020: clipping. - [Chapter 319](https://www.youtube.com/watch?v=K3DuwlvaKss)
+- 2024: Jessie Welles - [War Isn't Murder](https://www.youtube.com/watch?v=8E9l_i6HPYM)
+- 2025: Macklemore - [Hind's Hall](https://www.youtube.com/watch?v=fgDQyFeBBIo)
+- 2025: Dropkick Murphys - [Who'll Stand With Us?](https://www.youtube.com/watch?v=5BRHuiRyVEE)
+- 2026: Dropkick Murphys - [Citizen I.C.E.](https://www.youtube.com/watch?v=mSrDkRm7_78)
+:::
+
+::: {.callout-note icon="false" collapse="true" title="Songs of the World"}
+**Eligibility:** The artist may be based in the respective country or have roots in it. Classical music only qualifies if both interpreter and composer are associated with the country.
+
+Will I ever complete this list? Unlikely... but it's a start!
+
+- `{python} flag_emoji("AM")` **Armenia:** System of a Down - [Aerials](https://www.youtube.com/watch?v=L-iepu3EtyE)
+- `{python} flag_emoji("AU")` **Australia:** Kylie Minogue - [Love Affair](https://www.youtube.com/watch?v=R8KHOO3dVp8)
+- `{python} flag_emoji("BR")` **Brazil:** Jorge Ben Jor - [Ôba, Lá Vem Ela](https://www.youtube.com/watch?v=BVHA2lHaeqk)
+- `{python} flag_emoji("CA")` **Canada:** Devin Townsend - [Deadhead](https://www.youtube.com/watch?v=tJz-L3SbrLE)
+- `{python} flag_emoji("DK")` **Denmark:** Mercyful Fate - [A Dangerous Meeting](https://www.youtube.com/watch?v=sEKFmokUiBg)
+- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 **England:** Pink Floyd - [Wish You Were Here](https://www.youtube.com/watch?v=IXdNnw99-Ic&)
+- `{python} flag_emoji("FR")` **France:** Lorien Testard - [Alicia](https://www.youtube.com/watch?v=yakOBIoyoik)
+- `{python} flag_emoji("DE")` **Germany:** Konstantin Wecker - [Willy](https://www.youtube.com/watch?v=mw6nD98IGwg)
+- `{python} flag_emoji("HK")` **Hong Kong:** Faye Wong - [Dreams](https://www.youtube.com/watch?v=hN2jOHeI5tc)
+- `{python} flag_emoji("IS")` **Icleand:** Björk - [Hyperballad](https://www.youtube.com/watch?v=6CSiU0j_lFA)
+- `{python} flag_emoji("IE")` **Ireland:** My Bloody Valentine - [when you sleep](https://www.youtube.com/watch?v=BJLcbj80Ka8)
+- `{python} flag_emoji("IT")` **Italy:** Ennio Morricone - [L'estasi dell'Oro](https://www.youtube.com/watch?v=PYI09PMNazw)
+- `{python} flag_emoji("JM")` **Jamaica:** Bob Marley & The Wailers - [No Woman, No Cry](https://www.youtube.com/watch?v=mZ6VezKMoRY)
+- `{python} flag_emoji("JP")` **Japan:** Shiina Ringo - [Honnou](https://www.youtube.com/watch?v=ECxBHhMc7oI)
+- `{python} flag_emoji("LB")` **Lebanon:** Fairouz - [Al Bosta](https://www.youtube.com/watch?v=VrJnhLmwzbU)
+- `{python} flag_emoji("MX")` **Mexico:** Juan Gabriel - [Hasta Que Te Conocí (En el Palacio de Bellas Artes)](https://www.youtube.com/watch?v=bIZi3SC6MXQ)
+- `{python} flag_emoji("MN")` **Mongolia:** Egschiglen - [Goviin Magtaal](https://www.youtube.com/watch?v=Nz8nYC5E-aI)
+- `{python} flag_emoji("NZ")` **New Zealand:** Ulcerate - [Drown Within](https://www.youtube.com/watch?v=LKLa06iaVkc)
+- `{python} flag_emoji("NG")` **Nigeria:** Fela Anikulapo Kuti and Afrika 70 - [Zombie](https://www.youtube.com/watch?v=Qj5x6pbJMyU)
+- `{python} flag_emoji("NO")` **Norway:** Emperor - [Ye Entrancemperium](https://www.youtube.com/watch?v=9mfpOa0Znr8)
+- `{python} flag_emoji("PS")` **Palestine:** Mohammed Assaf - [Dammi Falastini](https://www.youtube.com/watch?v=S-1KDZTNty4)
+- `{python} flag_emoji("PL")` **Poland:** Krystian Zimerman / Frédéric Chopin - [Ballade No. 1 Op. 23](https://www.youtube.com/watch?v=BSFNl4roGlI)
+- `{python} flag_emoji("RU")` **Russia:** Vladimir Sofronitsky / Alexander Scriabin - [Piano Sonata No. 3 Op.23](https://www.youtube.com/watch?v=aXtUIOSXJzE)
+- 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland:** Cocteau Twins - [Heaven or Las Vegas](https://www.youtube.com/watch?v=6KnYw4EwYGc)
+- `{python} flag_emoji("KR")` **South Korea:** Parannoul - [White Ceiling](https://www.youtube.com/watch?v=g1x1NtWGw5s)
+- `{python} flag_emoji("ES")` **Spain:** Javiera Mena - [Cámara lenta](https://www.youtube.com/watch?v=vN1AlIBob-o)
+- `{python} flag_emoji("SE")` **Sweden:** Opeth - [Blackwater Park](https://www.youtube.com/watch?v=ngdaa4aZLgA)
+- `{python} flag_emoji("CH")` **Switzerland:** Mani Matter - [I han es Zündhölzli azündt](https://www.youtube.com/watch?v=PkGatIgXERI)
+- `{python} flag_emoji("TW")` **Taiwan:** Bao Meisheng - [My Little Jasmine](https://www.youtube.com/watch?v=o_I3YHHfDdI)
+- `{python} flag_emoji("US")` **United States:** Nina Simone - [Sinnerman](https://www.youtube.com/watch?v=QH3Fx41Jpl4)
+- `{python} flag_emoji("ZM")` **Zambia:** Backxwash - [Vibanda](https://www.youtube.com/watch?v=onzEYxBlDTM)
+:::
 
 ::: {.callout-note icon="false" collapse="true" title="Months of the Year"}
 - **January:** Sea Power - [Red Rock Riviera](https://www.youtube.com/watch?v=NSkb5OtTmgg)
