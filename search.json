@@ -716,13 +716,205 @@
   {
     "objectID": "music/mv.html",
     "href": "music/mv.html",
-    "title": "Top 100 Videos",
+    "title": "Top 100 Music Videos",
     "section": "",
-    "text": "Coming soon…",
+    "text": "The greatest music videos of all time!!! (According to me)",
     "crumbs": [
       "Home",
       "**Music**",
-      "Top 100 Videos"
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#converge---all-we-love-we-leave-behind",
+    "href": "music/mv.html#converge---all-we-love-we-leave-behind",
+    "title": "Top 100 Music Videos",
+    "section": "16. Converge - All We Love We Leave Behind",
+    "text": "16. Converge - All We Love We Leave Behind",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#devin-townsend---why",
+    "href": "music/mv.html#devin-townsend---why",
+    "title": "Top 100 Music Videos",
+    "section": "15. Devin Townsend - Why?",
+    "text": "15. Devin Townsend - Why?",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#kendrick-lamar---alright",
+    "href": "music/mv.html#kendrick-lamar---alright",
+    "title": "Top 100 Music Videos",
+    "section": "14. Kendrick Lamar - Alright",
+    "text": "14. Kendrick Lamar - Alright",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#gorillaz---the-mountain-the-moon-cave-and-the-sad-god",
+    "href": "music/mv.html#gorillaz---the-mountain-the-moon-cave-and-the-sad-god",
+    "title": "Top 100 Music Videos",
+    "section": "13. Gorillaz - The Mountain, The Moon Cave and The Sad God",
+    "text": "13. Gorillaz - The Mountain, The Moon Cave and The Sad God",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#deftones---sextape",
+    "href": "music/mv.html#deftones---sextape",
+    "title": "Top 100 Music Videos",
+    "section": "12. Deftones - Sextape",
+    "text": "12. Deftones - Sextape",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#devin-townsend---genesis",
+    "href": "music/mv.html#devin-townsend---genesis",
+    "title": "Top 100 Music Videos",
+    "section": "11. Devin Townsend - Genesis",
+    "text": "11. Devin Townsend - Genesis",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#dälek---police-state-is-nervous",
+    "href": "music/mv.html#dälek---police-state-is-nervous",
+    "title": "Top 100 Music Videos",
+    "section": "10. Dälek - Police State Is Nervous",
+    "text": "10. Dälek - Police State Is Nervous",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#rolo-tomassi---a-flood-of-light",
+    "href": "music/mv.html#rolo-tomassi---a-flood-of-light",
+    "title": "Top 100 Music Videos",
+    "section": "9. Rolo Tomassi - A Flood of Light",
+    "text": "9. Rolo Tomassi - A Flood of Light",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#radiohead---daydreaming",
+    "href": "music/mv.html#radiohead---daydreaming",
+    "title": "Top 100 Music Videos",
+    "section": "8. Radiohead - Daydreaming",
+    "text": "8. Radiohead - Daydreaming",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#toe---goodbye",
+    "href": "music/mv.html#toe---goodbye",
+    "title": "Top 100 Music Videos",
+    "section": "7. toe - Goodbye",
+    "text": "7. toe - Goodbye",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#fka-twigs---home-with-you",
+    "href": "music/mv.html#fka-twigs---home-with-you",
+    "title": "Top 100 Music Videos",
+    "section": "6. FKA Twigs - Home With You",
+    "text": "6. FKA Twigs - Home With You",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#mac-miller---good-news",
+    "href": "music/mv.html#mac-miller---good-news",
+    "title": "Top 100 Music Videos",
+    "section": "5. Mac Miller - Good News",
+    "text": "5. Mac Miller - Good News",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#radiohead---weird-fishesarpeggi",
+    "href": "music/mv.html#radiohead---weird-fishesarpeggi",
+    "title": "Top 100 Music Videos",
+    "section": "4. Radiohead - Weird Fishes/Arpeggi",
+    "text": "4. Radiohead - Weird Fishes/Arpeggi",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#mondo-grosso---labyrinth",
+    "href": "music/mv.html#mondo-grosso---labyrinth",
+    "title": "Top 100 Music Videos",
+    "section": "3. Mondo Grosso - Labyrinth",
+    "text": "3. Mondo Grosso - Labyrinth",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#fka-twigs---cellophane",
+    "href": "music/mv.html#fka-twigs---cellophane",
+    "title": "Top 100 Music Videos",
+    "section": "2. FKA Twigs - Cellophane",
+    "text": "2. FKA Twigs - Cellophane",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
+    ]
+  },
+  {
+    "objectID": "music/mv.html#ado---where-the-wind-blows",
+    "href": "music/mv.html#ado---where-the-wind-blows",
+    "title": "Top 100 Music Videos",
+    "section": "1. Ado - Where the Wind Blows",
+    "text": "1. Ado - Where the Wind Blows",
+    "crumbs": [
+      "Home",
+      "**Music**",
+      "Top 100 Music Videos"
     ]
   },
   {
@@ -1977,7 +2169,7 @@
     "href": "books/nonfiction_texts.html#doppelganger",
     "title": "Non-fiction Recommendations",
     "section": "Doppelganger",
-    "text": "Doppelganger\n\n\n\n\n\n\nNotes\n\n\n\n\n\nBrilliant memoir and insightful analysis of the resurgence of the far-right in the West. Of particular importance is the way that far-right politics co-opts leftist talking points and twists them to serve reactionary ends. Sadly, this is not a new story: divide and conquer is the oldest trick in the oligarch’s playbook, promising minor economic concessions to the in-group while taking advantage of rising far-right sentiments to keep regular people in a constant state of manufactured hysteria about ‘the Other’. What is new, however, is the way that social media has completely turbo-charged the spread of misinformation and the powerful allure of conspiracy theories, making it easier than ever to divert working-class resentment towards the latest scapegoat du jour. For a discussion of the book, see also Ash Sarkar’s interview with Naomi Klein for Novara Media. Another crucial read is Klein’s follow-up essay The Rise of End Times Fascism, co-written with Astra Taylor for The Guardian."
+    "text": "Doppelganger\n\n\n\n\n\n\nNotes\n\n\n\n\n\nBrilliant memoir and insightful analysis of the resurgence of the far-right in the West. Of particular importance is the way that far-right politics co-opts leftist talking points and twists them to serve reactionary ends. Sadly, this is not a new story: divide and conquer is the oldest trick in the oligarch’s playbook, promising minor economic concessions to the in-group while taking advantage of rising far-right sentiments to keep regular people in a constant state of manufactured hysteria about ‘the Other’. What is new, however, is the way that social media has completely turbo-charged the spread of misinformation and the powerful allure of conspiracy theories, making it easier than ever to divert working-class resentment towards the latest scapegoat du jour. For a discussion of the book, see also Ash Sarkar’s interview with Naomi Klein for Novara Media. Another insightful read is Klein’s follow-up essay The Rise of End Times Fascism, co-written with Astra Taylor for The Guardian."
   },
   {
     "objectID": "books/nonfiction_texts.html#regenesis",
@@ -2619,7 +2811,7 @@
     "href": "books/books_nonfiction.html#naomi-klein---doppelganger",
     "title": "Non-fiction Recommendations",
     "section": "Naomi Klein - Doppelganger",
-    "text": "Naomi Klein - Doppelganger\n\nA Trip into the Mirror World\n\n\n\n\n\n\n\n\n\n\nYear: 2023\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\nPolitics\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nBrilliant memoir and insightful analysis of the resurgence of the far-right in the West. Of particular importance is the way that far-right politics co-opts leftist talking points and twists them to serve reactionary ends. Sadly, this is not a new story: divide and conquer is the oldest trick in the oligarch’s playbook, promising minor economic concessions to the in-group while taking advantage of rising far-right sentiments to keep regular people in a constant state of manufactured hysteria about ‘the Other’. What is new, however, is the way that social media has completely turbo-charged the spread of misinformation and the powerful allure of conspiracy theories, making it easier than ever to divert working-class resentment towards the latest scapegoat du jour. For a discussion of the book, see also Ash Sarkar’s interview with Naomi Klein for Novara Media. Another crucial read is Klein’s follow-up essay The Rise of End Times Fascism, co-written with Astra Taylor for The Guardian.",
+    "text": "Naomi Klein - Doppelganger\n\nA Trip into the Mirror World\n\n\n\n\n\n\n\n\n\n\nYear: 2023\n\n\n\n❤️ Personal Favorite\n\n\nMemoir\n\n\nPolitics\n\n\n\n\n\n\n\n\n\n\n\n\nNotes\n\n\n\n\n\nBrilliant memoir and insightful analysis of the resurgence of the far-right in the West. Of particular importance is the way that far-right politics co-opts leftist talking points and twists them to serve reactionary ends. Sadly, this is not a new story: divide and conquer is the oldest trick in the oligarch’s playbook, promising minor economic concessions to the in-group while taking advantage of rising far-right sentiments to keep regular people in a constant state of manufactured hysteria about ‘the Other’. What is new, however, is the way that social media has completely turbo-charged the spread of misinformation and the powerful allure of conspiracy theories, making it easier than ever to divert working-class resentment towards the latest scapegoat du jour. For a discussion of the book, see also Ash Sarkar’s interview with Naomi Klein for Novara Media. Another insightful read is Klein’s follow-up essay The Rise of End Times Fascism, co-written with Astra Taylor for The Guardian.",
     "crumbs": [
       "Home",
       "**Books**",
@@ -2679,7 +2871,7 @@
     "href": "books/books_nonfiction.html#china-miéville---a-spectre-haunting",
     "title": "Non-fiction Recommendations",
     "section": "China Miéville - A Spectre, Haunting",
-    "text": "China Miéville - A Spectre, Haunting\n\nOn the Communist Manifesto\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\nPolitics",
+    "text": "China Miéville - A Spectre, Haunting\n\nOn the Communist Manifesto\n\n\n\n\n\n\n\n\n\n\nYear: 2022\n\n\n\nPolitics\n\n\nMarxism",
     "crumbs": [
       "Home",
       "**Books**",
@@ -3682,7 +3874,7 @@
     "href": "music/playlists.html",
     "title": "Playlists",
     "section": "",
-    "text": "Brilliant free playlists for your utmost listening pleasure, curated by the one and only (me).\n\n\n\n\n\n\nMonths of the Year\n\n\n\n\n\n\nJanuary: Sea Power - Red Rock Riviera\nFebruary: Sam Cooke - A Change Is Gonna Come\nMarch: Asian Kung-Fu Generation - Rock’n Roll, Morning Light Falls On You\nApril: Porter Robinson - Look at the Sky\nMay: The Beatles - Here Comes the Sun\nJune: Carly Rae Jepsen - Cut to the Feeling\nJuly: Isaac Hayes - Walk On By\nAugust: The Pillows - Crazy Sunshine\nSeptember: Carissa’s Wierd - September Come Take This Heart Away\nOctober: My Chemical Romance - Helena\nNovember: Panopticon - Autumn Eternal\nDecember: Paysage d’Hiver - Welt aus Eis\n\n\n\n\n\n\n\n\n\n\nThe World’s Shortest Concept Playlist\n\n\n\n\n\n\nDaniel Johnston - True Love Will Find You in the End\nWorld of Pleasure - Everybody Finds Love\n\nTotal duration: 3:26 Dynamic range: 10/10 Emotional whiplash: 10/10",
+    "text": "Brilliant free playlists for your utmost listening pleasure, curated by the one and only (me).\n\n\n\n\n\n\nWe Shall Not Be Moved: A Chronology of US Protest Songs\n\n\n\n\n\nAmerican songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, pro-LGBTQ themes.\n\n1944: Woody Guthrie - This Land Is You Land\n1944: Woody Guthrie - Tear the Fascists Down\n1963: Pete Seeger - We Shall Overcome\n1964: Sam Cooke - A Change Is Gonna Come\n1965: Nina Simone - Sinnerman\n1966: Barbara Dane - It Isn’t Nice\n1970: Barbara Dane - We Shall Not Be Moved\n1971: Gil Scott-Heron - The Revolution Will Not Be Televised\n1971: Marvin Gaye - What’s Going On?\n1972: Aretha Fanklin - Young, Gifted and Black\n1981: Dead Kennedys - Nazi Punks Fuck Off\n1982: M.D.C. - John Wayne Was a Nazi\n1990: Public Enemy - Fight the Power\n1991: 2Pac - Words of Wisdom\n1992: Rage Against the Machine - Killing in the Name\n1994: Drive Like Jehu - Here Come the Rome Plows\n1996: Rage Against the Machine - Bulls on Parade\n1997: Snapcase - Guilty by Ignorance\n2000: Dead Prez - Police State\n2001: Propagandhi - Fuck the Border\n2001: System of a Down - Prison Song\n2004: System of a Down - B.Y.O.B.\n2004: Blue Scholars - No Rest for the Weary\n2004: Steve Earle - F the CC\n2007: Brother Ali - Uncle Sam Goddamn\n2007: El-P - Dear Sirs\n2012: Killer Mike - Reagan\n2012: Panopticon - Come One All Ye Coal Miners\n2012: Panopticon - Black Soot and Red Blood\n2012: Big K.R.I.T. - Praying Man\n2014: Dälek - Police State Is Nervous\n2015: Kendrick Lamar - Alright\n2016: A Tribe Called Quest - We the People\n2016: YG - FDT\n2016: Jeff Rosenstock - Festival Song\n2020: Terrace Martin & Denzel Curry - Pig Feet\n2020: clipping. - Chapter 319\n2024: Jessie Welles - War Isn’t Murder\n2025: Macklemore - Hind’s Hall\n2025: Dropkick Murphys - Who’ll Stand With Us?\n2026: Dropkick Murphys - Citizen I.C.E.\n\n\n\n\n\n\n\n\n\n\nSongs of the World\n\n\n\n\n\nEligibility: The artist may be based in the respective country or have roots in it. Classical music only qualifies if both interpreter and composer are associated with the country.\nWill I ever complete this list? Unlikely… but it’s a start!\n\n🇦🇲 Armenia: System of a Down - Aerials\n🇦🇺 Australia: Kylie Minogue - Love Affair\n🇧🇷 Brazil: Jorge Ben Jor - Ôba, Lá Vem Ela\n🇨🇦 Canada: Devin Townsend - Deadhead\n🇩🇰 Denmark: Mercyful Fate - A Dangerous Meeting\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 England: Pink Floyd - Wish You Were Here\n🇫🇷 France: Lorien Testard - Alicia\n🇩🇪 Germany: Konstantin Wecker - Willy\n🇭🇰 Hong Kong: Faye Wong - Dreams\n🇮🇸 Icleand: Björk - Hyperballad\n🇮🇪 Ireland: My Bloody Valentine - when you sleep\n🇮🇹 Italy: Ennio Morricone - L’estasi dell’Oro\n🇯🇲 Jamaica: Bob Marley & The Wailers - No Woman, No Cry\n🇯🇵 Japan: Shiina Ringo - Honnou\n🇱🇧 Lebanon: Fairouz - Al Bosta\n🇲🇽 Mexico: Juan Gabriel - Hasta Que Te Conocí (En el Palacio de Bellas Artes)\n🇲🇳 Mongolia: Egschiglen - Goviin Magtaal\n🇳🇿 New Zealand: Ulcerate - Drown Within\n🇳🇬 Nigeria: Fela Anikulapo Kuti and Afrika 70 - Zombie\n🇳🇴 Norway: Emperor - Ye Entrancemperium\n🇵🇸 Palestine: Mohammed Assaf - Dammi Falastini\n🇵🇱 Poland: Krystian Zimerman / Frédéric Chopin - Ballade No. 1 Op. 23\n🇷🇺 Russia: Vladimir Sofronitsky / Alexander Scriabin - Piano Sonata No. 3 Op.23\n🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland: Cocteau Twins - Heaven or Las Vegas\n🇰🇷 South Korea: Parannoul - White Ceiling\n🇪🇸 Spain: Javiera Mena - Cámara lenta\n🇸🇪 Sweden: Opeth - Blackwater Park\n🇨🇭 Switzerland: Mani Matter - I han es Zündhölzli azündt\n🇹🇼 Taiwan: Bao Meisheng - My Little Jasmine\n🇺🇸 United States: Nina Simone - Sinnerman\n🇿🇲 Zambia: Backxwash - Vibanda\n\n\n\n\n\n\n\n\n\n\nMonths of the Year\n\n\n\n\n\n\nJanuary: Sea Power - Red Rock Riviera\nFebruary: Sam Cooke - A Change Is Gonna Come\nMarch: Asian Kung-Fu Generation - Rock’n Roll, Morning Light Falls On You\nApril: Porter Robinson - Look at the Sky\nMay: The Beatles - Here Comes the Sun\nJune: Carly Rae Jepsen - Cut to the Feeling\nJuly: Isaac Hayes - Walk On By\nAugust: The Pillows - Crazy Sunshine\nSeptember: Carissa’s Wierd - September Come Take This Heart Away\nOctober: My Chemical Romance - Helena\nNovember: Panopticon - Autumn Eternal\nDecember: Paysage d’Hiver - Welt aus Eis\n\n\n\n\n\n\n\n\n\n\nThe World’s Shortest Concept Playlist\n\n\n\n\n\n\nDaniel Johnston - True Love Will Find You in the End\nWorld of Pleasure - Everybody Finds Love\n\nTotal duration: 3:26 Dynamic range: 10/10 Emotional whiplash: 10/10",
     "crumbs": [
       "Home",
       "**Music**",
