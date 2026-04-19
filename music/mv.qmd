@@ -8,30 +8,66 @@ echo: false
 
 The greatest music videos of all time!!! (According to me)\
 
-<div class="songs">## 16. Converge - All We Love We Leave Behind{.song data-rank="16"}
+<div class="songs">## 34. Hikaru Utada - Somewhere Near Marseilles{.song data-rank="34"}
+<div class="lite-youtube-style"><lite-youtube videoid="B-ekrqGuWTc"></lite-youtube></div>
+## 33. Powder - New Tribe{.song data-rank="33"}
+<div class="lite-youtube-style"><lite-youtube videoid="zJE1HoHabMw"></lite-youtube></div>
+## 32. Perfume - Kasuka na Kaori{.song data-rank="32"}
+<div class="lite-youtube-style"><lite-youtube videoid="vjBRxHq_mxM"></lite-youtube></div>
+## 31. Björk - It’s Oh So Quiet{.song data-rank="31"}
+<div class="lite-youtube-style"><lite-youtube videoid="htobTBlCvUU"></lite-youtube></div>
+## 30. Shiina Ringo - Honnou{.song data-rank="30"}
+<div class="lite-youtube-style"><lite-youtube videoid="ECxBHhMc7oI"></lite-youtube></div>
+## 29. Converge - All We Love We Leave Behind{.song data-rank="29"}
 <div class="lite-youtube-style"><lite-youtube videoid="akG2cFldO6I"></lite-youtube></div>
-## 15. Devin Townsend - Why?{.song data-rank="15"}
-<div class="lite-youtube-style"><lite-youtube videoid="fT-uWOVP5q0"></lite-youtube></div>
-## 14. Kendrick Lamar - Alright{.song data-rank="14"}
+## 28. IDLES - Danny Nedelko{.song data-rank="28"}
+<div class="lite-youtube-style"><lite-youtube videoid="QkF_G-RF66M"></lite-youtube></div>
+## 27. Weyes Blood - Movies{.song data-rank="27"}
+<div class="lite-youtube-style"><lite-youtube videoid="RFtRq6t3jOo"></lite-youtube></div>
+## 26. Kendrick Lamar - N95{.song data-rank="26"}
+<div class="lite-youtube-style"><lite-youtube videoid="zI383uEwA6Q"></lite-youtube></div>
+## 25. Cameron Winter - $0.00{.song data-rank="25"}
+<div class="lite-youtube-style"><lite-youtube videoid="ETZKZzz7MWo"></lite-youtube></div>
+## 24. Beach House - Wishes{.song data-rank="24"}
+<div class="lite-youtube-style"><lite-youtube videoid="OS6duOoxctw"></lite-youtube></div>
+## 23. Kendrick Lamar - Not Like Us{.song data-rank="23"}
+<div class="lite-youtube-style"><lite-youtube videoid="H58vbez_m4E"></lite-youtube></div>
+## 22. Knocked Loose - A Tear in the Fabric of Life{.song data-rank="22"}
+<div class="lite-youtube-style"><lite-youtube videoid="70cXs8hht_Q"></lite-youtube></div>
+## 21. Carly Rae Jepsen - The Loneliest Time{.song data-rank="21"}
+<div class="lite-youtube-style"><lite-youtube videoid="Sy0A0pQmGPM"></lite-youtube></div>
+## 20. Kendrick Lamar - Alright{.song data-rank="20"}
 <div class="lite-youtube-style"><lite-youtube videoid="Z-48u_uWMHY"></lite-youtube></div>
-## 13. Gorillaz - The Mountain, The Moon Cave and The Sad God{.song data-rank="13"}
-<div class="lite-youtube-style"><lite-youtube videoid="ucRulNQsuYQ"></lite-youtube></div>
-## 12. Deftones - Sextape{.song data-rank="12"}
+## 19. Flying Lotus - Never Catch Me{.song data-rank="19"}
+<div class="lite-youtube-style"><lite-youtube videoid="2lXD0vv-ds8"></lite-youtube></div>
+## 18. Cibo Matto - Sugar Water{.song data-rank="18"}
+<div class="lite-youtube-style"><lite-youtube videoid="EN9auBn6Jys"></lite-youtube></div>
+## 17. Deftones - Sextape{.song data-rank="17"}
 <div class="lite-youtube-style"><lite-youtube videoid="f0pdwd0miqs"></lite-youtube></div>
-## 11. Devin Townsend - Genesis{.song data-rank="11"}
+## 16. Devin Townsend - Genesis{.song data-rank="16"}
 <div class="lite-youtube-style"><lite-youtube videoid="1n7uvokARQ4"></lite-youtube></div>
-## 10. Dälek - Police State Is Nervous{.song data-rank="10"}
+## 15. Dälek - Police State Is Nervous{.song data-rank="15"}
 <div class="lite-youtube-style"><lite-youtube videoid="gBByC9BebX4"></lite-youtube></div>
-## 9. Rolo Tomassi - A Flood of Light{.song data-rank="9"}
+## 14. Rolo Tomassi - A Flood of Light{.song data-rank="14"}
 <div class="lite-youtube-style"><lite-youtube videoid="hM_4Ty_ZHaU"></lite-youtube></div>
-## 8. Radiohead - Daydreaming{.song data-rank="8"}
+## 13. Devin Townsend - Why?{.song data-rank="13"}
+<div class="lite-youtube-style"><lite-youtube videoid="fT-uWOVP5q0"></lite-youtube></div>
+## 12. Hikaru Utada - One Last Kiss{.song data-rank="12"}
+<div class="lite-youtube-style"><lite-youtube videoid="0Uhh62MUEic"></lite-youtube></div>
+## 11. My Chemical Romance - The Black Parade{.song data-rank="11"}
+<div class="lite-youtube-style"><lite-youtube videoid="RRKJiM9Njr8"></lite-youtube></div>
+## 10. Gorillaz - The Mountain, The Moon Cave and The Sad God{.song data-rank="10"}
+<div class="lite-youtube-style"><lite-youtube videoid="ucRulNQsuYQ"></lite-youtube></div>
+## 9. Radiohead - Daydreaming{.song data-rank="9"}
 <div class="lite-youtube-style"><lite-youtube videoid="TTAU7lLDZYU"></lite-youtube></div>
-## 7. toe - Goodbye{.song data-rank="7"}
-<div class="lite-youtube-style"><lite-youtube videoid="e1pZIfretEs"></lite-youtube></div>
-## 6. FKA Twigs - Home With You{.song data-rank="6"}
-<div class="lite-youtube-style"><lite-youtube videoid="p2Rro6TQgpU"></lite-youtube></div>
-## 5. Mac Miller - Good News{.song data-rank="5"}
+## 8. Mac Miller - Good News{.song data-rank="8"}
 <div class="lite-youtube-style"><lite-youtube videoid="aIHF7u9Wwiw"></lite-youtube></div>
+## 7. FKA Twigs - Home With You{.song data-rank="7"}
+<div class="lite-youtube-style"><lite-youtube videoid="p2Rro6TQgpU"></lite-youtube></div>
+## 6. My Chemical Romance - Helna{.song data-rank="6"}
+<div class="lite-youtube-style"><lite-youtube videoid="UCCyoocDxBA"></lite-youtube></div>
+## 5. toe - Goodbye{.song data-rank="5"}
+<div class="lite-youtube-style"><lite-youtube videoid="e1pZIfretEs"></lite-youtube></div>
 ## 4. Radiohead - Weird Fishes/Arpeggi{.song data-rank="4"}
 <div class="lite-youtube-style"><lite-youtube videoid="OIdrE5igo-k"></lite-youtube></div>
 ## 3. Mondo Grosso  - Labyrinth{.song data-rank="3"}

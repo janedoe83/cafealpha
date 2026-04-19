@@ -16,9 +16,9 @@ Brilliant free playlists for your utmost listening pleasure, curated by the one 
 
 ::: {.callout-note icon="false" collapse="true" title="We Shall Not Be Moved: A Chronology of US Protest Songs"}
 
-American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, pro-LGBTQ themes.
+American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes.
 
-- 1944: Woody Guthrie - [This Land Is You Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
+- 1944: Woody Guthrie - [This Land Is Your Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
 - 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)
 - 1963: Pete Seeger - [We Shall Overcome](https://www.youtube.com/watch?v=Kfo_W73n0hE)
 - 1964: Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
@@ -70,6 +70,7 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("AU")` **Australia:** Kylie Minogue - [Love Affair](https://www.youtube.com/watch?v=R8KHOO3dVp8)
 - `{python} flag_emoji("BR")` **Brazil:** Jorge Ben Jor - [Ôba, Lá Vem Ela](https://www.youtube.com/watch?v=BVHA2lHaeqk)
 - `{python} flag_emoji("CA")` **Canada:** Devin Townsend - [Deadhead](https://www.youtube.com/watch?v=tJz-L3SbrLE)
+- `{python} flag_emoji("CU")` **Cuba:** Buena Vista Social Club - [Chan Chan](https://www.youtube.com/watch?v=tGbRZ73NvlY&list=RDtGbRZ73NvlY)
 - `{python} flag_emoji("DK")` **Denmark:** Mercyful Fate - [A Dangerous Meeting](https://www.youtube.com/watch?v=sEKFmokUiBg)
 - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 **England:** Pink Floyd - [Wish You Were Here](https://www.youtube.com/watch?v=IXdNnw99-Ic&)
 - `{python} flag_emoji("FR")` **France:** Lorien Testard - [Alicia](https://www.youtube.com/watch?v=yakOBIoyoik)
