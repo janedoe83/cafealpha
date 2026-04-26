@@ -4,6 +4,7 @@ project:
     - "*.qmd"
     - "!*.ipynb"
     - "!template_*.qmd"
+    - "!wip_*.qmd"
 
 website:
   title: "Café Alpha"
@@ -28,7 +29,6 @@ website:
         - music/albums.qmd
         - text: "Top 50 Classical"
           href: music/classical.qmd
-        - music/mv.qmd
         - music/playlists.qmd
       - section: "**Books**"
         contents: 

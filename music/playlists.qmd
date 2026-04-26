@@ -1,7 +1,7 @@
 ---
 title: "Playlists"
 format: html
-toc: false
+toc: true
 echo: false
 ---
 
@@ -14,7 +14,9 @@ from scripts.utils import flag_emoji
 
 Brilliant free playlists for your utmost listening pleasure, curated by the one and only (me).
 
-::: {.callout-note icon="false" collapse="true" title="We Shall Not Be Moved: A Chronology of US Protest Songs"}
+## We Shall Not Be Moved: A Chronology of US Protest Songs
+
+![](../img/img_woody_guthrie.jpg){fig-alt="Woody Guthrie" fig-align="left" width=100K%}
 
 American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes.
 
@@ -22,8 +24,10 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)
 - 1963: Pete Seeger - [We Shall Overcome](https://www.youtube.com/watch?v=Kfo_W73n0hE)
 - 1964: Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
+- 1964: Nina Simone - [Mississippi Goddamn](https://www.youtube.com/watch?v=LJ25-U3jNWM)
 - 1965: Nina Simone - [Sinnerman](https://www.youtube.com/watch?v=r57J0jPyZRs)
 - 1966: Barbara Dane - [It Isn't Nice](https://www.youtube.com/watch?v=skWMDHilbNI)
+- 1969: Nina Simone - [Revolution](https://www.youtube.com/watch?v=g6yyqoBmI0M)
 - 1970: Barbara Dane - [We Shall Not Be Moved](https://www.youtube.com/watch?v=YrRQH_xSQCI)
 - 1971: Gil Scott-Heron - [The Revolution Will Not Be Televised](https://www.youtube.com/watch?v=vwSRqaZGsPw)
 - 1971: Marvin Gaye - [What's Going On?](https://www.youtube.com/watch?v=H-kA3UtBj4M)
@@ -59,27 +63,29 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 2025: Macklemore - [Hind's Hall](https://www.youtube.com/watch?v=fgDQyFeBBIo)
 - 2025: Dropkick Murphys - [Who'll Stand With Us?](https://www.youtube.com/watch?v=5BRHuiRyVEE)
 - 2026: Dropkick Murphys - [Citizen I.C.E.](https://www.youtube.com/watch?v=mSrDkRm7_78)
-:::
 
-::: {.callout-note icon="false" collapse="true" title="Songs of the World"}
-**Eligibility:** The artist may be based in the respective country or have roots in it. Classical music only qualifies if both interpreter and composer are associated with the country.
+
+## Songs of the World
 
 Will I ever complete this list? Unlikely... but it's a start!
 
 - `{python} flag_emoji("AM")` **Armenia:** System of a Down - [Aerials](https://www.youtube.com/watch?v=L-iepu3EtyE)
-- `{python} flag_emoji("AU")` **Australia:** Kylie Minogue - [Love Affair](https://www.youtube.com/watch?v=R8KHOO3dVp8)
+- `{python} flag_emoji("AU")` **Australia:** Ninajirachi - [Infohazard](https://www.youtube.com/watch?v=p2ZdeIKJA8c)
 - `{python} flag_emoji("BR")` **Brazil:** Jorge Ben Jor - [Ôba, Lá Vem Ela](https://www.youtube.com/watch?v=BVHA2lHaeqk)
+- `{python} flag_emoji("BG")` **Bulgaria:** Le Mystère des Voix Bulgares - [Kalimankou denkou](https://www.youtube.com/watch?v=-0iGlqMPmbA)
 - `{python} flag_emoji("CA")` **Canada:** Devin Townsend - [Deadhead](https://www.youtube.com/watch?v=tJz-L3SbrLE)
+- `{python} flag_emoji("CN")` **China:** Cheng Bi - [I Want to Wast Time with You](https://www.youtube.com/watch?v=Nk5aqHrsxvU)
 - `{python} flag_emoji("CU")` **Cuba:** Buena Vista Social Club - [Chan Chan](https://www.youtube.com/watch?v=tGbRZ73NvlY&list=RDtGbRZ73NvlY)
 - `{python} flag_emoji("DK")` **Denmark:** Mercyful Fate - [A Dangerous Meeting](https://www.youtube.com/watch?v=sEKFmokUiBg)
 - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 **England:** Pink Floyd - [Wish You Were Here](https://www.youtube.com/watch?v=IXdNnw99-Ic&)
+- `{python} flag_emoji("FI")` **Finland:** Oranssi Pazuzu - [Uusi teknokratia](https://www.youtube.com/watch?v=ScMbsZW3qn4)
 - `{python} flag_emoji("FR")` **France:** Lorien Testard - [Alicia](https://www.youtube.com/watch?v=yakOBIoyoik)
 - `{python} flag_emoji("DE")` **Germany:** Konstantin Wecker - [Willy](https://www.youtube.com/watch?v=mw6nD98IGwg)
 - `{python} flag_emoji("HK")` **Hong Kong:** Faye Wong - [Dreams](https://www.youtube.com/watch?v=hN2jOHeI5tc)
 - `{python} flag_emoji("IS")` **Icleand:** Björk - [Hyperballad](https://www.youtube.com/watch?v=6CSiU0j_lFA)
 - `{python} flag_emoji("IE")` **Ireland:** My Bloody Valentine - [when you sleep](https://www.youtube.com/watch?v=BJLcbj80Ka8)
 - `{python} flag_emoji("IT")` **Italy:** Ennio Morricone - [L'estasi dell'Oro](https://www.youtube.com/watch?v=PYI09PMNazw)
-- `{python} flag_emoji("JM")` **Jamaica:** Bob Marley & The Wailers - [No Woman, No Cry](https://www.youtube.com/watch?v=mZ6VezKMoRY)
+- `{python} flag_emoji("JM")` **Jamaica:** Bob Marley & The Wailers - [Get Up, Stand Up](https://www.youtube.com/watch?v=RhJ0q7X3DLM)
 - `{python} flag_emoji("JP")` **Japan:** Shiina Ringo - [Honnou](https://www.youtube.com/watch?v=ECxBHhMc7oI)
 - `{python} flag_emoji("LB")` **Lebanon:** Fairouz - [Al Bosta](https://www.youtube.com/watch?v=VrJnhLmwzbU)
 - `{python} flag_emoji("MX")` **Mexico:** Juan Gabriel - [Hasta Que Te Conocí (En el Palacio de Bellas Artes)](https://www.youtube.com/watch?v=bIZi3SC6MXQ)
@@ -87,6 +93,7 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("NZ")` **New Zealand:** Ulcerate - [Drown Within](https://www.youtube.com/watch?v=LKLa06iaVkc)
 - `{python} flag_emoji("NG")` **Nigeria:** Fela Anikulapo Kuti and Afrika 70 - [Zombie](https://www.youtube.com/watch?v=Qj5x6pbJMyU)
 - `{python} flag_emoji("NO")` **Norway:** Emperor - [Ye Entrancemperium](https://www.youtube.com/watch?v=9mfpOa0Znr8)
+- `{python} flag_emoji("PK")` **Pakistan:** Arooj Aftab - [Mohabbat](https://www.youtube.com/watch?v=iRZ98HX1MO8)
 - `{python} flag_emoji("PS")` **Palestine:** Mohammed Assaf - [Dammi Falastini](https://www.youtube.com/watch?v=S-1KDZTNty4)
 - `{python} flag_emoji("PL")` **Poland:** Krystian Zimerman / Frédéric Chopin - [Ballade No. 1 Op. 23](https://www.youtube.com/watch?v=BSFNl4roGlI)
 - `{python} flag_emoji("RU")` **Russia:** Vladimir Sofronitsky / Alexander Scriabin - [Piano Sonata No. 3 Op.23](https://www.youtube.com/watch?v=aXtUIOSXJzE)
@@ -98,9 +105,11 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("TW")` **Taiwan:** Bao Meisheng - [My Little Jasmine](https://www.youtube.com/watch?v=o_I3YHHfDdI)
 - `{python} flag_emoji("US")` **United States:** Nina Simone - [Sinnerman](https://www.youtube.com/watch?v=QH3Fx41Jpl4)
 - `{python} flag_emoji("ZM")` **Zambia:** Backxwash - [Vibanda](https://www.youtube.com/watch?v=onzEYxBlDTM)
-:::
 
-::: {.callout-note icon="false" collapse="true" title="Months of the Year"}
+**Eligibility:** The artist may be based in the respective country or have roots in it. Classical music only qualifies if both interpreter and composer are associated with the country.
+
+## Months of the Year
+
 - **January:** Sea Power - [Red Rock Riviera](https://www.youtube.com/watch?v=NSkb5OtTmgg)
 - **February:** Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
 - **March:** Asian Kung-Fu Generation - [Rock'n Roll, Morning Light Falls On You](https://www.youtube.com/watch?v=rDTFSD9K9dA)
@@ -113,7 +122,32 @@ Will I ever complete this list? Unlikely... but it's a start!
 - **October:** My Chemical Romance - [Helena](https://www.youtube.com/watch?v=UCCyoocDxBA)
 - **November:** Panopticon - [Autumn Eternal](https://www.youtube.com/watch?v=GfjK7J-li18)
 - **December:** Paysage d'Hiver - [Welt aus Eis](https://www.youtube.com/watch?v=MiB16TPNa88)
-:::
+
+## The Long Way Home
+
+My favorite songs that are between 10 and 15 minutes.
+
+- 10:00: Parannoul - [White Ceiling](https://www.youtube.com/watch?v=g1x1NtWGw5s)
+- 10:14: Swans - [Nathalie Neal](https://www.youtube.com/watch?v=8DKjSNOtdVo)
+- 10:18: Devin Townsend - [Bastard](https://www.youtube.com/watch?v=H6UIm4JAoM8)
+- 10:18: David Bowie - [Station to Station](https://www.youtube.com/watch?v=ZpIhsGg2SJ0)
+- 10:20: Nina Simone  - [Sinnerman](https://www.youtube.com/watch?v=QH3Fx41Jpl4)
+- 10:20: Oranssi Pazuzu - [Uusi teknokratia](https://www.youtube.com/watch?v=ScMbsZW3qn4)
+- 10:23: The Cure - [End Song](https://www.youtube.com/watch?v=gA5pg7DRLf4)
+- 11:27: Panopticon - [Dead Loons](https://www.youtube.com/watch?v=3SGscxQfmc4)
+- 11:34: Converge - [Jane Doe](https://www.youtube.com/watch?v=2WGbgnDQF6A)
+- 11:49: Hannes Wader - [Der Tankerkönig](https://www.youtube.com/watch?v=kaNVqhuiZK0)
+- 11:54: Hikaru Utada - [Somewhere Near Marseilles](https://www.youtube.com/watch?v=B-ekrqGuWTc)
+- 12:00: Isaac Hayes - [Walk on By](https://www.youtube.com/watch?v=DFdR2LLM3bY)
+- 12:08: Opeth - [Blackwater Park](https://www.youtube.com/watch?v=ngdaa4aZLgA)
+- 12:32: Fela Kuti - [Zombie](https://www.youtube.com/watch?v=Qj5x6pbJMyU)
+- 13:19: Car Seat Headrest - [Beach Life-In-Death](https://www.youtube.com/watch?v=hx59YVs5itM)
+- 13:31: Pink Floyd - [Shine On You Crazy Diamond (Parts I–V)](https://www.youtube.com/watch?v=Tu7oq3VNgpY)
+- 13:37: Godspeed You! Black Emperor - [Babys In a Thundercloud](https://www.youtube.com/watch?v=yoAnLAt8sio)
+- 13:39: Iron Maiden - [Rime of the Ancient Mariner](https://www.youtube.com/watch?v=OSDZj_jh5cE)
+- 14:33: Sun Kil Moon - [Duk Koo Kim](https://www.youtube.com/watch?v=8-RjqU3T2x4)
+
+## Misc.
 
 ::: {.callout-note icon="false" collapse="true" title="The World's Shortest Concept Playlist"}
 - Daniel Johnston - [True Love Will Find You in the End](https://www.youtube.com/watch?v=UUbEf67bbrA)
