@@ -59,8 +59,6 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("VN")` **Vietnam:** Vũ Thanh Vân - [Em không](https://www.youtube.com/watch?v=CufIAJDVZvo)
 - `{python} flag_emoji("ZM")` **Zambia:** Backxwash - [Vibanda](https://www.youtube.com/watch?v=onzEYxBlDTM)
 
-**Eligibility:** The artist may be based in the respective country or have roots in it. Classical music only qualifies if both interpreter and composer are associated with the country.
-
 ## We Shall Not Be Moved: A Chronology of US Protest Songs
 
 ![](../img/img_woody_guthrie.jpg){fig-alt="Woody Guthrie" fig-align="left" width=100K%}
@@ -115,27 +113,31 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 
 ## The Most Beautiful Songs of All Time
 
+- 1849: Franz Liszt - [Étude No. 3, Un sospiro](https://www.youtube.com/watch?v=zSHwX2O7j2w)
 - 1964: Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
-- 1969: The Beatles - [Here Comes the Sun](https://www.youtube.com/watch?v=KQetemT1sWc)
 - 1971: Marvin Gaye - [What's Going On?](https://www.youtube.com/watch?v=H-kA3UtBj4M)
 - 1975: Bob Marley & The Wailers - [No Woman No Cry](https://www.youtube.com/watch?v=2JZetjkhdYQ)
+- 1977: David Bowie - ["Heroes"](https://www.youtube.com/watch?v=6JCfWVV3SX0)
 - 1982: Hannes Wader - [Sag mir wo die Blumen sind](https://www.youtube.com/watch?v=JpVlMRJifLQ)
 - 1990: Cocteau Twins - [Heaven or Las Vegas](https://www.youtube.com/watch?v=6KnYw4EwYGc)
 - 1991: My Bloody Valentine - [when you sleep](https://www.youtube.com/watch?v=BJLcbj80Ka8)
 - 1998: The Seatbelts - [Space Lion](https://www.youtube.com/watch?v=DybCZvW1mBo)
 - 1999: Tom Waits - [Come On Up to the House](https://www.youtube.com/watch?v=wFrqclcm8pU)
+- 1999: The Pillows - [Beautiful Morning with You](https://www.youtube.com/watch?v=Q0tO5MPGuGk)
 - 2000: PJ Harvey - [We Float](https://www.youtube.com/watch?v=pY8n7uYT0mM)
 - 2002: The Flaming Lips - [Do You Realize??](https://www.youtube.com/watch?v=lPXWt2ESxVY)
 - 2005: Nujabes feat. Shing02 - [Luv(sic) Part 3](https://www.youtube.com/watch?v=mc_xD6aGV5w)
 - 2006: Javiera Mena - [Cámara lenta](https://www.youtube.com/watch?v=vN1AlIBob-o)
 - 2008: Radiohead - [Weird Fishes/Arpeggi](https://www.youtube.com/watch?v=TNRCvG9YtYI)
-- 2008: Asian Kung-Fu Generation - [Rockn' Roll, Morning Light Falls on You](https://www.youtube.com/watch?v=1ynJsSsPY3U)
+- 2008: Asian Kung-Fu Generation - [Rock'n' Roll, Morning Light Falls on You](https://www.youtube.com/watch?v=1ynJsSsPY3U)
 - 2009: toe - [Goodbye](https://www.youtube.com/watch?v=azSsMG6h8k0)
 - 2010: Deftones - [Sextape](https://www.youtube.com/watch?v=f0pdwd0miqs)
 - 2011: Supercell - [Kimi mono shiranai monogatari](https://www.youtube.com/watch?v=jpV5jeFlt_E)
 - 2012: Beach House - [Myth](https://www.youtube.com/watch?v=Bv7IcjmxjGo)
 - 2013: Kinoko Teikoku - [Musician](https://www.youtube.com/watch?v=vA1Ph6SpTkI)
 - 2018: Rolo Tomassi - [A Flood of Light](https://www.youtube.com/watch?v=hM_4Ty_ZHaU)
+- 2018: Mass of the Fermenting Dregs - [Sugar](https://www.youtube.com/watch?v=xfjpowsM0_k)
+- 2018: Aimer - [Ref:rain](https://www.youtube.com/watch?v=mvkbCZfwWzA)
 - 2019: FKA twigs - [Cellophane](https://www.youtube.com/watch?v=YkLjqFpBh84)
 - 2019: Weyes Blood - [Andromeda](https://www.youtube.com/watch?v=ZHGw78IJryE)
 - 2019: Lana Del Rey - [Venice Bitch](https://www.youtube.com/watch?v=Qg3DxELVPj4)
@@ -144,21 +146,44 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 2021: Sharon van Etten & Angel Olsen - [Liked I Used To](https://www.youtube.com/watch?v=5ibj87fwRaM)
 - 2022: Rosa Walton - [I Really Want to Stay at Your House](https://www.youtube.com/watch?v=KvMY1uzSC1E)
 - 2023: Minna-no-Kimochi - [Falling van Buuren](https://youtu.be/djGlyTcW30Q?si=1l3CmAoMwQvOO5CM&t=465)
+- 2024: Shoji Meguro & Azumi Takahashi - [Memories of You](https://www.youtube.com/watch?v=BD0RMDUr1zc)
+
+## The Most Joyful Songs of All Time
+
+- 1969: The Beatles - [Here Comes the Sun](https://www.youtube.com/watch?v=KQetemT1sWc)
+- 1969: Jimmy Cliff - [Wonderful World, Beautiful People](https://www.youtube.com/watch?v=zCJYl9Irayk)
+- 1976: Stevie Wonder - [Isn't She Lovely](https://www.youtube.com/watch?v=oE56g61mW44)
+- 1987: The Blue Hearts - [Owaranai Uta](https://www.youtube.com/watch?v=laRZR6AUvaU)
+- 1998: Fishmans - [Smilin' Days, Summer Holiday](https://www.youtube.com/watch?v=_uv79uquCsM)
+- 2003: ZZ - [A to Z](https://www.youtube.com/watch?v=ZGC9xZW05W0)
+- 2007: Uyama Hiroto - [Waltz for Life Will Born](https://www.youtube.com/watch?v=ACao0LBuXTI)
+- 2008: Perfume - [Dream Fighter](https://www.youtube.com/watch?v=rBX5YGPNDbs)
+- 2017: Carly Rae Jepsen - [Cut to the Feeling](https://www.youtube.com/watch?v=Qlsu7RhOnsQ)
+- 2018: Camellia - [Together Forever, My Lovely Lovely Video Game Cartridges](https://www.youtube.com/watch?v=9xeZRQDKmLE)
+- 2021: Porter Robinson - [Look at the Sky](https://www.youtube.com/watch?v=TJBh_hj6DzE)
+- 2023: Kessoku Band - [Into the Light](https://www.youtube.com/watch?v=omckrS77vDo)
+- 2023: Sekai no Owari - [The Peak](https://www.youtube.com/watch?v=SR89b0qqRAg)
 
 ## The Saddest Songs of All Time
 
+- 1898: Erik Satie - [3 Gnossiennes](https://www.youtube.com/watch?v=Ojr8IACpU-4)
+- 1976: Tom Waits - [Tom Traubert's Blues (Four Sheets to the Wind in Copenhagen)](https://www.youtube.com/watch?v=X9rmGay0epo)
 - 1977: Douji Morita - [Furueteirune](https://www.youtube.com/watch?v=lSGSWve2epU)
 - 1982: Vangelis - [Memories of Green](https://www.youtube.com/watch?v=u1KfOMkyU_w)
 - 1992: Julee Cruise - [Questions in a World of Blue](https://www.youtube.com/watch?v=MOSaLtcqob8)
+- 2001: Lily Chou-chou - [アラベスク (Arabesque)](https://www.youtube.com/watch?v=12mwzwUL7Vk)
 - 2002: Carissa's Wierd - [September Come Take This Heart Away](https://www.youtube.com/watch?v=tQ2Rvby1GHA)
 - 2003: Sun Kil Moon - [Duk Koo Kim](https://www.youtube.com/watch?v=8-RjqU3T2x4)
+- 2003: Songs: Ohia - [Farewell Transmission](https://www.youtube.com/watch?v=malJUMz2A9Y)
 - 2014: Grouper - [Clearing](https://www.youtube.com/watch?v=iplcc2GepEM)
 - 2017: Keiichi Okabe - [Vague Hope (Cold Rain)](https://www.youtube.com/watch?v=Ez_c6qJkcbg)
 - 2018: Lena Raine - [Quiet and Falling](https://www.youtube.com/watch?v=FjG0ivBT4lQ)
 - 2019: FKA twigs - [Cellophane](https://www.youtube.com/watch?v=YkLjqFpBh84)
 - 2020: Mac Miller - [Good News](https://www.youtube.com/watch?v=aIHF7u9Wwiw)
+- 2020: Phoebe Bridgers - [I Know the End](https://www.youtube.com/watch?v=WJ9-xN6dCW4)
 - 2022: 1000 Eyes - [Die Toteninsel (Emptiness)](https://www.youtube.com/watch?v=zLQ6Qv393mw)
 - 2024: Cameron Winter - [$0](https://www.youtube.com/watch?v=ETZKZzz7MWo)
+- 2024: Adrianne Lenker - [Real House](https://www.youtube.com/watch?v=av2CwXbx6oU)
 - 2024: The Cure - [End Song](https://www.youtube.com/watch?v=gA5pg7DRLf4)
 
 ## The Hardest Songs of All Time
@@ -173,18 +198,31 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 2009: Tempa T - [Next Hype](https://www.youtube.com/watch?v=OZ6G7qwjom4)
 - 2009: Converge - [Dark Horse](https://www.youtube.com/watch?v=aV4x5DsES9w)
 - 2010: Keiichi Okabe - [Shadowlord](https://www.youtube.com/watch?v=9vZUbyM5PxY)
+- 2012: Death Grips - [Hacker](https://www.youtube.com/watch?v=uoZgZT4DGSY)
 - 2013: Gorguts - [Enemies of Compassion](https://www.youtube.com/watch?v=eMM_MNK6SXg)
 - 2013: The Dillinger Escape Plan - [Prancer](https://www.youtube.com/watch?v=GzDyLF5X2sQ)
 - 2015: Denzel Curry - [Ultimate](https://www.youtube.com/watch?v=yK8HfzDlOD4)
 - 2015: Yuki Kitamura - [Lady Maria of the Astral Clocktower](https://www.youtube.com/watch?v=8mByDcrNSV0)
+- 2015: Unlucky Morpheus - [Angreifer](https://www.youtube.com/watch?v=hz6nMsQPSJk&list=RDhz6nMsQPSJk)
 - 2015: Mohammed Assaf - [Dammi Falastini](https://www.youtube.com/watch?v=S-1KDZTNty4)
 - 2016: Mick Gordon - [BFG Division](https://www.youtube.com/watch?v=QHRuTYtSbJQ)
 - 2021: Sewerslvt - [Looming.Sorrow.Descent](https://www.youtube.com/watch?v=x1P_0mUsBJ0)
 - 2022: World of Pleasure - [Domination 2](https://www.youtube.com/watch?v=z1WiJrJtwNg)
+- 2022: Soul Glo - [Gold Chain Punk (whogonbeatmyass?)](https://www.youtube.com/watch?v=0IaAs4D14kw)
 - 2025: Yosuke Yukimatsu - [Firestarter / Kuliki](https://www.youtube.com/watch?v=BXLpPYFeKQk)
 - 2025: Kendrick Lamar - [Not Like Us](https://www.youtube.com/watch?v=H58vbez_m4E)
 - 2026: Dropkick Murphys - [Citizen I.C.E.](https://www.youtube.com/watch?v=mSrDkRm7_78)
 - 2026: Panopticon - [The Poppies Bloom For No King](https://www.youtube.com/watch?v=YJRUmCttdV8)
+
+## The Darkest Songs of All Time
+
+- 2007: Gris - [Il était un forêt](https://www.youtube.com/watch?v=rMrBWwEMA7w)
+- 2019: Lingua Ignota - [DO YOU DOUBT ME TRAITOR](https://www.youtube.com/watch?v=M1ZweG__q-w)
+
+## The Funniest Songs of All Time
+
+- 1974: Reinhard Mey - [Was kann schöner sein auf Erden, als Politiker zu werden](https://www.youtube.com/watch?v=sqIKZ1A01d8)
+- 1997: Ween - [The Blarney Stone](https://www.youtube.com/watch?v=4BOFQ-eU7m8)
 
 ## Nihon no uta ga daisuki!!!
 
@@ -259,8 +297,6 @@ My favorite songs from Japan <333 o(≧▽≦)o
 - 2021: Ging Nang Boyz - [少年少女 (Shounen Shoujo)](https://www.youtube.com/watch?v=7VYqcCLIx0s)
 - 2022: Kessoku Band - [Karakara](https://www.youtube.com/watch?v=IwHwv-lcxi4)
 - 2022: kurayamisaka - [cinema paradiso](https://www.youtube.com/watch?v=EN0VVHgaJxg)
-
-Note: This list is limited to one song per artist. My favorite artists on this list (in no particular order): Kinoko Teikoku, Shiina Ringo, Ichiko Aoba, Hikaru Utada, The Pillows, Fuki (vocalist for Light Bringer and Unlucky Morpheus), Perfume, Fishmans, Ling Tosite Sigure
 
 ## Months of the Year
 
