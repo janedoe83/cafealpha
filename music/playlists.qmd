@@ -65,9 +65,9 @@ Will I ever complete this list? Unlikely... but it's a start!
 
 ## We Shall Not Be Moved: A Chronology of US Protest Songs
 
-![](../img/collage_protest.png){fig-alt="Woodie Guthrie, Nina Simone, Tupac Shakur" fig-align="left" width=100K%}
+![](../img/collage_protest.png){fig-alt="Woodie Guthrie, Nina Simone, Tupac Shakur" fig-align="left" width=100K% .lightbox}
 
-American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes.
+North American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes. Mostly US, some Canadian.
 
 - 1944: Woody Guthrie - [This Land Is Your Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
 - 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)
@@ -75,14 +75,17 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 1964: Sam Cooke - [A Change Is Gonna Come](https://www.youtube.com/watch?v=wEBlaMOmKV4)
 - 1964: Nina Simone - [Mississippi Goddamn](https://www.youtube.com/watch?v=LJ25-U3jNWM)
 - 1965: Nina Simone - [Sinnerman](https://www.youtube.com/watch?v=r57J0jPyZRs)
+- 1966: Phil Ochs - [I Ain't Marching Anymore](https://www.youtube.com/watch?v=uRU_ruqnR6Q)
 - 1966: Barbara Dane - [It Isn't Nice](https://www.youtube.com/watch?v=skWMDHilbNI)
 - 1969: Nina Simone - [Revolution](https://www.youtube.com/watch?v=g6yyqoBmI0M)
 - 1970: Barbara Dane - [We Shall Not Be Moved](https://www.youtube.com/watch?v=YrRQH_xSQCI)
 - 1971: Gil Scott-Heron - [The Revolution Will Not Be Televised](https://www.youtube.com/watch?v=vwSRqaZGsPw)
 - 1971: Marvin Gaye - [What's Going On?](https://www.youtube.com/watch?v=H-kA3UtBj4M)
 - 1972: Aretha Fanklin - [Young, Gifted and Black](https://www.youtube.com/watch?v=-LrGW6cmSIc)
+- 1973: Stevie Wonder - [Living for the City](https://www.youtube.com/watch?v=Nu95a_RiH54)
 - 1981: Dead Kennedys - [Nazi Punks Fuck Off](https://www.youtube.com/watch?v=PzHLPnGuVSQ)
 - 1982: M.D.C. - [John Wayne Was a Nazi](https://www.youtube.com/watch?v=SoyusTUFdl0)
+- 1989: Janet Jackson - [Rhythm Nation](https://www.youtube.com/watch?v=OAwaNWGLM0c)
 - 1990: Public Enemy - [Fight the Power](https://www.youtube.com/watch?v=mmo3HFa2vjg)
 - 1991: 2Pac - [Words of Wisdom](https://www.youtube.com/watch?v=NhvwbnB5WTo)
 - 1992: Rage Against the Machine - [Killing in the Name](https://www.youtube.com/watch?v=bWXazVhlyxQ)
@@ -90,27 +93,37 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 - 1996: Rage Against the Machine - [Bulls on Parade](https://www.youtube.com/watch?v=3L4YrGaR8E4)
 - 1997: Snapcase - [Guilty by Ignorance](https://www.youtube.com/watch?v=wb1byFx1wAk)
 - 2000: Dead Prez - [Police State](https://www.youtube.com/watch?v=8c_UdWo4Zek)
-- 2001: Propagandhi - [Fuck the Border](https://www.youtube.com/watch?v=Ee8OtS9pkVg)
 - 2001: System of a Down - [Prison Song](https://www.youtube.com/watch?v=m4L20t8Dvlg)
+- 2003: Immortal Technique - [Peruvian Cocaine](https://www.youtube.com/watch?v=ZPncMw5oWZs)
 - 2004: System of a Down - [B.Y.O.B.](https://www.youtube.com/watch?v=zUzd9KyIDrM)
+- 2004: Eminem - [Mosh](https://www.youtube.com/watch?v=BzuD-R5vGvQ)
 - 2004: Blue Scholars - [No Rest for the Weary](https://www.youtube.com/watch?v=ssM31LQ0uKg)
 - 2004: Steve Earle - [F the CC](https://www.youtube.com/watch?v=B2rygAhcgcI)
 - 2005: Killer Mike - [Pressure](https://www.youtube.com/watch?v=v1Na3p3KVeM)
+- 2006: Jedi Mind Tricks - [Uncommon Valor: A Vietnam Story](https://www.youtube.com/watch?v=OmIH8Sua0Yw)
 - 2007: Brother Ali - [Uncle Sam Goddamn](https://www.youtube.com/watch?v=OO18F4aKGzQ)
 - 2007: El-P - [Dear Sirs](https://www.youtube.com/watch?v=xUE8lgY48Ag)
+- 2007: CunninLynguists - [Georgia](https://www.youtube.com/watch?v=ua2k41LB7yE)
+- 2008: DJ Sprinkles - [Ball'r (Madonna-Free Zone)](https://www.youtube.com/watch?v=dqJ1pvEzswU)
+- 2011: Kendrick Lamar - [HiiiPower](https://www.youtube.com/watch?v=-PXIbVNfj3s)
 - 2012: Killer Mike - [Reagan](https://www.youtube.com/watch?v=6lIqNjC1RKU)
 - 2012: Panopticon - [Come One All Ye Coal Miners](https://www.youtube.com/watch?v=pF4FEvM2Y6E)
 - 2012: Panopticon - [Black Soot and Red Blood](https://www.youtube.com/watch?v=Ex8p4s73mCI)
 - 2012: Big K.R.I.T. - [Praying Man](https://www.youtube.com/watch?v=uIZQObXjKzY) 
+- 2014: Run the Jewels - [Close Your Eyes (and Count to Fuck)](https://www.youtube.com/watch?v=q6GyTBVAF4w)
 - 2014: Dälek - [Police State Is Nervous](https://www.youtube.com/watch?v=gBByC9BebX4)
 - 2015: Kendrick Lamar - [Alright](https://www.youtube.com/watch?v=Z-48u_uWMHY)
 - 2016: A Tribe Called Quest - [We the People](https://www.youtube.com/watch?v=vO2Su3erRIA)
 - 2016: YG - [FDT](https://www.youtube.com/watch?v=WkZ5e94QnWk)
 - 2016: Jeff Rosenstock - [Festival Song](https://www.youtube.com/watch?v=E5qjTzPeA1E)
+- 2020: Run the Jewels - [Walking in the Snow](https://www.youtube.com/watch?v=6-M15L4BTqI)
 - 2020: Terrace Martin & Denzel Curry - [Pig Feet](https://www.youtube.com/watch?v=2OMirbGvn8o)
 - 2020: clipping. - [Chapter 319](https://www.youtube.com/watch?v=K3DuwlvaKss)
+- 2021: Noname - [Rainforest](https://www.youtube.com/watch?v=4a9mXpKn924)
 - 2024: Jessie Welles - [War Isn't Murder](https://www.youtube.com/watch?v=8E9l_i6HPYM)
+- 2024: Godspeed You! Black Emperor - [Babys in a Thundercloud](https://www.youtube.com/watch?v=yoAnLAt8sio)
 - 2025: Macklemore - [Hind's Hall](https://www.youtube.com/watch?v=fgDQyFeBBIo)
+- 2025: Backxwash - [History of Violence](https://www.youtube.com/watch?v=iH7zvbpnCww)
 - 2025: Dropkick Murphys - [Who'll Stand With Us?](https://www.youtube.com/watch?v=5BRHuiRyVEE)
 - 2026: Dropkick Murphys - [Citizen I.C.E.](https://www.youtube.com/watch?v=mSrDkRm7_78)
 - 2026: Panopticon - [The Poppies Bloom For No King](https://www.youtube.com/watch?v=YJRUmCttdV8)
@@ -229,6 +242,7 @@ American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, 
 
 - 1974: Reinhard Mey - [Was kann schöner sein auf Erden, als Politiker zu werden](https://www.youtube.com/watch?v=sqIKZ1A01d8)
 - 1997: Ween - [The Blarney Stone](https://www.youtube.com/watch?v=4BOFQ-eU7m8)
+- Joey Valance
 
 ## Nihon no uta ga daisuki!!!
 
@@ -382,5 +396,24 @@ For the night is dark, and full of terrors
 - Penderecki
 - Tim Hecker
 - Alan Wake
+
+## Song of the Year
+
+- 2025: Ninajirachi - [Infohazard](https://www.youtube.com/watch?v=p2ZdeIKJA8c)
+- 2024: The Cure - [End Song](https://www.youtube.com/watch?v=gA5pg7DRLf4)
+- 2023: Panopticon - [The Blue Against the White](https://www.youtube.com/watch?v=uqMclbyOI-Q)
+- 2022: Kessoku Band - [Karakara](https://www.youtube.com/watch?v=IwHwv-lcxi4)
+- 2021: Parannoul - [White Ceiling](https://www.youtube.com/watch?v=g1x1NtWGw5s)
+- 2020: Mac Miller - [Good News](https://www.youtube.com/watch?v=aIHF7u9Wwiw)
+- 2019: FKA twigs - [Cellophane](https://www.youtube.com/watch?v=YkLjqFpBh84)
+- 2018: Rolo Tomassi - [A Flood of Light](https://www.youtube.com/watch?v=hM_4Ty_ZHaU)
+- 2017: Keiichi Okabe & Emi Evans - [City Ruins (Rays of Light)](https://www.youtube.com/watch?v=LC5HsZt4oNc)
+- 2016: Bump of Chicken - [Answer](https://www.youtube.com/watch?v=bRWQckbQ9tQ)
+- 2015: Carly Rae Jepsen - [Run Away with Me](https://www.youtube.com/watch?v=TeccAtqd5K8)
+- 2014: Grouper - [Clearing](https://www.youtube.com/watch?v=iplcc2GepEM)
+- 2013: Light Bringer - [Hyperion](https://www.youtube.com/watch?v=Qnqud-E4aXM)
+- 2012: Kendrick Lamar - [m.A.A.d. City](https://www.youtube.com/watch?v=10yrPDf92hY)
+- 2011: Supercell - [Kimi mono shiranai monogatari](https://www.youtube.com/watch?v=jpV5jeFlt_E)
+- 2010: Deftones - [Sextape](https://www.youtube.com/watch?v=f0pdwd0miqs)
 
 -->
