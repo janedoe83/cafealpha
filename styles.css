@@ -101,6 +101,7 @@ text-align: left;
   font-weight: 450;
   margin-top: -0.5rem !important;
   margin-bottom: 0.5rem !important;
+  padding-top: 0 !important;
 }
 
 /* 5-star rating system */

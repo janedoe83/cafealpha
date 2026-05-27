@@ -23,9 +23,11 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("AR")` **Argentina:** Gustavo Cerati - [Tabú](https://www.youtube.com/watch?v=YqkM934jBU8)
 - `{python} flag_emoji("AM")` **Armenia:** System of a Down - [Aerials](https://www.youtube.com/watch?v=L-iepu3EtyE)
 - `{python} flag_emoji("AU")` **Australia:** Ninajirachi - [Infohazard](https://www.youtube.com/watch?v=p2ZdeIKJA8c)
+- `{python} flag_emoji("BE")` **Belgium:** Amenra - [A Solitary Reign](https://www.youtube.com/watch?v=CD7bxyzFbC4)
 - `{python} flag_emoji("BR")` **Brazil:** Jorge Ben Jor - [Ôba, Lá Vem Ela](https://www.youtube.com/watch?v=BVHA2lHaeqk)
 - `{python} flag_emoji("BG")` **Bulgaria:** Le Mystère des Voix Bulgares - [Kalimankou denkou](https://www.youtube.com/watch?v=-0iGlqMPmbA)
 - `{python} flag_emoji("CA")` **Canada:** Devin Townsend - [Deadhead](https://www.youtube.com/watch?v=tJz-L3SbrLE)
+- `{python} flag_emoji("CL")` **Chile:** Mon Laferte - [Tu Falta De Querer](https://www.youtube.com/watch?v=WT-VE9OyAJk)
 - `{python} flag_emoji("CN")` **China:** Cheng Bi - [I Want to Waste Time with You](https://www.youtube.com/watch?v=Nk5aqHrsxvU)
 - `{python} flag_emoji("CO")` **Colombia:** Shakira - [Ojos así](https://www.youtube.com/watch?v=5BzkbSq7pww)
 - `{python} flag_emoji("CU")` **Cuba:** Buena Vista Social Club - [Chan Chan](https://www.youtube.com/watch?v=tGbRZ73NvlY&list=RDtGbRZ73NvlY)
@@ -63,11 +65,11 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("VN")` **Vietnam:** Vũ Thanh Vân - [Em không](https://www.youtube.com/watch?v=CufIAJDVZvo)
 - `{python} flag_emoji("ZM")` **Zambia:** Backxwash - [Vibanda](https://www.youtube.com/watch?v=onzEYxBlDTM)
 
-## We Shall Not Be Moved: A Chronology of US Protest Songs
+## We Shall Not Be Moved: A Chronology of North American Protest Songs
 
 ![](../img/collage_protest.png){fig-alt="Woodie Guthrie, Nina Simone, Tupac Shakur" fig-align="left" width=100K% .lightbox}
 
-North American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes. Mostly US, some Canadian.
+North American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes.
 
 - 1944: Woody Guthrie - [This Land Is Your Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
 - 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)

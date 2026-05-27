@@ -5,10 +5,9 @@ toc: false
 echo: false
 ---
 
+
 ::: {.callout-note title="Notes"}
-- Work in progress...
 - Click on a <span class="badge bg-primary rounded-pill">Tag</span> to filter the list!
-- Novels only.
 :::
 
 
