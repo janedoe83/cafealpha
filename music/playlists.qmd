@@ -55,6 +55,7 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("PL")` **Poland:** Krystian Zimerman / Frédéric Chopin - [Ballade No. 1 Op. 23](https://www.youtube.com/watch?v=BSFNl4roGlI)
 - `{python} flag_emoji("RU")` **Russia:** Vladimir Sofronitsky / Alexander Scriabin - [Piano Sonata No. 3 Op.23](https://www.youtube.com/watch?v=aXtUIOSXJzE)
 - 🏴󠁧󠁢󠁳󠁣󠁴󠁿 **Scotland:** Cocteau Twins - [Heaven or Las Vegas](https://www.youtube.com/watch?v=6KnYw4EwYGc)
+- `{python} flag_emoji("SG")` **Singapore:** yeule - [Pocky Boy](https://www.youtube.com/watch?v=muCYlrHjg3o)
 - `{python} flag_emoji("KR")` **South Korea:** Parannoul - [White Ceiling](https://www.youtube.com/watch?v=g1x1NtWGw5s)
 - `{python} flag_emoji("ES")` **Spain:** Javiera Mena - [Cámara lenta](https://www.youtube.com/watch?v=vN1AlIBob-o)
 - `{python} flag_emoji("SE")` **Sweden:** Opeth - [Blackwater Park](https://www.youtube.com/watch?v=ngdaa4aZLgA)
@@ -65,11 +66,11 @@ Will I ever complete this list? Unlikely... but it's a start!
 - `{python} flag_emoji("VN")` **Vietnam:** Vũ Thanh Vân - [Em không](https://www.youtube.com/watch?v=CufIAJDVZvo)
 - `{python} flag_emoji("ZM")` **Zambia:** Backxwash - [Vibanda](https://www.youtube.com/watch?v=onzEYxBlDTM)
 
-## We Shall Not Be Moved: A Chronology of North American Protest Songs
+## We Shall Not Be Moved: A Chronology of US Protest Songs
 
 ![](../img/collage_protest.png){fig-alt="Woodie Guthrie, Nina Simone, Tupac Shakur" fig-align="left" width=100K% .lightbox}
 
-North American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes.
+US-American songs covering socialist, anarchist, feminist, anti-fascist, anti-war, anti-imperialist, anti-racist, abolitionist, pro-worker, and/or pro-LGBTQ themes. I am focusing on the US for several reasons, including the simple fact that the US has a huge music scene in English. Moreover, as the foremost imperial power, the US carries an outsized responsibility for the ongoing atrocities in the world, which means the people living in the US have a [responsibility to hold their government accountable](https://www.currentaffairs.org/news/2023/11/why-you-should-primarily-focus-on-your-own-countrys-crimes) through protst and other means. 
 
 - 1944: Woody Guthrie - [This Land Is Your Land](https://www.youtube.com/watch?v=wxiMrvDbq3s)
 - 1944: Woody Guthrie - [Tear the Fascists Down](https://www.youtube.com/watch?v=-3xUPpkxAco)
@@ -123,13 +124,53 @@ North American songs covering socialist, anarchist, feminist, anti-fascist, anti
 - 2020: clipping. - [Chapter 319](https://www.youtube.com/watch?v=K3DuwlvaKss)
 - 2021: Noname - [Rainforest](https://www.youtube.com/watch?v=4a9mXpKn924)
 - 2024: Jessie Welles - [War Isn't Murder](https://www.youtube.com/watch?v=8E9l_i6HPYM)
-- 2024: Godspeed You! Black Emperor - [Babys in a Thundercloud](https://www.youtube.com/watch?v=yoAnLAt8sio)
 - 2025: Macklemore - [Hind's Hall](https://www.youtube.com/watch?v=fgDQyFeBBIo)
-- 2025: Backxwash - [History of Violence](https://www.youtube.com/watch?v=iH7zvbpnCww)
 - 2025: Dropkick Murphys - [Who'll Stand With Us?](https://www.youtube.com/watch?v=5BRHuiRyVEE)
 - 2026: Dropkick Murphys - [Citizen I.C.E.](https://www.youtube.com/watch?v=mSrDkRm7_78)
 - 2026: Panopticon - [The Poppies Bloom For No King](https://www.youtube.com/watch?v=YJRUmCttdV8)
 
+### Addendum: The Internationale
+
+I'm aware of the rich history of Latin American protest music, but as I do no speak Spanish, it sadly remains largely inaccessible to me... Anyway, below some of my favorite protest songs from across the globe.
+
+- 1970: Black Sabbath - [War Pigs](https://www.youtube.com/watch?v=LQUXuQ6Zd9w)
+- 1970: Ton, Steine, Scherben - [Macht kaputt, was euch kaputt macht](https://www.youtube.com/watch?v=WTE28YU_FrY)
+- 1972: Ton, Steine, Scherben - [Die letzte Schlacht gewinnen wir](https://www.youtube.com/watch?v=pW5w6BF1OwU)
+- 1973: Bob Marley & The Wailers - [Get Up, Stand Up](https://www.youtube.com/watch?v=IhQEBAl3Gpk)
+- 1977: Hannes Wader - [Trotz alledem](https://www.youtube.com/watch?v=R6RZdyWQRiQ)
+- 1977: Hannes Wader - [Die Internationale](https://www.youtube.com/watch?v=r1dvJkz15mc)
+- 1977: Fela Kuti - [Zombie](https://www.youtube.com/watch?v=Qj5x6pbJMyU)
+- 1977: Konstantin Wecker - [Willy](https://www.youtube.com/watch?v=mw6nD98IGwg)
+- 1982: Discharge - [Protest and Survive](https://www.youtube.com/watch?v=-2ZxmNfY-gw)
+- 1982: Iron Maiden - [Run to the Hills](https://www.youtube.com/watch?v=86URGgqONvA&list=RD86URGgqONvA)
+- 1982: Hannes Wader - [Leben einzeln und frei](https://www.youtube.com/watch?v=fKB866ZTI18)
+- 1988: Billy Bragg - [Waiting for the Great Leap Forward](https://www.youtube.com/watch?v=sHd2O_KuCxA)
+- 1992: Advanced Chemistry - [Fremd im eigenen Land](https://www.youtube.com/watch?v=HhsEcPiRKrU)
+- 1995: Pulp - [Common People](https://www.youtube.com/watch?v=lkpLbEM06qE)
+- 2000: Billy Bragg - [All You Fascists](https://www.youtube.com/watch?v=SFPL97m2dsw)
+- 2001: Propagandhi - [Fuck the Border](https://www.youtube.com/watch?v=Ee8OtS9pkVg)
+- 2001: The Souljazz Orchestra - [Kapital](https://www.youtube.com/watch?v=oprWZttVhCE)
+- 2014: Reinhard Mey, Hannes Wader, Konstantin Wecker - [Es ist an der Zeit](https://www.youtube.com/watch?v=2YkNKh6XqhE)
+- 2015: Mohammed Assaf - [Dammi Falastini](https://www.youtube.com/watch?v=S-1KDZTNty4)
+- 2016: Kae Tempest - [Europe Is Lost](https://www.youtube.com/watch?v=QSVyyykaEOo)
+- 2023: Dawn Ray'd - [Go as Free Companions](https://www.youtube.com/watch?v=NIIzeRDGmGM&list=RDNIIzeRDGmGM)
+- 2024: Godspeed You! Black Emperor - [Babys in a Thundercloud](https://www.youtube.com/watch?v=yoAnLAt8sio)
+- 2025: Backxwash - [History of Violence](https://www.youtube.com/watch?v=iH7zvbpnCww)
+- 2026: Genesis Owusu - [The Worldwide Scourge](https://www.youtube.com/watch?v=iS5GIzfhpS0)
+
+<!-- ## To Feel Everything There Is
+
+Some of the more exotic emotions such as "Ruinenlust" or "Dépaysement" are from [The Book of Human Emotions](https://en.wikipedia.org/wiki/Emotion_classification#The_Book_of_Human_Emotions) by Tiffany Watt Smith. (Work in progress)
+
+- **Agony:**  Gris - [Il était un forêt](https://www.youtube.com/watch?v=rMrBWwEMA7w)
+- **Dépaysement:** Tom Waits - [Tom Traubert's Blues (Four Sheets to the Wind in Copenhagen)](https://www.youtube.com/watch?v=X9rmGay0epo)
+- **Despair:** The Cure - [End Song](https://www.youtube.com/watch?v=gA5pg7DRLf4)
+- **Grief:** Julee Cruise - [Questions in a World of Blue](https://www.youtube.com/watch?v=MOSaLtcqob8)
+- **Hatred:** Lingua Ignota - [DO YOU DOUBT ME TRAITOR](https://www.youtube.com/watch?v=M1ZweG__q-w)
+- **Euphoria:** Carly Rae Jepsen - [Cut to the Feeling](https://www.youtube.com/watch?v=Qlsu7RhOnsQ)
+- **Joviality:** Camellia - [Together Forever, My Lovely Lovely Video Game Cartridges](https://www.youtube.com/watch?v=9xeZRQDKmLE)
+- **Paranoia:** Death Grips - [I've Seen Footage](https://www.youtube.com/watch?v=3_V_2BFWahc)
+- **Ruinenlust:** Kiichi Okabe & Emi Evans [City Ruins (Rays of Light)](https://www.youtube.com/watch?v=LC5HsZt4oNc) -->
 
 <!-- 
 ## The Most Beautiful Songs of All Time

@@ -1,5 +1,5 @@
 ---
-title: "Fiction Recommendations"
+title: "Fiction Books"
 format: html
 toc: false
 echo: false
@@ -7,6 +7,7 @@ echo: false
 
 
 ::: {.callout-note title="Notes"}
+- A list of novels that I've rated at least 3.5/5 stars
 - Click on a <span class="badge bg-primary rounded-pill">Tag</span> to filter the list!
 :::
 
